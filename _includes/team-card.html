@@ -1,0 +1,83 @@
+<div class="team team-card {% if include.compact %}team-compact{% endif %}">
+    <div class="team-image-wrap">
+        <div class="team-image">
+            {% if member.image %}
+            <img alt="{{ member.title }}" class="img-fluid mb-2" src="{{ member.image | relative_url }}" />
+            {% else %}
+            <img alt="{{ member.title }}" class="img-fluid mb-2" src="{{ site.team.default_avatar | relative_url }}" />
+            {% endif %}
+        </div>
+    </div>
+    <div class="team-meta">
+        <h2 class="team-name"><a href="{{member.contact.homepage}}" target="blank">{{ member.title }}</a></h2>
+        <p class="team-position">
+            {{ member.position }}
+            {% if member.position_remark %}
+                <span class="team-remark">({{ member.position_remark }})</span>
+            {% endif %}
+        </p>
+        {% if include.show_fields %}
+        <p class="research-field">
+            {% for field in member.fields %}
+                <span class="badge badge-dark">{{field}}</span>
+            {% endfor %}
+        </p>
+        {% endif %}
+
+        {% if include.compact %}
+        <p class="icons">
+            {% if member.contact.email -%}
+            <a href="mailto:{{member.contact.email}}" target="blank">
+                <svg>
+                    <use xlink:href="/assets/sprites.svg#email"></use>
+                </svg>
+            </a>
+            {% endif %}
+            {% for item in member.social %}
+            <a href="{{item[1]}}" target="blank">
+                <svg>
+                    <use xlink:href="/assets/sprites.svg#{{item[0]}}"></use>
+                </svg>
+            </a>
+            {% endfor %}
+        </p>
+        {% else %}
+        <p class="icons ">
+            <span class="mr-2">
+                {% if member.contact.email -%}
+                <a href="mailto:{{member.contact.email}}" target="blank">
+                    <svg>
+                        <use xlink:href="/assets/sprites.svg#email"></use>
+                    </svg>
+                </a>
+                {% endif %}
+                {% if member.contact.phone -%}
+                <a href="tel:{{member.contact.phone|replace: ' ','' }}" target="blank">
+                    <svg>
+                        <use xlink:href="/assets/sprites.svg#phone"></use>
+                    </svg>
+                </a>
+                {% endif %}
+            </span>
+            {% for item in member.publications %}
+            <a href="{{item[1]}}" target="blank">
+                <svg>
+                    <use xlink:href="/assets/sprites.svg#{{item[0]}}"></use>
+                </svg>
+            </a>
+            {% endfor %}
+        </p>
+        {% if member.social %}
+        <p class="icons team-social">
+            {% for item in member.social %}
+            <a href="{{item[1]}}" target="blank">
+                <svg>
+                    <use xlink:href="/assets/sprites.svg#{{item[0]}}"></use>
+                </svg>
+            </a>
+            {% endfor %}
+        </p>
+        {% endif %}
+        {% endif %}
+    </div>
+</div>

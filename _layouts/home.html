@@ -1,0 +1,99 @@
+---
+layout: default
+bodyClass: "page-home"
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      {% if page.intro_image %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-1 position-relative">
+        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+      </div>
+      {% endif %}
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-2">
+        {{ content }}
+        {% if page.show_social and site.data.social %}
+          {% include social.html %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8 col-lg-8 order-2 order-md-1">
+          {% assign vision_title = "Vision & Core Research Fields" %}
+          {% assign vision_text = "Effective software engineering requires healthy software and teams. A healthy software is maintainable, low technical debt, well performing, based on sound design decisions. A healthy team is productive, diverse and inclusive. And healthy software and team amplify each other.  Our research enables the software industry to improve their software and team health." %}
+          {% assign vision_image = "images/illustrations/vision.svg" %}
+          <h1>{{vision_title}}</h1>
+          <p class="vision">{{vision_text}}</p>
+        </div>
+        {% if page.intro_image %}
+        <div class="col-12 col-md-4 col-lg-4 order-1 order-md-2 position-relative">
+            <img alt="{{vision_title}} image" class="intro-image {% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ vision_image | relative_url }}" />
+        </div>
+        {% endif %}
+    </div>
+  </div>
+  <div class="container pt-6 pb-6">
+    <div class="row justify-content-start">
+      {% for field in site.data.fields %}
+      <div class="col-12 col-md-6 mb-1">
+        <div class="research-field">
+          <h2>{{ field.title }} <span class="badge badge-dark">{{ field.tag }}</span></h2>
+          <p>{{ field.description | markdownify }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="container pt-6 pb-6">
+  <div class="row justify-content-center">
+    <div class="col-auto">
+      <h1 class="text-center mb-4">Head Researchers</h1>
+    </div>
+  </div>
+  <div class="row">
+    {% assign promoted_members = site.team | where: "status.promoted", true | sort: "weight" %}
+    {% for member in promoted_members %}
+    <div class="col-12 col-md-6 mb-2">
+      {% include team-card.html member=member compact=true show_fields=true %}
+    </div>
+    {% endfor %}
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-auto">
+      <a class="button button-primary" href="{{ 'team' | relative_url }}">meet the whole team</a>
+    </div>
+  </div>
+</div>
+
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6">
+    <div class="row justify-content-start">
+      {% assign highlight_title = "Research Output" %}
+      {% assign highlight_text = "Along with the scientific publications, our group has created approaches, tools and datasets. (UNDER CONSTRUCTION... list three examples)" %}
+      {% assign highlight_image = "images/illustrations/highlight.svg" %}
+        
+      {% if page.intro_image %}
+      <div class="col-12 col-md-4 col-lg-4 order-1 order-md-1 position-relative">
+        <img alt="{{vision_title}} image" class="intro-image {% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ highlight_image | relative_url }}" />
+      </div>
+      {% endif %}
+      <div class="col-12 col-md-8 col-lg-8 order-2 order-md-2">
+        <h1>{{highlight_title}}</h1>
+        <p>{{highlight_text}}</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{ 'research' | relative_url }}">check all output</a>
+      </div>
+    </div>
+  </div>
+</div>

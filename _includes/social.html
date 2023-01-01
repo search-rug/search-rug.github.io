@@ -1,0 +1,5 @@
+<div class="icons">
+  {% for item in site.data.social %}
+    <a href="{{ item.link }}" target="blank"><svg><use xlink:href="{{ item.image | relative_url }}"></use></svg></a>
+  {% endfor %}
+</div>

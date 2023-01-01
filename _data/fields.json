@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Architecture & Design",
+        "tag": "arch",
+        "description": "This is a brief description of the area targeted towards laypersons."
+    },
+    {
+        "title": "Maintenance & Evolution",
+        "tag": "m&t",
+        "description": "This is a **brief description** of the area targeted towards laypersons."
+    },
+    {
+        "title": "Distributed Systems",
+        "tag": "dist. sys.",
+        "description": "This is a brief description of the area targeted towards laypersons."
+    },
+    {
+        "title": "Organizations",
+        "tag": "org",
+        "description": "This is a brief description of the area targeted towards laypersons."
+    },
+    {
+        "title": "Human Factors",
+        "tag": "human",
+        "description": "This is a brief description of the area targeted towards laypersons."
+    },
+    {
+        "title": "Languages and Compilers",
+        "tag": "lang",
+        "description": "This is a brief description of the area targeted towards laypersons."
+    },
+    {
+        "title": "Development Tooling",
+        "tag": "dev. tools",
+        "description": "This is a brief description of the area targeted towards laypersons."
+    },
+    {
+        "title": "Software Development Analytics",
+        "tag": "sda",
+        "description": "This is a brief description of the area targeted towards laypersons. Includes: source code analyis, msr, etc."
+    }
+  ]
+  

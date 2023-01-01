@@ -1,0 +1,14 @@
+.icons {
+  display: block;
+  img,svg {
+    width: 20px;
+    height: 20px;
+  }
+  a {
+    padding: 10px;
+    display: inline-block;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

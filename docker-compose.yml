@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    command: jekyll serve --watch --force_polling --verbose --source /srv/jekyll --destination /srv/jekyll/build
+    # command: jekyll serve
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/srv/jekyll
+      - ./cache:/usr/local/bundle
+      - ./build:/srv/jekyll/build
+    environment:
+      - TZ=Europe/Amsterdam
+      # - JEKYLL_UID=$(id -u)
+      # - JEKYLL_GID=$(id -g)
+      # - JEKYLL_ENV:production
