@@ -1,5 +1,5 @@
 ---
-title: "Darius Daniel Sas"
+title: "Dr. Darius Daniel Sas"
 image: "images/members/darius-daniel-sas.jpg"
 position: "phd student"
 weight: 1000
