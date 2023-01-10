@@ -1,5 +1,5 @@
 ---
-title: "Dr. Andrea Capiluppi"
+title: "Prof. Dr. Andrea Capiluppi"
 image: "images/team/andrea-capiluppi.jpg"
 position: "associate professor"
 weight: 3

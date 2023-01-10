@@ -1,5 +1,5 @@
 ---
-title: "Dr. Vasilios Andrikopoulos"
+title: "Prof. Dr. Vasilios Andrikopoulos"
 image: "images/team/vasilios-andrikopoulos.jpg"
 position: "associate professor"
 weight: 4
