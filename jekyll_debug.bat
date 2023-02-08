@@ -1,0 +1,1 @@
+docker run --rm -p 0.0.0.0:4000:4000 --hostname=jekyll --name=jekyll -v $PWD:/srv/jekyll -v $PWD/cache:/usr/local/bundle -v $PWD/build:/srv/jekyll/build -e 'TZ=Europe/Amsterdam' jekyll/jekyll jekyll serve --source /srv/jekyll --destination /srv/jekyll/build --watch --force_polling

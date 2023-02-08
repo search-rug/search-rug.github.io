@@ -15,6 +15,5 @@ docker run --rm \
  jekyll/jekyll \
   jekyll serve --source /srv/jekyll \
   --destination /srv/jekyll/build \
-  --disable-disk-cache \
   --watch \
   --force_polling \
