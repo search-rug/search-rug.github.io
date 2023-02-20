@@ -1,0 +1,7 @@
+# config.yml
+backend:
+  name: github
+  # TODO: change to 'search-rug/search-rug.github.io' when merged upstream
+  repo: kakka0903/search-rug.github.io
+  branch: main
+media_folder: "assets/uploads"
