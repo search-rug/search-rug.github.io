@@ -50,3 +50,13 @@ collections:
           - { name: "orcid", required: false }
           - { name: "dbpl", required: false }
       # TODO: add (research) fields and topics fields
+
+  - name: "courses"
+    label: "Courses"
+    folder: "_courses"
+    create: true
+    fields:
+      - { name: "code", label: "Course Code" }
+      - { name: "name" }
+      - { name: "ocasys", label: "Ocasys Link" }
+      # TODO: add coordinators and lecturers fields (needs relations)
