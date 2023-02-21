@@ -13,3 +13,40 @@ collections:
     fields:
       - { name: "title", widget: string }
       - { name: "position", widget: string }
+      - name: "status"
+        widget: "object"
+        fields:
+          - name: "promoted"
+            widget: "boolean"
+            hint: "Appear in home page"
+            default: false
+          - name: "former"
+            widget: "boolean"
+            hint: "Former group member"
+            default: false
+          - name: "group_graduate"
+            widget: "boolean"
+            hint: "Graduated PHD student"
+            default: false
+      - name: "contact"
+        widget: "object"
+        fields:
+          - { name: "homepage", required: false }
+          - { name: "email" }
+          - { name: "phone", required: false }
+          - { name: "room", required: false }
+      - name: "social"
+        widget: "object"
+        fields:
+          - { name: "linkedin", required: false }
+          - { name: "twitter", required: false }
+          - { name: "mastadon", required: false }
+          - { name: "github", required: false }
+      - name: "publications"
+        widget: "object"
+        fields:
+          - { name: "pure", required: false }
+          - { name: "gscholar", required: false }
+          - { name: "orcid", required: false }
+          - { name: "dbpl", required: false }
+      # TODO: add (research) fields and topics fields
