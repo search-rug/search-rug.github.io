@@ -124,3 +124,13 @@ collections:
           - { name: "permalink" }
           - { name: "body", widget: "markdown" }
 
+      - name: "contact"
+        label: "Contact"
+        file: "contact.md"
+        fields:
+          - { name: "title" }
+          - { name: "layout" }
+          - { name: "description" }
+          - { name: "body", widget: "markdown" }
+          # TODO: group leader and secreteriat
+
