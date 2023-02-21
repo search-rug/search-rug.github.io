@@ -86,3 +86,20 @@ collections:
       # TODO: add category, keywords, supervisors and types fields.
       # some fields need relations
 
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "index"
+        label: "Landing"
+        file: "index.md"
+        fields:
+          - { name: "title" }
+          - { name: "layout" }
+          - { name: "description" }
+          - { name: "intro_image", widget: "image" }
+          - { name: "intro_image_absolute", widget: "boolean" }
+          - { name: "intro_image_hide_on_mobile", widget: "boolean" }
+          - { name: "show_call_box", widget: "boolean" }
+          - { name: "show_social", widget: "boolean" }
+          - { name: "body", widget: "markdown" }
+
