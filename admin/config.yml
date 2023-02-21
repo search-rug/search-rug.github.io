@@ -72,3 +72,17 @@ collections:
       - { name: "image", widget: "image", required: false }
       - { name: "body", widget: "markdown", required: false }
       # TODO: members and funding
+
+  - name: "sprojects"
+    label: "Student Project"
+    folder: "_sprojects"
+    create: true
+    fields:
+      - { name: "title" }
+      - { name: "is_group", widget: "boolean" }
+      - { name: "available", widget: "boolean" }
+      - { name: "posted", widget: "date" }
+      - { name: "body", widget: "markdown" }
+      # TODO: add category, keywords, supervisors and types fields.
+      # some fields need relations
+
