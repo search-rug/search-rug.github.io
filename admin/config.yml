@@ -60,3 +60,15 @@ collections:
       - { name: "name" }
       - { name: "ocasys", label: "Ocasys Link" }
       # TODO: add coordinators and lecturers fields (needs relations)
+
+  - name: "projects"
+    label: "Research Project"
+    folder: "_projects"
+    create: true
+    fields:
+      - { name: "name" }
+      - { name: "short" }
+      - { name: "homepage", required: false }
+      - { name: "image", widget: "image", required: false }
+      - { name: "body", widget: "markdown", required: false }
+      # TODO: members and funding
