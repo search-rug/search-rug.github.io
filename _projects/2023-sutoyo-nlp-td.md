@@ -5,7 +5,7 @@ members:
     email: "e.sutoyo@rug.nl"
   - name: "Andrea Capiluppi"
     email: "a.capiluppi@rug.nl"
-short: "Technical debt (TD) is an economical term used to depict non-optimal choices made in the software development process. It occurs usually when developers take shortcuts instead of following agreed upon development practices, and unchecked growth of technical debt can start to incur negative effects for software development processes. Technical debt detection and management is mainly done manually, and this is both slow and costly way of detecting technical debt. Automatic detection would solve this issue, but even state-of-the-art tools of today do not accurately detect the appearance of technical debt. Therefore, increasing the accuracy of automatic classification is of high importance, so that we could eliminate significant portion from the costs relating to technical debt detection."
+short: "Technical debt (TD) is an economic term used to depict non-optimal choices made in the software development process. It occurs usually when developers take shortcuts instead of following agreed-upon development practices, and unchecked growth of technical debt can start to incur negative effects on software development processes. Technical debt detection and management are mainly done manually, and this is both a slow and costly way of detecting technical debt. Automatic detection would solve this issue, but even state-of-the-art tools of today do not accurately detect the appearance of technical debt. Therefore, increasing the accuracy of automatic classification is of high importance, so that we could eliminate a significant portion of the costs relating to technical debt detection."
 homepage: ""
 image: "images/projects/tdm-automation.png"
 funding:

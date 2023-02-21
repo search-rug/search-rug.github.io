@@ -7,7 +7,7 @@ members:
     email: "m.a.m.soliman@rug.nl"
   - name: "Yikun Li"
     email: "yikun.li@rug.nl"
-short: "Visualisation is a powerful method for communication, especially in cross-disciplinary communication with various stakeholders, as in operations. Many software development tools already provide some visualisations, but integrated views that combine data from several sources are still at research prototype level. The VISDOM project will develop new types of visualisations that utilise and merge data from several data sources in modern DevOps development. The aim is to provide simple “health check” visualisations about the state of the development process, software and use."
+short: "Visualization is a powerful communication method, especially in cross-disciplinary communication with various stakeholders, as in operations. Many software development tools already provide some visualizations, but integrated views that combine data from several sources are still at the research prototype level. The VISDOM project will develop new types of visualization that utilize and merge data from several data sources in modern DevOps development. The aim is to provide simple “health check” visualizations about the state of the development process, software and use."
 homepage: "https://iteavisdom.org/"
 image: "images/projects/visdom_logo.png"
 funding:

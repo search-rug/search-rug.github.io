@@ -5,7 +5,7 @@ members:
     email: ""
   - name: "João Paulo Biazotto"
     email: ""
-short: "Short description"
+short: ""
 homepage: ""
 image: "images/projects/tdm-automation.png"
 funding:
