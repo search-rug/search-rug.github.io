@@ -82,7 +82,7 @@ collections:
       - { name: "is_group", widget: "boolean" }
       - { name: "available", widget: "boolean" }
       - { name: "posted", widget: "date" }
-      - { name: "body", widget: "markdown" }
+      - { name: "body", widget: "markdown", required: false }
       # TODO: add category, keywords, supervisors and types fields.
       # some fields need relations
 
