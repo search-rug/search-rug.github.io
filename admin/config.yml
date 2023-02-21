@@ -114,3 +114,13 @@ collections:
           - { name: "body", widget: "markdown" }
           # TODO: should intro_image fields be present here?
 
+      - name: "education"
+        label: "Education"
+        file: "education.md"
+        fields:
+          - { name: "title" }
+          - { name: "layout" }
+          - { name: "description" }
+          - { name: "permalink" }
+          - { name: "body", widget: "markdown" }
+
