@@ -1,0 +1,34 @@
+<a href="">
+
+  <div class="project-card">
+
+    <div>
+      <h3 class="title">{{ project.title }}</h3>
+      <p class="category">{{ project.category }}</p>
+    </div>
+
+    <!--TODO: add a CMS field for short description-->
+    <p class="description">{{ project.short_description }}</p>
+
+    <div class="details-container">
+      <div class="detail">
+        <p class="name">Status</p>
+        <p>
+          {% if project.available %}
+          <span>Available</span>
+          {% else %}
+          <span>Unavailable</span>
+          {% endif %}
+        </p>
+      </div>
+      <div class="detail">
+        <p class="name">Types</p>
+        <p>
+          {% for type in project.types %}
+          <span>{{ type }},</span>
+          {% endfor %}
+        </p>
+      </div>
+    </div>
+  </div>
+</a>
