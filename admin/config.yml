@@ -77,7 +77,7 @@ collections:
         required: false
         fields:
           - { name: "agency" }
-          - { name: "number", widget: "number" }
+          - { name: "number" } # TODO: is there a better name for this?
 
   - name: "sprojects"
     label: "Student Project"
@@ -139,4 +139,3 @@ collections:
           - { name: "description" }
           - { name: "body", widget: "markdown" }
           # TODO: group leader and secreteriat
-
