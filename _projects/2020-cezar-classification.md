@@ -10,6 +10,6 @@ short: "This project aims to form clusters of similarly scoped software systems,
 homepage: ""
 image: "images/projects/cezar-classification.png"
 funding:
-  - agency:
-    number:
+  - agency: ""
+    number: ""
 ---
