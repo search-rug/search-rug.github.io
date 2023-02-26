@@ -7,7 +7,7 @@ coordinator:
   email: "paris@cs.rug.nl"
 lecturers:
   - name: "prof dr ir P. Avgeriou"
-  email: "paris@cs.rug.nl"
+    email: "paris@cs.rug.nl"
   - name: "dr G. Azzopardi"
-  email: "g.azzopardi@rug.nl"
+    email: "g.azzopardi@rug.nl"
 ---

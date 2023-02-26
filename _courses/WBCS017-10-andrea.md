@@ -6,8 +6,8 @@ coordinator:
   name: "Andrea Capiluppi"
   email: "a.capiluppi@rug.nl"
 lecturers:
-- name: "Andrea Capiluppi"
-  email: "a.capiluppi@rug.nl"
-- name: "Paris Avgeriou"
-  email "p.avgeriou@rug.nl"
+  - name: "Andrea Capiluppi"
+    email: "a.capiluppi@rug.nl"
+  - name: "Paris Avgeriou"
+    email "p.avgeriou@rug.nl"
 ---

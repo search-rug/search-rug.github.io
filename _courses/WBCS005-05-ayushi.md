@@ -6,11 +6,11 @@ coordinator:
   name: "M.H.F. Wilkinson"
   email: "m.h.f.wilkinson@rug.nl"
 lecturers:
-  - name: "M.H.F. Wilkinson" 
+  - name: "M.H.F. Wilkinson"
     email: "m.h.f.wilkinson@rug.nl"
   - name: "D. Düstegör"
     email: "d.dustegor@rug.nl"
-  - name: "M. Riveni PhD" 
+  - name: "M. Riveni PhD"
     email: "m.riveni@rug.nl"
   - name: "S.D. Frey"
     email: "s.d.frey@rug.nl"
@@ -22,4 +22,4 @@ lecturers:
     email: "f.f.m.mohsen@rug.nl"
   - name: "A. Shahbahrami"
     email: "a.shahbahrami@rug.nl"
- 
+---
