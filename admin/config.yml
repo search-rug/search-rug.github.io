@@ -72,6 +72,12 @@ collections:
       - { name: "image", widget: "image", required: false }
       - { name: "body", widget: "markdown", required: false }
       # TODO: members and funding
+      - name: "funding"
+        widget: "list"
+        required: false
+        fields:
+          - { name: "agency" }
+          - { name: "number", widget: "number" }
 
   - name: "sprojects"
     label: "Student Project"
