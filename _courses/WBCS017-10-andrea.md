@@ -9,5 +9,5 @@ lecturers:
   - name: "Andrea Capiluppi"
     email: "a.capiluppi@rug.nl"
   - name: "Paris Avgeriou"
-    email "p.avgeriou@rug.nl"
+    email: "p.avgeriou@rug.nl"
 ---
