@@ -60,6 +60,17 @@ collections:
       - { name: "name" }
       - { name: "ocasys", label: "Ocasys Link" }
       # TODO: add coordinators and lecturers fields (needs relations)
+      - name: "coordinator"
+        widget: "relation"
+        collection: "team"
+        value_field: "title"
+        search_fields: ["title"]
+      - name: "lecturers"
+        widget: "relation"
+        collection: "team"
+        value_field: "title"
+        search_fields: ["title"]
+        multiple: true
 
   - name: "projects"
     label: "Research Project"
@@ -72,12 +83,18 @@ collections:
       - { name: "image", widget: "image", required: false }
       - { name: "body", widget: "markdown", required: false }
       # TODO: members and funding
+      - name: "members"
+        widget: "relation"
+        collection: "team"
+        value_field: "title"
+        search_fields: ["title"]
+        multiple: true
       - name: "funding"
         widget: "list"
         required: false
         fields:
           - { name: "agency" }
-          - { name: "number", widget: "number" }
+          - { name: "number" } # TODO: is there a better name for this?
 
   - name: "sprojects"
     label: "Student Project"
@@ -139,4 +156,3 @@ collections:
           - { name: "description" }
           - { name: "body", widget: "markdown" }
           # TODO: group leader and secreteriat
-
