@@ -43,6 +43,10 @@
       padding-bottom: 0.125rem;
       background-color: rgb(254, 226, 226);
       color: rgb(185, 28, 28);
+
+      /*  Enforce capitalized words since user defined keywords are inconsistent.
+          TODO: maybe remove this once CMS is in place? */
+      text-transform: capitalize;
     }
   }
 
