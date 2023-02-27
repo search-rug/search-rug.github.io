@@ -29,14 +29,10 @@ bodyClass: "page-education"
     </div>
   -->
 
-  <h2>Student Projects</h2>
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 align-items-strech g-1 gy-2">
-      {% for project in site.sprojects %}
-        <div class="col mb-3">
-          {% include project-card.html project=project %}
-        </div>
-      {% endfor %}
-    </div>
-  </div >
+  <h2 class="mb-3">Student Projects</h2>
+  <div class="d-flex flex-wrap" style="gap: 15px">
+    {% for project in site.sprojects %}
+      {% include project-card.html project=project %}
+    {% endfor %}
+  </div>
 </div>
