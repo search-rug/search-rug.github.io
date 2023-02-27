@@ -1,6 +1,7 @@
 ---
 title: "Is Design Pattern Grime Related to Technical Debt?"
 category: "Software & Architecture Analytics Projects"
+short: ""
 keywords:
   - mining software repositories
   - empirical studies
@@ -25,6 +26,6 @@ As you may have guessed by now, the main goal of this project is to find to what
 
 This project is offered as a group BSc thesis or a single MSc thesis.
 
-[1] Daniel Feitosa, Apostolos Ampatzoglou, Paris Avgeriou, and Elisa Y Nakagawa. 2018. Correlating Pattern Grime and Quality Attributes. In IEEE Access, vol. 6, pp. 23065-23078. https://doi.org/10.1109/ACCESS.2018.2829895.
+[1] Daniel Feitosa, Apostolos Ampatzoglou, Paris Avgeriou, and Elisa Y Nakagawa. 2018. Correlating Pattern Grime and Quality Attributes. In IEEE Access, vol. 6, pp. 23065-23078. <https://doi.org/10.1109/ACCESS.2018.2829895>.
 
-[2] Paris Avgeriou, Philippe Kruchten, Ipek Ozkaya, and Carolyn Seaman. 2016. Managing Technical Debt in Software Engineering (Dagstuhl Seminar 16162). Dagstuhl Reports 6, 4 (2016), 110–138. https://doi.org/10.4230/DagRep.6.4.110
+[2] Paris Avgeriou, Philippe Kruchten, Ipek Ozkaya, and Carolyn Seaman. 2016. Managing Technical Debt in Software Engineering (Dagstuhl Seminar 16162). Dagstuhl Reports 6, 4 (2016), 110–138. <https://doi.org/10.4230/DagRep.6.4.110>

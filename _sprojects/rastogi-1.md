@@ -1,6 +1,7 @@
 ---
 title: "How does software change?"
 category: "Software & Architecture Analytics Projects"
+short: ""
 keywords:
   - software engineering
   - empirical research
