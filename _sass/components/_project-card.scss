@@ -3,8 +3,10 @@
 }
 
 .project-card {
-  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
 
+  padding: 1.25rem 1.5rem;
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;
 
   // set border styles
@@ -12,6 +14,8 @@
   border-width: 1px;
   border-radius: 0.75rem;
   border-color: #e5e7eb;
+  max-width: 32rem;
+  height: 100%;
 
   transition: transform;
   transition-duration: 100ms;
@@ -61,6 +65,7 @@
     padding-top: 0.75rem;
     padding-bottom: 1rem;
     color: black;
+    flex-grow: 1;
   }
 
   .details-container {
