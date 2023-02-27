@@ -11,7 +11,7 @@
 
     <!--TODO: add a CMS field for short description-->
     <p class="description">
-      {% if project.short %}
+      {% if project.short != "" %}
         {{ project.short }}
       {% else %}
         No short project description has been provided for this project.
