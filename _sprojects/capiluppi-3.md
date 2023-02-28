@@ -9,7 +9,7 @@ is_group: false
 available: true
 types:
   - BSc
-  - MSc Int.
+  - MSc Int
   - MSc
 posted: 2023-02-10
 supervisors:
