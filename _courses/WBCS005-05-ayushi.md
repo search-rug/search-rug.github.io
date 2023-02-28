@@ -2,10 +2,13 @@
 code: WBCS005-05
 name: Introduction to Computing Science
 ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS005-05
-coordinator:
+coordinators:
+external_coordinators:
   name: "M.H.F. Wilkinson"
   email: "m.h.f.wilkinson@rug.nl"
 lecturers:
+  - Dr. Ayushi Rastogi
+external_lecturers:
   - name: "M.H.F. Wilkinson"
     email: "m.h.f.wilkinson@rug.nl"
   - name: "D. Düstegör"
@@ -16,8 +19,6 @@ lecturers:
     email: "s.d.frey@rug.nl"
   - name: "O.T. Tursun"
     email: "cara.tursun@rug.nl"
-  - name: "A. Rastogi"
-    email: "a.rastogi.rug.nl"
   - name: "F.F.M. Mohsen"
     email: "f.f.m.mohsen@rug.nl"
   - name: "A. Shahbahrami"
