@@ -11,8 +11,7 @@ types:
   - BSc
 posted: 2023-01-01
 supervisors:
-  - name: "Ayushi Rastogi"
-    email: "a.rastogi@rug.nl"
+  - Dr. Ayushi Rastogi
 ---
 
 DESCRIPTION

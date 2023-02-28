@@ -14,10 +14,8 @@ types:
   - Int
 posted: 2023-02-10
 supervisors:
-  - name: "Mohamed Soliman"
-    email: "m.a.m.soliman@rug.nl"
-  - name: "Paris Avgeriou"
-    email: "p.avgeriou@rug.nl"
+  - Dr. Mohamed A.M. Soliman
+  - Prof. dr. ir. Paris Avgeriou
 ---
 
 # Exploring Architectural Knowledge in Open Source Systems
@@ -38,8 +36,7 @@ The steps could be adjusted based on the skills and interests of students.
 Contact: [Mohamed Soliman](m.a.m.soliman@rug.nl), or [Paris Avgeriou](p.avgeriou@rug.nl)
 
 # References
+
 - [1] L. Bass, P. Clements, and R. Kazman, Software Architecture in Practice, 2nd ed. Boston, MA, USA: Addison-Wesley Longman Publishing Co., Inc., 2003.
 - [2] A. Shahbazian, Y. Kyu Lee, D. Le, Y. Brun and N. Medvidovic, "Recovering Architectural Design Decisions," 2018 IEEE International Conference on Software Architecture (ICSA), Seattle, WA, 2018, pp. 95-9509.
 - [3] Xue ying Li, Peng Liang, and Tian qing Liu. Decisions and Their Making in OSS Development: An Exploratory Study Using the Hibernate Developer Mailing List. In Proceedings - Asia-Pacific Software Engineering Conference, APSEC, volume 2019-December, pages 323–330. IEEE Computer Society, 12 2019
-
-

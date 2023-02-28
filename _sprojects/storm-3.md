@@ -12,8 +12,7 @@ types:
   - BSc
 posted: 2023-02-10
 supervisors:
-  - name: "Tijs van der Storm"
-    email: "storm@cwi.nl"
+  - Prof. dr. Tijs van der Storm
 ---
 DESCRIPTION
 Salix is a framework in Rascal for defining immediate mode, web-based UIs. It follows the Elm model where an application is defined using a view function and an model update function.

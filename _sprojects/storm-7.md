@@ -11,8 +11,7 @@ types:
   - BSc
 posted: 2023-01-01
 supervisors:
-  - name: "Tijs van der Storm"
-    email: "storm@cwi.nl"
+  - Prof. dr. Tijs van der Storm
 ---
 
 DESCRIPTION

@@ -12,8 +12,7 @@ types:
   - MSc
 posted: 2023-02-10
 supervisors:
-  - name: "Vasilios Andrikopoulos"
-    email: "v.andrikopoulos@rug.nl"
+  - Prof. Dr. Vasilios Andrikopoulos
 ---
 
 # Establishing the Environmental Footprint of Chatbots

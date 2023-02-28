@@ -12,12 +12,9 @@ types:
   - MSc
 posted: 2023-01-01
 supervisors:
-  - name: "Paris Avgeriou"
-    email: "p.avgeriou@rug.nl"
-  - name: "Mohamed Soliman"
-    email: "m.a.m.soliman@rug.nl"
-  - name: "Yikun Li"
-    email: "yikun.li@rug.nl"
+  - Prof. dr. ir. Paris Avgeriou
+  - Dr. Mohamed A.M. Soliman
+  - Yikun Li
 ---
 
 Technical debt refers to taking shortcuts, either deliberately or inadvertently, to achieve short-term goals, which might negatively influence the maintenance and evolution of software in the long term. If technical debt is incurred excessively and left unresolved, it can lead to increased maintenance costs and challenges.
