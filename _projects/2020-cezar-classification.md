@@ -1,6 +1,5 @@
 ---
-name: "Detecting Similarities between Software Systems
-Based on NLP Techniques"
+name: "Detecting Similarities between Software Systems Based on NLP Techniques"
 members:
   - name: "Cezar Sas"
     email: "c.a.sas@rug"
