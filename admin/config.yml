@@ -117,11 +117,14 @@ collections:
     fields:
       - { name: "title" }
       - { name: "category" }
+      - name: "keywords"
+        widget: "list"
+        hint: "A comma separated list of project keywords. Should give students an intuition for what the project is about."
       - { name: "is_group", widget: "boolean" }
       - { name: "available", widget: "boolean" }
       - { name: "posted", widget: "date" }
       - { name: "body", widget: "markdown", required: false }
-      # TODO: add keywords, supervisors and types fields.
+      # TODO: add supervisors and types fields.
       # some fields need relations
 
   - name: "pages"
