@@ -1,6 +1,7 @@
 ---
 title: "Upgrade Design Pattern Detector and Quality Assessment"
 category: "ML, NLP and Refactoring Projects 2022-23"
+short: ""
 keywords:
   - refactoring
   - design patterns
@@ -25,4 +26,5 @@ The SEARCH group has built two tools to support the measurement of pattern grime
 This project entail the **refactoring and upgrade** (incl. dependencies' update and small bug fixes) of both SSAP and Spoon-PttGrime. It can be taken as one or two Short Programming Projects (**SPP**) (depending on the level of refactoring), or a **master's intership**.
 
 # References
-- [1] Daniel Feitosa, Apostolos Ampatzoglou, Paris Avgeriou, and Elisa Y Nakagawa. 2018. Correlating Pattern Grime and Quality Attributes. In IEEE Access, vol. 6, pp. 23065-23078. https://doi.org/10.1109/ACCESS.2018.2829895.
+
+- [1] Daniel Feitosa, Apostolos Ampatzoglou, Paris Avgeriou, and Elisa Y Nakagawa. 2018. Correlating Pattern Grime and Quality Attributes. In IEEE Access, vol. 6, pp. 23065-23078. <https://doi.org/10.1109/ACCESS.2018.2829895>.

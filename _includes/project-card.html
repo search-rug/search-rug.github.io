@@ -1,0 +1,43 @@
+<a href="">
+  <div class="project-card">
+
+    <h3 class="title">{{ project.title }}</h3>
+
+    <div class="keywords">
+      {% for keyword in project.keywords %}
+        <span>{{ keyword }}</span>
+      {% endfor %}
+    </div>
+
+    <!--TODO: add a CMS field for short description-->
+    <p class="description">
+      {% if project.short != "" %}
+        {{ project.short }}
+      {% else %}
+        No short project description has been provided for this project.
+      {% endif %}
+    </p>
+
+    <div class="details-container">
+      <div class="detail">
+        <p class="name">Status</p>
+        <p>
+          {% if project.available %}
+          <span>Available</span>
+          {% else %}
+          <span>Unavailable</span>
+          {% endif %}
+        </p>
+      </div>
+      <div class="detail">
+        <p class="name">Types</p>
+        <p>
+          <!--TODO: get rid of trailing commas-->
+          {% for type in project.types %}
+          <span>{{ type }},</span>
+          {% endfor %}
+        </p>
+      </div>
+    </div>
+  </div>
+</a>
