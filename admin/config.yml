@@ -61,12 +61,14 @@ collections:
       - { name: "ocasys", label: "Ocasys Link" }
       - name: "coordinators"
         widget: "relation"
+        required: false
         collection: "team"
         value_field: "title"
         search_fields: ["title"]
         multiple: true
       - name: "lecturers"
         widget: "relation"
+        required: false
         collection: "team"
         value_field: "title"
         search_fields: ["title"]
@@ -95,6 +97,12 @@ collections:
       - { name: "image", widget: "image", required: false }
       - { name: "body", widget: "markdown", required: false }
       # TODO: members and funding
+      - name: "members"
+        widget: "relation"
+        collection: "team"
+        value_field: "title"
+        search_fields: ["title"]
+        multiple: true
       - name: "funding"
         widget: "list"
         required: false
