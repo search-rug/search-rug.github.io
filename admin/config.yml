@@ -107,7 +107,7 @@ collections:
         required: false
         fields:
           - { name: "agency" }
-          - { name: "number" } # TODO: is there a better name for this?
+          - { name: "number" }
 
   - name: "sprojects"
     label: "Student Project"
