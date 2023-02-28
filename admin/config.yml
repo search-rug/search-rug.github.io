@@ -59,7 +59,30 @@ collections:
       - { name: "code", label: "Course Code" }
       - { name: "name" }
       - { name: "ocasys", label: "Ocasys Link" }
-      # TODO: add coordinators and lecturers fields (needs relations)
+      - name: "coordinators"
+        widget: "relation"
+        collection: "team"
+        value_field: "title"
+        search_fields: ["title"]
+        multiple: true
+      - name: "lecturers"
+        widget: "relation"
+        collection: "team"
+        value_field: "title"
+        search_fields: ["title"]
+        multiple: true
+      - name: "external_coordinators"
+        widget: "list"
+        required: false
+        fields:
+          - { name: "name" }
+          - { name: "email" }
+      - name: "external_lecturers"
+        widget: "list"
+        required: false
+        fields:
+          - { name: "name" }
+          - { name: "email" }
 
   - name: "projects"
     label: "Research Project"
