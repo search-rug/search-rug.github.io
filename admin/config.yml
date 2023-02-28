@@ -96,7 +96,6 @@ collections:
       - { name: "homepage", required: false }
       - { name: "image", widget: "image", required: false }
       - { name: "body", widget: "markdown", required: false }
-      # TODO: members and funding
       - name: "members"
         widget: "relation"
         collection: "team"
