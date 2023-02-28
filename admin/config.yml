@@ -107,6 +107,9 @@ collections:
         required: false
         fields:
           - { name: "agency" }
+          - name: "shortname"
+            # TODO: correct? funding agency or funding instrument?
+            hint: "Shortname or acronym for funding agency."
           - { name: "number" }
 
   - name: "sprojects"
