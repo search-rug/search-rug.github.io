@@ -12,5 +12,6 @@ homepage: ""
 image: "images/projects/burnout-.png"
 funding:
   - agency: "Indonesia Endowment Fund for Education(LPDP)"
+    shortname: "LPDP"
     number: "S-2566/LPDP.4/2021"
 ---

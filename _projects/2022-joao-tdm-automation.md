@@ -9,6 +9,7 @@ short: ""
 homepage: ""
 image: "images/projects/tdm-automation.png"
 funding:
-  - agency: "NWO"
+  - agency: "Dutch Research Council"
+    shortname: "NWO"
     number: "213213/123123"
 ---

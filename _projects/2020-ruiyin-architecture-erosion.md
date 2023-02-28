@@ -9,6 +9,4 @@ short: "Architecture in software systems may experience degradation over time as
 homepage: ""
 image: "images/team/ruiyin-li.jpg"
 funding:
-  - agency: ""
-    number: ""
 ---

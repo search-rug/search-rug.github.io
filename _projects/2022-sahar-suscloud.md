@@ -10,5 +10,6 @@ homepage: ""
 image: "images/projects/2022-Sahar-Suscloud.png"
 funding:
   - agency: "NWO"
+    shortname: "NWO"
     number: "OCENW.M20.243"
 ---
