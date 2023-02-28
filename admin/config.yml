@@ -124,11 +124,16 @@ collections:
         widget: "select"
         options: ["MSc", "BSc", "MSc Int"]
         multiple: true
+      - name: "supervisors"
+        widget: "relation"
+        collection: "team"
+        value_field: "title"
+        search_fields: ["title"]
+        multiple: true
       - { name: "is_group", widget: "boolean" }
       - { name: "available", widget: "boolean" }
       - { name: "posted", widget: "date" }
       - { name: "body", widget: "markdown", required: false }
-      # TODO: add supervisors relational field
 
   - name: "pages"
     label: "Pages"
