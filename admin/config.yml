@@ -116,11 +116,12 @@ collections:
     create: true
     fields:
       - { name: "title" }
+      - { name: "category" }
       - { name: "is_group", widget: "boolean" }
       - { name: "available", widget: "boolean" }
       - { name: "posted", widget: "date" }
       - { name: "body", widget: "markdown", required: false }
-      # TODO: add category, keywords, supervisors and types fields.
+      # TODO: add keywords, supervisors and types fields.
       # some fields need relations
 
   - name: "pages"
