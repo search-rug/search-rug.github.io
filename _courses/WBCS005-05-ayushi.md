@@ -4,8 +4,8 @@ name: Introduction to Computing Science
 ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS005-05
 coordinators:
 external_coordinators:
-  name: "M.H.F. Wilkinson"
-  email: "m.h.f.wilkinson@rug.nl"
+  - name: "M.H.F. Wilkinson"
+    email: "m.h.f.wilkinson@rug.nl"
 lecturers:
   - Dr. Ayushi Rastogi
 external_lecturers:
