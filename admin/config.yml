@@ -120,12 +120,15 @@ collections:
       - name: "keywords"
         widget: "list"
         hint: "A comma separated list of project keywords. Should give students an intuition for what the project is about."
+      - name: "types"
+        widget: "select"
+        options: ["MSc", "BSc", "MSc Int"]
+        multiple: true
       - { name: "is_group", widget: "boolean" }
       - { name: "available", widget: "boolean" }
       - { name: "posted", widget: "date" }
       - { name: "body", widget: "markdown", required: false }
-      # TODO: add supervisors and types fields.
-      # some fields need relations
+      # TODO: add supervisors relational field
 
   - name: "pages"
     label: "Pages"
