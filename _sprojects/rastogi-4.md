@@ -1,6 +1,7 @@
 ---
 title: "Exploratory Study On Emerging Digital Technologies In SMEs"
 category: "Software & Architecture Analytics Projects 2022-23"
+short: ""
 keywords:
   - software engineering
   - empirical research

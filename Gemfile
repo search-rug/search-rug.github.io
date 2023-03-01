@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-# TODO: fix netlify build issues with this plugin
 # gem "github-pages", group: :jekyll_plugins
 
 # If you want to use Jekyll native, uncomment the line below.

@@ -1,6 +1,7 @@
 ---
 title: "Missing Opportunities in Global Software Engineering"
 category: "Software & Architecture Analytics Projects 2022-23"
+short: ""
 keywords:
   - software engineering
   - empirical research

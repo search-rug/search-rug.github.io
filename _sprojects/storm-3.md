@@ -1,6 +1,7 @@
 ---
 title: "Embedding Diagram Editors into Salix"
 category: "Language Engineering Projects"
+short: ""
 keywords:
   - language engineering
   - graphical modeling

@@ -21,8 +21,18 @@ bodyClass: "page-education"
 -->
 
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-  <h1 class="title">{{page.title}}</h1>
-  <div class="content mt-4">
-    {{ content }}
+  <h1 class="title">{{ page.title }}</h1>
+
+  <!--
+    <div class="content mt-4">
+      {{ content }}
+    </div>
+  -->
+
+  <h2 class="mb-3">Student Projects</h2>
+  <div class="d-flex flex-wrap" style="gap: 15px">
+    {% for project in site.sprojects %}
+      {% include project-card.html project=project %}
+    {% endfor %}
   </div>
 </div>
