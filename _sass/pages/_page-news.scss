@@ -1,0 +1,26 @@
+.news-post-cards {
+  max-width: 24rem;
+  width: 100%;
+}
+
+.news-post-dates {
+  flex-grow: 1;
+}
+
+@include media-breakpoint-up(lg) {
+  .news-post-cards {
+    max-width: 49rem;
+  }
+}
+
+// @include media-breakpoint-up(lg) {
+//   .news-post-cards {
+//     max-width: 64rem;
+//   }
+// }
+
+// @include media-breakpoint-up(xl) {
+//   .news-post-cards {
+//     max-width: 32rem;
+//   }
+// }
