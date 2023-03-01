@@ -17,6 +17,7 @@ collections:
   - "team"
   - "projects"
   - "sprojects"
+  - "news"
 
 defaults:
   - scope:
