@@ -1,0 +1,24 @@
+---
+layout: "default"
+---
+
+<div class="container pb-6 pt-6 pt-md-10 mt-2 pb-md-10 d-flex align-items-center flex-column">
+  <div style="max-width: 48rem;">
+
+    <a href="/news">
+      <div class="d-flex align-items-center mb-2 mt-1 ">
+        <span>&#8592;</span>
+        <span>&nbsp;All news</span>
+      </div>
+    </a>
+
+    <div class="pb-3 pt-2">
+      <h1 class="title">{{ page.title }}</h1>
+      <p style="margin-top: -10px;">Posted on {{ page.date | date_to_long_string }}</p>
+    </div>
+
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+</div>
