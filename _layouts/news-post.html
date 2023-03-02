@@ -1,0 +1,15 @@
+---
+layout: "default"
+---
+
+<div class="container pb-6 pt-6 pt-md-10 mt-2 pb-md-10 d-flex align-items-center flex-column">
+  <div style="max-width: 48rem;">
+    <h1 class="title">{{ page.title }}</h1>
+    <p>
+      <span>Posted on {{ page.date | date_to_long_string }}</span>
+    </p>
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+</div>
