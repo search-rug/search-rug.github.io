@@ -3,8 +3,6 @@ title: Education
 layout: education
 description: Education activities of the SEARCH group
 permalink: "/education/"
-intro_image_absolute: false
-intro_image_hide_on_mobile: false
 ---
 
 **Under Construction**
