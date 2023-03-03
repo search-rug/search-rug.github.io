@@ -45,8 +45,6 @@ $font-family-base: "Work Sans", Arial, sans-serif, -apple-system;
 $font-family-heading: "Brawler", serif, -apple-system;
 
 // Footer
-$footer-background-color: $primary;
-$footer-text-color: $white;
 $sub-footer-background-color: darken($primary, 10%);
 $sub-footer-text-color: $white;
 
@@ -55,9 +53,7 @@ $sub-footer-text-color: $white;
 
 // Components
 @import "components/type";
-@import "components/page";
 @import "components/header";
-@import "components/footer";
 @import "components/sub-footer";
 @import "components/logo";
 @import "components/main-menu";
@@ -69,8 +65,6 @@ $sub-footer-text-color: $white;
 @import "components/content";
 @import "components/intro";
 @import "components/strip";
-@import "components/feature";
-@import "components/research-field";
 @import "components/icons";
 @import "components/team-card";
 @import "components/project-card";
@@ -78,9 +72,7 @@ $sub-footer-text-color: $white;
 // @import "components/fonts"; // Uncomment this line to self host font
 
 // Pages
-@import "pages/page-teams";
-@import "pages/page-service";
-@import "pages/page-news";
+@import "pages/page-news"; 
 
 body {
   font-size: 16px;
