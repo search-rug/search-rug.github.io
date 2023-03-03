@@ -4,23 +4,6 @@ layout: default
 bodyClass: "page-research"
 ---
 
-<!--
-<div class="intro">
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="w-full md:w-3/5 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 order-2 md:order-1">
-        {{ content }}
-      </div>
-      {% if page.intro_image %}
-      <div class="w-full md:w-2/5 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 order-1 md:order-2 relative">
-        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
-      </div>
-      {% endif %}
-    </div>
-  </div>
-</div>
--->
-
 <div class="container mx-auto px-4 pb-6 pt-[100px] pb-md-10">
   <h1 class="title text-5xl font-semibold mb-8">{{page.title}}</h1>
   <div class="content mt-4">
