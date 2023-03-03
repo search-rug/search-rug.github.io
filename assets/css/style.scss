@@ -68,7 +68,6 @@ $sub-footer-text-color: $white;
 @import "components/title";
 @import "components/content";
 @import "components/intro";
-@import "components/intro-image";
 @import "components/strip";
 @import "components/feature";
 @import "components/research-field";
@@ -79,7 +78,6 @@ $sub-footer-text-color: $white;
 // @import "components/fonts"; // Uncomment this line to self host font
 
 // Pages
-@import "pages/page-home";
 @import "pages/page-teams";
 @import "pages/page-service";
 @import "pages/page-news";
