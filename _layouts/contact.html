@@ -6,7 +6,7 @@ bodyClass: "page-contact"
 
 <div class="container mx-auto px-4 pb-6 pt-[100px] pb-md-10">
     
-    <h1 class="title text-5xl font-semibold mb-8">{{page.title}}</h1>
+    <h1 class="text-black text-5xl leading-5 lg:text-[50px] font-semibold mb-8">{{page.title}}</h1>
     <div class="flex flex-wrap justify-start">
         {% if page.group_leader.show %}
             {% assign leader = site.team | where: "status.group_leader", true %}
