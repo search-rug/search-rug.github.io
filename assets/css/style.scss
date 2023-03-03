@@ -19,6 +19,7 @@ $link-hover-decoration: underline;
 :root {
   --primary: #{$primary};
   --link-color: #{$link-color};
+  --white-offset: #{$white-offset};
 }
 
 // Fonts
@@ -63,7 +64,6 @@ $sub-footer-text-color: $white;
 @import "components/call";
 @import "components/content";
 @import "components/intro";
-@import "components/strip";
 @import "components/icons";
 @import "components/team-card";
 @import "components/project-card";
