@@ -16,10 +16,16 @@ $link-decoration: none;
 $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
+// Footer
+$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-text-color: $white;
+
 :root {
   --primary: #{$primary};
   --link-color: #{$link-color};
   --white-offset: #{$white-offset};
+  --sub-footer-background-color: #{$sub-footer-background-color};
+  --sub-footer-text-color: #{$sub-footer-text-color};
 }
 
 // Fonts
@@ -45,17 +51,12 @@ $font-family-base: "Work Sans", Arial, sans-serif, -apple-system;
 @import 'https://fonts.googleapis.com/css?family=Brawler:400';
 $font-family-heading: "Brawler", serif, -apple-system;
 
-// Footer
-$sub-footer-background-color: darken($primary, 10%);
-$sub-footer-text-color: $white;
-
 // Libraries
 @import "libraries/hamburgers/hamburgers";
 
 // Components
 @import "components/type";
 @import "components/header";
-@import "components/sub-footer";
 @import "components/logo";
 @import "components/main-menu";
 @import "components/main-menu-mobile";
