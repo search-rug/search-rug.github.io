@@ -16,6 +16,11 @@ $link-decoration: none;
 $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
+:root {
+  --primary: #{$primary};
+  --link-color: #{$link-color};
+}
+
 // Fonts
 // BODY FONTS TO TEST
 // @import 'https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700';
