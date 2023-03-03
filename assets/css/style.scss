@@ -77,12 +77,14 @@ $sub-footer-text-color: $white;
 @import "components/icons";
 @import "components/team-card";
 @import "components/project-card";
+@import "components/news-card";
 // @import "components/fonts"; // Uncomment this line to self host font
 
 // Pages
 @import "pages/page-home";
 @import "pages/page-teams";
 @import "pages/page-service";
+@import "pages/page-news";
 
 body {
   font-size: 16px;
