@@ -18,30 +18,6 @@
     width: 100%;
   }
 }
-@media (min-width: 768px) {
-  .scrolled-down{
-    transform: translateY(0);
-    transition: all 0.3s ease-in-out;
-  }
-  .scrolled-up{
-    transform: translateY(-100%);
-    transition: all 0.3s ease-in-out;
-  }
-  .start-hidden {
-    display: none;
-  }
-}
-.header-autohide {
-  position: sticky !important;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  @media (min-width: 768px) {
-    position: fixed !important;
-    float: right;
-    display: block;
-  }
-}
 .header-fixed {
   position: fixed !important;
   top: 0;
