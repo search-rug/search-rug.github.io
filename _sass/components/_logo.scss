@@ -1,6 +1,6 @@
 .logo {
   display: none;
-  @include media-breakpoint-up(sm) {
+  @media (min-width: 640px) {
     display: block;
   }
   img {
@@ -16,7 +16,7 @@
   display: block;
   width: 40px;
   padding: 10px 0 10px 0;
-  @include media-breakpoint-up(sm) {
+  @media (min-width: 640px) {
     display: none;
   }
   img {

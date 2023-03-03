@@ -45,13 +45,6 @@ $footer-text-color: $white;
 $sub-footer-background-color: darken($primary, 10%);
 $sub-footer-text-color: $white;
 
-// Bootstrap
-@import "bootstrap-variables";
-@import "bootstrap/bootstrap-reboot";
-@import "bootstrap/bootstrap-grid";
-@import "bootstrap/badge";
-// @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
-
 // Libraries
 @import "libraries/hamburgers/hamburgers";
 
@@ -90,7 +83,7 @@ body {
   font-size: 16px;
   line-height: 1.2;
   font-family: $font-family-base;
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px){
     font-size: 16px;
     line-height: 1.3;
   }

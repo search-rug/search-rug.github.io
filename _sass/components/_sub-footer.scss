@@ -6,7 +6,7 @@
   }
   padding-top: 15px;
   padding-bottom: 15px;
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    @include media-breakpoint-up(md) {
+    @media (min-width: 768px) {
       flex-direction: row;
     }
   }
@@ -25,7 +25,7 @@
       font-weight: bold;
       color: inherit;
     }
-    @include media-breakpoint-up(sm) {
+    @media (min-width: 640px) {
       font-size: 14px;
     }
   }

@@ -4,14 +4,14 @@ layout: default
 bodyClass: "page-contact"
 ---
 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+<div class="container mx-auto px-4 pb-6 pt-[100px] pb-md-10">
     
-    <h1 class="title">{{page.title}}</h1>
-    <div class="row justify-content-start">
+    <h1 class="title text-5xl font-semibold mb-8">{{page.title}}</h1>
+    <div class="flex flex-wrap justify-start">
         {% if page.group_leader.show %}
             {% assign leader = site.team | where: "status.group_leader", true %}
             {% for member in leader %}
-            <div class="col-12 col-md-6 mb-2">
+            <div class="w-full md:w-1/2 pr-4 pl-4 mb-2">
                 <div class="content">
                     <h1>{{page.group_leader.title}}</h1>
                 </div>
@@ -21,7 +21,7 @@ bodyClass: "page-contact"
         {% endif %}
         
         {% if page.secretariat.show %}
-        <div class="col-12 col-md-6 mb-2">
+        <div class="w-full md:w-1/2 pr-4 pl-4 mb-2">
             <div class="content">
                 <h1>{{page.secretariat.title}}</h1>
             </div>
@@ -51,7 +51,7 @@ bodyClass: "page-contact"
         </div>
         {% endif %}
     </div>
-    <div class="row justify-content-start">
+    <div class="flex flex-wrap justify-start">
         <div class="col-auto">
             <div class="content mt-4">{{content}}</div>
         </div>

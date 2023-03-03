@@ -7,7 +7,7 @@
     justify-content: space-between;
     flex-direction: column;
     align-items: flex-start;
-    @include media-breakpoint-up(sm) {
+    @media (min-width: 640px) {
       justify-content: space-between;
       flex-direction: row;
       align-items: center;
@@ -19,7 +19,7 @@
     font-family: $font-family-heading;
     font-weight: bold;
     margin-bottom: 10px;
-    @include media-breakpoint-up(sm) {
+    @media (min-width: 640px) {
       margin: 0;
     }
   }
@@ -40,7 +40,7 @@
         }
       }
     }
-    @include media-breakpoint-up(sm) {
+    @media (min-width: 640px) {
       height: inherit;
       display: flex;
       list-style: none;

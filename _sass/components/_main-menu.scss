@@ -1,6 +1,6 @@
 .main-menu {
   display: none;
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
     display: block;
   }
   > ul {

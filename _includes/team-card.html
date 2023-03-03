@@ -2,9 +2,9 @@
     <div class="team-image-wrap">
         <div class="team-image">
             {% if member.image %}
-            <img alt="{{ member.title }}" class="img-fluid mb-2" src="{{ member.image | relative_url }}" />
+            <img alt="{{ member.title }}" class="max-w-full h-auto mb-2" src="{{ member.image | relative_url }}" />
             {% else %}
-            <img alt="{{ member.title }}" class="img-fluid mb-2" src="{{ site.team.default_avatar | relative_url }}" />
+            <img alt="{{ member.title }}" class="max-w-full h-auto mb-2" src="{{ site.team.default_avatar | relative_url }}" />
             {% endif %}
         </div>
     </div>
@@ -19,7 +19,7 @@
         {% if include.show_fields %}
         <p class="research-field">
             {% for field in member.fields %}
-                <span class="badge badge-dark">{{field}}</span>
+                <span class="font-sans inline-block p-1 text-center text-xs align-baseline leading-none rounded bg-gray-800 text-white">{{field}}</span>
             {% endfor %}
         </p>
         {% endif %}
@@ -42,7 +42,7 @@
             {% endfor %}
         </p>
         {% else %}
-        <p class="icons ">
+        <div class="icons">
             <span class="mr-2">
                 {% if member.contact.email -%}
                 <a href="mailto:{{member.contact.email}}" target="blank">
@@ -66,17 +66,17 @@
                 </svg>
             </a>
             {% endfor %}
-        </p>
+        </div>
         {% if member.social %}
-        <p class="icons team-social">
-            {% for item in member.social %}
+        <div class="icons team-social space-x-4">
+            {%- for item in member.social -%}
             <a href="{{item[1]}}" target="blank">
                 <svg>
                     <use xlink:href="/assets/sprites.svg#{{item[0]}}"></use>
                 </svg>
             </a>
-            {% endfor %}
-        </p>
+            {%- endfor -%}
+        </div>
         {% endif %}
         {% endif %}
     </div>

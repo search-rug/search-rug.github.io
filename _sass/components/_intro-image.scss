@@ -8,20 +8,20 @@
 
   padding: 0;
   margin-bottom: 30px;
-  @include media-breakpoint-up(sm) {
+  @media (min-width: 640px) {
   }
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
     position: absolute;
     bottom: -50px;
     left: -50px;
     width: 700px;
   }
-  @include media-breakpoint-up(lg) {
+  @media (min-width: 1024px) {
     bottom: -60px;
     left: -60px;
     width: 800px;
   }
-  @include media-breakpoint-up(xl) {
+  @media (min-width: 1280px) {
     bottom: -100px;
     left: -70px;
     width: 850px;
@@ -29,7 +29,7 @@
 }
 .intro-image-hide-mobile {
   display: none;
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
     display: block;
   }
 }

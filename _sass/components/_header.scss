@@ -18,7 +18,7 @@
     width: 100%;
   }
 }
-@include media-breakpoint-up(md) {
+@media (min-width: 768px) {
   .scrolled-down{
     transform: translateY(0);
     transition: all 0.3s ease-in-out;
@@ -36,7 +36,7 @@
   top: 0;
   width: 100%;
   z-index: 1000;
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
     position: fixed !important;
     float: right;
     display: block;
