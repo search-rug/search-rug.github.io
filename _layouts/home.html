@@ -13,7 +13,13 @@ bodyClass: "page-home"
       {% endif %}
       <div class="w-full md:w-3/5 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 order-2 md:order-2">
         {{ content }}
-        {% include social.html %}
+        <div class="block mt-6">
+          {% for item in site.data.social %}
+            <a class="inline-block p-2.5 hover:opacity-80" href="{{ item.link }}" target="blank">
+              <svg class="w-10 h-10"><use xlink:href="{{ item.image | relative_url }}"></use></svg>
+            </a>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
