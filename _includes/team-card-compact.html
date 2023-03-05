@@ -1,30 +1,30 @@
-<div class="team team-card team-compact">
-    <div class="team-image-wrap">
-        <div class="team-image">
-            {% if member.image %}
-            <img alt="{{ member.title }}" class="max-w-full h-auto mb-2" src="{{ member.image | relative_url }}" />
-            {% else %}
-            <img alt="{{ member.title }}" class="max-w-full h-auto mb-2" src="{{ site.team.default_avatar | relative_url }}" />
-            {% endif %}
-        </div>
+<div class="flex flex-row items-center p-2 rounded-xl border shadow-lg bg-[color:var(--white-offset)]">
+    <div class="w-24 h-24 rounded-full overflow-hidden mr-2">
+        {% if member.image %}
+        <img alt="{{ member.title }}" class="w-full" src="{{ member.image | relative_url }}" />
+        {% else %}
+        <img alt="{{ member.title }}" class="w-full" src="{{ site.team.default_avatar | relative_url }}" />
+        {% endif %}
     </div>
-    <div class="team-meta">
-        <h2 class="team-name"><a href="{{member.contact.homepage}}" target="blank">{{ member.title }}</a></h2>
-        <p class="team-position">
+    <div class="w-auto">
+        <h2 class="font-['Brawler'] text-md mb-0 text-[color:var(--primary)]">
+            <a href="{{member.contact.homepage}}" target="blank">{{ member.title }}</a>
+        </h2>
+        <p class="text-md text-gray-500 mb-4">
             {{ member.position }}
             {% if member.position_remark %}
-                <span class="team-remark">({{ member.position_remark }})</span>
+                ({{ member.position_remark }})
             {% endif %}
         </p>
         {% if include.show_fields %}
-        <p>
+        <div>
             {% for field in member.fields %}
                 <span class="font-sans inline-block p-1 text-center text-xs align-baseline leading-none rounded bg-gray-800 text-white">{{field}}</span>
             {% endfor %}
-        </p>
+        </div>
         {% endif %}
 
-        <p class="block">
+        <div class="block">
             {% if member.contact.email -%}
             <a class="inline-block px-1 py-2.5 hover:opacity-80" href="mailto:{{member.contact.email}}" target="blank">
                 <svg class="w-5 h-5">
@@ -39,6 +39,6 @@
                 </svg>
             </a>
             {% endfor %}
-        </p>
+        </div>
     </div>
 </div>

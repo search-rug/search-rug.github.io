@@ -64,18 +64,14 @@ bodyClass: "page-home"
       <h1 class="text-4xl mt-10 mb-8 text-center">Head Researchers</h1>
     </div>
   </div>
-  <div class="flex flex-wrap">
+  <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
     {% assign promoted_members = site.team | where: "status.promoted", true | sort: "weight" %}
     {% for member in promoted_members %}
-    <div class="w-full md:w-1/2 pr-4 pl-4 mb-6">
       {% include team-card-compact.html member=member show_fields=true %}
-    </div>
     {% endfor %}
   </div>
-  <div class="flex flex-wrap justify-center">
-    <div class="col-auto">
-      <a class="button button-primary" href="{{ 'team' | relative_url }}">meet the whole team</a>
-    </div>
+  <div class="flex flex-wrap justify-center mt-6">
+    <a class="button button-primary" href="{{ 'team' | relative_url }}">meet the whole team</a>
   </div>
 </div>
 
