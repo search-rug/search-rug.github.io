@@ -68,7 +68,7 @@ bodyClass: "page-home"
     {% assign promoted_members = site.team | where: "status.promoted", true | sort: "weight" %}
     {% for member in promoted_members %}
     <div class="w-full md:w-1/2 pr-4 pl-4 mb-6">
-      {% include team-card.html member=member compact=true show_fields=true %}
+      {% include team-card-compact.html member=member show_fields=true %}
     </div>
     {% endfor %}
   </div>
