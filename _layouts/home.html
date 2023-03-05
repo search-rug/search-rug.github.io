@@ -4,46 +4,51 @@ bodyClass: "page-home"
 ---
 
 <div class="intro">
-  <div class="container">
-    <div class="row justify-content-start">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap justify-start">
       {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-1 position-relative">
-        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+      <div class="w-full md:w-2/5 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 order-1 md:order-1 relative">
+        <img alt="{{ page.title }}" class="w-full h-auto hidden md:block" src="{{ page.intro_image | relURL }}" />
       </div>
       {% endif %}
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-2">
+      <div class="w-full md:w-3/5 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 order-2 md:order-2">
         {{ content }}
-        {% if page.show_social and site.data.social %}
-          {% include social.html %}
-        {% endif %}
+        <div class="block mt-6">
+          {% for item in site.data.social %}
+            <a class="inline-block p-2.5 hover:opacity-80" href="{{ item.link }}" target="blank">
+              <svg class="w-10 h-10"><use xlink:href="{{ item.image | relative_url }}"></use></svg>
+            </a>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6">
-    <div class="row justify-content-start">
-        <div class="col-12 col-md-8 col-lg-8 order-2 order-md-1">
-          {% assign vision_title = "Vision & Core Research Fields" %}
-          {% assign vision_text = "Effective software engineering requires healthy software and teams. A healthy software is maintainable, low technical debt, well performing, based on sound design decisions. A healthy team is productive, diverse and inclusive. And healthy software and team amplify each other.  Our research enables the software industry to improve their software and team health." %}
-          {% assign vision_image = "images/illustrations/vision.svg" %}
-          <h1>{{vision_title}}</h1>
-          <p class="vision">{{vision_text}}</p>
+<div class="bg-no-repeat bg-[color:var(--white-offset)]">
+  <div class="container mx-auto px-4 pt-6 pb-6">
+    <div class="flex flex-wrap justify-start items-center">
+        <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-2/3 pr-4 pl-4 order-2 md:order-1">
+          <h1 class="text-3xl lg:text-4xl mb-8">{{page.vision.title}}</h1>
+          <p class="font-['Rokkit'] font-light italic md:leading-6 lg:leading-8 xl:leading-10 md:text-lg lg:text-2xl xl:text-3xl">
+            {{page.vision.text}}
+          </p>
         </div>
-        {% if page.intro_image %}
-        <div class="col-12 col-md-4 col-lg-4 order-1 order-md-2 position-relative">
-            <img alt="{{vision_title}} image" class="intro-image {% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ vision_image | relative_url }}" />
+        <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 order-1 md:order-2 relative">
+            <img alt="{{page.vision.title}} image" class="w-full h-auto hidden md:block" src="{{ page.vision.image | relative_url }}" />
         </div>
-        {% endif %}
     </div>
   </div>
-  <div class="container pt-6 pb-6">
-    <div class="row justify-content-start">
+  <div class="container mx-auto px-4 pt-6 pb-6">
+    <div class="flex flex-wrap justify-start">
       {% for field in site.data.fields %}
-      <div class="col-12 col-md-6 mb-1">
-        <div class="research-field">
-          <h2>{{ field.title }} <span class="badge badge-dark">{{ field.tag }}</span></h2>
+      <div class="w-full md:w-1/2 pr-4 pl-4 mb-1">
+        <div>
+          <h2 class="text-[color:var(--link-color)] text-3xl mb-5 mt-8">{{ field.title }}
+            <span class="font-sans inline-block p-1 text-center text-xs align-baseline leading-none rounded bg-gray-800 text-white">
+            {{ field.tag }}
+            </span>
+          </h2>
           <p>{{ field.description | markdownify }}</p>
         </div>
       </div>
@@ -52,48 +57,44 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="container pt-6 pb-6">
-  <div class="row justify-content-center">
+<div class="container mx-auto px-4 pt-6 pb-10">
+  <div class="flex flex-wrap justify-center">
     <div class="col-auto">
-      <h1 class="text-center mb-4">Head Researchers</h1>
+      <h1 class="text-4xl mt-10 mb-8 text-center">Head Researchers</h1>
     </div>
   </div>
-  <div class="row">
+  <div class="flex flex-wrap">
     {% assign promoted_members = site.team | where: "status.promoted", true | sort: "weight" %}
     {% for member in promoted_members %}
-    <div class="col-12 col-md-6 mb-2">
+    <div class="w-full md:w-1/2 pr-4 pl-4 mb-6">
       {% include team-card.html member=member compact=true show_fields=true %}
     </div>
     {% endfor %}
   </div>
-  <div class="row justify-content-center">
+  <div class="flex flex-wrap justify-center">
     <div class="col-auto">
       <a class="button button-primary" href="{{ 'team' | relative_url }}">meet the whole team</a>
     </div>
   </div>
 </div>
 
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6">
-    <div class="row justify-content-start">
-      {% assign highlight_title = "Research Output" %}
-      {% assign highlight_text = "Along with the scientific publications, our group has created approaches, tools and datasets. (UNDER CONSTRUCTION... list three examples)" %}
-      {% assign highlight_image = "images/illustrations/highlight.svg" %}
-        
-      {% if page.intro_image %}
-      <div class="col-12 col-md-4 col-lg-4 order-1 order-md-1 position-relative">
-        <img alt="{{vision_title}} image" class="intro-image {% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ highlight_image | relative_url }}" />
+<!--
+<div class="bg-no-repeat bg-[color:var(--white-offset)]">
+  <div class="container mx-auto px-4 pt-6 pb-10">
+    <div class="flex flex-wrap justify-start items-center">
+      <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 order-1 md:order-1 relative">
+        <img alt="{{page.research.title}} image" class="w-full h-auto hidden md:block" src="{{ page.research.image | relative_url }}" />
       </div>
-      {% endif %}
-      <div class="col-12 col-md-8 col-lg-8 order-2 order-md-2">
-        <h1>{{highlight_title}}</h1>
-        <p>{{highlight_text}}</p>
+      <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-2/3 pr-4 pl-4 order-2 md:order-2">
+        <h1 class="text-4xl mb-8">{{page.research.title}}</h1>
+        <p>{{page.research.text}}</p>
       </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="flex flex-wrap justify-center">
       <div class="col-auto">
         <a class="button button-primary" href="{{ 'research' | relative_url }}">check all output</a>
       </div>
     </div>
   </div>
 </div>
+-->

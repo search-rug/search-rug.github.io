@@ -10,7 +10,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   z-index: 2;
-  @include media-breakpoint-up(sm) {
+  @media (min-width: 640px) {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -18,14 +18,14 @@
   .call-box-top {
     flex: 1 0 auto;
     padding: 20px;
-    @include media-breakpoint-up(md) {
+    @media (min-width: 768px) {
     }
   }
   .call-box-bottom {
     flex: auto;
     padding: 20px;
     border-top: 1px solid darken($white-offset, 5%);
-    @include media-breakpoint-up(sm) {
+    @media (min-width: 640px) {
       flex: 0 0 auto;
       border: none;
     }
@@ -50,7 +50,7 @@
     right: 0;
     width: 100px;
     height: 100px;
-    @include media-breakpoint-up(sm) {
+    @media (min-width: 640px) {
       width: 120px;
       height: 120px;
     }

@@ -5,9 +5,15 @@
 
 .news-post-dates {
   display: none;
+  a {
+    color: $primary;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
-@include media-breakpoint-up(md) {
+@media (min-width: 768px) {
   .news-post-dates {
     display: flex;
     flex-grow: 1;
@@ -15,19 +21,19 @@
   }
 }
 
-@include media-breakpoint-up(lg) {
+@media (min-width: 1024px) {
   .news-post-cards {
     max-width: 49rem;
   }
 }
 
-// @include media-breakpoint-up(lg) {
+// @media (min-width: 1024px) {
 //   .news-post-cards {
 //     max-width: 64rem;
 //   }
 // }
 
-// @include media-breakpoint-up(xl) {
+// @media (min-width: 1280px) {
 //   .news-post-cards {
 //     max-width: 32rem;
 //   }

@@ -31,6 +31,7 @@
     flex: 1;
     h2 {
       margin: 0;
+      color: $primary;
       font-size: 18px;
       font-weight: normal;
     }
@@ -43,11 +44,6 @@
     .team-position {
       text-transform: uppercase;
     }
-    .icons {
-      a {
-          padding: 10px 3px;
-      }
-    }
   }
 
   .team-social {
@@ -55,6 +51,7 @@
     background-color: $primary;
     margin-top: 20px;
     border-radius: 3px;
+    line-height: 0;
     svg {
         fill: white;
         width: 25px;
