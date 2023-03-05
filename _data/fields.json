@@ -1,43 +1,32 @@
 [
-    {
-        "title": "Architecture & Design",
-        "tag": "arch",
-        "description": "This is a brief description of the area targeted towards laypersons."
-    },
-    {
-        "title": "Maintenance & Evolution",
-        "tag": "m&t",
-        "description": "This is a **brief description** of the area targeted towards laypersons."
-    },
-    {
-        "title": "Distributed Systems",
-        "tag": "dist. sys.",
-        "description": "This is a brief description of the area targeted towards laypersons."
-    },
-    {
-        "title": "Organizations",
-        "tag": "org",
-        "description": "This is a brief description of the area targeted towards laypersons."
-    },
-    {
-        "title": "Human Factors",
-        "tag": "human",
-        "description": "This is a brief description of the area targeted towards laypersons."
-    },
-    {
-        "title": "Languages and Compilers",
-        "tag": "lang",
-        "description": "This is a brief description of the area targeted towards laypersons."
-    },
-    {
-        "title": "Development Tooling",
-        "tag": "dev. tools",
-        "description": "This is a brief description of the area targeted towards laypersons."
-    },
-    {
-        "title": "Software Development Analytics",
-        "tag": "sda",
-        "description": "This is a brief description of the area targeted towards laypersons. Includes: source code analyis, msr, etc."
-    }
-  ]
-  
+  {
+    "title": "Architecture & Design",
+    "tag": "arch",
+    "description": "study principles, methods, and tools to create high-quality software systems while meeting the functional and non-functional requirements of stakeholders"
+  },
+  {
+    "title": "Maintenance & Evolution",
+    "tag": "m&t",
+    "description": "study techniques and tools for managing, modifying, and improving software systems throughout their lifecycle to ensure their continued usefulness and value to stakeholders"
+  },
+  {
+    "title": "Distributed Systems",
+    "tag": "dist. sys.",
+    "description": "study methods and technologies for designing, building, and operating computer systems that consist of multiple autonomous components that communicate and coordinate with each other over a network"
+  },
+  {
+    "title": "Human Factors",
+    "tag": "human",
+    "description": "study the interactions between software developers and software systems, with the aim of improving the usability, efficiency, and effectiveness of software development processes and outcomes"
+  },
+  {
+    "title": "Languages and Compilers",
+    "tag": "lang",
+    "description": "design, implement, and optimize programming languages and their compilers to improve the efficiency, reliability, and usability of software systems"
+  },
+  {
+    "title": "Software Development Analytics",
+    "tag": "sda",
+    "description": "apply data science techniques to software engineering data to gain insights into software development processes, improve software development practices, and support decision-making in software development organizations"
+  }
+]

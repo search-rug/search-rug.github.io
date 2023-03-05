@@ -44,9 +44,10 @@ bodyClass: "page-home"
       {% for field in site.data.fields %}
       <div class="w-full md:w-1/2 pr-4 pl-4 mb-1">
         <div>
-          <h2 class="text-[color:var(--link-color)] text-3xl mb-5 mt-8">{{ field.title }}
+          <h2 class="flex flex-row items-center mb-5 mt-8">
+            <span class="text-[color:var(--link-color)] text-3xl mr-2">{{ field.title }}</span>
             <span class="font-sans inline-block p-1 text-center text-xs align-baseline leading-none rounded bg-gray-800 text-white">
-            {{ field.tag }}
+              {{ field.tag }}
             </span>
           </h2>
           <p>{{ field.description | markdownify }}</p>

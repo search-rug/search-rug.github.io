@@ -19,9 +19,7 @@ social:
   twitter: "https://twitter.com/Ayushi_Rastogi"
   github: "https://github.com/AyushiRastogi"
 fields:
-  - dev. tools
   - sda
-  - org
   - human
 topics:
   - Mining Software Repositories 
