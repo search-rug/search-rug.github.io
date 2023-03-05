@@ -12,12 +12,10 @@ bodyClass: "page-team"
 </div>
 
 <div class="container mx-auto px-4 pb-6">
-    <div class="flex flex-wrap">
+    <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
         {% assign members = site.team | where: "status.former", false | sort: "weight" %}
         {% for member in members %}
-        <div class="w-full md:w-1/2 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 mb-2">
             {% include team-card.html member=member %}
-        </div>
         {% endfor %}
     </div>
 </div>
