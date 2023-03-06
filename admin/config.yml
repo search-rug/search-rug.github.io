@@ -2,8 +2,8 @@
 backend:
   name: github
   # TODO: change to 'search-rug/search-rug.github.io' when merged upstream
-  repo: kakka0903/search-rug.github.io
-  branch: netlify-cms # TODO: chane to main when merged
+  repo: search-rug/search-rug.github.io
+  branch: main # TODO: change to main when merged
 media_folder: "assets/uploads"
 collections:
   - name: "team"
