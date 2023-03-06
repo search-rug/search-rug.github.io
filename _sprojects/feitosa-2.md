@@ -1,6 +1,7 @@
 ---
 title: "Is Design Pattern Grime Related to Technical Debt?"
 category: "Software & Architecture Analytics Projects"
+short: ""
 keywords:
   - mining software repositories
   - empirical studies

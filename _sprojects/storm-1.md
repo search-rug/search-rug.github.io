@@ -1,6 +1,7 @@
 ---
 title: "Domain-specific Spreadsheet Languages and Tools"
 category: "Language Engineering Projects"
+short: ""
 keywords:
   - language engineering
   - spreadsheets

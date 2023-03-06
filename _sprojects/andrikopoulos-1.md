@@ -12,6 +12,8 @@ types:
   - MSc Int
   - MSc
 posted: 2023-02-10
+# TODO: replace this description with an approved one
+short: "We are offering a series of projects under the umbrella of mining cloud cost awareness, that is, of software developers being aware of the costs of deploying and operating cloud-based software."
 supervisors:
   - Prof. Dr. Vasilios Andrikopoulos
   - Dr. Daniel Feitosa

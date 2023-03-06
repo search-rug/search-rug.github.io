@@ -1,6 +1,7 @@
 ---
 title: "Exploring Architectural Knowledge in Open Source Systems"
 category: "Software & Architecture Analytics Projects 2022-23"
+short: ""
 keywords:
   - Architectural Knowledge
   - Architectural Design Decisions

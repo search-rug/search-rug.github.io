@@ -1,6 +1,7 @@
 ---
 title: "Design and Implementation of a Technical Debt Monitoring System for PHP"
 category: "Software & Architecture Analytics Projects"
+short: ""
 keywords:
   - software engineering
   - empirical studies

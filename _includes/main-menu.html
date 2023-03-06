@@ -1,4 +1,4 @@
-<div id="main-menu" class="main-menu">
+<div id="{{include.name}}" class="{{include.name}}">
   {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
   <ul>
     {% for item in mainmenu %}

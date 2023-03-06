@@ -3,20 +3,32 @@ permalink: pretty
 title: "SEARCH"
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
+  image: "images/logo/logo.svg"
+  height: "32px"
 
 home:
   limit_services: 6
 
 collections:
-  - "team"
+  team:
+    output: false
+  projects:
+    output: false
+  sprojects:
+    output: false
+  news:
+    output: true
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "news-post"
   - scope:
       path: ""
       type: "team"

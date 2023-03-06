@@ -1,6 +1,7 @@
 ---
 title: "Develop a Web-Based Self-Admitted Technical Debt Visualization and Management System"
 category: "Software & Architecture Analytics Projects"
+short: ""
 keywords:
   - software engineering
   - empirical studies

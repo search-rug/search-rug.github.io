@@ -1,6 +1,7 @@
 ---
 title: "Extracting a Rascal Grammar From The Swift Reference Manual"
 category: "Language Engineering Projects"
+short: ""
 keywords:
   - language engineering
   - grammarware

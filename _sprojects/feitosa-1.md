@@ -1,6 +1,7 @@
 ---
 title: "Upgrade Design Pattern Detector and Quality Assessment"
 category: "ML, NLP and Refactoring Projects 2022-23"
+short: ""
 keywords:
   - refactoring
   - design patterns

@@ -1,6 +1,7 @@
 ---
 title: "M3Solidity: M3 Source Code Model for Ethereum Solidity"
 category: "Software & Architecture Analytics Projects"
+short: ""
 keywords:
   - source code analysis
   - M3

@@ -1,0 +1,40 @@
+.news-post-cards {
+  max-width: 24rem;
+  width: 100%;
+}
+
+.news-post-dates {
+  display: none;
+  a {
+    color: $primary;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .news-post-dates {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) {
+  .news-post-cards {
+    max-width: 49rem;
+  }
+}
+
+// @media (min-width: 1024px) {
+//   .news-post-cards {
+//     max-width: 64rem;
+//   }
+// }
+
+// @media (min-width: 1280px) {
+//   .news-post-cards {
+//     max-width: 32rem;
+//   }
+// }

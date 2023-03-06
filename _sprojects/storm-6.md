@@ -1,6 +1,7 @@
 ---
 title: "Implementing Nick Szabo's Contract Language"
 category: "Language Engineering Projects"
+short: ""
 keywords:
   - language engineering
   - block chain

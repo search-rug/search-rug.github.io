@@ -1,6 +1,7 @@
 ---
 title: "A Survey of Cloud Cost Calculators"
 category: "Software & Architecture Analytics Projects"
+short: ""
 keywords:
   - Cloud Computing
   - Cost
