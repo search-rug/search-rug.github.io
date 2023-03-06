@@ -51,6 +51,18 @@ collections:
           - { name: "dbpl", required: false }
       # TODO: add (research) fields and topics fields
 
+  - name: "news"
+    label: "News"
+    folder: "_news"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { name: "title" }
+      - { name: "keywords", widget: "list" }
+      - { name: "date", widget: "date" }
+      - { name: "body", widget: "markdown" }
+
   - name: "courses"
     label: "Courses"
     folder: "_courses"
