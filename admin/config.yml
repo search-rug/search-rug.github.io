@@ -10,6 +10,8 @@ collections:
     label: "Team"
     folder: "_team"
     create: true
+    editor:
+      preview: false
     fields:
       - { name: "title", widget: string }
       - { name: "position", widget: string }
@@ -67,6 +69,8 @@ collections:
     label: "Courses"
     folder: "_courses"
     create: true
+    editor:
+      preview: false
     fields:
       - { name: "code", label: "Course Code" }
       - { name: "name" }
@@ -102,6 +106,8 @@ collections:
     label: "Research Project"
     folder: "_projects"
     create: true
+    editor:
+      preview: false
     fields:
       - { name: "name" }
       - { name: "short" }
@@ -128,6 +134,8 @@ collections:
     label: "Student Project"
     folder: "_sprojects"
     create: true
+    editor:
+      preview: false
     fields:
       - { name: "title" }
       - { name: "category" }
@@ -155,6 +163,8 @@ collections:
       - name: "index"
         label: "Landing"
         file: "index.md"
+        editor:
+          preview: false
         fields:
           - { name: "title" }
           - { name: "layout" }
@@ -169,6 +179,8 @@ collections:
       - name: "team"
         label: "Team"
         file: "team.md"
+        editor:
+          preview: false
         fields:
           - { name: "title" }
           - { name: "layout" }
@@ -180,6 +192,8 @@ collections:
       - name: "education"
         label: "Education"
         file: "education.md"
+        editor:
+          preview: false
         fields:
           - { name: "title" }
           - { name: "layout" }
@@ -190,6 +204,8 @@ collections:
       - name: "contact"
         label: "Contact"
         file: "contact.md"
+        editor:
+          preview: false
         fields:
           - { name: "title" }
           - { name: "layout" }
