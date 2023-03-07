@@ -1,5 +1,6 @@
 ---
 name: "Sustianable Cloud"
+status: "In Progress"
 members:
   - name: "Sahar Ahmadisakha"
     email: "s.ahmadisakha@rug.nl"
