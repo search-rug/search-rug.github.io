@@ -1,5 +1,6 @@
 ---
 name: "Understanding and Alerting Architecture Erosion during Software Development"
+status: "In Progress"
 members:
   - name: "Ruiyin Li"
     email: "r.li@rug.nl"

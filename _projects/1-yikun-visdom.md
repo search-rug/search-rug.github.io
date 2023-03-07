@@ -1,5 +1,6 @@
 ---
 name: "VISDOM - Visual diagnosis for DevOps software development"
+status: "In Progress"
 members:
   - Prof. dr. ir. Paris Avgeriou
   - Dr. Mohamed A.M. Soliman
