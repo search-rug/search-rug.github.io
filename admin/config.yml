@@ -180,7 +180,6 @@ collections:
           - { name: "title" }
           - { name: "description" }
           - { name: "body", widget: "markdown" }
-          # TODO: should intro_image fields be present here?
 
       - name: "education"
         label: "Education"
