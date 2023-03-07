@@ -200,9 +200,16 @@ collections:
           - { name: "title" }
           - { name: "description" }
           - { name: "body", widget: "markdown" }
-          # TODO: secreteriat
           - name: "group_leader"
             widget: "object"
             fields:
               - { name: "show", widget: "boolean" }
               - { name: "title" }
+          - name: "secretariat"
+            widget: "object"
+            fields:
+              - { name: "show", widget: "boolean" }
+              - { name: "title" }
+              - { name: "email" }
+              - { name: "phone" }
+              - { name: "fax" }
