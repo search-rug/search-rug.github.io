@@ -167,13 +167,8 @@ collections:
           preview: false
         fields:
           - { name: "title" }
-          - { name: "layout" }
           - { name: "description" }
           - { name: "intro_image", widget: "image" }
-          - { name: "intro_image_absolute", widget: "boolean" }
-          - { name: "intro_image_hide_on_mobile", widget: "boolean" }
-          - { name: "show_call_box", widget: "boolean" }
-          - { name: "show_social", widget: "boolean" }
           - { name: "body", widget: "markdown" }
 
       - name: "team"
@@ -183,9 +178,7 @@ collections:
           preview: false
         fields:
           - { name: "title" }
-          - { name: "layout" }
           - { name: "description" }
-          - { name: "permalink" }
           - { name: "body", widget: "markdown" }
           # TODO: should intro_image fields be present here?
 
@@ -196,9 +189,7 @@ collections:
           preview: false
         fields:
           - { name: "title" }
-          - { name: "layout" }
           - { name: "description" }
-          - { name: "permalink" }
           - { name: "body", widget: "markdown" }
 
       - name: "contact"
@@ -208,7 +199,6 @@ collections:
           preview: false
         fields:
           - { name: "title" }
-          - { name: "layout" }
           - { name: "description" }
           - { name: "body", widget: "markdown" }
           # TODO: group leader and secreteriat
