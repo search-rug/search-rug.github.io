@@ -1,6 +1,6 @@
 ---
 title: "Dr. Apostolos Ampatzoglou"
-image: "/images/team/apostolos-ampatzoglou.jpg"
+image: "images/team/apostolos-ampatzoglou.jpg"
 position: "visiting researcher"
 status:
   promoted: false # appear in home page

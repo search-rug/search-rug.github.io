@@ -1,6 +1,6 @@
 ---
 title: "Yikun Li"
-image: "/images/team/yikun-li.jpg"
+image: "images/team/yikun-li.jpg"
 position: "phd student"
 weight: 100
 status:

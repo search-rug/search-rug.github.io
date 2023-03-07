@@ -1,6 +1,6 @@
 ---
 title: "Dr. Daniel Feitosa"
-image: "/images/team/daniel-feitosa.jpg"
+image: "images/team/daniel-feitosa.jpg"
 position: "assistant professor"
 weight: 5
 status:

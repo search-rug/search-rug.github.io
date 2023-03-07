@@ -1,6 +1,6 @@
 ---
 title: "Ruiyin Li"
-image: "/images/team/ruiyin-li.jpg"
+image: "images/team/ruiyin-li.jpg"
 position: "phd student"
 weight: 100
 status:

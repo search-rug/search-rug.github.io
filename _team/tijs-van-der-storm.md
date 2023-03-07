@@ -1,6 +1,6 @@
 ---
 title: "Prof. dr. Tijs van der Storm"
-image: "/images/team/tijs-van-der-storm.jpg"
+image: "images/team/tijs-van-der-storm.jpg"
 position: "professor"
 position_remark: "honorary" 
 weight: 2

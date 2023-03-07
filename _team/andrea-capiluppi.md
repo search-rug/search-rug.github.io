@@ -1,6 +1,6 @@
 ---
 title: "Prof. Dr. Andrea Capiluppi"
-image: "/images/team/andrea-capiluppi.jpg"
+image: "images/team/andrea-capiluppi.jpg"
 position: "associate professor"
 weight: 3
 status:

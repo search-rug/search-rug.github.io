@@ -1,6 +1,6 @@
 ---
 title: "Zaki Pauzi"
-image: "/images/team/zaki-pauzi.jpg"
+image: "images/team/zaki-pauzi.jpg"
 position: "phd student"
 weight: 100
 status:

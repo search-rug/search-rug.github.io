@@ -1,6 +1,6 @@
 ---
 title: "Dr. Mohamed A.M. Soliman"
-image: "/images/team/mohamed-soliman.jpg"
+image: "images/team/mohamed-soliman.jpg"
 position: "postdoc"
 weight: 11
 status:
