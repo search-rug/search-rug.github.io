@@ -1,7 +1,7 @@
 <div class="flex flex-row items-center p-2 rounded-xl border shadow-lg bg-[color:var(--white-offset)]">
     <div class="w-24 h-24 rounded-full overflow-hidden mr-2">
         {% if member.image %}
-        <img alt="{{ member.title }}" class="w-full" src="{{ member.image | relative_url }}" />
+        <img alt="{{ member.title }}" class="w-full" src="{{ member.image }}" />
         {% else %}
         <img alt="{{ member.title }}" class="w-full" src="{{ site.team.default_avatar | relative_url }}" />
         {% endif %}
