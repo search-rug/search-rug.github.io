@@ -10,7 +10,7 @@ bodyClass: "page-research"
   <section class="space-y-4">
     <h2 class="text-2xl">Research Projects</h2>
 
-    <div class="flex flex-col md:flex-row flex-wrap gap-2">
+    <div class="flex flex-col md:flex-row flex-wrap gap-4">
       {% for project in site.projects %}
       <div class="md:max-w-md lg:max-w-xl h-full">
         {% include research-project-card.html clickable=false project=project %}
