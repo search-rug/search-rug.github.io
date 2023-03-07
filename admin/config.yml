@@ -111,7 +111,11 @@ collections:
       - { name: "name" }
       - { name: "short" }
       - { name: "homepage", required: false }
-      - { name: "image", widget: "image", required: false }
+      - name: "image"
+        widget: "image"
+        media_folder: "/images/projects"
+        allow_multiple: false
+        required: false
       - { name: "body", widget: "markdown", required: false }
       - name: "members"
         widget: "relation"
@@ -167,7 +171,11 @@ collections:
         fields:
           - { name: "title" }
           - { name: "description" }
-          - { name: "intro_image", widget: "image" }
+          - name: "intro_image"
+            widget: "image"
+            media_folder: "/images/illustrations"
+            allow_multiple: false
+            required: false
           - { name: "body", widget: "markdown" }
 
       - name: "team"
