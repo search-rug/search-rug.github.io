@@ -32,6 +32,11 @@ defaults:
       layout: "news-post"
   - scope:
       path: ""
+      type: "sprojects"
+    values:
+      layout: "education-project"
+  - scope:
+      path: ""
       type: "team"
     values:
       image: "images/team/search-avatar.svg"
