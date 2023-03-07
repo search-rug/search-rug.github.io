@@ -200,4 +200,9 @@ collections:
           - { name: "title" }
           - { name: "description" }
           - { name: "body", widget: "markdown" }
-          # TODO: group leader and secreteriat
+          # TODO: secreteriat
+          - name: "group_leader"
+            widget: "object"
+            fields:
+              - { name: "show", widget: "boolean" }
+              - { name: "title" }
