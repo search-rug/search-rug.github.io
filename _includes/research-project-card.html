@@ -22,8 +22,9 @@
         <div class="flex flex-col">
           <p class="text-sm">Funding</p>
           <p class="font-medium">
-            {% for entry in project.funding %}
-              <span>{{ entry.agency }}</span>
+            {% for funding in project.funding %}
+              <!--TODO: update to funcing.shortname inside tag when cms is merged-->
+              <span title="{{ funding.agency }} (Number: {{ funding.number }})">{{ funding.agency }}</span>
             {% endfor %}
           </p>
         </div>
