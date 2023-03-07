@@ -1,6 +1,6 @@
 ---
 title: "Dr. Chen Yang"
-image: "images/team/chen-yang.jpg"
+image: "/images/team/chen-yang.jpg"
 position: "phd student"
 status:
   promoted: false # appear in home page

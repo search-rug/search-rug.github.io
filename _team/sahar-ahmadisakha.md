@@ -1,6 +1,6 @@
 ---
 title: "Sahar Ahmadisakha"
-image: "images/team/sahar-ahmadisakha.jpg"
+image: "/images/team/sahar-ahmadisakha.jpg"
 position: "phd student"
 weight: 100
 status:

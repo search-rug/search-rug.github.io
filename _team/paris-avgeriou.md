@@ -1,6 +1,6 @@
 ---
 title: "Prof. dr. ir. Paris Avgeriou"
-image: "images/team/paris-avgeriou.jpg"
+image: "/images/team/paris-avgeriou.jpg"
 position: "professor"
 position_remark: "group leader" 
 weight: 1

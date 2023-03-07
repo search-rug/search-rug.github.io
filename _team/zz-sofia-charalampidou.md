@@ -1,6 +1,6 @@
 ---
 title: "Dr. Sofia Charalampidou"
-image: "images/team/sofia-charalampidou.jpg"
+image: "/images/team/sofia-charalampidou.jpg"
 position: "phd student"
 status:
   promoted: false # appear in home page

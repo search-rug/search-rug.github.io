@@ -1,6 +1,6 @@
 ---
 title: "Dr. Xiao He"
-image: "images/team/xiao-he.jpg"
+image: "/images/team/xiao-he.jpg"
 position: "visiting researcher"
 status:
   promoted: false # appear in home page

@@ -1,6 +1,6 @@
 ---
 title: "Sara Mahdavi-Hezavehi"
-image: "images/team/sara-mahdavi-hezavehi.jpg"
+image: "/images/team/sara-mahdavi-hezavehi.jpg"
 position: "phd student"
 weight: 100
 status:

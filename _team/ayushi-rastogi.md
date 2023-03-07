@@ -1,6 +1,6 @@
 ---
 title: "Dr. Ayushi Rastogi"
-image: "images/team/ayushi-rastogi.jpg"
+image: "/images/team/ayushi-rastogi.jpg"
 position: "assistant professor"
 weight: 5
 status:

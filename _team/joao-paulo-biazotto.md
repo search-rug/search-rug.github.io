@@ -1,6 +1,6 @@
 ---
 title: "João Paulo Biazotto"
-image: "images/team/joao-paulo-biazotto.jpg"
+image: "/images/team/joao-paulo-biazotto.jpg"
 position: "phd student"
 weight: 100
 status:

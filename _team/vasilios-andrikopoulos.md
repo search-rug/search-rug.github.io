@@ -1,6 +1,6 @@
 ---
 title: "Prof. Dr. Vasilios Andrikopoulos"
-image: "images/team/vasilios-andrikopoulos.jpg"
+image: "/images/team/vasilios-andrikopoulos.jpg"
 position: "associate professor"
 weight: 4
 status:
