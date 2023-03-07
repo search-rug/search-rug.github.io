@@ -14,8 +14,7 @@ types:
   - BSc
 posted: 2023-01-01
 supervisors:
-  - name: "Tijs van der Storm"
-    email: "storm@cwi.nl"
+  - Prof. dr. Tijs van der Storm
 ---
 
 DESCRIPTIONGrammars are an essential component of many meta programming scenarios, such as static analysis, mass maintenance, and refactoring. In this project the goal is to obtain a high quality Rascal grammar from the Swift language reference, in a (semi-)automatic, traceable way. In particular, we're interested in the grammar transformation steps needed to go from a "documentation" grammar, to a grammar that can be used for parsing.

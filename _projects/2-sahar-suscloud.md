@@ -10,6 +10,7 @@ short: "The ever-increasing digitalization of our world exacerbated the need (an
 image: "images/projects/2022-Sahar-Suscloud.png"
 funding:
   - agency: "NWO"
+    shortname: "NWO"
     number: "OCENW.M20.243"
 
 ---

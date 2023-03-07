@@ -10,12 +10,11 @@ is_group: false
 available: true
 types:
   - BSc
-  - MSc Int.
+  - MSc Int
   - MSc
 posted: 2023-02-10
 supervisors:
-  - name: "Andrea Capiluppi"
-    email: "a.capiluppi@rug.nl"
+  - Prof. Dr. Andrea Capiluppi
 ---
 # Extracting, Indexing and Listing Replication Packages from Past Research
 

@@ -10,11 +10,10 @@ is_group: false
 available: true
 types:
   - BSc
-  - MSc Int (group project)
+  - MSc Int
 posted: 2023-02-10
 supervisors:
-  - name: "Daniel Feitosa"
-    email: "d.feitosa@rug.nl"
+  - Dr. Daniel Feitosa
 ---
 # Software Mining Rig: Building a Scalable MSR Infrastructure for Research
 

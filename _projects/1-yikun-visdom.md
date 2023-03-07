@@ -10,5 +10,6 @@ homepage: "https://iteavisdom.org/"
 image: "images/projects/visdom_logo.png"
 funding:
   - agency: "ITEA3/RVO"
+    shortname: "ITEA3/RVO"
     number: "17038"
 ---
