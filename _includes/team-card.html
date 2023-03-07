@@ -3,19 +3,11 @@
     <div class="flex flex-row items-top h-full">
       <!-- Member image -->
       <div class="grow-0 shrink-0 basis-auto w-4/12 max-w-[112px] pr-3">
-        {% if member.image %}
         <img 
           alt="{{ member.title }}"
           class="w-full rounded-md mb-0"
           src="{{ member.image | relative_url }}"
           />
-        {% else %}
-        <img 
-          alt="{{ member.title }}"
-          class="w-full rounded-md mb-0"
-          src="{{ site.team.default_avatar | relative_url }}"
-          />
-        {% endif %}
       </div>
       <!-- Member info -->
       <div class="grow-0 shrink-0 basis-auto w-8/12 h-full">
