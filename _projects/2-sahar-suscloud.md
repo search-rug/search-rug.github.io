@@ -1,5 +1,6 @@
 ---
 name: "Sustianable Cloud"
+status: "In Progress"
 members:
   - name: "Sahar Ahmadisakha"
     email: "s.ahmadisakha@rug.nl"
@@ -11,4 +12,5 @@ funding:
   - agency: "NWO"
     shortname: "NWO"
     number: "OCENW.M20.243"
+
 ---

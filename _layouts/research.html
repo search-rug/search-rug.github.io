@@ -6,16 +6,17 @@ bodyClass: "page-research"
 
 <div class="container mx-auto px-4 pb-6 pt-[100px] pb-md-10">
   <h1 class="text-black text-5xl leading-5 lg:text-[50px] font-semibold mb-8">{{page.title}}</h1>
-  <!--
-  <div class="content mt-4">
-    {{ content }}
-  </div>
-  -->
 
-  <h2 class="text-2xl mb-8">Projects</h2>
-  <div class="flex flex-col" style="gap: 15px">
-    {% for project in site.projects %}
-      {% include research-card.html project=project %}
-    {% endfor %}
-  </div>
+  <section class="space-y-4">
+    <h2 class="text-2xl">Research Projects</h2>
+
+    <div class="flex flex-col md:flex-row flex-wrap gap-4">
+      {% for project in site.projects %}
+      <div class="md:max-w-md lg:max-w-xl h-full">
+        {% include research-project-card.html clickable=false project=project %}
+      </div>
+      {% endfor %}
+    </div>
+
+  </section>
 </div>

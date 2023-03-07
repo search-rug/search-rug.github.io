@@ -1,5 +1,6 @@
 ---
 name: "The Impact of Natural Language Processing Approach on the Detection of Technical Debt"
+status: "In Progress"
 members:
   - name: "Edi Sutoyo"
     email: "e.sutoyo@rug.nl"
