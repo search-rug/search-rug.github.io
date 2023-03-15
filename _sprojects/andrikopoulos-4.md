@@ -13,8 +13,7 @@ types:
   - MSc
 posted: 2023-01-01
 supervisors:
-  - name: "Vasilios Andrikopoulos"
-    email: "v.andrikopoulos@rug.nl"
+  - Prof. Dr. Vasilios Andrikopoulos
 ---
 
 DESCRIPTION

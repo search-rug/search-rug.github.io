@@ -22,7 +22,6 @@ social:
   github: "https://github.com/tvdstorm"
 fields:
   - lang
-  - dev. tools
   - arch
 topics:
   - Software Language Engineering 

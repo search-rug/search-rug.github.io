@@ -15,10 +15,8 @@ types:
   - Int
 posted: 2023-02-10
 supervisors:
-  - name: "Mohamed Soliman"
-    email: "m.a.m.soliman@rug.nl"
-  - name: "Paris Avgeriou"
-    email: "p.avgeriou@rug.nl"
+  - Dr. Mohamed A.M. Soliman
+  - Prof. dr. ir. Paris Avgeriou
 ---
 
 # Exploring Architectural Knowledge in Open Source Systems

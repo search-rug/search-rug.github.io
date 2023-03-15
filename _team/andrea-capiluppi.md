@@ -21,7 +21,6 @@ social:
 fields:
   - m&t
   - sda
-  - org
 topics:
   - Software development 
   - Reuse of architectures and components 

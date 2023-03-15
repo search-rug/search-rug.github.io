@@ -23,7 +23,6 @@ social:
   github: "https://github.com/feitosa-daniel"
 fields:
   - arch
-  - dev. tools
   - sda
 topics:
   - Technical Debt
