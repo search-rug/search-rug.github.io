@@ -15,7 +15,8 @@ collections:
   projects:
     output: false
   sprojects:
-    output: false
+    output: true
+    permalink: /student-project/:path/
   news:
     output: true
 
@@ -31,9 +32,13 @@ defaults:
       layout: "news-post"
   - scope:
       path: ""
+      type: "sprojects"
+    values:
+      layout: "education-project"
+  - scope:
+      path: ""
       type: "team"
     values:
-      layout: "team"
       image: "images/team/search-avatar.svg"
 
 sass:

@@ -12,7 +12,6 @@
         <p class="text-sm">Members</p>
         <p class="font-medium flex -space-x-2">
           {% for member_name in project.members %}
-            <!--TODO: This will not work before schema changes in netlify-cms have been merged-->
             {% assign member = site.team | where: "title", member_name | first %}
             {% include member-pfp-circle.html member=member %}
           {% endfor %}
@@ -23,8 +22,7 @@
           <p class="text-sm">Funding</p>
           <p class="font-medium">
             {% for funding in project.funding %}
-              <!--TODO: update to funcing.shortname inside tag when cms is merged-->
-              <span title="{{ funding.agency }} (Number: {{ funding.number }})">{{ funding.agency }}</span>
+              <span title="{{ funding.shortname }} (Number: {{ funding.number }})">{{ funding.shortname }}</span>
             {% endfor %}
           </p>
         </div>
