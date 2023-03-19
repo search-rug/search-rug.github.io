@@ -8,15 +8,27 @@ bodyClass: "page-research"
   <h1 class="text-black text-5xl leading-5 lg:text-[50px] font-semibold mb-8">{{page.title}}</h1>
 
   <section class="space-y-4">
-    <h2 class="text-2xl">Research Projects</h2>
 
+    {% assign current_projects = site.projects | where: "status", "In Progress"%}
+
+    <h3 class="text-xl">Current Projects ({{ current_projects.size }})</h2>
     <div class="flex flex-col md:flex-row flex-wrap gap-4">
-      {% for project in site.projects %}
+      {% for project in current_projects %}
       <div class="md:max-w-md lg:max-w-xl h-full">
         {% include research-project-card.html clickable=false project=project %}
       </div>
       {% endfor %}
     </div>
 
+    {% assign past_projects = site.projects | where_exp: "project", "project.status != 'In Progress'"  %}
+
+    {% if past_projects.size > 0 %}
+      <h3 class="text-xl">Past Projects ({{ past_projects.size }})</h2>
+      <ul>
+        {% for project in past_projects %}
+        <li class="underline"> <a href="{{ project.url }}">{{ project.title }}</a> </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </section>
 </div>
