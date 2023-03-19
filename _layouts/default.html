@@ -32,9 +32,9 @@
   <script defer data-domain="search-rug.github.io" src="https://plausible.io/js/script.js"></script>
 </head>
 
-<body class='page {{layout.bodyClass}}'>
+<body class='flex flex-col min-h-screen page {{layout.bodyClass}}'>
   {% include main-menu.html name='main-menu-mobile' %}
-  <div id="wrapper" class="wrapper">
+  <div id="wrapper" class="grow wrapper">
     {% include header.html headerClass='header-extra' %}
     {{content}}
   </div>

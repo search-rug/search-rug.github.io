@@ -7,7 +7,8 @@ members:
 short: ""
 image: "images/projects/tdm-automation.png"
 funding:
-  - agency: "Kemendikbudristek"
+  - agency: "Center for Education Financial Services, Ministry of Education, Culture, Research, and Technology, the Republic of Indonesia"
+    shortname: "Kemendikbudristek" # TODO: what would be an appropriate shortname for this?
     number: "1036/J5.2.3/BPI.LG/VIII/2022"
 ---
 

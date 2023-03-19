@@ -8,6 +8,7 @@ short: "This project aims to develop a sustainability-aware architecting framewo
 image: "images/projects/2022-Sahar-Suscloud.png"
 funding:
   - agency: "NWO"
+    shortname: "NWO"
     number: "OCENW.M20.243"
 
 ---

@@ -12,16 +12,13 @@ types:
   - MSc Int
   - MSc
 posted: 2023-02-10
-# TODO: replace this description with an approved one
 short: "We are offering a series of projects under the umbrella of mining cloud cost awareness, that is, of software developers being aware of the costs of deploying and operating cloud-based software."
 supervisors:
-  - name: "Vasilios Andrikopoulos"
-    email: "v.andrikopoulos@rug.nl"
-  - name: "Daniel Feitosa"
-    email: "d.feitosa@rug.nl"
+  - Prof. Dr. Vasilios Andrikopoulos
+  - Dr. Daniel Feitosa
 ---
 
-We are offering a series of projects under the umbrella of mining cloud cost awareness, that is, of software developers being aware of the costs of deploying and operating cloud-based software, and taking actions to address them. The projects are based on the Mining Software Repositories approach, and use publicly available repositories on GitHub. The projects under this topic build on the results of the collaborative thesis project by Berardi, Penca, and Boza.
+We are offering a series of projects under the umbrella of mining cloud cost awareness, that is, of software developers being aware of the costs of deploying and operating cloud-based software, and taking actions to address them. The projects are based on the Mining Software Repositories approach, and use publicly available repositories on GitHub. The projects under this topic build on the results of the [collaborative thesis project](https://fse.studenttheses.ub.rug.nl/27946/) by Berardi, Penca, and Boza.
 
 More specifically, one or more of the following open research issues can be pursued individually or in groups:
 
