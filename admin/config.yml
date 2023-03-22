@@ -1,8 +1,10 @@
 # config.yml
 backend:
-  name: github
-  repo: search-rug/search-rug.github.io
-  branch: main
+  name: git-gateway
+  repo: kakka0903/search-rug.github.io
+  branch: netlify-cms
+  identity_url: "https://spp-rug-search.netlify.app/.netlify/identity"
+  gateway_url: "https://spp-rug-search.netlify.app/.netlify/git"
 media_folder: "assets/uploads"
 collections:
   - name: "team"
