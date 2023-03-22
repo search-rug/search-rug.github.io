@@ -12,7 +12,9 @@ bodyClass: "page-research"
 
     <div class="grid lg:grid-cols-2 gap-4">
       {% for project in site.projects %}
-        {% include research-project-card.html clickable=false project=project %}
+      <a href="{{ project.url }}" class="md:max-w-md lg:max-w-xl h-full">
+        {% include research-project-card.html clickable=true project=project %}
+      </a>
       {% endfor %}
     </div>
 
