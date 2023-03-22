@@ -4,7 +4,7 @@ status: "In Progress"
 members:
   - "Prof. dr. ir. Paris Avgeriou"
   - "Ruiyin Li"
-short: "This research project aims to increase understanding of architecture erosion and provide strategies for mitigating its effects. Our objective is to assist researchers and practitioners in detecting and mitigating architecture erosion, with the aim of (partially) resolving this issue.
+short: "This research project aims to increase understanding of architecture erosion and provide strategies for mitigating its effects. Our objective is to assist researchers and practitioners in detecting and mitigating architecture erosion, with the aim of (partially) resolving this issue."
 logo:
 ---
 
