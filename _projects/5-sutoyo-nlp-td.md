@@ -4,8 +4,7 @@ status: "In Progress"
 members:
   - "Prof. Dr. Andrea Capiluppi"
   - "Edi Sutoyo"
-short: ""
-logo:
+short: "This project aims to increase the accuracy of automatic classification and, through it, eliminate a significant portion of the costs relating to technical debt detection."
 funding:
   - agency: "Center for Education Financial Services, Ministry of Education, Culture, Research, and Technology, the Republic of Indonesia"
     shortname: "Kemendikbudristek" # TODO: what would be an appropriate shortname for this?

@@ -1,11 +1,10 @@
 ---
-name: "Sustianable Cloud"
+name: "Sustainable Cloud"
 status: "In Progress"
 members:
   - "Prof. Dr. Vasilios Andrikopoulos"
   - "Sahar Ahmadisakha"
 short: "This project aims to develop a sustainability-aware architecting framework specifically for cloud-based software services which incorporates all dimensions of system sustainability. The framework is structured around the use of sustainability indicators, one per dimension, as the means of abstracting away from dimension-specific concerns."
-logo:
 funding:
   - agency: "NWO"
     shortname: "NWO"
