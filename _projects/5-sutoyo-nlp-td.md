@@ -5,7 +5,7 @@ members:
   - "Prof. Dr. Andrea Capiluppi"
   - "Edi Sutoyo"
 short: ""
-image: "images/projects/tdm-automation.png"
+logo:
 funding:
   - agency: "Center for Education Financial Services, Ministry of Education, Culture, Research, and Technology, the Republic of Indonesia"
     shortname: "Kemendikbudristek" # TODO: what would be an appropriate shortname for this?

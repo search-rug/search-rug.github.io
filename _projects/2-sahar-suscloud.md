@@ -5,7 +5,7 @@ members:
   - "Prof. Dr. Vasilios Andrikopoulos"
   - "Sahar Ahmadisakha"
 short: "This project aims to develop a sustainability-aware architecting framework specifically for cloud-based software services which incorporates all dimensions of system sustainability. The framework is structured around the use of sustainability indicators, one per dimension, as the means of abstracting away from dimension-specific concerns."
-image: "images/projects/2022-Sahar-Suscloud.png"
+logo:
 funding:
   - agency: "NWO"
     shortname: "NWO"
