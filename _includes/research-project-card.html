@@ -1,7 +1,7 @@
 <!--Set clickable=true for an indication when hovering-->
 <article class="rounded-lg border p-6 shadow-lg {% if include.clickable %} transition transform hover:scale-[102%] cursor-pointer {% endif %} h-full">
   <div class="flex flex-col gap-2 h-full">
-    <div class="flex gap-4 items-center">
+    <div class="flex gap-4 items-center min-h-[50px]">
       {% if project.logo %}
         <img class="w-[50px] h-[50px]" src="{{ project.logo | relative_url }}" alt="" style="object-fit: cover; flex-shrink: 0;">
       {% endif %}
@@ -39,4 +39,5 @@
         </p>
       </div>
     </div>
+  </div>
 </article>
