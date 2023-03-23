@@ -6,17 +6,14 @@ bodyClass: "page-research"
 
 <div class="container mx-auto px-4 pb-6 pt-[100px] pb-md-10">
   <h1 class="text-black text-5xl leading-5 lg:text-[50px] font-semibold mb-8">{{page.title}}</h1>
+  <section class="space-y-8">
+    <h2 class="text-2xl">Research Projects</h2>
 
-  <section class="space-y-4">
-
-    {% assign current_projects = site.projects | where: "status", "In Progress"%}
-
-    <h3 class="text-xl">Current Projects ({{ current_projects.size }})</h2>
-    <div class="flex flex-col md:flex-row flex-wrap gap-4">
-      {% for project in current_projects %}
-      <div class="md:max-w-md lg:max-w-xl h-full">
-        {% include research-project-card.html clickable=false project=project %}
-      </div>
+    <div class="grid lg:grid-cols-2 gap-4">
+      {% for project in site.projects %}
+        <a href="{{ project.url }}">
+          {% include research-project-card.html clickable=true project=project %}
+        </a>
       {% endfor %}
     </div>
 
