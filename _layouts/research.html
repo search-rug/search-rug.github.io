@@ -18,7 +18,7 @@ bodyClass: "page-research"
     </div>
   </section>
 
-  {% assign past_projects = site.projects | where_exp: "project", "project.status != 'In Progress'"  %}
+  {% assign past_projects = site.projects | where_exp: "project", "project.status != 'In Progress'"  %}
   {% if past_projects.size > 0 %}
     <section class="space-y-2">
       <h2 class="text-2xl">Past Projects ({{ past_projects.size }})</h2>
