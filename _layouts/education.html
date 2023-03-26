@@ -20,4 +20,16 @@ bodyClass: "page-education"
       {% endfor %}
     </div>
   </section>
+
+  {% assign past_projects = site.sprojects | where: "available", "false"  %}
+  {% if past_projects.size > 0 %}
+    <section class="space-y-3">
+      <h2 class="text-2xl">Previous Student Projects ({{ past_projects.size }})</h2>
+      <ul>
+        {% for project in past_projects %}
+          <li><a href="{{ project.url }}" class="underline">{{ project.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
 </div>
