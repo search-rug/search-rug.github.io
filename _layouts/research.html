@@ -9,8 +9,9 @@ bodyClass: "page-research"
   <section class="space-y-8">
     <h2 class="text-2xl">Research Projects</h2>
 
+    {% assign active_projects = site.projects | where_exp: "project", "project.status == 'In Progress'"  %}
     <div class="grid lg:grid-cols-2 gap-4">
-      {% for project in site.projects %}
+      {% for project in active_projects %}
         <a href="{{ project.url }}">
           {% include research-project-card.html clickable=true project=project %}
         </a>
