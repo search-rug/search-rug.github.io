@@ -4,9 +4,9 @@ layout: default
 bodyClass: "page-research"
 ---
 
-<div class="container mx-auto px-4 pb-6 pt-[100px] pb-md-10">
+<div class="container space-y-8 mx-auto px-4 pb-6 pt-[100px] pb-md-10">
   <h1 class="text-black text-5xl leading-5 lg:text-[50px] font-semibold mb-8">{{page.title}}</h1>
-  <section class="space-y-8">
+  <section class="space-y-3">
     {% assign active_projects = site.projects | where_exp: "project", "project.status == 'In Progress'"  %}
     <h2 class="text-2xl">Research Projects ({{active_projects.size}}) </h2>
     <div class="grid lg:grid-cols-2 gap-4">
