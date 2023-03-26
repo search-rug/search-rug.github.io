@@ -11,10 +11,11 @@ bodyClass: "page-education"
       {{ content }}
     </div>
   -->
+  {% assign available_projects = site.sprojects | where: "available", "true"  %}
   <section class="space-y-3">
-    <h2 class="text-2xl">Student Projects</h2>
+    <h2 class="text-2xl">Available Student Projects ({{ available_projects.size }})</h2>
     <div class="grid lg:grid-cols-2 gap-4">
-      {% for project in site.sprojects %}
+      {% for project in available_projects %}
         {% include project-card.html project=project %}
       {% endfor %}
     </div>
