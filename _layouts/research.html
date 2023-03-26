@@ -24,7 +24,7 @@ bodyClass: "page-research"
       <h2 class="text-2xl">Past Projects ({{ past_projects.size }})</h2>
       <ul>
         {% for project in past_projects %}
-        <li class="underline"> <a href="{{ project.url }}">{{ project.title }}</a> </li>
+        <li class="underline"> <a href="{{ project.url }}">{{ project.name }}</a> </li>
         {% endfor %}
       </ul>
     </section>
