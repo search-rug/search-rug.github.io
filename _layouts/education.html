@@ -1,10 +1,15 @@
 ---
 layout: default
 bodyClass: "page-education"
+sections:
+ - Available Student Projects
+ - Previous Student Projects
 ---
 
 <div class="container mx-auto px-4 pb-6 pt-[100px] space-y-8 pb-md-10">
   <h1 class="text-black text-5xl leading-5 lg:text-[50px] font-semibold">{{ page.title }}</h1>
+
+  {% include section-scroll-buttons.html sections=layout.sections %}
 
   <!--
     <div class="content mt-4">
