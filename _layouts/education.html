@@ -28,6 +28,7 @@ sections:
 
   {% assign past_projects = site.sprojects | where: "available", "false"  %}
   {% if past_projects.size > 0 %}
+  <!-- TODO: this can be refactored into an include-->
     <section class="space-y-3">
       <h2 class="text-2xl">Previous Student Projects</h2>
       <ul>
