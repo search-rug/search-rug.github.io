@@ -1,6 +1,7 @@
 ---
 title: "Extracting a Rascal Grammar from the Swift Reference Manual"
 category: "Language Engineering Projects"
+archived: false
 short: "In this project the goal is to obtain a high quality Rascal grammar from the Swift language reference, in a (semi-)automatic, traceable way."
 keywords:
   - language engineering
@@ -23,4 +24,4 @@ Deliverables
 
 - A prototype tool to extract the Swift grammar
 - An analysis of transformations needed for recovering disambiguation constructs
-- Evaluation by parsing realistic Swift code. 
+- Evaluation by parsing realistic Swift code.

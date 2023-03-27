@@ -1,6 +1,7 @@
 ---
 title: "Establishing the environmental footprint of chatbots"
 category: "Software & Architecture Analytics Projects 2022-23"
+archived: false
 short: "This project aims to investigate what is the environmental footprint of training and using chatbots."
 keywords:
   - Cloud Computing

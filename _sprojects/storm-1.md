@@ -1,6 +1,7 @@
 ---
 title: "Domain-specific Spreadsheet Languages and Tools"
 category: "Language Engineering Projects"
+archived: false
 short: "The goal of this project is to explore how Rascal can support the definition of domain-specific spreadsheet languages."
 keywords:
   - language engineering
@@ -24,7 +25,7 @@ Components of the work:
 - Detailed literature study of spreadsheet-based languages or systems.
 - Design of a "spreadsheet grammar" formalism which supports defining spreadsheet-based languages.
 - Implementation of a prototype which shows feasibility and viability of putting spreadsheets in front of Rascal.
-- Evaluation using a case-study DSL (for instance, the questionnaire language QL) 
+- Evaluation using a case-study DSL (for instance, the questionnaire language QL)
 
 ### Literature
 

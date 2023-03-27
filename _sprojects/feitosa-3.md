@@ -1,6 +1,7 @@
 ---
 title: "Software Mining Rig: Building a Scalable MSR Infrastructure for Research"
 category: "Software & Architecture Analytics Projects 2022-23"
+archived: false
 short: "This project aims at building an MSR data collection infrastructure that can evolve and scale with minimum interruption."
 keywords:
   - mining software repositories

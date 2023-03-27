@@ -1,6 +1,7 @@
 ---
 name: "Sustainable Cloud"
 status: "In Progress"
+archived: false
 members:
   - "Prof. Dr. Vasilios Andrikopoulos"
   - "Sahar Ahmadisakha"

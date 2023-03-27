@@ -1,6 +1,7 @@
 ---
 title: "How does software change?"
 category: "Software & Architecture Analytics Projects"
+archived: false
 short: "There are many parts of this project, offering interesting and challenging opportunities at the intersection of software engineering and artificial intelligence."
 keywords:
   - software engineering

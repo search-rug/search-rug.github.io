@@ -1,6 +1,7 @@
 ---
 title: "Missing Opportunities in Global Software Engineering"
 category: "Software & Architecture Analytics Projects 2022-23"
+archived: false
 short: "This project involves the identification of issues in global teams and/or ways to solve the problems experienced by global developers."
 keywords:
   - software engineering

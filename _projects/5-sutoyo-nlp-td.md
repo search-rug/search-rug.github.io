@@ -1,6 +1,7 @@
 ---
 name: "The Impact of Natural Language Processing Approach on the Detection of Technical Debt"
 status: "In Progress"
+archived: false
 members:
   - "Prof. Dr. Andrea Capiluppi"
   - "Edi Sutoyo"

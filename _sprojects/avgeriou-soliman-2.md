@@ -1,6 +1,7 @@
 ---
 title: "Design and Implementation of a Technical Debt Monitoring System for PHP"
 category: "Software & Architecture Analytics Projects"
+archived: false
 short: "The Technical Debt Monitoring System would continuously monitor and track the technical debt incurred during software development by utilizing static code analysis tools such as SonarQube, specifically within the context of merge requests."
 keywords:
   - software engineering
