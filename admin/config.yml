@@ -5,6 +5,7 @@ backend:
   branch: netlify-cms
   identity_url: "https://spp-rug-search.netlify.app/.netlify/identity"
   gateway_url: "https://spp-rug-search.netlify.app/.netlify/git"
+  site_domain: "https://spp-rug-search.netlify.app"
 media_folder: "assets/uploads"
 collections:
   - name: "team"
