@@ -1,6 +1,7 @@
 ---
 name: "Understanding and Alerting Architecture Erosion during Software Development"
 status: "In Progress"
+archived: false
 members:
   - "Prof. dr. ir. Paris Avgeriou"
   - "Ruiyin Li"

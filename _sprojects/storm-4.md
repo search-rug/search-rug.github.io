@@ -1,6 +1,7 @@
 ---
 title: "Hybrid Partial Evaluation for Javascript"
 category: "Language Engineering Projects"
+archived: false
 short: ""
 keywords:
   - language engineering

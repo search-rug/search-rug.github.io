@@ -1,6 +1,7 @@
 ---
 title: "CodeBuff in Rascal"
 category: "Language Engineering Projects"
+archived: false
 short: "CodeBuff has been implemented in the context of the ANTLR parse generator, and uses its internal parse tree data structures for learning and formatting. We're interested in transferring CodeBuff to the context of the Rascal language workbench."
 keywords:
   - language engineering
@@ -22,6 +23,7 @@ Fortunately, Terence Parr (the ANTLR guy) and Jurgen Vinju recently developed Co
 CodeBuff has been implemented in the context of the ANTLR parse generator, and uses its internal parse tree data structures for learning and formatting. We're interested in transferring CodeBuff to the context of the [Rascal](http://www.rascal-mpl.org/) language workbench. A key technical challenge, however, is that the way ANTLR and Rascal deal with layout nodes (i.e. nodes in the parse tree containing whitespace, comments etc.) is different. Thus, porting CodeBuff to Rascal, requires conceptual changes to the learning and formatting algorithms. Figuring out how, is exactly the goal of this project.
 
 Deliverables:
+
 - A precise description of the CodeBuff algorithm, including the required modifications for working with Rascal parse trees.
 - (Re-)evaluation of the CodeBuff learning and formatting quality using the case studies of the paper.
-- Evaluation in the context of other Rascal-defined languages (including Rascal itself). 
+- Evaluation in the context of other Rascal-defined languages (including Rascal itself).

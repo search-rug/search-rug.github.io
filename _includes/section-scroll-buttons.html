@@ -1,0 +1,39 @@
+<!--
+  This include creates scroll buttons for sections on the page.
+  Sections can be specified by setting `sections` variable.
+  The entries in this variable should match the text of a heading on the page.
+-->
+<div>
+  <div>
+    <ul class="ml-4 list-disc" id="section-links">
+      {% for section in include.sections %}
+        <li><button class="underline hover:text-gray-500">{{section}}</button></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <script>
+    function scrollToHeading(section_title) {
+      /* Scroll the heading with given title into view. */
+      let headings = document.querySelectorAll("h1,h2,h3,h4,h5");
+      Array.from(headings).forEach(heading => {
+        if (heading.textContent == section_title) {
+          heading.scrollIntoView({behavior: "smooth"});
+        }
+      })
+    }
+
+    function initSectionButtons(section_list_id) {
+      /* Add event listeners to each section button. */
+      let sectionButtons = document.querySelectorAll(`#${section_list_id} button`)
+      sectionButtons.forEach(child => {
+        child.addEventListener('click', () => {
+          scrollToHeading(child.innerHTML);
+        })
+      });
+      console.log(`Added listeners to ${sectionButtons.length} section buttons`);
+    }
+
+    initSectionButtons('section-links');
+  </script>
+</div>

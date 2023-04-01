@@ -1,6 +1,7 @@
 ---
 title: "Is Design Pattern Grime Related to Technical Debt?"
 category: "Software & Architecture Analytics Projects"
+archived: false
 short: "This project consists of an empirical study for mining pattern grime and TD items from open-source software (OSS) projects and correlating the presence of TD items in pattern instances with higher levels of pattern grime."
 keywords:
   - mining software repositories

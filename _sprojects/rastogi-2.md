@@ -1,6 +1,7 @@
 ---
 title: "Fairness in Software Engineering"
 category: "Software & Architecture Analytics Projects 2022-23"
+archived: false
 short: "Join us in understanding the many ways in which development activities are unfair, the extent of the problem, and solutions to mitigate it. There are many interesting research problems here that will need software engineering and artificial intelligence-based solutions."
 keywords:
   - software engineering

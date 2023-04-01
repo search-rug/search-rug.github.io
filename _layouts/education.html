@@ -1,20 +1,41 @@
 ---
 layout: default
 bodyClass: "page-education"
+sections:
+ - Available Student Projects
+ - Previous Student Projects
 ---
 
-<div class="container mx-auto px-4 pb-6 pt-[100px] pb-md-10">
-  <h1 class="text-black text-5xl leading-5 lg:text-[50px] font-semibold mb-8">{{ page.title }}</h1>
+<div class="container mx-auto px-4 pb-6 pt-[100px] space-y-8 pb-md-10">
+  <h1 class="text-black text-5xl leading-5 lg:text-[50px] font-semibold">{{ page.title }}</h1>
+
+  {% include section-scroll-buttons.html sections=layout.sections %}
 
   <!--
     <div class="content mt-4">
       {{ content }}
     </div>
   -->
-  <h2 class="text-2xl mb-8">Student Projects</h2>
-  <div class="grid lg:grid-cols-2 gap-4">
-    {% for project in site.sprojects %}
-      {% include project-card.html project=project %}
-    {% endfor %}
-  </div>
+  {% assign available_projects = site.sprojects | where: "archived", "false"  %}
+  <section class="space-y-3">
+    <h2 class="text-2xl">Available Student Projects</h2>
+    <div class="grid lg:grid-cols-2 gap-4">
+      {% for project in available_projects %}
+        {% include project-card.html project=project %}
+      {% endfor %}
+    </div>
+  </section>
+
+  {% assign past_projects = site.sprojects | where: "archived", "true"  %}
+  {% if past_projects.size > 0 %}
+  <!-- TODO: this can be refactored into an include-->
+    <section class="space-y-3">
+      <h2 class="text-2xl">Previous Student Projects</h2>
+      <ul class="list-disc ml-4">
+        {% for project in past_projects %}
+          <li><a href="{{ project.url }}" class="underline">{{ project.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
 </div>

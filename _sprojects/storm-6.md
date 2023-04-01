@@ -1,6 +1,7 @@
 ---
 title: "Implementing Nick Szabo's Contract Language"
 category: "Language Engineering Projects"
+archived: false
 short: "Some time ago, Nick Szabo wrote an essay exploring how a language for smart contracts could look like. The goal of this project is to go one step further to define a proper semantics and implementation of a language like this."
 keywords:
   - language engineering
@@ -21,9 +22,11 @@ Smart contracts are little programs that run on blockchain-like distributed ledg
 Some time ago, Nick Szabo wrote an essay exploring how a language for smart contracts could look like. The goal of this project is to go one step further to define a proper semantics and implementation of a language like this.
 
 Deliverables:
+
 - A formal semantics of the language
 - A prototype language implementation
-- Evaluation using some existing contracts 
+- Evaluation using some existing contracts
 
 ### Resources
+
 - [http://nakamotoinstitute.org/contract-language/](http://nakamotoinstitute.org/contract-language/ )
