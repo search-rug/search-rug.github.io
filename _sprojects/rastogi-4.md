@@ -1,6 +1,7 @@
 ---
 title: "Exploratory Study On Emerging Digital Technologies In SMEs"
 category: "Software & Architecture Analytics Projects 2022-23"
+archived: false
 short: "In the project, researchers and students from different universities collaborate with practitioners from SMEs in a series of case studies in which the current state of affairs regarding emerging digital technologies is being explored."
 keywords:
   - software engineering
@@ -29,7 +30,7 @@ Potential research may include:
 
 We do not set any initial requirements for the skills or specialization of the participating students, but we do demand a genuine interest in the user aspects of emerging digital technologies, specifically in SMEs.
 
-**Available spots**: No limit. 
+**Available spots**: No limit.
 
 ### Literature
 

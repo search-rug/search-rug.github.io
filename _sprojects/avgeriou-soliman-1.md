@@ -1,6 +1,7 @@
 ---
 title: "Develop a Web-Based Self-Admitted Technical Debt Visualization and Management System"
 category: "Software & Architecture Analytics Projects"
+archived: false
 short: "In order to better manage technical debt, we need to design and develop a visualization and management system to help developers manage self-admitted technical debt."
 keywords:
   - software engineering

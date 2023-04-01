@@ -1,6 +1,7 @@
 ---
 name: "Detecting Similarities between Software Systems Based on NLP Techniques"
 status: "In Progress"
+archived: false
 members:
   - "Prof. Dr. Andrea Capiluppi"
   - "Cezar Sas"

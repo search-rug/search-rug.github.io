@@ -1,6 +1,7 @@
 ---
 title: "A Survey of Cloud Cost Calculators"
 category: "Software & Architecture Analytics Projects"
+archived: false
 short: "This project aims to survey existing approaches from both research (through e.g. a literature review) and practice (by means of locating and examining open source cost calculator projects) in order to compare and contrast these approaches, forming the State of the Art on the topic."
 keywords:
   - Cloud Computing

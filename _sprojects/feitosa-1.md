@@ -1,6 +1,7 @@
 ---
 title: "Upgrade Design Pattern Detector and Quality Assessment"
 category: "ML, NLP and Refactoring Projects 2022-23"
+archived: false
 short: "This project entails the refactoring and upgrade (incl. dependencies' update and small bug fixes) of both SSAP and Spoon-PttGrime."
 keywords:
   - refactoring

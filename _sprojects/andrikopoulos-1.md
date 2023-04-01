@@ -1,6 +1,8 @@
 ---
 title: "Mining cloud cost-awareness from open-source repositories"
 category: "Software & Architecture Analytics Projects"
+archived: false
+short: "We are offering a series of projects under the umbrella of mining cloud cost awareness, that is, of software developers being aware of the costs of deploying and operating cloud-based software."
 keywords:
   - Cloud Computing
   - Mining Software Repositories
@@ -12,7 +14,6 @@ types:
   - MSc Int
   - MSc
 posted: 2023-02-10
-short: "We are offering a series of projects under the umbrella of mining cloud cost awareness, that is, of software developers being aware of the costs of deploying and operating cloud-based software."
 supervisors:
   - Prof. Dr. Vasilios Andrikopoulos
   - Dr. Daniel Feitosa

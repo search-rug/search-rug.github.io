@@ -1,6 +1,7 @@
 ---
 title: "Exploring Architectural Knowledge in Open Source Systems"
 category: "Software & Architecture Analytics Projects 2022-23"
+archived: false
 short: "This research effort includes the identification of relevant architectural knowledge, the analysis of the distribution of architectural knowledge in open source systems, and the development of a tool to support software engineers to find relevant architectural knowledge."
 keywords:
   - Architectural Knowledge
