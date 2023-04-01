@@ -4,6 +4,7 @@ layout: default
 bodyClass: "page-research"
 # entries in `sections` match the text of a heading on the page
 sections:
+ - Contributions
  - Active Projects
  - Past Projects
 ---
@@ -13,6 +14,20 @@ sections:
 
   <!-- Adds a scroll button for each section defined above. -->
   {% include section-scroll-buttons.html sections=layout.sections %}
+
+  <section>
+    <h3 class="text-2xl">Contributions</h3>
+
+    <ul class="list-disc ml-4">
+      {% for contrib in site.data.contributions %}
+        <li>
+          <a class="underline hover:text-gray-500" href="{{contrib.link}}">
+            {{contrib.title}}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
 
   <section class="space-y-3">
     {% assign active_projects = site.projects | where: "archived", "false" %}
