@@ -1,5 +1,5 @@
 ---
-name: "VISDOM - Visual diagnosis for DevOps software development"
+title: "VISDOM - Visual diagnosis for DevOps software development"
 status: "In Progress"
 archived: false
 members:

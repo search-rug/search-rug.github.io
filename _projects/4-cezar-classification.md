@@ -1,5 +1,5 @@
 ---
-name: "Detecting Similarities between Software Systems Based on NLP Techniques"
+title: "Detecting Similarities between Software Systems Based on NLP Techniques"
 status: "In Progress"
 archived: false
 members:
