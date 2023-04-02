@@ -43,14 +43,9 @@ sections:
 
   {% assign past_projects = site.projects | where: "archived", "true" %}
   {% if past_projects.size > 0 %}
-  <!-- TODO: this can be refactored into an include-->
     <section class="space-y-2">
       <h2 class="text-2xl">Past Projects</h2>
-      <ul class="list-disc ml-4">
-        {% for project in past_projects %}
-        <li class="underline"> <a href="{{ project.url }}">{{ project.title }}</a> </li>
-        {% endfor %}
-      </ul>
+      {% include page-list.html pages=past_projects %}
     </section>
   {% endif %}
 </div>
