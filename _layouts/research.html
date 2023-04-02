@@ -23,13 +23,7 @@ sections:
   <section class="space-y-3">
     {% assign active_projects = site.projects | where: "archived", "false" %}
     <h2 class="text-2xl">Active Projects</h2>
-    <div class="grid lg:grid-cols-2 gap-4">
-      {% for project in active_projects %}
-        <a href="{{ project.url }}">
-          {% include research-project-card.html clickable=true project=project %}
-        </a>
-      {% endfor %}
-    </div>
+    {% include project-card-grid.html projects=active_projects card_component="research-project-card.html" %}
   </section>
 
   {% assign past_projects = site.projects | where: "archived", "true" %}
