@@ -1,18 +1,22 @@
 <!--Set clickable=true for an indication when hovering-->
-<article class="rounded-lg border p-6 shadow-lg {% if include.clickable %} transition transform hover:scale-105 cursor-pointer {% endif %}">
-  <div class="flex flex-col gap-2">
-    <h3 class="text-xl font-semibold">{{ project.name }}</h3>
+<article class="rounded-lg border p-6 shadow-lg {% if include.clickable %} transition transform hover:scale-[102%] cursor-pointer {% endif %} h-full">
+  <div class="flex flex-col gap-2 h-full">
+    <div class="flex gap-4 items-center min-h-[50px]">
+      {% if project.logo %}
+        <img class="w-[50px] h-[50px]" src="{{ project.logo | relative_url }}" alt="" style="object-fit: cover; flex-shrink: 0;">
+      {% endif %}
+      <h3 class="text-xl font-semibold">{{ project.title }}</h3>
+    </div>
 
-    <p class="text-gray-700">
+    <p class="text-gray-700 flex-grow py-4">
       {{ project.short }}
     </p>
 
-    <div class="mt-0 flex gap-4">
+    <div class="mt-0 flex gap-8">
       <div class="flex flex-col">
         <p class="text-sm">Members</p>
         <p class="font-medium flex -space-x-2">
           {% for member_name in project.members %}
-            <!--TODO: This will not work before schema changes in netlify-cms have been merged-->
             {% assign member = site.team | where: "title", member_name | first %}
             {% include member-pfp-circle.html member=member %}
           {% endfor %}
@@ -23,8 +27,7 @@
           <p class="text-sm">Funding</p>
           <p class="font-medium">
             {% for funding in project.funding %}
-              <!--TODO: update to funcing.shortname inside tag when cms is merged-->
-              <span title="{{ funding.agency }} (Number: {{ funding.number }})">{{ funding.agency }}</span>
+              <span title="{{ funding.shortname }} (Number: {{ funding.number }})">{{ funding.shortname }}</span>
             {% endfor %}
           </p>
         </div>
@@ -35,7 +38,6 @@
           <span>{{ project.status }}</span>
         </p>
       </div>
-
     </div>
   </div>
 </article>

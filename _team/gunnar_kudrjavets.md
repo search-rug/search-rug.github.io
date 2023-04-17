@@ -4,7 +4,7 @@ image: "images/team/gunnar-kudrjavets.jpg"
 position: "phd candidate"
 weight: 100
 status:
-  promoted: true # appear in home page
+  promoted: false # appear in home page
   former: false # former group member
 contact:
   homepage: "https://gunnarku.github.io/"

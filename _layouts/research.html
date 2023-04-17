@@ -2,21 +2,35 @@
 title: Research
 layout: default
 bodyClass: "page-research"
+# entries in `sections` match the text of a heading on the page
+sections:
+ - Contributions
+ - Active Projects
+ - Past Projects
 ---
 
-<div class="container mx-auto px-4 pb-6 pt-[100px] pb-md-10">
+<div class="container space-y-8 mx-auto px-4 pb-6 pt-[100px] pb-md-10">
   <h1 class="text-black text-5xl leading-5 lg:text-[50px] font-semibold mb-8">{{page.title}}</h1>
 
-  <section class="space-y-4">
-    <h2 class="text-2xl">Research Projects</h2>
+  <!-- Adds a scroll button for each section defined above. -->
+  {% include section-scroll-buttons.html sections=layout.sections %}
 
-    <div class="flex flex-col md:flex-row flex-wrap gap-4">
-      {% for project in site.projects %}
-      <div class="md:max-w-md lg:max-w-xl h-full">
-        {% include research-project-card.html clickable=false project=project %}
-      </div>
-      {% endfor %}
-    </div>
-
+  <section>
+    <h3 class="text-2xl">Contributions</h3>
+    {% include page-list.html pages=site.data.contributions %}
   </section>
+
+  <section class="space-y-3">
+    {% assign active_projects = site.projects | where: "archived", "false" %}
+    <h2 class="text-2xl">Active Projects</h2>
+    {% include project-card-grid.html projects=active_projects card_component="research-project-card.html" %}
+  </section>
+
+  {% assign past_projects = site.projects | where: "archived", "true" %}
+  {% if past_projects.size > 0 %}
+    <section class="space-y-2">
+      <h2 class="text-2xl">Past Projects</h2>
+      {% include page-list.html pages=past_projects %}
+    </section>
+  {% endif %}
 </div>

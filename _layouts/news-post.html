@@ -1,24 +1,11 @@
 ---
-layout: "default"
+layout: "article"
+backlink:
+  url: "/news"
+  text: "All news"
+showDate: true
 ---
 
-<div class="container mx-auto px-4 pb-6 pt-[100px] mt-2 pb-md-10 flex items-center flex-col">
-  <div style="max-width: 48rem;">
-
-    <a href="/news">
-      <div class="flex items-center mb-2 mt-1">
-        <span>&#8592;</span>
-        <span>&nbsp;All news</span>
-      </div>
-    </a>
-
-    <div class="pb-3 pt-2">
-      <h1 class="text-black text-5xl lg:text-[50px] font-semibold mb-8">{{ page.title }}</h1>
-      <p style="margin-top: -10px;">Posted on {{ page.date | date_to_long_string }}</p>
-    </div>
-
-    <div class="content">
-      {{ content }}
-    </div>
-  </div>
+<div class="content">
+  {{ content }}
 </div>
