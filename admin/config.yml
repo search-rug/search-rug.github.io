@@ -144,6 +144,8 @@ collections:
       preview: false
     fields:
       - { name: "title" }
+      - { name: "short" }
+      - { name: "archived", widget: "boolean" }
       - { name: "category" }
       - name: "keywords"
         widget: "list"
