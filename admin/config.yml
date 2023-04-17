@@ -111,7 +111,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { name: "name" }
+      - { name: "title" }
       - { name: "short" }
       - { name: "homepage", required: false }
       - name: "image"
