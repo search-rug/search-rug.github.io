@@ -114,7 +114,7 @@ collections:
       - { name: "title" }
       - { name: "short" }
       - { name: "homepage", required: false }
-      - name: "image"
+      - name: "logo"
         widget: "image"
         media_folder: "/images/projects"
         allow_multiple: false
