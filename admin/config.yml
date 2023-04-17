@@ -113,6 +113,7 @@ collections:
     fields:
       - { name: "title" }
       - { name: "short" }
+      - { name: "archived", widget: "boolean" }
       - { name: "homepage", required: false }
       - name: "logo"
         widget: "image"
