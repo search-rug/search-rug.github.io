@@ -17,40 +17,20 @@ sections:
 
   <section>
     <h3 class="text-2xl">Contributions</h3>
-
-    <ul class="list-disc ml-4">
-      {% for contrib in site.data.contributions %}
-        <li>
-          <a class="underline hover:text-gray-500" href="{{contrib.link}}">
-            {{contrib.title}}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+    {% include page-list.html pages=site.data.contributions %}
   </section>
 
   <section class="space-y-3">
     {% assign active_projects = site.projects | where: "archived", "false" %}
     <h2 class="text-2xl">Active Projects</h2>
-    <div class="grid lg:grid-cols-2 gap-4">
-      {% for project in active_projects %}
-        <a href="{{ project.url }}">
-          {% include research-project-card.html clickable=true project=project %}
-        </a>
-      {% endfor %}
-    </div>
+    {% include project-card-grid.html projects=active_projects card_component="research-project-card.html" %}
   </section>
 
   {% assign past_projects = site.projects | where: "archived", "true" %}
   {% if past_projects.size > 0 %}
-  <!-- TODO: this can be refactored into an include-->
     <section class="space-y-2">
       <h2 class="text-2xl">Past Projects</h2>
-      <ul class="list-disc ml-4">
-        {% for project in past_projects %}
-        <li class="underline"> <a href="{{ project.url }}">{{ project.name }}</a> </li>
-        {% endfor %}
-      </ul>
+      {% include page-list.html pages=past_projects %}
     </section>
   {% endif %}
 </div>

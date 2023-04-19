@@ -1,34 +1,20 @@
 ---
-layout: "default"
+layout: "article"
+backlink:
+  url: "/research"
+  text: "All research projects"
 ---
 
-<div class="container mx-auto px-4 pb-6 pt-[100px] mt-2 pb-md-10 flex items-center flex-col">
-  <div style="max-width: 48rem;">
-
-    <a href="/research">
-      <div class="flex items-center mb-2 mt-1">
-        <span>&#8592;</span>
-        <span>&nbsp;All research projects</span>
-      </div>
-    </a>
-
-    <div class="pb-3 pt-2">
-      <h1 class="text-black text-5xl font-semibold mb-8">{{ page.name }}</h1>
-    </div>
-
-    <div class="content">
-      {{ content }}
-    </div>
-
-    <div class="pb-3 pt-2 mt-10">
-      <h2 class="text-black text-xl">Contact</h3>
-    </div>
-
-    <div class="grid md:grid-cols-2 gap-6">
-      {% for member_name in page.members %}
-        {% assign member = site.team | where: "title", member_name | first %}
-        {% include team-card-compact.html member=member %}
-      {% endfor %}
-    </div>
-  </div>
+<div class="content">
+  {{ content }}
 </div>
+
+<section>
+  <h2 class="text-xl my-2">Contact</h3>
+  <div class="grid md:grid-cols-2 gap-4">
+    {% for member_name in page.members %}
+      {% assign member = site.team | where: "title", member_name | first %}
+      {% include team-card-compact.html member=member %}
+    {% endfor %}
+  </div>
+</section>

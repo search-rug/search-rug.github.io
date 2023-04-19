@@ -1,5 +1,5 @@
 ---
-name: "Sustainable Cloud"
+title: "Sustainable Cloud"
 status: "In Progress"
 archived: false
 members:

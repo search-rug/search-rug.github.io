@@ -1,0 +1,38 @@
+---
+layout: "default"
+---
+
+<div class="container mx-auto px-4 pb-6 pt-[100px] mt-2 pb-md-10 flex items-center flex-col">
+  <div style="max-width: 48rem;">
+
+    <!--
+      Display a link to go back to some overview.
+      The back link can be specified with layout variable `baclink`.
+      If variable is not set then no backlink will be displayed.
+      This variable should be an object with fields `text` and `url`.
+    -->
+    {% if layout.backlink %}
+      <a href="{{ layout.backlink.url }}">
+        <div class="flex items-center mb-2 mt-1">
+          <span>&#8592;</span>
+          <span>&nbsp;{{ layout.backlink.text }}</span>
+        </div>
+      </a>
+    {% endif %}
+
+    <!--
+      Display the title and date of the page.
+      For date to be displayed set `showDate` to `true` and set `date` page variable.
+    -->
+    <div class="mb-8">
+      <h1 class="text-black text-5xl lg:text-[50px] font-semibold">{{ page.title }}</h1>
+      {% if layout.showDate %}
+        <p class="mt-2">Posted on {{ page.date | date_to_long_string }}</p>
+      {% endif %}
+    </div>
+
+    <div class="space-y-8">
+      {{ content }}
+    </div>
+  </div>
+</div>

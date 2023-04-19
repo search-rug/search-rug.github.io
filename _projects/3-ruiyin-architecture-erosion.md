@@ -1,5 +1,5 @@
 ---
-name: "Understanding and Alerting Architecture Erosion during Software Development"
+title: "Understanding and Alerting Architecture Erosion during Software Development"
 status: "In Progress"
 archived: false
 members:

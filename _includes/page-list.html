@@ -1,0 +1,11 @@
+<!--
+  Displays a list of links to pages.
+  Set `pages` variable to a list of objects with fields `title` and `url`.
+-->
+<ul class="list-disc ml-4">
+  {% for page in include.pages %}
+    <li class="underline hover:opacity-80">
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
