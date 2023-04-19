@@ -3,7 +3,6 @@ import json
 from xml.etree import ElementTree as ET
 from pathlib import Path
 import re
-import yaml
 
 
 class Contribution:
@@ -68,11 +67,25 @@ def contributions_to_json(contributions, pretty=False):
 
 
 def main():
+    """Define contribution targets.
+    name:           Name of contributions. Will be used as filename with a `.json` suffix.
+    rss_link:       Url of a RSS file of contributions from `research.rug.nl`.
+    exclude_regex:  RegEx excluding contributions based on its title.
+    """
+    targets = [
+        {
+            "name": "datasets",
+            "rss_link": "https://research.rug.nl/en/organisations/software-engineering/datasets/?format=rss",
+            "exclude_regex": None
+        },
+        {
+            "name": "publications",
+            "rss_link": "https://research.rug.nl/en/organisations/software-engineering/publications/?format=rss",
+            "exclude_regex": None
+        }
+    ]
 
-    with open("contributions-config.yml", "r") as file:
-        config = yaml.safe_load(file.read())
-
-    for target in config["targets"]:
+    for target in targets:
         print(f"Scraping {target['name']} ... ")
         scraper = RSSContributionScraper(
             target["rss_link"], target["exclude_regex"])

@@ -1,7 +1,0 @@
-targets:
-  - name: "publications"
-    rss_link: "https://research.rug.nl/en/organisations/software-engineering/publications/?format=rss"
-    exclude_regex: null
-  - name: "datasets"
-    rss_link: "https://research.rug.nl/en/organisations/software-engineering/datasets/?format=rss"
-    exclude_regex: null
