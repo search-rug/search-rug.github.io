@@ -1,10 +1,11 @@
 # config.yml
 backend:
   name: git-gateway
-  repo: kakka0903/search-rug.github.io
-  branch: netlify-cms
-  identity_url: "https://spp-rug-search.netlify.app/.netlify/identity"
-  gateway_url: "https://spp-rug-search.netlify.app/.netlify/git"
+  repo: search-rug/search-rug.github.io
+  branch: main
+  identity_url: "https://search-rug.netlify.app/.netlify/identity"
+  gateway_url: "https://search-rug.netlify.app/.netlify/git"
+  site_domain: "https://search-rug.netlify.app"
 media_folder: "assets/uploads"
 collections:
   - name: "team"
@@ -110,10 +111,11 @@ collections:
     editor:
       preview: false
     fields:
-      - { name: "name" }
+      - { name: "title" }
       - { name: "short" }
+      - { name: "archived", widget: "boolean" }
       - { name: "homepage", required: false }
-      - name: "image"
+      - name: "logo"
         widget: "image"
         media_folder: "/images/projects"
         allow_multiple: false
@@ -143,6 +145,8 @@ collections:
       preview: false
     fields:
       - { name: "title" }
+      - { name: "short" }
+      - { name: "archived", widget: "boolean" }
       - { name: "category" }
       - name: "keywords"
         widget: "list"
