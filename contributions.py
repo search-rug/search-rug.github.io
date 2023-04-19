@@ -20,6 +20,8 @@ class Contribution:
 
 
 class RSSContributionScraper():
+    """Scrapes contributions from an RSS source."""
+
     def __init__(self, rss_link, exclude_regex=None):
         self.rss_link = rss_link
         self.exclude_regex = exclude_regex
