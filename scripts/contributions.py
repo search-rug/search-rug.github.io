@@ -73,7 +73,7 @@ def main(targets, data_dir):
         scraper = RSSContributionScraper(
             target["rss_link"], target["exclude_regex"])
         contributions = scraper.get_contributions()
-        save_contributions(contributions, target["name"])
+        save_contributions(data_dir, contributions, target["name"])
 
 
 if __name__ == "__main__":
