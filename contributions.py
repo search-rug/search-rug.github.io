@@ -62,13 +62,27 @@ def contributions_to_json(contributions, pretty=False):
     return json.dumps([contrib.to_dict() for contrib in contributions], indent=indents)
 
 
-def main():
+def main(targets, data_dir):
+    """Scrapes and saves all contribution targets.
+        targets: List of dict object with `name`, `rss_link` and `exclude_regex`
+        data_dir: Path object with website's data directory which is typically `_data` for a jekyll site.
+    """
+
+    for target in targets:
+        print(f"Scraping {target['name']} ... ")
+        scraper = RSSContributionScraper(
+            target["rss_link"], target["exclude_regex"])
+        contributions = scraper.get_contributions()
+        save_contributions(contributions, target["name"])
+
+
+if __name__ == "__main__":
     """Define contribution targets.
     name:           Name of contributions. Will be used as filename with a `.json` suffix.
     rss_link:       Url of a RSS file of contributions from `research.rug.nl`.
     exclude_regex:  RegEx excluding contributions based on its title.
     """
-    targets = [
+    scrape_targets = [
         {
             "name": "datasets",
             "rss_link": "https://research.rug.nl/en/organisations/software-engineering/datasets/?format=rss",
@@ -81,13 +95,10 @@ def main():
         }
     ]
 
-    for target in targets:
-        print(f"Scraping {target['name']} ... ")
-        scraper = RSSContributionScraper(
-            target["rss_link"], target["exclude_regex"])
-        contributions = scraper.get_contributions()
-        save_contributions(contributions, target["name"])
+    root_dir = Path(__file__).parent.parent.absolute()
+    data_dir = root_dir.joinpath("_data")
 
+    if not data_dir.exists():
+        raise FileNotFoundError(f"Could not find data dir: {data_dir}")
 
-if __name__ == "__main__":
-    main()
+    main(scrape_targets, data_dir)
