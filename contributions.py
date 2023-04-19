@@ -2,6 +2,7 @@ import urllib.request
 import json
 from xml.etree import ElementTree as ET
 from pathlib import Path
+import re
 
 
 class Contribution:
@@ -19,15 +20,31 @@ class Contribution:
 
 
 class RSSContributionScraper():
-    def __init__(self, rss_link):
+    def __init__(self, rss_link, exclude_regex=None):
         self.rss_link = rss_link
+        self.exclude_regex = exclude_regex
 
     def get_contributions(self):
         """Extracts RSS contibution entries from RSS feed."""
         response = urllib.request.urlopen(self.rss_link)
         rss_doc = ET.fromstring(response.read())
         channels = rss_doc.findall("channel")
-        return [Contribution(item[0].text, item[1].text) for item in channels[0] if item.tag == "item"]
+        contributions = []
+
+        for item in channels[0]:
+            if item.tag != "item":
+                continue
+
+            title = item[0].text
+            link = item[0].text
+
+            if re.match(self.exclude_regex, title):
+                print(f"RegEx match found. Skipping: {title}")
+                continue
+
+            contributions.append(Contribution(title, link))
+
+        return contributions
 
 
 def save_contributions(contributions, collection_name):
