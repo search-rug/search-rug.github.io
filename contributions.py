@@ -67,15 +67,16 @@ def contributions_to_json(contributions, pretty=False):
 
 
 def main():
-    filepath = '_data/contributions.json'
-    rss_link = "https://research.rug.nl/en/organisations/software-engineering/datasets/?format=rss"
 
-    scraper = RSSContributionScraper(rss_link)
-    contribs = scraper.get_contributions()
+    with open("contributions-config.yml", "r") as file:
+        config = yaml.safe_load(file.read())
 
-    # write file
-    with open(filepath, "w") as file:
-        file.write(contributions_to_json(contribs, pretty=True))
+    for target in config["targets"]:
+        print(f"Scraping {target['name']} ... ")
+        scraper = RSSContributionScraper(
+            target["rss_link"], target["exclude_regex"])
+        contributions = scraper.get_contributions()
+        save_contributions(contributions, target["name"])
 
 
 if __name__ == "__main__":
