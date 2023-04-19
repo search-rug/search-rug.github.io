@@ -1,6 +1,7 @@
 import urllib.request
 import json
 from xml.etree import ElementTree as ET
+from pathlib import Path
 
 
 class Contribution:
@@ -27,6 +28,17 @@ class RSSContributionScraper():
         rss_doc = ET.fromstring(response.read())
         channels = rss_doc.findall("channel")
         return [Contribution(item[0].text, item[1].text) for item in channels[0] if item.tag == "item"]
+
+
+def save_contributions(contributions, collection_name):
+    """Saves contributions to '_data' directory of website."""
+    data_dir = Path("_data")
+    if not data_dir.exists():
+        raise FileNotFoundError("Data dir '_data' does not exist.")
+
+    filepath = data_dir.joinpath(f"{collection_name}.json")
+    with open(filepath, "w") as file:
+        file.write(contributions_to_json(contributions, pretty=True))
 
 
 def contributions_to_json(contributions, pretty=False):
