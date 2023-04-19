@@ -1,0 +1,22 @@
+name: "Update Research Contributions"
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # every Sunday at midnight
+  workflow_dispatch: # allow manual triggers
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v2
+
+      - name: "Scrape RSS feeds and generates files in '_data'"
+        run: |
+          python scripts/contributions.py
+
+      - name: "Commit changes"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update contributions"
