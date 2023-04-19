@@ -38,8 +38,8 @@ class RSSContributionScraper():
             title = item[0].text
             link = item[0].text
 
-            if re.match(self.exclude_regex, title):
-                print(f"RegEx match found. Skipping: {title}")
+            if self.exclude_regex is not None and re.match(self.exclude_regex, title):
+                print(f"excluded: {title}")
                 continue
 
             contributions.append(Contribution(title, link))
