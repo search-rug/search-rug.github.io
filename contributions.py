@@ -3,6 +3,7 @@ import json
 from xml.etree import ElementTree as ET
 from pathlib import Path
 import re
+import yaml
 
 
 class Contribution:
