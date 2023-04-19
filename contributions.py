@@ -39,7 +39,7 @@ class RSSContributionScraper():
                 continue
 
             title = item[0].text
-            link = item[0].text
+            link = item[1].text
 
             if self.exclude_regex is not None and re.match(self.exclude_regex, title):
                 print(f"excluded: {title}")
