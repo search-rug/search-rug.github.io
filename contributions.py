@@ -1,9 +1,6 @@
 import urllib.request
 import json
-from urllib import response
 from xml.etree import ElementTree as ET
-import logging
-import sys
 
 
 class Contribution:
