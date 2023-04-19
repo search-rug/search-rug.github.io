@@ -15,7 +15,7 @@ class Contribution:
     def to_dict(self):
         return {
             'title': self.title,
-            'link': self.link,
+            'url': self.link,
         }
 
 
