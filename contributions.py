@@ -49,13 +49,9 @@ class RSSContributionScraper():
         return contributions
 
 
-def save_contributions(contributions, collection_name):
+def save_contributions(directory, contributions, collection_name):
     """Saves contributions to '_data' directory of website."""
-    data_dir = Path("_data")
-    if not data_dir.exists():
-        raise FileNotFoundError("Data dir '_data' does not exist.")
-
-    filepath = data_dir.joinpath(f"{collection_name}.json")
+    filepath = directory.joinpath(f"{collection_name}.json")
     with open(filepath, "w") as file:
         file.write(contributions_to_json(contributions, pretty=True))
 
