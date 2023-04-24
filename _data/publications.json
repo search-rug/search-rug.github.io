@@ -1,0 +1,202 @@
+[
+    {
+        "title": "The Risk of Generating Technical Debt Interest: A Case Study",
+        "url": "https://research.rug.nl/en/publications/the-risk-of-generating-technical-debt-interest-a-case-study"
+    },
+    {
+        "title": "Evolution of the Unix System Architecture: An Exploratory Case Study",
+        "url": "https://research.rug.nl/en/publications/evolution-of-the-unix-system-architecture-an-exploratory-case-stu"
+    },
+    {
+        "title": "20th SC@RUG 2023 proceedings 2022-2023",
+        "url": "https://research.rug.nl/en/publications/20th-scrug-2023-proceedings-2022-2023"
+    },
+    {
+        "title": "Uncertainty in Self-adaptive Systems: A Research Community Perspective",
+        "url": "https://research.rug.nl/en/publications/uncertainty-in-self-adaptive-systems-a-research-community-perspec"
+    },
+    {
+        "title": "On measuring coupling between microservices",
+        "url": "https://research.rug.nl/en/publications/on-measuring-coupling-between-microservices"
+    },
+    {
+        "title": "Introduction to the Special Issue on Software-Intensive Autonomous Systems: Methods and applications",
+        "url": "https://research.rug.nl/en/publications/introduction-to-the-special-issue-on-software-intensive-autonomou"
+    },
+    {
+        "title": "What Warnings Do Engineers Really Fix? The Compiler That Cried Wolf",
+        "url": "https://research.rug.nl/en/publications/what-warnings-do-engineers-really-fix-the-compiler-that-cried-wol"
+    },
+    {
+        "title": "Are We Speeding Up or Slowing Down? On Temporal Aspects of Code Velocity",
+        "url": "https://research.rug.nl/en/publications/are-we-speeding-up-or-slowing-down-on-temporal-aspects-of-code-ve"
+    },
+    {
+        "title": "Applications of natural language processing in software traceability: A systematic mapping study",
+        "url": "https://research.rug.nl/en/publications/applications-of-natural-language-processing-in-software-traceabil"
+    },
+    {
+        "title": "Understanding Architecture Erosion: The Practitioners\u2019 Perceptive",
+        "url": "https://research.rug.nl/en/publications/understanding-architecture-erosion-the-practitioners-perceptive"
+    },
+    {
+        "title": "Symptoms of architecture erosion in code reviews: A study of two OpenStack projects",
+        "url": "https://research.rug.nl/en/publications/symptoms-of-architecture-erosion-in-code-reviews-a-study-of-two-o"
+    },
+    {
+        "title": "Understanding software architecture erosion: A systematic mapping study",
+        "url": "https://research.rug.nl/en/publications/understanding-software-architecture-erosion-a-systematic-mapping-"
+    },
+    {
+        "title": "Pull Request Decisions Explained: An Empirical Overview",
+        "url": "https://research.rug.nl/en/publications/pull-request-decisions-explained-an-empirical-overview"
+    },
+    {
+        "title": "Burnout in software engineering: A systematic mapping study",
+        "url": "https://research.rug.nl/en/publications/burnout-in-software-engineering-a-systematic-mapping-study"
+    },
+    {
+        "title": "Documentation-as-Code for Interface Control Document Management in Systems of Systems: A Technical Action Research Study",
+        "url": "https://research.rug.nl/en/publications/documentation-as-code-for-interface-control-document-management-i"
+    },
+    {
+        "title": "Who Ate My Memory? Towards Attribution in Memory Management",
+        "url": "https://research.rug.nl/en/publications/who-ate-my-memory-towards-attribution-in-memory-management"
+    },
+    {
+        "title": "Cost-Profiling Microservice Applications Using an APM Stack",
+        "url": "https://research.rug.nl/en/publications/cost-profiling-microservice-applications-using-an-apm-stack"
+    },
+    {
+        "title": "When malloc() Never Returns NULL -- Reliability as an Illusion",
+        "url": "https://research.rug.nl/en/publications/when-malloc-never-returns-null-reliability-as-an-illusion"
+    },
+    {
+        "title": "Managing technical debt: prioritising and quantifying architectural smells",
+        "url": "https://research.rug.nl/en/publications/managing-technical-debt-prioritising-and-quantifying-architectura"
+    },
+    {
+        "title": "Is Kernel Code Different From Non-Kernel Code? A Case Study of BSD Family Operating Systems",
+        "url": "https://research.rug.nl/en/publications/is-kernel-code-different-from-non-kernel-code-a-case-study-of-bsd"
+    },
+    {
+        "title": "There Ain\u2019t No Such Thing as a Free Custom Memory Allocator",
+        "url": "https://research.rug.nl/en/publications/there-aint-no-such-thing-as-a-free-custom-memory-allocator"
+    },
+    {
+        "title": "On Quantifying the Benefits of Dead Code Removal",
+        "url": "https://research.rug.nl/en/publications/on-quantifying-the-benefits-of-dead-code-removal"
+    },
+    {
+        "title": "Sustainability in Software Architecture: A Systematic Mapping Study",
+        "url": "https://research.rug.nl/en/publications/sustainability-in-software-architecture-a-systematic-mapping-stud"
+    },
+    {
+        "title": "Service Classification through Machine Learning: Aiding in the Efficient Identification of Reusable Assets in Cloud Application Development",
+        "url": "https://research.rug.nl/en/publications/service-classification-through-machine-learning-aiding-in-the-eff"
+    },
+    {
+        "title": "Pull request latency explained: an empirical overview",
+        "url": "https://research.rug.nl/en/publications/pull-request-latency-explained-an-empirical-overview"
+    },
+    {
+        "title": "Maintenance and Evolution: GrimoireLab Graal",
+        "url": "https://research.rug.nl/en/publications/maintenance-and-evolution-grimoirelab-graal"
+    },
+    {
+        "title": "Development effort estimation in free/open source software from activity in version control systems",
+        "url": "https://research.rug.nl/en/publications/development-effort-estimation-in-freeopen-source-software-from-ac"
+    },
+    {
+        "title": "Identifying self-admitted technical debt in issue tracking systems using machine learning",
+        "url": "https://research.rug.nl/en/publications/identifying-self-admitted-technical-debt-in-issue-tracking-system"
+    },
+    {
+        "title": "The Evolving Landscape of Software Performance Engineering",
+        "url": "https://research.rug.nl/en/publications/the-evolving-landscape-of-software-performance-engineering"
+    },
+    {
+        "title": "Mining Code Review Data to Understand Waiting Times Between Acceptance and Merging: An Empirical Analysis",
+        "url": "https://research.rug.nl/en/publications/mining-code-review-data-to-understand-waiting-times-between-accep"
+    },
+    {
+        "title": "Do Small Code Changes Merge Faster? A Multi-Language Empirical Investigation",
+        "url": "https://research.rug.nl/en/publications/do-small-code-changes-merge-faster-a-multi-language-empirical-inv"
+    },
+    {
+        "title": "Quantifying Daily Evolution of Mobile Software Based on Memory Allocator Churn",
+        "url": "https://research.rug.nl/en/publications/quantifying-daily-evolution-of-mobile-software-based-on-memory-al"
+    },
+    {
+        "title": "The Unexplored Treasure Trove of Phabricator Code Reviews",
+        "url": "https://research.rug.nl/en/publications/the-unexplored-treasure-trove-of-phabricator-code-reviews"
+    },
+    {
+        "title": "The Unexplored Terrain of Compiler Warnings",
+        "url": "https://research.rug.nl/en/publications/the-unexplored-terrain-of-compiler-warnings"
+    },
+    {
+        "title": "System and software architecting harmonization practices in ultra-large-scale systems of systems: A confirmatory case study",
+        "url": "https://research.rug.nl/en/publications/system-and-software-architecting-harmonization-practices-in-ultra"
+    },
+    {
+        "title": "Antipatterns in software classification taxonomies",
+        "url": "https://research.rug.nl/en/publications/antipatterns-in-software-classification-taxonomies"
+    },
+    {
+        "title": "Migrating e-science applications to the cloud: Methodology and evaluation",
+        "url": "https://research.rug.nl/en/publications/migrating-e-science-applications-to-the-cloud-methodology-and-eva"
+    },
+    {
+        "title": "An Overview and Comparison of Technical Debt Measurement Tools",
+        "url": "https://research.rug.nl/en/publications/an-overview-and-comparison-of-technical-debt-measurement-tools"
+    },
+    {
+        "title": "Exploring the Relation Between Co-changes and Architectural Smells",
+        "url": "https://research.rug.nl/en/publications/exploring-the-relation-between-co-changes-and-architectural-smell"
+    },
+    {
+        "title": "On the evolution and impact of architectural smells\u2014an industrial case study",
+        "url": "https://research.rug.nl/en/publications/on-the-evolution-and-impact-of-architectural-smellsan-industrial-"
+    },
+    {
+        "title": "Identification and Remediation of Self-Admitted Technical Debt in Issue Trackers",
+        "url": "https://research.rug.nl/en/publications/identification-and-remediation-of-self-admitted-technical-debt-in"
+    },
+    {
+        "title": "19th SC@RUG 2022 proceedings 2021-2022",
+        "url": "https://research.rug.nl/en/publications/19th-scrug-2022-proceedings-2021-2022"
+    },
+    {
+        "title": "Architectural design decisions that incur technical debt \u2014 An industrial case study",
+        "url": "https://research.rug.nl/en/publications/architectural-design-decisions-that-incur-technical-debt-an-indus"
+    },
+    {
+        "title": "Software reuse in open source: A case study",
+        "url": "https://research.rug.nl/en/publications/software-reuse-in-open-source-a-case-study-3"
+    },
+    {
+        "title": "Extracting and Comparing Concepts Emerging from Software Code, Documentation and Tests",
+        "url": "https://research.rug.nl/en/publications/extracting-and-comparing-concepts-emerging-from-software-code-doc"
+    },
+    {
+        "title": "Exploring Web Search Engines to Find Architectural Knowledge",
+        "url": "https://research.rug.nl/en/publications/exploring-web-search-engines-to-find-architectural-knowledge"
+    },
+    {
+        "title": "A Study on Architectural Smells Prediction",
+        "url": "https://research.rug.nl/en/publications/a-study-on-architectural-smells-prediction"
+    },
+    {
+        "title": "On the Temporality of Introducing Code Technical Debt",
+        "url": "https://research.rug.nl/en/publications/on-the-temporality-of-introducing-code-technical-debt"
+    },
+    {
+        "title": "A mapping study on documentation in Continuous Software Development",
+        "url": "https://research.rug.nl/en/publications/a-mapping-study-on-documentation-in-continuous-software-developme"
+    },
+    {
+        "title": "Does it matter who pays back Technical Debt? An empirical study of self-fixed TD",
+        "url": "https://research.rug.nl/en/publications/does-it-matter-who-pays-back-technical-debt-an-empirical-study-of"
+    }
+]

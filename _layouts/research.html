@@ -4,7 +4,8 @@ layout: default
 bodyClass: "page-research"
 # entries in `sections` match the text of a heading on the page
 sections:
- - Contributions
+ - Publications
+ - Datasets
  - Active Projects
  - Past Projects
 ---
@@ -16,8 +17,13 @@ sections:
   {% include section-scroll-buttons.html sections=layout.sections %}
 
   <section>
-    <h3 class="text-2xl">Contributions</h3>
-    {% include page-list.html pages=site.data.contributions %}
+    <h3 class="text-2xl">Publications</h3>
+    {% include page-list.html pages=site.data.publications %}
+  </section>
+
+  <section>
+    <h3 class="text-2xl">Datasets</h3>
+    {% include page-list.html pages=site.data.datasets %}
   </section>
 
   <section class="space-y-3">
