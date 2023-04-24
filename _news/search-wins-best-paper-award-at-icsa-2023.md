@@ -1,5 +1,5 @@
 ---
-title: SEARCH wins Best Paper award at ICSA 2023
+title: SEARCH members win Best Paper award at ICSA 2023
 keywords:
   - ICSA
   - Software Architecture
