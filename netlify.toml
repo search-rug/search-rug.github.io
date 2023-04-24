@@ -1,5 +1,9 @@
+# This file configures how the search-rug website is deployed to Netlify.
+# We define a build command so jekyll to only use the /admin dir as source.
+# This ensures that only the CMS will be rendered on the Netlify deployment.
+
 [build]
-  command = "jekyll build"
+  command = "jekyll build --source admin"
   publish = "_site"
 
 [build.environment]
