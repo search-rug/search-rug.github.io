@@ -1,20 +1,21 @@
 ---
-title: "Upgrade Design Pattern Detector and Quality Assessment"
-category: "ML, NLP and Refactoring Projects 2022-23"
+title: Upgrade Design Pattern Detector and Quality Assessment
+short: This project entails the refactoring and upgrade (incl. dependencies'
+  update and small bug fixes) of both SSAP and Spoon-PttGrime.
 archived: false
-short: "This project entails the refactoring and upgrade (incl. dependencies' update and small bug fixes) of both SSAP and Spoon-PttGrime."
+category: ML, NLP and Refactoring Projects 2022-23
 keywords:
   - refactoring
   - design patterns
   - software analytics
-is_group: false
-available: true
 types:
   - BSc
   - MSc Int
-posted: 2023-02-10
 supervisors:
   - Dr. Daniel Feitosa
+is_group: false
+available: false
+posted: 2023-02-10
 ---
 
 The GoF (Gang-of-Four) **design patterns** (e.g., observer, command) are widely adopted in the industry as best practices and have well-investigated effects on software quality. However, not all instances of the same pattern are implemented equally. Deviations from the intended pattern structure (i.e., a buildup of elements such as classes unrelated to the pattern structure) are called **pattern grime** (or pollution). Among other side-effects, there is a correlation between the accumulation of grime and decreased levels of performance, security, and correctness of source code [1].
