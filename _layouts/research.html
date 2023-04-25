@@ -16,6 +16,20 @@ sections:
   <!-- Adds a scroll button for each section defined above. -->
   {% include section-scroll-buttons.html sections=layout.sections %}
 
+  <section class="space-y-3">
+    {% assign active_projects = site.projects | where: "archived", "false" %}
+    <h2 class="text-2xl">Active Projects</h2>
+    {% include project-card-grid.html projects=active_projects card_component="research-project-card.html" %}
+  </section>
+
+  {% assign past_projects = site.projects | where: "archived", "true" %}
+  {% if past_projects.size > 0 %}
+    <section class="space-y-2">
+      <h2 class="text-2xl">Past Projects</h2>
+      {% include page-list.html pages=past_projects %}
+    </section>
+  {% endif %}
+
   <section class="space-y-2">
     <h3 class="text-2xl">Publications</h3>
     <div class="grid xl:grid-cols-2 gap-4">
@@ -33,18 +47,4 @@ sections:
       {% endfor %}
     </div>
   </section>
-
-  <section class="space-y-3">
-    {% assign active_projects = site.projects | where: "archived", "false" %}
-    <h2 class="text-2xl">Active Projects</h2>
-    {% include project-card-grid.html projects=active_projects card_component="research-project-card.html" %}
-  </section>
-
-  {% assign past_projects = site.projects | where: "archived", "true" %}
-  {% if past_projects.size > 0 %}
-    <section class="space-y-2">
-      <h2 class="text-2xl">Past Projects</h2>
-      {% include page-list.html pages=past_projects %}
-    </section>
-  {% endif %}
 </div>
