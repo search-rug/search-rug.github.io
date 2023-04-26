@@ -1,21 +1,23 @@
 ---
-title: "Is Design Pattern Grime Related to Technical Debt?"
-category: "Software & Architecture Analytics Projects"
 archived: false
-short: "This project consists of an empirical study for mining pattern grime and TD items from open-source software (OSS) projects and correlating the presence of TD items in pattern instances with higher levels of pattern grime."
-keywords:
-  - mining software repositories
-  - empirical studies
-  - technical debt
-  - design patterns
-is_group: true
 available: true
-types:
-  - BSc
-  - MSc
+category: Software & Architecture Analytics Projects
+is_group: true
+keywords:
+- mining software repositories
+- empirical studies
+- technical debt
+- design patterns
 posted: 2023-02-10
+short: This project consists of an empirical study for mining pattern grime and TD
+  items from open-source software (OSS) projects and correlating the presence of TD
+  items in pattern instances with higher levels of pattern grime.
 supervisors:
-  - Dr. Daniel Feitosa
+- d.feitosa@rug.nl
+title: Is Design Pattern Grime Related to Technical Debt?
+types:
+- BSc
+- MSc
 ---
 
 The GoF (Gang-of-Four) design patterns (e.g., observer, command) are widely adopted in the industry as best practices and have well-investigated effects on software quality. However, not all instances of the same pattern are implemented equally. Deviations from the intended pattern structure (i.e., a buildup of elements such as classes unrelated to the pattern structure) are called pattern grime (or pollution). Among other side-effects, there is a correlation between the accumulation of grime and decreased levels of performance, security, and correctness of source code [1].

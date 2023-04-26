@@ -1,20 +1,21 @@
 ---
-title: "Embedding Diagram Editors into Salix"
-category: "Language Engineering Projects"
 archived: false
-short: "The goal of this project is to investigate how to embed Web-based diagram editor frameworks into the Salix model for defining UIs."
-keywords:
-  - language engineering
-  - graphical modeling
-  - Javascript
-  - Rascal
-is_group: false
 available: true
-types:
-  - BSc
+category: Language Engineering Projects
+is_group: false
+keywords:
+- language engineering
+- graphical modeling
+- Javascript
+- Rascal
 posted: 2023-02-10
+short: The goal of this project is to investigate how to embed Web-based diagram editor
+  frameworks into the Salix model for defining UIs.
 supervisors:
-  - Prof. dr. Tijs van der Storm
+- storm@cwi.nl
+title: Embedding Diagram Editors into Salix
+types:
+- BSc
 ---
 
 [Salix](https://github.com/cwi-swat/salix) is a framework in Rascal for defining immediate mode, web-based UIs. It follows the Elm model where an application is defined using a view function and an model update function.

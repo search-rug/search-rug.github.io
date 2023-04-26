@@ -1,22 +1,24 @@
 ---
-title: "Design and Implementation of a Technical Debt Monitoring System for PHP"
-category: "Software & Architecture Analytics Projects"
 archived: false
-short: "The Technical Debt Monitoring System would continuously monitor and track the technical debt incurred during software development by utilizing static code analysis tools such as SonarQube, specifically within the context of merge requests."
-keywords:
-  - software engineering
-  - empirical studies
-  - technical debt
-is_group: false
 available: true
-types:
-  - BSc
-  - MSc
+category: Software & Architecture Analytics Projects
+is_group: false
+keywords:
+- software engineering
+- empirical studies
+- technical debt
 posted: 2023-01-01
+short: The Technical Debt Monitoring System would continuously monitor and track the
+  technical debt incurred during software development by utilizing static code analysis
+  tools such as SonarQube, specifically within the context of merge requests.
 supervisors:
-  - Prof. dr. ir. Paris Avgeriou
-  - Dr. Mohamed A.M. Soliman
-  - Yikun Li
+- paris@cs.rug.nl
+- m.a.m.soliman@rug.nl
+- yikun.li@rug.nl
+title: Design and Implementation of a Technical Debt Monitoring System for PHP
+types:
+- BSc
+- MSc
 ---
 
 Technical debt refers to taking shortcuts, either deliberately or inadvertently, to achieve short-term goals, which might negatively influence the maintenance and evolution of software in the long term. If technical debt is incurred excessively and left unresolved, it can lead to increased maintenance costs and challenges.

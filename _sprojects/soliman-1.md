@@ -1,23 +1,26 @@
 ---
-title: "Exploring Architectural Knowledge in Open Source Systems"
-category: "Software & Architecture Analytics Projects 2022-23"
 archived: false
-short: "This research effort includes the identification of relevant architectural knowledge, the analysis of the distribution of architectural knowledge in open source systems, and the development of a tool to support software engineers to find relevant architectural knowledge."
-keywords:
-  - Architectural Knowledge
-  - Architectural Design Decisions
-  - Information Retrieval
-  - Open source systems
-is_group: false
 available: true
-types:
-  - MSc
-  - BSc
-  - Int
+category: Software & Architecture Analytics Projects 2022-23
+is_group: false
+keywords:
+- Architectural Knowledge
+- Architectural Design Decisions
+- Information Retrieval
+- Open source systems
 posted: 2023-02-10
+short: This research effort includes the identification of relevant architectural
+  knowledge, the analysis of the distribution of architectural knowledge in open source
+  systems, and the development of a tool to support software engineers to find relevant
+  architectural knowledge.
 supervisors:
-  - Dr. Mohamed A.M. Soliman
-  - Prof. dr. ir. Paris Avgeriou
+- m.a.m.soliman@rug.nl
+- paris@cs.rug.nl
+title: Exploring Architectural Knowledge in Open Source Systems
+types:
+- MSc
+- BSc
+- Int
 ---
 
 Software architectural design decisions (ADDs) play a crucial role when developing a software system [1]. However, making the right ADDs is a challenging task, which requires knowledge and expertise. Sharing and re-using architectural knowledge from existing systems could support software engineers to learn from previous design experiences. This would be useful for software engineers to re-use successful ADDs from other existing software systems.
