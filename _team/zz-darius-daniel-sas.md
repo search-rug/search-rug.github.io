@@ -1,6 +1,6 @@
 ---
 title: "Dr. Darius Daniel Sas"
-image: "images/members/darius-daniel-sas.jpg"
+image: "/uploads/team-avatars/darius-daniel-sas.jpg"
 position: "phd student"
 weight: 1000
 status:
@@ -12,9 +12,9 @@ contact:
 publications:
   pure: "https://research.rug.nl/en/persons/darius-sas/publications/"
 topics:
-  - Technical Debt 
-  - Architecture and Design 
-  - Architectural Smells 
+  - Technical Debt
+  - Architecture and Design
+  - Architectural Smells
 ---
 
 Current position: Co-founder of Arcan Tech
