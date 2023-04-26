@@ -24,14 +24,14 @@
             {% if member.contact.email -%}
             <a class="inline-block px-1 py-2.5 hover:opacity-80" href="mailto:{{member.contact.email}}" target="blank">
                 <svg class="w-5 h-5">
-                    <use xlink:href="/assets/sprites.svg#email"></use>
+                    <use xlink:href="/assets/graphics/sprites.svg#email"></use>
                 </svg>
             </a>
             {% endif %}
             {% for item in member.social %}
             <a class="inline-block px-1 py-2.5 hover:opacity-80" href="{{item[1]}}" target="blank">
                 <svg class="w-5 h-5">
-                    <use xlink:href="/assets/sprites.svg#{{item[0]}}"></use>
+                    <use xlink:href="/assets/graphics/sprites.svg#{{item[0]}}"></use>
                 </svg>
             </a>
             {% endfor %}

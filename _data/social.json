@@ -2,11 +2,11 @@
   {
     "name": "LinkedIn",
     "link": "https://www.linkedin.com/company/search-rug/",
-    "image": "assets/sprites.svg#linkedin"
+    "image": "assets/graphics/sprites.svg#linkedin"
   },
   {
     "name": "Github",
     "link": "https://github.com/search-rug/",
-    "image": "assets/sprites.svg#github"
+    "image": "assets/graphics/sprites.svg#github"
   }
 ]
