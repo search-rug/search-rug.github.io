@@ -1,6 +1,6 @@
 ---
 title: "Tien Rahayu Tulili"
-image: "images/team/tien-tulili.jpg"
+image: "/uploads/team-avatars/tien-tulili.jpg"
 position: "phd student"
 weight: 100
 status:
@@ -19,5 +19,5 @@ social:
 topics:
   - Natural Language Processing
   - Emotion Detection in Software Engineering
-  - Mining Software Repository 
+  - Mining Software Repository
 ---

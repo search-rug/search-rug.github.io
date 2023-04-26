@@ -1,6 +1,6 @@
 ---
 title: "Prof. dr. Michael Stal"
-image: "images/team/michael-stal.jpg"
+image: "/uploads/team-avatars/michael-stal.jpg"
 position: "professor"
 position_remark: "honorary"
 past_positions:

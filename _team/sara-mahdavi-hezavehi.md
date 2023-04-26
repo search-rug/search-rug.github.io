@@ -1,6 +1,6 @@
 ---
 title: "Sara Mahdavi-Hezavehi"
-image: "images/team/sara-mahdavi-hezavehi.jpg"
+image: "/uploads/team-avatars/sara-mahdavi-hezavehi.jpg"
 position: "phd student"
 weight: 100
 status:
@@ -11,8 +11,8 @@ contact:
 publications:
   pure: "https://research.rug.nl/en/persons/sara-mahdavi-hezavehi/publications/"
 topics:
-  - Self-adaptive Systems 
-  - Software Architecture and Patterns 
-  - Software Oriented Architectures 
-  - Variability of Quality Attributes 
+  - Self-adaptive Systems
+  - Software Architecture and Patterns
+  - Software Oriented Architectures
+  - Variability of Quality Attributes
 ---

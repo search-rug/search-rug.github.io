@@ -1,6 +1,6 @@
 ---
 title: "Edi Sutoyo"
-image: "images/team/edi-sutoyo.jpg"
+image: "/uploads/team-avatars/edi-sutoyo.jpg"
 position: "phd student"
 weight: 100
 status:

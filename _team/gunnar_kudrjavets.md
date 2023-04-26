@@ -1,6 +1,6 @@
 ---
 title: "Gunnar Kudrjavets"
-image: "images/team/gunnar-kudrjavets.jpg"
+image: "/uploads/team-avatars/gunnar-kudrjavets.jpg"
 position: "phd candidate"
 weight: 100
 status:

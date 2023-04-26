@@ -1,6 +1,6 @@
 ---
 title: "Ruiyin Li"
-image: "images/team/ruiyin-li.jpg"
+image: "/uploads/team-avatars/ruiyin-li.jpg"
 position: "phd student"
 weight: 100
 status:
@@ -13,6 +13,6 @@ contact:
 publications:
   pure: "https://research.rug.nl/en/persons/ruiyin-li/publications/"
 topics:
-  - Software Architecture 
-  - Architecture Erosion 
+  - Software Architecture
+  - Architecture Erosion
 ---

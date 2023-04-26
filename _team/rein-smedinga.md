@@ -1,6 +1,6 @@
 ---
 title: "Dr. Rein Smedinga"
-image: "images/team/rein-smedinga.jpg"
+image: "/uploads/team-avatars/rein-smedinga.jpg"
 position: "lecturer"
 weight: 10
 status:

@@ -1,6 +1,6 @@
 ---
 title: "Dr. Ayushi Rastogi"
-image: "images/team/ayushi-rastogi.jpg"
+image: "/uploads/team-avatars/ayushi-rastogi.jpg"
 position: "assistant professor"
 weight: 5
 status:
@@ -22,8 +22,8 @@ fields:
   - sda
   - human
 topics:
-  - Mining Software Repositories 
-  - Human Aspects of Software Engineering 
-  - Developer Productivity, Team Effectiveness 
-  - Fairness, Diversity and Inclusion 
+  - Mining Software Repositories
+  - Human Aspects of Software Engineering
+  - Developer Productivity, Team Effectiveness
+  - Fairness, Diversity and Inclusion
 ---

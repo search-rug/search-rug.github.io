@@ -1,8 +1,8 @@
 ---
 title: "Prof. dr. ir. Paris Avgeriou"
-image: "images/team/paris-avgeriou.jpg"
+image: "/uploads/team-avatars/paris-avgeriou.jpg"
 position: "professor"
-position_remark: "group leader" 
+position_remark: "group leader"
 weight: 1
 status:
   group_leader: true
@@ -33,7 +33,7 @@ topics:
 
 ## Teaching
 
-  * [Graduation Project](http://www.rug.nl/informatica/onderwijs/bachelorafstuderen/index) (BSc periods 3.3 and 3.4) 
-  * [Software Architecture](http://www.cs.rug.nl/~paris/courses/SWA.htm) (MSc period 4.1) 
-  * [Software Patterns](http://www.cs.rug.nl/~paris/courses/SP.htm) (MSC period 4.2) 
+  * [Graduation Project](http://www.rug.nl/informatica/onderwijs/bachelorafstuderen/index) (BSc periods 3.3 and 3.4)
+  * [Software Architecture](http://www.cs.rug.nl/~paris/courses/SWA.htm) (MSc period 4.1)
+  * [Software Patterns](http://www.cs.rug.nl/~paris/courses/SP.htm) (MSC period 4.2)
 
