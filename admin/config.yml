@@ -19,6 +19,12 @@ collections:
     fields:
       - { name: "title", widget: string }
       - { name: "position", widget: string }
+      - name: "image"
+        label: "avatar"
+        widget: "image"
+        media_folder: "/uploads/team-avatars"
+        allow_multiple: false
+        required: false
       - name: "status"
         widget: "object"
         fields:
