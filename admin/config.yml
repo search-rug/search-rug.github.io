@@ -8,7 +8,7 @@ backend:
   identity_url: "https://search-rug.netlify.app/.netlify/identity"
   gateway_url: "https://search-rug.netlify.app/.netlify/git"
   site_domain: "https://search-rug.netlify.app"
-media_folder: "assets/uploads"
+media_folder: "/uploads/miscellaneous"
 collections:
   - name: "team"
     label: "Team"
