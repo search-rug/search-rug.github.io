@@ -125,7 +125,7 @@ collections:
       - { name: "homepage", required: false }
       - name: "logo"
         widget: "image"
-        media_folder: "/images/projects"
+        media_folder: "/uploads/project-logos"
         allow_multiple: false
         required: false
       - { name: "body", widget: "markdown", required: false }
