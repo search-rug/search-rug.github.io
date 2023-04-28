@@ -1,19 +1,20 @@
 ---
-title: "How does software change?"
-category: "Software & Architecture Analytics Projects"
 archived: false
-short: "There are many parts of this project, offering interesting and challenging opportunities at the intersection of software engineering and artificial intelligence."
-keywords:
-  - software engineering
-  - empirical research
-  - data science
-is_group: false
 available: true
-types:
-  - MSc
+category: Software & Architecture Analytics Projects
+is_group: false
+keywords:
+- software engineering
+- empirical research
+- data science
 posted: 2023-01-01
+short: There are many parts of this project, offering interesting and challenging
+  opportunities at the intersection of software engineering and artificial intelligence.
 supervisors:
-  - Dr. Ayushi Rastogi
+- a.rastogi@rug.nl
+title: How does software change?
+types:
+- MSc
 ---
 
 As Lehman's first law of software evolution states: a [...] system must be continually adapted or it becomes progressively less satisfactory". With software systems shaping humans, it is increasingly important to understand their evolution.

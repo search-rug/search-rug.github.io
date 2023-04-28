@@ -1,19 +1,21 @@
 ---
-title: "CodeBuff in Rascal"
-category: "Language Engineering Projects"
 archived: false
-short: "CodeBuff has been implemented in the context of the ANTLR parse generator, and uses its internal parse tree data structures for learning and formatting. We're interested in transferring CodeBuff to the context of the Rascal language workbench."
-keywords:
-  - language engineering
-  - pretty printing
-  - machine learning
-is_group: false
 available: true
-types:
-  - BSc
+category: Language Engineering Projects
+is_group: false
+keywords:
+- language engineering
+- pretty printing
+- machine learning
 posted: 2023-01-01
+short: CodeBuff has been implemented in the context of the ANTLR parse generator,
+  and uses its internal parse tree data structures for learning and formatting. We're
+  interested in transferring CodeBuff to the context of the Rascal language workbench.
 supervisors:
-  - Prof. dr. Tijs van der Storm
+- storm@cwi.nl
+title: CodeBuff in Rascal
+types:
+- BSc
 ---
 
 Pretty printing is one aspect of language engineering that's often overlooked, but nevertheless important. Unfortunately, developing a (good) pretty printer is very hard. For instance, Bob Nystrom, of Google, called his Dart formatter, ["the hardest program I've ever written"](http://journal.stuffwithstuff.com/2015/09/08/the-hardest-program-ive-ever-written/).

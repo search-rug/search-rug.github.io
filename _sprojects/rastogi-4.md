@@ -1,19 +1,21 @@
 ---
-title: "Exploratory Study On Emerging Digital Technologies In SMEs"
-category: "Software & Architecture Analytics Projects 2022-23"
 archived: false
-short: "In the project, researchers and students from different universities collaborate with practitioners from SMEs in a series of case studies in which the current state of affairs regarding emerging digital technologies is being explored."
-keywords:
-  - software engineering
-  - empirical research
-  - industry collaboration
-is_group: false
 available: true
-types:
-  - BSc
+category: Software & Architecture Analytics Projects 2022-23
+is_group: false
+keywords:
+- software engineering
+- empirical research
+- industry collaboration
 posted: 2023-01-01
+short: In the project, researchers and students from different universities collaborate
+  with practitioners from SMEs in a series of case studies in which the current state
+  of affairs regarding emerging digital technologies is being explored.
 supervisors:
-  - Dr. Ayushi Rastogi
+- a.rastogi@rug.nl
+title: Exploratory Study On Emerging Digital Technologies In SMEs
+types:
+- BSc
 ---
 
 Do you want to graduate in a larger project together with other researchers? And perform research at several SMEs? And do you want to dive into the backgrounds of new, innovative digital technology? Then do your graduation assignment at the 'Digital innovation in SMEs' program, a collaboration of three Universities of Applied Sciences, two universities and a consortium of SME organizations.

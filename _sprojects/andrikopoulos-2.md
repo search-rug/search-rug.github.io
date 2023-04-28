@@ -1,20 +1,24 @@
 ---
-title: "A Survey of Cloud Cost Calculators"
-category: "Software & Architecture Analytics Projects"
 archived: false
-short: "This project aims to survey existing approaches from both research (through e.g. a literature review) and practice (by means of locating and examining open source cost calculator projects) in order to compare and contrast these approaches, forming the State of the Art on the topic."
-keywords:
-  - Cloud Computing
-  - Cost
-is_group: false
 available: true
-types:
-  - BSc
-  - MSc Int
+category: Software & Architecture Analytics Projects
+is_group: false
+keywords:
+- Cloud Computing
+- Cost
 posted: 2023-02-10
+short: This project aims to survey existing approaches from both research (through
+  e.g. a literature review) and practice (by means of locating and examining open
+  source cost calculator projects) in order to compare and contrast these approaches,
+  forming the State of the Art on the topic.
 supervisors:
-  - Prof. Dr. Vasilios Andrikopoulos
+- v.andrikopoulos@rug.nl
+title: A Survey of Cloud Cost Calculators
+types:
+- BSc
+- MSc Int
 ---
+
 The utility computing-oriented billing of cloud services means that users of these services get charged over time and intensity of use in a similar manner to public utilities such as electricity or phones. As a result, both researchers and practitioners have become interested on developing tools calculating the cost of their software on cloud services before they are even actually deployed and ran there. This project aims to survey existing approaches from both research (through e.g. a literature review) and practice (by means of locating and examining open source cost calculator projects) in order to compare and contrast these approaches, forming the State of the Art on the topic.
 
 ### Literature

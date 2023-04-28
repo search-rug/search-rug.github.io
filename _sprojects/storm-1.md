@@ -1,19 +1,20 @@
 ---
-title: "Domain-specific Spreadsheet Languages and Tools"
-category: "Language Engineering Projects"
 archived: false
-short: "The goal of this project is to explore how Rascal can support the definition of domain-specific spreadsheet languages."
-keywords:
-  - language engineering
-  - spreadsheets
-  - end-user programming
-is_group: false
 available: true
-types:
-  - MSc
+category: Language Engineering Projects
+is_group: false
+keywords:
+- language engineering
+- spreadsheets
+- end-user programming
 posted: 2023-02-10
+short: The goal of this project is to explore how Rascal can support the definition
+  of domain-specific spreadsheet languages.
 supervisors:
-  - Prof. dr. Tijs van der Storm
+- storm@cwi.nl
+title: Domain-specific Spreadsheet Languages and Tools
+types:
+- MSc
 ---
 
 [Rascal](http://www.rascal-mpl.org/) is a meta programming language and language workbench for developing source code analysis and transformation tools. This includes compilers for programming languages and DSLs. Currently, Rascal can be considered a textual language workbench since it takes plain-text source code as input and produces various kinds of output.

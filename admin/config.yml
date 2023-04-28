@@ -83,15 +83,17 @@ collections:
         widget: "relation"
         required: false
         collection: "team"
-        value_field: "title"
+        value_field: "contact.email"
+        display_fields: ["title"]
         search_fields: ["title"]
         multiple: true
       - name: "lecturers"
         widget: "relation"
         required: false
         collection: "team"
-        value_field: "title"
+        value_field: "contact.email"
         search_fields: ["title"]
+        display_fields: ["title"]
         multiple: true
       - name: "external_coordinators"
         widget: "list"
@@ -126,8 +128,9 @@ collections:
       - name: "members"
         widget: "relation"
         collection: "team"
-        value_field: "title"
+        value_field: "contact.email"
         search_fields: ["title"]
+        display_fields: ["title"]
         multiple: true
       - name: "funding"
         widget: "list"
@@ -160,8 +163,9 @@ collections:
       - name: "supervisors"
         widget: "relation"
         collection: "team"
-        value_field: "title"
+        value_field: "contact.email"
         search_fields: ["title"]
+        display_fields: ["title"]
         multiple: true
       - { name: "is_group", widget: "boolean" }
       - { name: "available", widget: "boolean" }
