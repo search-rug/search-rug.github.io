@@ -19,7 +19,7 @@ sections:
   {% assign available_projects = site.sprojects | where: "archived", "false"  %}
   <section class="space-y-3">
     <h2 class="text-2xl">Available Student Projects</h2>
-    {% include project-card-grid.html projects=available_projects card_component="project-card.html" %}
+    {% include project-card-grid.html projects=available_projects card_component="student-project-card.html" %}
   </section>
 
   {% assign past_projects = site.sprojects | where: "archived", "true"  %}

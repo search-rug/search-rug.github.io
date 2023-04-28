@@ -12,8 +12,8 @@ backlink:
 <section>
   <h2 class="text-xl my-2">Contact</h3>
   <div class="grid md:grid-cols-2 gap-4">
-    {% for member_name in page.members %}
-      {% assign member = site.team | where: "title", member_name | first %}
+    {% for member_email in page.members %}
+      {% assign member = site.team | where_exp: "m", "m.contact.email == member_email" | first %}
       {% include team-card-compact.html member=member %}
     {% endfor %}
   </div>

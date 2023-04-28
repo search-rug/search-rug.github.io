@@ -16,8 +16,8 @@
       <div class="flex flex-col">
         <p class="text-sm">Members</p>
         <p class="font-medium flex -space-x-2">
-          {% for member_name in project.members %}
-            {% assign member = site.team | where: "title", member_name | first %}
+          {% for member_email in project.members %}
+            {% assign member = site.team | where_exp: "m", "m.contact.email == member_email" | first %}
             {% include member-pfp-circle.html member=member %}
           {% endfor %}
         </p>

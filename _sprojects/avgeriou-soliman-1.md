@@ -1,22 +1,24 @@
 ---
-title: "Develop a Web-Based Self-Admitted Technical Debt Visualization and Management System"
-category: "Software & Architecture Analytics Projects"
 archived: false
-short: "In order to better manage technical debt, we need to design and develop a visualization and management system to help developers manage self-admitted technical debt."
-keywords:
-  - software engineering
-  - empirical studies
-  - self-admitted technical debt
-is_group: false
 available: true
-types:
-  - BSc
-  - MSc
+category: Software & Architecture Analytics Projects
+is_group: false
+keywords:
+- software engineering
+- empirical studies
+- self-admitted technical debt
 posted: 2023-01-01
+short: In order to better manage technical debt, we need to design and develop a visualization
+  and management system to help developers manage self-admitted technical debt.
 supervisors:
-  - Prof. dr. ir. Paris Avgeriou
-  - Dr. Mohamed A.M. Soliman
-  - Yikun Li
+- paris@cs.rug.nl
+- m.a.m.soliman@rug.nl
+- yikun.li@rug.nl
+title: Develop a Web-Based Self-Admitted Technical Debt Visualization and Management
+  System
+types:
+- BSc
+- MSc
 ---
 
 Technical debt refers to taking shortcuts, either deliberately or inadvertently, to achieve short-term goals, which might negatively influence the maintenance and evolution of software on the long term [2]. If technical debt is incurred immoderately and left unresolved, the accumulated technical debt can turn into maintenance burdens.

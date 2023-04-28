@@ -4,27 +4,17 @@ layout: default
 bodyClass: "page-research"
 # entries in `sections` match the text of a heading on the page
 sections:
- - Publications
- - Datasets
- - Active Projects
- - Past Projects
+  - Active Projects
+  - Past Projects
+  - Publications
+  - Datasets
 ---
 
-<div class="container space-y-8 mx-auto px-4 pb-6 pt-[100px] pb-md-10">
+<div class="container space-y-12 mx-auto px-4 pb-6 pt-[100px] pb-md-10">
   <h1 class="text-black text-5xl leading-5 lg:text-[50px] font-semibold mb-8">{{page.title}}</h1>
 
   <!-- Adds a scroll button for each section defined above. -->
   {% include section-scroll-buttons.html sections=layout.sections %}
-
-  <section>
-    <h3 class="text-2xl">Publications</h3>
-    {% include page-list.html pages=site.data.publications %}
-  </section>
-
-  <section>
-    <h3 class="text-2xl">Datasets</h3>
-    {% include page-list.html pages=site.data.datasets %}
-  </section>
 
   <section class="space-y-3">
     {% assign active_projects = site.projects | where: "archived", "false" %}
@@ -39,4 +29,22 @@ sections:
       {% include page-list.html pages=past_projects %}
     </section>
   {% endif %}
+
+  <section class="space-y-2">
+    <h3 class="text-2xl">Publications</h3>
+    <div class="grid xl:grid-cols-2 gap-4">
+      {% for publication in site.data.publications %}
+        {% include research-contribution-card.html contribution=publication %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="space-y-2">
+    <h3 class="text-2xl">Datasets</h3>
+    <div class="grid xl:grid-cols-2 gap-4">
+      {% for dataset in site.data.datasets %}
+        {% include research-contribution-card.html contribution=dataset %}
+      {% endfor %}
+    </div>
+  </section>
 </div>
