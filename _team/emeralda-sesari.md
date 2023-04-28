@@ -1,6 +1,6 @@
 ---
 title: "Emeralda Sesari"
-image: "images/team/emeralda-sesari.jpg"
+image: "/uploads/team-avatars/emeralda-sesari.jpg"
 position: "phd student"
 weight: 100
 status:

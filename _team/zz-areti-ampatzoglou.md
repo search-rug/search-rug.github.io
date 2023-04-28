@@ -1,6 +1,6 @@
 ---
 title: "Dr. Areti Ampatzoglou"
-image: "images/team/areti-ampatzoglou.jpg"
+image: "/uploads/team-avatars/areti-ampatzoglou.jpg"
 position: "phd student"
 status:
   promoted: false # appear in home page
@@ -8,7 +8,7 @@ status:
   group_graduate: true # graduated phd student
 weight: 1000
 topics:
-  - Technical Debt 
-  - Software Economics 
-  - Object-Oriented Design 
+  - Technical Debt
+  - Software Economics
+  - Object-Oriented Design
 ---

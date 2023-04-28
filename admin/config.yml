@@ -8,7 +8,7 @@ backend:
   identity_url: "https://search-rug.netlify.app/.netlify/identity"
   gateway_url: "https://search-rug.netlify.app/.netlify/git"
   site_domain: "https://search-rug.netlify.app"
-media_folder: "assets/uploads"
+media_folder: "/uploads/miscellaneous"
 collections:
   - name: "team"
     label: "Team"
@@ -19,6 +19,12 @@ collections:
     fields:
       - { name: "title", widget: string }
       - { name: "position", widget: string }
+      - name: "image"
+        label: "avatar"
+        widget: "image"
+        media_folder: "/uploads/team-avatars"
+        allow_multiple: false
+        required: false
       - name: "status"
         widget: "object"
         fields:
@@ -121,7 +127,7 @@ collections:
       - { name: "homepage", required: false }
       - name: "logo"
         widget: "image"
-        media_folder: "/images/projects"
+        media_folder: "/uploads/project-logos"
         allow_multiple: false
         required: false
       - { name: "body", widget: "markdown", required: false }

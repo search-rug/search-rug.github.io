@@ -1,6 +1,6 @@
 ---
 title: "Zaki Pauzi"
-image: "images/team/zaki-pauzi.jpg"
+image: "/uploads/team-avatars/zaki-pauzi.jpg"
 position: "phd student"
 weight: 100
 status:
@@ -14,7 +14,7 @@ publications:
 social:
   linkedin: "https://www.linkedin.com/in/zaki-pauzi-363a90128/"
 topics:
-  - Software traceability 
-  - Information retrieval 
-  - Natural language processing 
+  - Software traceability
+  - Information retrieval
+  - Natural language processing
 ---

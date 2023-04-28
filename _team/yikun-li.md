@@ -1,6 +1,6 @@
 ---
 title: "Yikun Li"
-image: "images/team/yikun-li.jpg"
+image: "/uploads/team-avatars/yikun-li.jpg"
 position: "phd student"
 weight: 100
 status:
@@ -14,6 +14,6 @@ contact:
 publications:
   pure: "https://research.rug.nl/en/persons/yikun-li/publications/"
 topics:
-  - Technical Debt 
-  - Software Architecture 
+  - Technical Debt
+  - Software Architecture
 ---

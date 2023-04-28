@@ -3,7 +3,7 @@ permalink: pretty
 title: "SEARCH"
 
 logo:
-  image: "images/logo/logo.svg"
+  image: "/uploads/branding/logo.svg"
   height: "32px"
 
 home:
@@ -45,7 +45,7 @@ defaults:
       path: ""
       type: "team"
     values:
-      image: "images/team/search-avatar.svg"
+      image: "/assets/grahics/search-avatar.svg"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed

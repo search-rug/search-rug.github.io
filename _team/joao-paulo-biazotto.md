@@ -1,6 +1,6 @@
 ---
 title: "João Paulo Biazotto"
-image: "images/team/joao-paulo-biazotto.jpg"
+image: "/uploads/team-avatars/joao-paulo-biazotto.jpg"
 position: "phd student"
 weight: 100
 status:
@@ -14,8 +14,8 @@ contact:
 publications:
   pure: "https://research.rug.nl/en/persons/joao-paulo-biazotto/publications/"
 topics:
-  - Technical Debt 
-  - Software Architecture 
+  - Technical Debt
+  - Software Architecture
   - Software Development Automation
-  - Reference Architecture 
+  - Reference Architecture
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Dr. Chen Yang"
-image: "images/team/chen-yang.jpg"
+image: "/uploads/team-avatars/chen-yang.jpg"
 position: "phd student"
 status:
   promoted: false # appear in home page
@@ -10,7 +10,7 @@ contact:
   email: "ytomc.yc@gmail.com"
 weight: 1000
 topics:
-  - architectural assumption 
+  - architectural assumption
   - architectural knowledge
   - architecture-agility combination
 ---

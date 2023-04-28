@@ -3,7 +3,7 @@
     <div class="flex flex-row items-top h-full">
       <!-- Member image -->
       <div class="grow-0 shrink-0 basis-auto w-4/12 max-w-[112px] pr-3">
-        <img 
+        <img
           alt="{{ member.title }}"
           class="w-full rounded-md mb-0"
           src="{{ member.image | relative_url }}"
@@ -28,7 +28,7 @@
             <div class="flex flex-row items-center">
               {% if member.contact.email -%}
               <svg class="mr-2 w-4 h-4">
-                <use xlink:href="/assets/sprites.svg#email"></use>
+                <use xlink:href="/assets/graphics/sprites.svg#email"></use>
               </svg>
               <div class="text-sm">{{member.contact.email}}</div>
               {% endif %}
@@ -36,7 +36,7 @@
             <div class="flex flex-row items-center">
               {% if member.contact.phone -%}
               <svg class="mr-2 w-4 h-4">
-                <use xlink:href="/assets/sprites.svg#phone"></use>
+                <use xlink:href="/assets/graphics/sprites.svg#phone"></use>
               </svg>
               <div class="text-sm">{{member.contact.phone|replace: ' ','' }}</div>
               {% else %}
@@ -53,7 +53,7 @@
                 {% for item in member.publications %}
                 <a class="pl-0 pr-2" href="{{item[1]}}" target="blank">
                     <svg class="w-4 h-4">
-                        <use xlink:href="/assets/sprites.svg#{{item[0]}}"></use>
+                        <use xlink:href="/assets/graphics/sprites.svg#{{item[0]}}"></use>
                     </svg>
                 </a>
                 {% endfor %}
@@ -67,7 +67,7 @@
                 {% for item in member.social %}
                 <a class="pl-0 pr-2" href="{{item[1]}}" target="blank">
                     <svg class="w-4 h-4">
-                        <use xlink:href="/assets/sprites.svg#{{item[0]}}"></use>
+                        <use xlink:href="/assets/graphics/sprites.svg#{{item[0]}}"></use>
                     </svg>
                 </a>
                 {% endfor %}

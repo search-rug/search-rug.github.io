@@ -5,7 +5,7 @@ funding:
   number: '17038'
   shortname: ITEA3/RVO
 homepage: https://iteavisdom.org/
-logo: images/projects/visdom-logo.png
+logo: "/uploads/project-logos/visdom-logo.png"
 members:
 - paris@cs.rug.nl
 - m.a.m.soliman@rug.nl
