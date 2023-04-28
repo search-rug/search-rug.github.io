@@ -1,0 +1,25 @@
+<!--
+  Expects a list of objects in the `contributions` include variable.
+  Objects have following fields where ? marks an optional field:
+    title: string
+    description?: string
+    download_count: int
+    url: string
+-->
+
+<article class="rounded-lg border shadow-sm h-full">
+  <div class="flex gap-6 w-full items-center h-full p-10 py-8">
+    <div class="flex-grow space-y-2">
+      <a href="{{ include.contribution.url }}" class="underline text-2xl hover:text-gray-500">{{ include.contribution.title  }}</a>
+      {% if include.contribution.description %}
+        <p class="text-sm">{{ include.contribution.description }}</p>
+      {% endif %}
+    </div>
+    {% if include.contribution.download_count %}
+      <div class="flex flex-col items-center">
+        <p class="text-2xl font-semibold">{{ include.contribution.download_count }}</p>
+        <p class="text-sm text-gray-500">Downloads</p>
+      </div>
+    {% endif %}
+  </div>
+</article>
