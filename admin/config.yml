@@ -122,7 +122,10 @@ collections:
       preview: false
     fields:
       - { name: "title" }
-      - { name: "short" }
+      - name: "short"
+        label: "short description"
+        widget: "text"
+        pattern: ["^.{100,350}$", "Must have between 100 and 350 characters."]
       - name: "status"
         widget: "select"
         hint: "The current state of the research project."
@@ -161,7 +164,10 @@ collections:
       preview: false
     fields:
       - { name: "title" }
-      - { name: "short" }
+      - name: "short"
+        label: "short description"
+        widget: "text"
+        pattern: ["^.{100,350}$", "Must have between 100 and 350 characters."]
       - { name: "archived", widget: "boolean" }
       - { name: "category" }
       - name: "keywords"
