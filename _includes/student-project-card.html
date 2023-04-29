@@ -18,10 +18,10 @@
       {% endif %}
     </p>
 
-    <div class="details-container">
-      <div class="detail">
-        <p class="name">Status</p>
-        <p>
+    <div class="flex gap-10">
+      <div style="min-width: 100px;">
+        <p class="text-sm">Status</p>
+        <p class="text-gray-700">
           {% if project.available %}
           <span>Available</span>
           {% else %}
@@ -29,15 +29,17 @@
           {% endif %}
         </p>
       </div>
-      <div class="detail">
-        <p class="name">Suitable for</p>
-        <p>
+
+      <div style="min-width: 100px;">
+        <p class="text-sm">Suitable for</p>
+        <p class="text-gray-700">
           <!--TODO: get rid of trailing commas-->
           {% for type in project.types %}
           <span>{{ type }},</span>
           {% endfor %}
         </p>
       </div>
+
     </div>
   </div>
 </article>
