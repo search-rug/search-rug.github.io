@@ -123,6 +123,11 @@ collections:
     fields:
       - { name: "title" }
       - { name: "short" }
+      - name: "status"
+        widget: "select"
+        hint: "The current state of the research project."
+        options: ["In Progress", "Concluded"]
+        default: "In Progress"
       - { name: "archived", widget: "boolean" }
       - { name: "homepage", required: false }
       - name: "logo"
