@@ -19,6 +19,17 @@
     </p>
 
     <div class="flex gap-10">
+
+      <div class="flex-col hidden sm:flex" style="min-width: 100px;">
+        <p class="text-sm">Supervisors</p>
+        <p class="font-medium flex -space-x-2">
+          {% for member_email in project.supervisors %}
+            {% assign member = site.team | where_exp: "m", "m.contact.email == member_email" | first %}
+            {% include member-pfp-circle.html member=member %}
+          {% endfor %}
+        </p>
+      </div>
+
       <div style="min-width: 100px;">
         <p class="text-sm">Status</p>
         <p class="text-gray-700">
@@ -39,7 +50,6 @@
           {% endfor %}
         </p>
       </div>
-
     </div>
   </div>
 </article>
