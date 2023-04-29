@@ -181,6 +181,7 @@ collections:
         widget: "list"
         hint: "A comma separated list of project keywords. Should give students an intuition for what the project is about."
       - name: "types"
+        label: "suitable for"
         widget: "select"
         options: ["MSc", "BSc", "MSc Int"]
         multiple: true
