@@ -10,7 +10,7 @@ backlink:
 </div>
 
 <section>
-  <h2 class="text-xl my-2">Contact</h3>
+  <h2 class="text-xl my-2">Supervisor(s)</h3>
   <div class="grid md:grid-cols-2 gap-4">
     {% for member_email in page.supervisors %}
     {% assign member = site.team | where_exp: "m", "m.contact.email == member_email" | first %}
