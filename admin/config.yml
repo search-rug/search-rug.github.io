@@ -140,7 +140,10 @@ collections:
         media_folder: "/uploads/project-logos"
         allow_multiple: false
         required: false
-      - { name: "body", widget: "markdown", required: false }
+      - name: "body"
+        widget: "markdown"
+        required: false
+        hint: "A longer description of the project. Rendered on a separate page in the style of an article."
       - name: "members"
         widget: "relation"
         collection: "team"
@@ -191,7 +194,10 @@ collections:
       - { name: "is_group", widget: "boolean" }
       - { name: "available", widget: "boolean" }
       - { name: "posted", widget: "date" }
-      - { name: "body", widget: "markdown", required: false }
+      - name: "body"
+        widget: "markdown"
+        required: false
+        hint: "A longer description of the project. Rendered on a separate page in the style of an article."
 
   - name: "pages"
     label: "Pages"
