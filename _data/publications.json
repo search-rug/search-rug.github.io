@@ -1,5 +1,17 @@
 [
     {
+        "title": "Architectural decision-making as a financial investment: An industrial case study",
+        "url": "https://research.rug.nl/en/publications/architectural-decision-making-as-a-financial-investment-an-indust"
+    },
+    {
+        "title": "Exploring the Relation between Technical Debt Principal and Interest: An Empirical Approach",
+        "url": "https://research.rug.nl/en/publications/exploring-the-relation-between-technical-debt-principal-and-inter"
+    },
+    {
+        "title": "Can Clean New Code Reduce Technical Debt Density?",
+        "url": "https://research.rug.nl/en/publications/can-clean-new-code-reduce-technical-debt-density"
+    },
+    {
         "title": "The Risk of Generating Technical Debt Interest: A Case Study",
         "url": "https://research.rug.nl/en/publications/the-risk-of-generating-technical-debt-interest-a-case-study"
     },
@@ -186,17 +198,5 @@
     {
         "title": "A Study on Architectural Smells Prediction",
         "url": "https://research.rug.nl/en/publications/a-study-on-architectural-smells-prediction"
-    },
-    {
-        "title": "On the Temporality of Introducing Code Technical Debt",
-        "url": "https://research.rug.nl/en/publications/on-the-temporality-of-introducing-code-technical-debt"
-    },
-    {
-        "title": "A mapping study on documentation in Continuous Software Development",
-        "url": "https://research.rug.nl/en/publications/a-mapping-study-on-documentation-in-continuous-software-developme"
-    },
-    {
-        "title": "Does it matter who pays back Technical Debt? An empirical study of self-fixed TD",
-        "url": "https://research.rug.nl/en/publications/does-it-matter-who-pays-back-technical-debt-an-empirical-study-of"
     }
 ]
