@@ -78,3 +78,18 @@ body {
     line-height: 1.3;
   }
 }
+
+.contrib-card {
+  .title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+  }
+  .journal {
+    font-style: italic;
+  }
+  .person {
+    color: $primary;
+  }
+}

@@ -7,13 +7,10 @@
     url: string
 -->
 
-<article class="rounded-lg border shadow-sm h-full">
+<article class="rounded-lg border shadow-sm h-full ">
   <div class="flex gap-6 w-full items-center h-full p-10 py-8">
-    <div class="flex-grow space-y-2">
-      <a href="{{ include.contribution.url }}" class="underline text-2xl hover:text-gray-500">{{ include.contribution.title  }}</a>
-      {% if include.contribution.description %}
-        <p class="text-sm">{{ include.contribution.description }}</p>
-      {% endif %}
+    <div class="flex-grow space-y-2 contrib-card">
+      {{ include.contribution.description }}
     </div>
     {% if include.contribution.download_count %}
       <div class="flex flex-col items-center">
