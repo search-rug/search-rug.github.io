@@ -1,5 +1,6 @@
 import urllib.request
 import json
+from datetime import datetime
 from xml.etree import ElementTree as ET
 from pathlib import Path
 import re
@@ -8,14 +9,16 @@ import re
 class Contribution:
     """Represents a contribution loaded from the RSS feed."""
 
-    def __init__(self, title, link):
+    def __init__(self, title, link, description):
         self.title = title
         self.link = link
+        self.description = description
 
     def to_dict(self):
         return {
             'title': self.title,
             'url': self.link,
+            'description': self.description,
         }
 
 
@@ -24,27 +27,56 @@ class RSSContributionScraper():
 
     def __init__(self, rss_link, exclude_regex=None):
         self.rss_link = rss_link
-        self.exclude_regex = exclude_regex
+        if exclude_regex is None:
+            self.exclude_regex = []
+        elif not isinstance(exclude_regex, list):
+            self.exclude_regex = [exclude_regex]
+        else:
+            self.exclude_regex = exclude_regex
+
+    @staticmethod
+    def _getPubDate(item):
+        """Extracts publication date from RSS item."""
+        pubdate = item.find("pubDate")
+        if pubdate is None:
+            return None
+        return datetime.strptime(pubdate.text, "%a, %d %b %Y %H:%M:%S %Z")
+    
+    @staticmethod
+    def _cleanDescription(description):
+        """Extracts description from RSS item."""
+        if description is None:
+            return None
+        # remove type tag
+        description = re.sub(r'<p class="type">.*?</p>', '', description)
+        # remove empty link tags
+        description = re.sub(re.compile(r'<a[^>]*href="#"[^>]*>(.*?)</a>', re.IGNORECASE), r'\1', description)
+        # remove dataset link
+        description = re.sub(r'<p class="links-doi">.*?</p>', '', description)
+        # for dates, keep only the year
+        description = re.sub(r'(<span class="date">)(\d{0,2}-)?(\w{3}-)?(\d{4})(</span>)', r'\1\4\5', description)
+        
+        return description
 
     def get_contributions(self):
         """Extracts RSS contibution entries from RSS feed."""
         response = urllib.request.urlopen(self.rss_link)
         rss_doc = ET.fromstring(response.read())
         channels = rss_doc.findall("channel")
+        items = sorted(channels[0].findall("item"), key=RSSContributionScraper._getPubDate, reverse=True)
+        
         contributions = []
 
-        for item in channels[0]:
-            if item.tag != "item":
-                continue
-
-            title = item[0].text
-            link = item[1].text
-
-            if self.exclude_regex is not None and re.match(self.exclude_regex, title):
+        for item in items:
+            title = item.find("title").text
+            link = item.find("link").text
+            description = RSSContributionScraper._cleanDescription(item.find("description").text)
+            
+            if any([re.match(regex, title) for regex in self.exclude_regex]):
                 print(f"excluded: {title}")
                 continue
 
-            contributions.append(Contribution(title, link))
+            contributions.append(Contribution(title, link, description))
 
         return contributions
 
@@ -91,7 +123,7 @@ if __name__ == "__main__":
         {
             "name": "publications",
             "rss_link": "https://research.rug.nl/en/organisations/software-engineering/publications/?format=rss",
-            "exclude_regex": None
+            "exclude_regex": [r".*SC@RUG.*"]
         }
     ]
 
