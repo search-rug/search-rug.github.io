@@ -18,10 +18,10 @@
       {% endif %}
     </p>
 
-    <div class="flex gap-10">
+    <div class="mt-0 flex gap-8">
 
-      <div class="flex-col hidden sm:flex" style="min-width: 100px;">
-        <p class="text-sm">Supervisors</p>
+      <div class="flex-col hidden sm:flex">
+        <p class="text-sm">{% if project.supervisors.size > 1 %} Supervisors {% else %} Supervisor {% endif %}</p>
         <p class="font-medium flex -space-x-2">
           {% for member_email in project.supervisors %}
             {% assign member = site.team | where_exp: "m", "m.contact.email == member_email" | first %}
@@ -30,14 +30,14 @@
         </p>
       </div>
 
-      <div style="min-width: 100px;">
+      <div>
         <p class="text-sm">Status</p>
         <p class="text-gray-700">
           {{ project.status }}
         </p>
       </div>
 
-      <div style="min-width: 100px;">
+      <div>
         <p class="text-sm">Suitable for</p>
         <p class="text-gray-700">
           <!--TODO: get rid of trailing commas-->
