@@ -1,6 +1,6 @@
 ---
 archived: false
-available: true
+status: "Available"
 category: Language Engineering Projects
 is_group: false
 keywords:

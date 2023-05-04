@@ -173,6 +173,11 @@ collections:
         label: "short description"
         widget: "text"
         pattern: ["^.{100,350}$", "Must have between 100 and 350 characters."]
+      - name: "status"
+        widget: "select"
+        hint: "The current state of the student project."
+        options: ["Available", "In Progress", "Concluded"]
+        default: "Available"
       - name: "archived"
         widget: "boolean"
         hint: "Archived projects are still visible on website, but is not promoted with its own card component."
@@ -193,7 +198,6 @@ collections:
         display_fields: ["title"]
         multiple: true
       - { name: "is_group", widget: "boolean" }
-      - { name: "available", widget: "boolean" }
       - { name: "posted", widget: "date" }
       - name: "body"
         widget: "markdown"
