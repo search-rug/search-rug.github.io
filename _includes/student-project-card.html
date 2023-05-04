@@ -22,11 +22,7 @@
       <div style="min-width: 100px;">
         <p class="text-sm">Status</p>
         <p class="text-gray-700">
-          {% if project.available %}
-          <span>Available</span>
-          {% else %}
-          <span>Unavailable</span>
-          {% endif %}
+          {{ project.status }}
         </p>
       </div>
 
