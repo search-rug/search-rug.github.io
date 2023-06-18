@@ -5,6 +5,11 @@
         "description": "<div class=\"rendering rendering_dataset rendering_short rendering_dataset_short\"><h3 class=\"title\"><a rel=\"DataSet\" href=\"https://research.rug.nl/en/datasets/dataset-of-phabricator-code-reviews\" class=\"link\"><span>Dataset of Phabricator code reviews</span></a></h3><p><a rel=\"Person\" href=\"https://research.rug.nl/en/persons/gunnar-kudrjavets\" class=\"link person\"><span>Kudrjavets, G.</span></a> (Creator), Nagappan, N. (Contributor) &amp; <a rel=\"Person\" href=\"https://research.rug.nl/en/persons/ayushi-rastogi\" class=\"link person\"><span>Rastogi, A.</span></a> (Contributor), University of Groningen, <span class=\"date\">2021</span></p></div>"
     },
     {
+        "title": "Security vulnerabilities in open-source reused systems",
+        "url": "https://research.rug.nl/en/datasets/security-vulnerabilities-in-open-source-reused-systems",
+        "description": "<div class=\"rendering rendering_dataset rendering_short rendering_dataset_short\"><h3 class=\"title\"><a rel=\"DataSet\" href=\"https://research.rug.nl/en/datasets/security-vulnerabilities-in-open-source-reused-systems\" class=\"link\"><span>Security vulnerabilities in open-source reused systems</span></a></h3><p>Gkortzis, A. (Contributor), <a rel=\"Person\" href=\"https://research.rug.nl/en/persons/daniel-feitosa\" class=\"link person\"><span>Feitosa, D.</span></a> (Contributor) &amp; Spinellis, D. (Contributor), ZENODO, <span class=\"date\">2020</span></p></div>"
+    },
+    {
         "title": "Dataset: Security vulnerabilities in open-source reused systems",
         "url": "https://research.rug.nl/en/datasets/dataset-security-vulnerabilities-in-open-source-reused-systems",
         "description": "<div class=\"rendering rendering_dataset rendering_short rendering_dataset_short\"><h3 class=\"title\"><a rel=\"DataSet\" href=\"https://research.rug.nl/en/datasets/dataset-security-vulnerabilities-in-open-source-reused-systems\" class=\"link\"><span>Dataset: Security vulnerabilities in open-source reused systems</span></a></h3><p>Gkortzis, A. (Creator), <a rel=\"Person\" href=\"https://research.rug.nl/en/persons/daniel-feitosa\" class=\"link person\"><span>Feitosa, D.</span></a> (Creator) &amp; Spinellis, D. (Creator), University of Groningen, <span class=\"date\">2019</span></p></div>"
