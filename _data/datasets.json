@@ -1,5 +1,15 @@
 [
     {
+        "title": "Supplementary Material of the paper entitled \"Governing Digital Twin technology on smart and sustainable tourism\"",
+        "url": "https://research.rug.nl/en/datasets/supplementary-material-of-the-paper-entitled-governing-digital-tw",
+        "description": "<div class=\"rendering rendering_dataset rendering_short rendering_dataset_short\"><h3 class=\"title\"><a rel=\"DataSet\" href=\"https://research.rug.nl/en/datasets/supplementary-material-of-the-paper-entitled-governing-digital-tw\" class=\"link\"><span>Supplementary Material of the paper entitled \"Governing Digital Twin technology on smart and sustainable tourism\"</span></a></h3><p><a rel=\"Person\" href=\"https://research.rug.nl/en/persons/eko-rahmadian\" class=\"link person\"><span>Rahmadian, E.</span></a> (Contributor), <a rel=\"Person\" href=\"https://research.rug.nl/en/persons/daniel-feitosa\" class=\"link person\"><span>Feitosa, D.</span></a> (Contributor) &amp; <a rel=\"Person\" href=\"https://research.rug.nl/en/persons/andrej-zwitter\" class=\"link person\"><span>Zwitter, A.</span></a> (Contributor), ZENODO, <span class=\"date\">2022</span></p></div>"
+    },
+    {
+        "title": "GitRanking: A Ranking of GitHub Topics for Software Classification using Active Sampling",
+        "url": "https://research.rug.nl/en/datasets/gitranking-a-ranking-of-github-topics-for-software-classification",
+        "description": "<div class=\"rendering rendering_dataset rendering_short rendering_dataset_short\"><h3 class=\"title\"><a rel=\"DataSet\" href=\"https://research.rug.nl/en/datasets/gitranking-a-ranking-of-github-topics-for-software-classification\" class=\"link\"><span>GitRanking: A Ranking of GitHub Topics for Software Classification using Active Sampling</span></a></h3><p><a rel=\"Person\" href=\"https://research.rug.nl/en/persons/cezar-sas\" class=\"link person\"><span>Sas, C.</span></a> (Contributor), <a rel=\"Person\" href=\"https://research.rug.nl/en/persons/andrea-capiluppi\" class=\"link person\"><span>Capiluppi, A.</span></a> (Contributor), Di Sipio, C. (Contributor), Di Rocco, J. (Contributor) &amp; Di Ruscio, D. (Contributor), ZENODO, <span class=\"date\">2022</span></p></div>"
+    },
+    {
         "title": "Dataset for ESE submission \"Pull Request Latency Explained: An Empirical Overview\"",
         "url": "https://research.rug.nl/en/datasets/dataset-for-ese-submission-pull-request-latency-explained-an-empi",
         "description": "<div class=\"rendering rendering_dataset rendering_short rendering_dataset_short\"><h3 class=\"title\"><a rel=\"DataSet\" href=\"https://research.rug.nl/en/datasets/dataset-for-ese-submission-pull-request-latency-explained-an-empi\" class=\"link\"><span>Dataset for ESE submission \"Pull Request Latency Explained: An Empirical Overview\"</span></a></h3><p>Zhang, X. (Contributor), Yu, Y. (Contributor), Wang, T. (Contributor), <a rel=\"Person\" href=\"https://research.rug.nl/en/persons/ayushi-rastogi\" class=\"link person\"><span>Rastogi, A.</span></a> (Contributor) &amp; Wang, H. (Contributor), ZENODO, <span class=\"date\">2021</span></p></div>"
