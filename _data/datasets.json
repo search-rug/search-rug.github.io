@@ -47,7 +47,7 @@
     {
         "title": "Replication Package: On the relation between architectural smells and source code changes",
         "url": "https://research.rug.nl/en/datasets/replication-package-on-the-relation-between-architectural-smells-",
-        "description": "<div class=\"rendering rendering_dataset rendering_short rendering_dataset_short\"><h3 class=\"title\"><a rel=\"DataSet\" href=\"https://research.rug.nl/en/datasets/replication-package-on-the-relation-between-architectural-smells-\" class=\"link\"><span>Replication Package: On the relation between architectural smells and source code changes</span></a></h3><p><a rel=\"Person\" href=\"https://research.rug.nl/en/persons/darius-sas\" class=\"link person\"><span>Sas, D.</span></a> (Contributor), <a rel=\"Person\" href=\"https://research.rug.nl/en/persons/paris-avgeriou\" class=\"link person\"><span>Avgeriou, P.</span></a> (Contributor), Pigazzini, I. (Contributor) &amp; Fontana, F. A. (Contributor), ZENODO, <span class=\"date\">2021</span></p></div>"
+        "description": "<div class=\"rendering rendering_dataset rendering_short rendering_dataset_short\"><h3 class=\"title\"><a rel=\"DataSet\" href=\"https://research.rug.nl/en/datasets/replication-package-on-the-relation-between-architectural-smells-\" class=\"link\"><span>Replication Package: On the relation between architectural smells and source code changes</span></a></h3><p>Sas, D. (Contributor), <a rel=\"Person\" href=\"https://research.rug.nl/en/persons/paris-avgeriou\" class=\"link person\"><span>Avgeriou, P.</span></a> (Contributor), Pigazzini, I. (Contributor) &amp; Fontana, F. A. (Contributor), ZENODO, <span class=\"date\">2021</span></p></div>"
     },
     {
         "title": "Security vulnerabilities in open-source reused systems",
@@ -62,7 +62,7 @@
     {
         "title": "Dataset: Investigating instability architectural smells evolution: an exploratory case study",
         "url": "https://research.rug.nl/en/datasets/dataset-investigating-instability-architectural-smells-evolution-",
-        "description": "<div class=\"rendering rendering_dataset rendering_short rendering_dataset_short\"><h3 class=\"title\"><a rel=\"DataSet\" href=\"https://research.rug.nl/en/datasets/dataset-investigating-instability-architectural-smells-evolution-\" class=\"link\"><span>Dataset: Investigating instability architectural smells evolution: an exploratory case study</span></a></h3><p><a rel=\"Person\" href=\"https://research.rug.nl/en/persons/darius-sas\" class=\"link person\"><span>Sas, D.</span></a> (Creator), <a rel=\"Person\" href=\"https://research.rug.nl/en/persons/paris-avgeriou\" class=\"link person\"><span>Avgeriou, P.</span></a> (Creator) &amp; Arcelli Fontana, F. (Creator), University of Groningen, <span class=\"date\">2019</span></p></div>"
+        "description": "<div class=\"rendering rendering_dataset rendering_short rendering_dataset_short\"><h3 class=\"title\"><a rel=\"DataSet\" href=\"https://research.rug.nl/en/datasets/dataset-investigating-instability-architectural-smells-evolution-\" class=\"link\"><span>Dataset: Investigating instability architectural smells evolution: an exploratory case study</span></a></h3><p>Sas, D. (Creator), <a rel=\"Person\" href=\"https://research.rug.nl/en/persons/paris-avgeriou\" class=\"link person\"><span>Avgeriou, P.</span></a> (Creator) &amp; Arcelli Fontana, F. (Creator), University of Groningen, <span class=\"date\">2019</span></p></div>"
     },
     {
         "title": "Dataset: Potential security vulnerabilities in open-source reused systems",
