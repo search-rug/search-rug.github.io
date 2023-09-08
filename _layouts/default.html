@@ -16,7 +16,23 @@
   <!-- <link rel="preload" href="{{ '/assets/fonts/playfair-display.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin> -->
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
 
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          typography: {
+            quoteless: {
+              css: {
+                'blockquote p:first-of-type::before': { content: 'none' },
+                'blockquote p:first-of-type::after': { content: 'none' },
+              },
+            },
+          },
+        },
+      },
+    }
+  </script>
 
   {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
   {% if page.meta_title %}<meta property="og:title" content="{{ page.meta_title }}"/>{% else %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
