@@ -33,7 +33,11 @@ defaults:
       path: ""
       type: "news"
     values:
-      layout: "news-post"
+      layout: "article"
+      showDate: true
+      backlink:
+        url: "/news"
+        text: "All news"
   - scope:
       path: ""
       type: "events"
