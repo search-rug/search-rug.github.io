@@ -11,10 +11,12 @@ posted: 2023-01-01
 short: The Technical Debt Monitoring System would continuously monitor and track the
   technical debt incurred during software development by utilizing static code analysis
   tools such as SonarQube, specifically within the context of merge requests.
-supervisors:
-- paris@cs.rug.nl
-- m.a.m.soliman@rug.nl
-- yikun.li@rug.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - paris@cs.rug.nl
+  - m.a.m.soliman@rug.nl
+  - yikun.li@rug.nl
 title: Design and Implementation of a Technical Debt Monitoring System for PHP
 types:
 - BSc

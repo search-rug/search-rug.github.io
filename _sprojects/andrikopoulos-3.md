@@ -11,8 +11,10 @@ keywords:
 posted: 2023-02-10
 short: This project aims to investigate what is the environmental footprint of training
   and using chatbots.
-supervisors:
-- v.andrikopoulos@rug.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - v.andrikopoulos@rug.nl
 title: Establishing the environmental footprint of chatbots
 types:
 - MSc

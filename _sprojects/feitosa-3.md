@@ -10,8 +10,10 @@ keywords:
 posted: 2023-02-10
 short: This project aims at building an MSR data collection infrastructure that can
   evolve and scale with minimum interruption.
-supervisors:
-- d.feitosa@rug.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - d.feitosa@rug.nl
 title: 'Software Mining Rig: Building a Scalable MSR Infrastructure for Research'
 types:
 - BSc

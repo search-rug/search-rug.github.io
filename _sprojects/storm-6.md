@@ -12,8 +12,10 @@ posted: 2023-01-01
 short: Some time ago, Nick Szabo wrote an essay exploring how a language for smart
   contracts could look like. The goal of this project is to go one step further to
   define a proper semantics and implementation of a language like this.
-supervisors:
-- storm@cwi.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - storm@cwi.nl
 title: Implementing Nick Szabo's Contract Language
 types:
 - MSc

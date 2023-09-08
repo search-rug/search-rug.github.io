@@ -12,8 +12,10 @@ posted: 2023-01-01
 short: The goal of this project is provide an M3 bridge to the Ethereum Solidity language.
   This will enable analysis and reverse engineering of Smart Contracts running on
   the Ethereum blockchain.
-supervisors:
-- storm@cwi.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - storm@cwi.nl
 title: 'M3Solidity: M3 Source Code Model for Ethereum Solidity'
 types:
 - BSc

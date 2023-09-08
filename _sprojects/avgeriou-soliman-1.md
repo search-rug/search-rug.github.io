@@ -10,10 +10,12 @@ keywords:
 posted: 2023-01-01
 short: In order to better manage technical debt, we need to design and develop a visualization
   and management system to help developers manage self-admitted technical debt.
-supervisors:
-- paris@cs.rug.nl
-- m.a.m.soliman@rug.nl
-- yikun.li@rug.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - paris@cs.rug.nl
+  - m.a.m.soliman@rug.nl
+  - yikun.li@rug.nl
 title: Develop a Web-Based Self-Admitted Technical Debt Visualization and Management
   System
 types:

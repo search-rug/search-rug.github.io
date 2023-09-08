@@ -12,8 +12,10 @@ keywords:
 posted: 2023-01-01
 short: In this project the goal is to obtain a high quality Rascal grammar from the
   Swift language reference, in a (semi-)automatic, traceable way.
-supervisors:
-- storm@cwi.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - storm@cwi.nl
 title: Extracting a Rascal Grammar from the Swift Reference Manual
 types:
 - BSc

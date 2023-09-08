@@ -12,8 +12,10 @@ posted: 2023-02-10
 short: This project consists of an empirical study for mining pattern grime and TD
   items from open-source software (OSS) projects and correlating the presence of TD
   items in pattern instances with higher levels of pattern grime.
-supervisors:
-- d.feitosa@rug.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - d.feitosa@rug.nl
 title: Is Design Pattern Grime Related to Technical Debt?
 types:
 - BSc

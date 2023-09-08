@@ -11,9 +11,11 @@ posted: 2023-02-10
 short: We are offering a series of projects under the umbrella of mining cloud cost
   awareness, that is, of software developers being aware of the costs of deploying
   and operating cloud-based software.
-supervisors:
-- v.andrikopoulos@rug.nl
-- d.feitosa@rug.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - v.andrikopoulos@rug.nl
+  - d.feitosa@rug.nl
 title: Mining cloud cost-awareness from open-source repositories
 types:
 - BSc

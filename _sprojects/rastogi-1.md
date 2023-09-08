@@ -10,8 +10,10 @@ keywords:
 posted: 2023-01-01
 short: There are many parts of this project, offering interesting and challenging
   opportunities at the intersection of software engineering and artificial intelligence.
-supervisors:
-- a.rastogi@rug.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - a.rastogi@rug.nl
 title: How does software change?
 types:
 - MSc

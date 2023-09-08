@@ -12,8 +12,10 @@ short: Join us in understanding the many ways in which development activities ar
   unfair, the extent of the problem, and solutions to mitigate it. There are many
   interesting research problems here that will need software engineering and artificial
   intelligence-based solutions.
-supervisors:
-- a.rastogi@rug.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - a.rastogi@rug.nl
 title: Fairness in Software Engineering
 types:
 - MSc

@@ -11,8 +11,10 @@ posted: 2023-01-01
 short: CodeBuff has been implemented in the context of the ANTLR parse generator,
   and uses its internal parse tree data structures for learning and formatting. We're
   interested in transferring CodeBuff to the context of the Rascal language workbench.
-supervisors:
-- storm@cwi.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - storm@cwi.nl
 title: CodeBuff in Rascal
 types:
 - BSc

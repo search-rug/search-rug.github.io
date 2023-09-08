@@ -13,9 +13,11 @@ short: This research effort includes the identification of relevant architectura
   knowledge, the analysis of the distribution of architectural knowledge in open source
   systems, and the development of a tool to support software engineers to find relevant
   architectural knowledge.
-supervisors:
-- m.a.m.soliman@rug.nl
-- paris@cs.rug.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - m.a.m.soliman@rug.nl
+  - paris@cs.rug.nl
 title: Exploring Architectural Knowledge in Open Source Systems
 types:
 - MSc

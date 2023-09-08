@@ -10,8 +10,10 @@ keywords:
 posted: 2023-01-01
 short: This project involves the identification of issues in global teams and/or ways
   to solve the problems experienced by global developers.
-supervisors:
-- a.rastogi@rug.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - a.rastogi@rug.nl
 title: Missing Opportunities in Global Software Engineering
 types:
 - MSc

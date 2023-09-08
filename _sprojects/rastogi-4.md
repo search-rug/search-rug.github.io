@@ -11,8 +11,10 @@ posted: 2023-01-01
 short: In the project, researchers and students from different universities collaborate
   with practitioners from SMEs in a series of case studies in which the current state
   of affairs regarding emerging digital technologies is being explored.
-supervisors:
-- a.rastogi@rug.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - a.rastogi@rug.nl
 title: Exploratory Study On Emerging Digital Technologies In SMEs
 types:
 - BSc

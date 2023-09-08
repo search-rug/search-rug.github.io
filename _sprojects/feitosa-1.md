@@ -10,8 +10,10 @@ keywords:
 posted: 2023-02-10
 short: This project entails the refactoring and upgrade (incl. dependencies' update
   and small bug fixes) of both SSAP and Spoon-PttGrime.
-supervisors:
-- d.feitosa@rug.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - d.feitosa@rug.nl
 title: Upgrade Design Pattern Detector and Quality Assessment
 types:
 - BSc

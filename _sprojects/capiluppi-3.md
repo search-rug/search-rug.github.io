@@ -10,8 +10,10 @@ keywords:
 posted: 2023-02-10
 short: The objective of this work is to offer a streamlined approach to sharing replication
   packages for replication in empirical software engineering research.
-supervisors:
-- a.capiluppi@rug.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - a.capiluppi@rug.nl
 title: Extracting, Indexing and Listing Replication Packages from Past Research
 types:
 - BSc

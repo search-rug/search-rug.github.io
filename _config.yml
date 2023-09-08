@@ -51,7 +51,10 @@ defaults:
       path: ""
       type: "sprojects"
     values:
-      layout: "education-project"
+      layout: "article"
+      backlink:
+        url: "/education"
+        text: "All student projects"
   - scope:
       path: ""
       type: "team"

@@ -10,8 +10,10 @@ keywords:
 - interpreters
 posted: 2023-02-10
 short: ''
-supervisors:
-- storm@cwi.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - storm@cwi.nl
 title: Hybrid Partial Evaluation for Javascript
 types:
 - MSc

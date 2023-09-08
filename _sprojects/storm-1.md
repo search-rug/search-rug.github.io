@@ -10,8 +10,10 @@ keywords:
 posted: 2023-02-10
 short: The goal of this project is to explore how Rascal can support the definition
   of domain-specific spreadsheet languages.
-supervisors:
-- storm@cwi.nl
+contact:
+  header: Supervisor(s)
+  members:
+  - storm@cwi.nl
 title: Domain-specific Spreadsheet Languages and Tools
 types:
 - MSc
