@@ -1,26 +1,27 @@
 ---
 title: NorthSE 2019
-layout: page
 description: Page of the event Connecting Research and Practice of Software Engineering in the North Netherlands (North SE 2019) from the SEARCH group.
 ---
 
 Connecting Research and Practice of Software Engineering in the North Netherlands (North SE 2019)
 
-## About
+# About
 
-As in previous instances, this year's North SE workshop will bring together software engineering researchers and industry practitioners to explore theoretical and practical aspects, technical challenges and solutions, as well as opportunities for collaboration. This year, the North SE workshop takes place in the context of two PhD defences, taking advantage of the presence of a number of outstanding software engineering researchers and practitioners from Sweden, Finland and Austria.
+As in previous instances, this year's North SE workshop will bring together software engineering researchers and industry practitioners to explore theoretical and practical aspects, technical challenges and solutions, as well as opportunities for collaboration.
 
-## Date & Venue
+This year, the North SE workshop takes place in the context of two PhD defences, taking advantage of the presence of a number of outstanding software engineering researchers and practitioners from Sweden, Finland and Austria.
+
+# Date & Venue
 
 Join us in Groningen, April 8th 2019, Room A7, Academy building, University of Groningen.
 
 Here is a map on how to [reach the venue](https://www.rug.nl/staff/location/1111) and other useful information.
 
-## Registration
+# Registration
 
 To register, simply send an email to [p.avgeriou@rug.nl](mailto:p.avgeriou@rug.nl) (Paris Avgeriou) saying you are attending.
 
-## Detailed Program
+# Detailed Program
 
 <table style="border: 0px;">
     <tbody>

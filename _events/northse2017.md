@@ -1,36 +1,29 @@
 ---
 title: NorthSE 2017
-layout: page
 description: Page of the event Connecting Research and Practice of Software Engineering in the North Netherlands (North SE 2017) from the SEARCH group.
 ---
 
 Connecting Research and Practice of Software Engineering in the North Netherlands (North SE 2017)
 
-## About
+# About
 
-> “Software Is Eating The World” (Marc Andreessen)
-
-<br>
+> "Software Is Eating The World" - (Marc Andreessen)
 
 In the Netherlands, the field of Software Engineering has had enormous impact on all types of industry. More and more companies are putting more R&D focus on the software part of the systems they develop, often leading global trends.
 
-<br>
-
 The purpose of this one-day workshop is to share break-throughs and challenges and to build ties within the Software community in the Northern provinces of the Netherlands, as well as to bring together industry and academia.
 
-## Date & Venue
+# Date & Venue
 
 Join us in Groningen, **November 29th 2017**, lecture hall 0029, Energy Academy Europe, University of Groningen. Energy Academy Europe is *the most sustainable education-related building* in the Netherlands. It is located at the Zernike Campus, which is easily accessible by public transport and by car.
 
-<br>
-
 The coffee breaks, lunch and drinks will be served in the winter garden of the Energy Academy. 
 
-## Registration
+# Registration
 
 Register via our event page on [evenbrite](https://www.eventbrite.co.uk/e/north-se-2017-connecting-software-research-and-practice-tickets-38106285927).
 
-## Detailed Program
+# Detailed Program
 
 <table style="border: 0px;">
     <tbody>
@@ -69,13 +62,9 @@ Register via our event page on [evenbrite](https://www.eventbrite.co.uk/e/north-
     </tbody>
 </table>
 
-### Keynote Details
-
-<br>
+## Keynote Details
 
 **Abstract**: In the development of software-intensive systems, technical debt is that weird phenomenon that impedes further progress. More precisely, technical debt consists of design or implementation constructs that were expedient in the short term, but that have set up a technical context that can make a future change more costly or even impossible. Technical debt primarily impacts maintainability and evolvability. Lots is being said and written about technical debt, lately; the topic is popular, indeed, but much of it exploits the financial metaphor a bit too literally. Your technical debt is not like a house mortgage. In this presentation, I'll look at some of the misconceptions and fallacies surrounding technical debt, and will point at the still rather limited toolset at our disposal to effectively tackle it.
-
-<br>
 
 **Biography**: Philippe Kruchten is a software engineer. He is currently doing research and teaching software engineering at the University of British Columbia in Vancouver, Canada. Prior to UBC, he had a long career as a software architect and software process engineer with Rational Software (now part of IBM), and Alcatel. He has degrees in mechanical engineering and computer science from French engineering schools.
 
