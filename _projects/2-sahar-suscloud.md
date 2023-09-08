@@ -4,9 +4,11 @@ funding:
 - agency: NWO
   number: OCENW.M20.243
   shortname: NWO
-members:
-- v.andrikopoulos@rug.nl
-- s.ahmadisakha@rug.nl
+contact:
+  header: Contact
+  members:
+  - v.andrikopoulos@rug.nl
+  - s.ahmadisakha@rug.nl
 short: This project aims to develop a sustainability-aware architecting framework
   specifically for cloud-based software services which incorporates all dimensions
   of system sustainability. The framework is structured around the use of sustainability

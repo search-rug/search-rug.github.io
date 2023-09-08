@@ -43,7 +43,10 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "research-project"
+      layout: "article"
+      backlink:
+        url: "/research"
+        text: "All research projects"
   - scope:
       path: ""
       type: "sprojects"

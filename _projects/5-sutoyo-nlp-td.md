@@ -5,9 +5,11 @@ funding:
     Research, and Technology, the Republic of Indonesia
   number: 1036/J5.2.3/BPI.LG/VIII/2022
   shortname: Kemendikbudristek
-members:
-- a.capiluppi@rug.nl
-- e.sutoyo@rug.nl
+contact:
+  header: Contact
+  members:
+  - a.capiluppi@rug.nl
+  - e.sutoyo@rug.nl
 short: This project aims to increase the accuracy of automatic classification and,
   through it, eliminate a significant portion of the costs relating to technical debt
   detection.
