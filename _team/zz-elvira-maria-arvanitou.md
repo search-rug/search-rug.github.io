@@ -1,6 +1,6 @@
 ---
 title: "Dr. Elvira Maria Arvanitou"
-image: "images/team/elvira-maria-arvanitou.jpg"
+image: "/uploads/team-avatars/elvira-maria-arvanitou.jpg"
 position: "phd student"
 status:
   promoted: false # appear in home page

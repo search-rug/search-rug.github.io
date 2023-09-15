@@ -1,17 +1,20 @@
-<div class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="footer-inner">
-          <h2 class="footer-title">{{site.title}}</h2>
-          <ul>
-            {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
-            {% for item in footermenu %}
-            <li class="{% if item.url == page.url %}active{% endif %}">
-              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-            </li>
-            {% endfor %}
-          </ul>
+<div class="bg-[color:var(--sub-footer-background-color)] text-[color:var(--sub-footer-text-color)] py-4 md:py-2.5">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap ">
+      <div class="w-full">
+        <div class="flex flex-col justify-between md:flex-row">
+          {% if site.data.social %}
+            <div class="block">
+              {% for item in site.data.social %}
+                <a class="inline-block p-2.5 hover:opacity-80" href="{{ item.link }}" target="blank">
+                  <svg class="fill-[color:var(--sub-footer-text-color)] w-8 h-8"><use xlink:href="{{ item.image | relative_url }}"></use></svg>
+                </a>
+              {% endfor %}
+            </div>
+          {% endif %}
+          {% if site.data.seo.copyright_text %}
+          <div class="text-[10px] mt-2.5 sm:text-sm">{{ site.data.seo.copyright_text }}</div>
+          {% endif %}
         </div>
       </div>
     </div>

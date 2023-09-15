@@ -1,28 +1,69 @@
-baseurl: '/'
+baseurl: "/"
 permalink: pretty
-title: 'SEARCH'
+title: "SEARCH"
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
+  image: "/uploads/branding/logo.svg"
+  height: "32px"
 
-home: 
+home:
   limit_services: 6
 
 collections:
-  - "team"
+  team:
+    output: false
+  projects:
+    output: true
+    permalink: "/research-project/:path/"
+  sprojects:
+    output: true
+    permalink: /student-project/:path/
+  events:
+    output: true
+    permalink: /events/:path/
+  news:
+    output: true
 
 defaults:
   - scope:
       path: ""
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "article"
+      showDate: true
+      backlink:
+        url: "/news"
+        text: "All news"
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "article"
+      backlink:
+        url: "/research"
+        text: "All research projects"
+  - scope:
+      path: ""
+      type: "sprojects"
+    values:
+      layout: "article"
+      backlink:
+        url: "/education"
+        text: "All student projects"
+  - scope:
+      path: ""
       type: "team"
     values:
-      layout: "team"
-      image: "images/team/search-avatar.svg"
+      image: "/assets/grahics/search-avatar.svg"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed

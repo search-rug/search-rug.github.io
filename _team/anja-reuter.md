@@ -1,6 +1,6 @@
 ---
 title: "Anja Reuter"
-image: "images/team/anja-reuter.jpg"
+image: "/uploads/team-avatars/anja-reuter.jpg"
 position: "industrial phd student"
 position_remark: "Fraunhofer IPA"
 weight: 100

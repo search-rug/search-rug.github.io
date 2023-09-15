@@ -8,14 +8,9 @@ main:
   - name: "Education"
     url: "/education/"
     weight: 4
-  - name: "Contact"
-    url: "/contact/"
+  - name: "News"
+    url: "/news/"
     weight: 5
-
-footer:
-  - name: "Home"
-    url: "/"
-    weight: 1
   - name: "Contact"
     url: "/contact/"
-    weight: 2
+    weight: 6

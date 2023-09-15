@@ -1,0 +1,24 @@
+<!-- admin/index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Manager</title>
+    <!-- Include the identity widget -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+  <body>
+    <script>
+      // TODO: Define when and where to redirect, in a central place.
+      const CMS_URL = "https://search-rug.netlify.app"
+      const current_hostname = new URL(window.location.href).hostname
+      const desired_hostname = new URL(CMS_URL).hostname
+      if (!current_hostname.includes(desired_hostname)) {
+        window.location.href = CMS_URL
+      }
+    </script>
+    <!-- Include the script that builds the page and powers Netlify CMS -->
+    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  </body>
+</html>

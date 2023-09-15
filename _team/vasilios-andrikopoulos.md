@@ -1,6 +1,6 @@
 ---
 title: "Prof. Dr. Vasilios Andrikopoulos"
-image: "images/team/vasilios-andrikopoulos.jpg"
+image: "/uploads/team-avatars/vasilios-andrikopoulos.jpg"
 position: "associate professor"
 weight: 4
 status:
@@ -24,8 +24,8 @@ fields:
   - arch
   - dist. sys.
 topics:
-  - Cloud Engineering 
-  - Collective Adaptive Systems and Systems of Systems 
-  - Service Engineering 
-  - Software Architecture 
+  - Cloud Engineering
+  - Collective Adaptive Systems and Systems of Systems
+  - Service Engineering
+  - Software Architecture
 ---

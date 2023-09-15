@@ -1,6 +1,6 @@
 ---
 title: "Cezar Sas"
-image: "images/team/cezar-sas.jpg"
+image: "/uploads/team-avatars/cezar-sas.jpg"
 position: "phd student"
 weight: 100
 status:
@@ -14,7 +14,7 @@ contact:
 publications:
   pure: "https://research.rug.nl/en/persons/cezar-sas/publications/"
 topics:
-  - Machine Learning 
-  - Natural Language Processing 
-  - Software Semantics 
+  - Machine Learning
+  - Natural Language Processing
+  - Software Semantics
 ---

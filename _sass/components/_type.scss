@@ -9,7 +9,7 @@ h1 {
   font-family: $font-family-heading;
   line-height: 1.2;
   margin-bottom: 20px;
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
     font-size: 32px;
     line-height: 1.2;
   }
@@ -19,7 +19,7 @@ h2 {
   font-family: $font-family-heading;
   line-height: 1.4;
   margin-bottom: 10px;
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
     font-size: 26px;
     line-height: 1.4;
   }
@@ -27,7 +27,7 @@ h2 {
 h3 {
   font-size: 16px;
   line-height: 1.4;
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
     font-size: 20px;
     line-height: 1.4;
   }

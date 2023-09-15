@@ -1,0 +1,51 @@
+<article class="h-full">
+  <div class="project-card">
+
+    <h3 class="title">{{ project.title }}</h3>
+
+    <div class="keywords">
+      {% for keyword in project.keywords %}
+        <span>{{ keyword }}</span>
+      {% endfor %}
+    </div>
+
+    <!--TODO: add a CMS field for short description-->
+    <p class="description">
+      {% if project.short != "" %}
+        {{ project.short }}
+      {% else %}
+        No short project description has been provided for this project.
+      {% endif %}
+    </p>
+
+    <div class="mt-0 flex gap-8">
+
+      <div class="flex-col hidden sm:flex">
+        <p class="text-sm">{% if project.supervisors.size > 1 %} Supervisors {% else %} Supervisor {% endif %}</p>
+        <p class="font-medium flex -space-x-2">
+          {% for member_email in project.supervisors %}
+            {% assign member = site.team | where_exp: "m", "m.contact.email == member_email" | first %}
+            {% include member-pfp-circle.html member=member %}
+          {% endfor %}
+        </p>
+      </div>
+
+      <div>
+        <p class="text-sm">Status</p>
+        <p class="text-gray-700">
+          {{ project.status }}
+        </p>
+      </div>
+
+      <div>
+        <p class="text-sm">Suitable for</p>
+        <p class="text-gray-700">
+          <!--TODO: get rid of trailing commas-->
+          {% for type in project.types %}
+          <span>{{ type }},</span>
+          {% endfor %}
+        </p>
+      </div>
+    </div>
+  </div>
+</article>

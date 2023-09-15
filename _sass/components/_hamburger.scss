@@ -3,7 +3,7 @@
   outline: none;
   z-index: 30;
   cursor: pointer;
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
     display: none;
   }
   &:focus {

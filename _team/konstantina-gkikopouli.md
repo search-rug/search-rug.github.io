@@ -1,6 +1,6 @@
 ---
 title: "Konstantina Gkikopouli"
-image: "images/team/konstantina-gkikopouli.jpg"
+image: "/uploads/team-avatars/konstantina-gkikopouli.jpg"
 position: "msc student"
 weight: 200
 status:
@@ -12,7 +12,7 @@ topics:
   - Cloud Engineering
 ---
 
-## Research Project 
+## Research Project
 
 Evaluating the Cloud Based on Historical Event Data
 

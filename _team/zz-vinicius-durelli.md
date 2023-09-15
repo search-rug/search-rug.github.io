@@ -1,6 +1,6 @@
 ---
 title: "Dr. Vinicius H. S. Durelli"
-image: "images/team/vinicius-durelli.jpg"
+image: "/uploads/team-avatars/vinicius-durelli.jpg"
 position: "postdoc"
 status:
   promoted: false # appear in home page

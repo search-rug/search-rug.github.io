@@ -1,0 +1,95 @@
+.project-card:hover {
+  transform: scale(1.0125) translateY(-5px);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1.25rem 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;
+
+  // set border styles
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.75rem;
+  border-color: #e5e7eb;
+  height: 100%;
+
+  transition: transform;
+  transition-duration: 100ms;
+  transition-timing-function: ease-out;
+
+  p {
+    margin: 0px;
+  }
+
+  .keywords {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    span {
+      white-space: nowrap;
+      border-radius: 9999px;
+      padding-left: 0.625rem;
+      padding-right: 0.625rem;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      padding-top: 0.125rem;
+      padding-bottom: 0.125rem;
+      background-color: rgb(254, 226, 226);
+      color: rgb(185, 28, 28);
+
+      /*  Enforce capitalized words since user defined keywords are inconsistent.
+          TODO: maybe remove this once CMS is in place? */
+      text-transform: capitalize;
+    }
+  }
+
+  // default font size for component
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+
+  background-color: white;
+  //background-color: #F3F4F6;
+
+  .title {
+    margin: 0px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+
+  .description {
+    padding-top: 0.75rem;
+    padding-bottom: 1rem;
+    color: black;
+    flex-grow: 1;
+  }
+
+  .details-container {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .detail {
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+  }
+
+  .detail>:first-child {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .detail>:last-child {
+    font-weight: 500;
+    color: #374151; // text-gray-700
+    // color: #111827; // text-gray-900
+  }
+}

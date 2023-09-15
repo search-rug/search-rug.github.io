@@ -1,0 +1,43 @@
+<!--Set clickable=true for an indication when hovering-->
+<article class="rounded-lg border p-6 shadow-lg {% if include.clickable %} transition transform hover:scale-[102%] cursor-pointer {% endif %} h-full">
+  <div class="flex flex-col gap-2 h-full">
+    <div class="flex gap-4 items-center min-h-[50px]">
+      {% if project.logo %}
+        <img class="w-[50px] h-[50px]" src="{{ project.logo | relative_url }}" alt="" style="object-fit: cover; flex-shrink: 0;">
+      {% endif %}
+      <h3 class="text-xl font-semibold">{{ project.title }}</h3>
+    </div>
+
+    <p class="text-gray-700 flex-grow py-4">
+      {{ project.short }}
+    </p>
+
+    <div class="mt-0 flex gap-8">
+      <div class="flex flex-col">
+        <p class="text-sm">Members</p>
+        <p class="font-medium flex -space-x-2">
+          {% for member_email in project.members %}
+            {% assign member = site.team | where_exp: "m", "m.contact.email == member_email" | first %}
+            {% include member-pfp-circle.html member=member %}
+          {% endfor %}
+        </p>
+      </div>
+      {% if project.funding %}
+        <div class="flex flex-col">
+          <p class="text-sm">Funding</p>
+          <p class="font-medium">
+            {% for funding in project.funding %}
+              <span title="{{ funding.shortname }} (Number: {{ funding.number }})">{{ funding.shortname }}</span>
+            {% endfor %}
+          </p>
+        </div>
+      {% endif %}
+      <div class="flex flex-col">
+        <p class="text-sm">Status</p>
+        <p class="font-medium">
+          <span>{{ project.status }}</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</article>

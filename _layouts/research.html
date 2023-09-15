@@ -2,28 +2,49 @@
 title: Research
 layout: default
 bodyClass: "page-research"
+# entries in `sections` match the text of a heading on the page
+sections:
+  - Active Projects
+  - Past Projects
+  - Publications
+  - Datasets
 ---
 
-<!--
-<div class="intro">
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        {{ content }}
-      </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
-      </div>
-      {% endif %}
-    </div>
-  </div>
-</div>
--->
+<div class="container space-y-12 mx-auto px-4 pb-6 pt-[100px] pb-md-10">
+  <h1 class="text-black text-5xl leading-5 lg:text-[50px] font-semibold mb-8">{{page.title}}</h1>
 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-  <h1 class="title">{{page.title}}</h1>
-  <div class="content mt-4">
-    {{ content }}
-  </div>
+  <!-- Adds a scroll button for each section defined above. -->
+  {% include section-scroll-buttons.html sections=layout.sections %}
+
+  <section class="space-y-3">
+    {% assign active_projects = site.projects | where: "archived", "false" %}
+    <h2 class="text-2xl">Active Projects</h2>
+    {% include project-card-grid.html projects=active_projects card_component="research-project-card.html" %}
+  </section>
+
+  {% assign past_projects = site.projects | where: "archived", "true" %}
+  {% if past_projects.size > 0 %}
+    <section class="space-y-2">
+      <h2 class="text-2xl">Past Projects</h2>
+      {% include page-list.html pages=past_projects %}
+    </section>
+  {% endif %}
+
+  <section class="space-y-2">
+    <h3 class="text-2xl">Publications</h3>
+    <div class="grid xl:grid-cols-2 gap-4">
+      {% for publication in site.data.publications %}
+        {% include research-contribution-card.html contribution=publication %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="space-y-2">
+    <h3 class="text-2xl">Datasets</h3>
+    <div class="grid xl:grid-cols-2 gap-4">
+      {% for dataset in site.data.datasets %}
+        {% include research-contribution-card.html contribution=dataset %}
+      {% endfor %}
+    </div>
+  </section>
 </div>

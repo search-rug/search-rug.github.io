@@ -1,6 +1,6 @@
 ---
 title: "Dr. Apostolos Ampatzoglou"
-image: "images/team/apostolos-ampatzoglou.jpg"
+image: "/uploads/team-avatars/apostolos-ampatzoglou.jpg"
 position: "visiting researcher"
 status:
   promoted: false # appear in home page
@@ -9,10 +9,10 @@ contact:
   homepage: "https://www.uom.gr/en/ampatzoglou"
 weight: 850
 topics:
-  - object-oriented design 
-  - design patterns 
-  - software quality 
-  - game design 
+  - object-oriented design
+  - design patterns
+  - software quality
+  - game design
 ---
 
 

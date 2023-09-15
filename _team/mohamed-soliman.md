@@ -1,6 +1,6 @@
 ---
 title: "Dr. Mohamed A.M. Soliman"
-image: "images/team/mohamed-soliman.jpg"
+image: "/uploads/team-avatars/mohamed-soliman.jpg"
 position: "postdoc"
 weight: 11
 status:
@@ -16,9 +16,9 @@ publications:
   gscholar: "https://scholar.google.com/citations?user=KDWpQIwAAAAJ&hl=en"
 topics:
   - Architectural Knowledge
-  - Software Architecture 
-  - Technical Debt 
-  - Knowledge Management 
+  - Software Architecture
+  - Technical Debt
+  - Knowledge Management
 ---
 
 ## Short Bio
@@ -27,5 +27,5 @@ Mohamed Soliman is an FSE Postdoc fellow in the university of Groningen since Se
 
 ## Teaching
 
-* [Software Maintenance and Evolution](https://www.rug.nl/ocasys/fwn/vak/show?code=INMSME-08) (MSc period Ib) 
-* [Software Engineering](https://www.rug.nl/ocasys/fwn/vak/show?code=WBCS17001) (BSc period II) 
+* [Software Maintenance and Evolution](https://www.rug.nl/ocasys/fwn/vak/show?code=INMSME-08) (MSc period Ib)
+* [Software Engineering](https://www.rug.nl/ocasys/fwn/vak/show?code=WBCS17001) (BSc period II)

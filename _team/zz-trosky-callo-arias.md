@@ -1,6 +1,6 @@
 ---
 title: "Dr. Trosky B. Callo Arias"
-image: "images/team/trosky-callo-arias.jpg"
+image: "/uploads/team-avatars/trosky-callo-arias.jpg"
 position: "phd student"
 status:
   promoted: false # appear in home page
@@ -10,5 +10,5 @@ contact:
   email: "trosky.callo@esi.nl"
 weight: 1000
 topics:
-  - architecture-centric evolution 
+  - architecture-centric evolution
 ---

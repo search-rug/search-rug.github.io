@@ -1,6 +1,6 @@
 ---
 title: "Sahar Ahmadisakha"
-image: "images/team/sahar-ahmadisakha.jpg"
+image: "/uploads/team-avatars/sahar-ahmadisakha.jpg"
 position: "phd student"
 weight: 100
 status:
@@ -13,7 +13,7 @@ contact:
 publications:
   pure: "https://research.rug.nl/en/persons/sahar-ahmadisakha/publications/"
 topics:
-  - Software Architecture 
-  - Cloud Computing 
-  - Sustainability 
+  - Software Architecture
+  - Cloud Computing
+  - Sustainability
 ---

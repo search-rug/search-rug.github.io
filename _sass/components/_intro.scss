@@ -5,7 +5,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
   overflow: hidden;
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
     padding-top: 140px;
     padding-bottom: 140px;
   }
@@ -14,11 +14,12 @@
     font-size: 42px;
     font-weight: bold;
     line-height: 1.2;
-    @include media-breakpoint-up(md) {
+    margin-bottom: 20px;
+    @media (min-width: 768px) {
       // width: 80%;
       font-size: 48px;
     }
-    @include media-breakpoint-up(lg) {
+    @media (min-width: 1024px) {
       font-size: 50px;
     }
   }
@@ -27,6 +28,7 @@
     font-size: 1.2rem;
     line-height: 1.4;
     margin-bottom: 30px;
+    font-weight: 700;
     color: $black;
     font-family: $font-family-base;
   }
@@ -35,14 +37,8 @@
     font-weight: light;
     line-height: 1.5;
     color: $steel;
-    @include media-breakpoint-up(md) {
+    @media (min-width: 768px) {
       width: 80%;
-    }
-  }
-  .icons {
-    img,svg {
-      width: 40px;
-      height: 40px;
     }
   }
 }

@@ -1,8 +1,8 @@
 ---
 title: "Prof. dr. Tijs van der Storm"
-image: "images/team/tijs-van-der-storm.jpg"
+image: "/uploads/team-avatars/tijs-van-der-storm.jpg"
 position: "professor"
-position_remark: "honorary" 
+position_remark: "honorary"
 weight: 2
 status:
   promoted: true # appear in home page
@@ -22,15 +22,14 @@ social:
   github: "https://github.com/tvdstorm"
 fields:
   - lang
-  - dev. tools
   - arch
 topics:
-  - Software Language Engineering 
-  - Language Workbenches 
-  - Live programming 
-  - Domain-Specific Languages 
-  - Programming languages 
-  - Model-Driven Development 
+  - Software Language Engineering
+  - Language Workbenches
+  - Live programming
+  - Domain-Specific Languages
+  - Programming languages
+  - Model-Driven Development
 ---
 
 ## Teaching

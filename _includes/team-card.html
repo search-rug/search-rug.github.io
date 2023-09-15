@@ -1,83 +1,87 @@
-<div class="team team-card {% if include.compact %}team-compact{% endif %}">
-    <div class="team-image-wrap">
-        <div class="team-image">
-            {% if member.image %}
-            <img alt="{{ member.title }}" class="img-fluid mb-2" src="{{ member.image | relative_url }}" />
-            {% else %}
-            <img alt="{{ member.title }}" class="img-fluid mb-2" src="{{ site.team.default_avatar | relative_url }}" />
+<div class="mb-6 mb-0 rounded-xl border shadow-lg p-3">
+  <div class="relative block bg-white h-full">
+    <div class="flex flex-row items-top h-full">
+      <!-- Member image -->
+      <div class="grow-0 shrink-0 basis-auto w-4/12 max-w-[112px] pr-3">
+        <img
+          alt="{{ member.title }}"
+          class="w-full rounded-md mb-0"
+          src="{{ member.image | relative_url }}"
+          />
+      </div>
+      <!-- Member info -->
+      <div class="grow-0 shrink-0 basis-auto w-8/12 h-full">
+        <div class="flex flex-col h-full">
+          <div class="flex flex-col grow">
+            <div class="font-['Brawler'] text-lg mb-0 text-[color:var(--primary)]">
+              <a href="{{member.contact.homepage}}" target="blank">{{ member.title }}</a>
+            </div>
+            <div class="text-md text-gray-500 mb-4">
+              {{ member.position }}
+              {% if member.position_remark %}
+                  <span class="text-md">({{ member.position_remark }})</span>
+              {% endif %}
+            </div>
+          </div>
+          <!-- Email and phone -->
+          <div class="">
+            <div class="flex flex-row items-center">
+              {% if member.contact.email -%}
+              <svg class="mr-2 w-4 h-4">
+                <use xlink:href="/assets/graphics/sprites.svg#email"></use>
+              </svg>
+              <div class="text-sm">{{member.contact.email}}</div>
+              {% endif %}
+            </div>
+            <div class="flex flex-row items-center">
+              {% if member.contact.phone -%}
+              <svg class="mr-2 w-4 h-4">
+                <use xlink:href="/assets/graphics/sprites.svg#phone"></use>
+              </svg>
+              <div class="text-sm">{{member.contact.phone|replace: ' ','' }}</div>
+              {% else %}
+              <div class="h-5"></div>
+              {% endif %}
+            </div>
+          </div>
+          <!-- Publications and Social -->
+          <div class="flex flex-row mt-2">
+            {% if member.publications -%}
+            <div class="flex flex-col w-1/2">
+              <div class="mb-1 text-[color:var(--primary)]">Publications</div>
+              <ul class="list-inside flex justify-start">
+                {% for item in member.publications %}
+                <a class="pl-0 pr-2" href="{{item[1]}}" target="blank">
+                    <svg class="w-4 h-4">
+                        <use xlink:href="/assets/graphics/sprites.svg#{{item[0]}}"></use>
+                    </svg>
+                </a>
+                {% endfor %}
+              </ul>
+            </div>
             {% endif %}
+            {% if member.social -%}
+            <div class="flex flex-col w-1/2">
+              <div class="mb-1 text-[color:var(--primary)]">Social</div>
+              <ul class="list-inside flex justify-start">
+                {% for item in member.social %}
+                <a class="pl-0 pr-2" href="{{item[1]}}" target="blank">
+                    <svg class="w-4 h-4">
+                        <use xlink:href="/assets/graphics/sprites.svg#{{item[0]}}"></use>
+                    </svg>
+                </a>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+            <!-- if there are no publ. and social, this takes the height -->
+            <div class="flex flex-col w-0">
+              <div class="mb-1 h-6"></div>
+              <div class="h-4"></div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="team-meta">
-        <h2 class="team-name"><a href="{{member.contact.homepage}}" target="blank">{{ member.title }}</a></h2>
-        <p class="team-position">
-            {{ member.position }}
-            {% if member.position_remark %}
-                <span class="team-remark">({{ member.position_remark }})</span>
-            {% endif %}
-        </p>
-        {% if include.show_fields %}
-        <p class="research-field">
-            {% for field in member.fields %}
-                <span class="badge badge-dark">{{field}}</span>
-            {% endfor %}
-        </p>
-        {% endif %}
-
-        {% if include.compact %}
-        <p class="icons">
-            {% if member.contact.email -%}
-            <a href="mailto:{{member.contact.email}}" target="blank">
-                <svg>
-                    <use xlink:href="/assets/sprites.svg#email"></use>
-                </svg>
-            </a>
-            {% endif %}
-            {% for item in member.social %}
-            <a href="{{item[1]}}" target="blank">
-                <svg>
-                    <use xlink:href="/assets/sprites.svg#{{item[0]}}"></use>
-                </svg>
-            </a>
-            {% endfor %}
-        </p>
-        {% else %}
-        <p class="icons ">
-            <span class="mr-2">
-                {% if member.contact.email -%}
-                <a href="mailto:{{member.contact.email}}" target="blank">
-                    <svg>
-                        <use xlink:href="/assets/sprites.svg#email"></use>
-                    </svg>
-                </a>
-                {% endif %}
-                {% if member.contact.phone -%}
-                <a href="tel:{{member.contact.phone|replace: ' ','' }}" target="blank">
-                    <svg>
-                        <use xlink:href="/assets/sprites.svg#phone"></use>
-                    </svg>
-                </a>
-                {% endif %}
-            </span>
-            {% for item in member.publications %}
-            <a href="{{item[1]}}" target="blank">
-                <svg>
-                    <use xlink:href="/assets/sprites.svg#{{item[0]}}"></use>
-                </svg>
-            </a>
-            {% endfor %}
-        </p>
-        {% if member.social %}
-        <p class="icons team-social">
-            {% for item in member.social %}
-            <a href="{{item[1]}}" target="blank">
-                <svg>
-                    <use xlink:href="/assets/sprites.svg#{{item[0]}}"></use>
-                </svg>
-            </a>
-            {% endfor %}
-        </p>
-        {% endif %}
-        {% endif %}
-    </div>
+  </div>
 </div>

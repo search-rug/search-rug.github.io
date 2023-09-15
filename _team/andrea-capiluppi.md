@@ -1,6 +1,6 @@
 ---
 title: "Prof. Dr. Andrea Capiluppi"
-image: "images/team/andrea-capiluppi.jpg"
+image: "/uploads/team-avatars/andrea-capiluppi.jpg"
 position: "associate professor"
 weight: 3
 status:
@@ -21,12 +21,11 @@ social:
 fields:
   - m&t
   - sda
-  - org
 topics:
-  - Software development 
-  - Reuse of architectures and components 
-  - Open development approaches (open source software, wikipedia, etc.) 
-  - Natural Language Processing for feature extraction 
-  - Software maintenance and traceability 
-  - Effort estimation  
+  - Software development
+  - Reuse of architectures and components
+  - Open development approaches (open source software, wikipedia, etc.)
+  - Natural Language Processing for feature extraction
+  - Software maintenance and traceability
+  - Effort estimation
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Dr. Daniel Feitosa"
-image: "images/team/daniel-feitosa.jpg"
+image: "/uploads/team-avatars/daniel-feitosa.jpg"
 position: "assistant professor"
 weight: 5
 status:
@@ -23,7 +23,6 @@ social:
   github: "https://github.com/feitosa-daniel"
 fields:
   - arch
-  - dev. tools
   - sda
 topics:
   - Technical Debt
