@@ -28,11 +28,11 @@ The goal of this project is to explore to what extent code review bots are deali
 
 ### References
 
-[1] Paris Avgeriou, Philippe Kruchten, Ipek Ozkaya, and Carolyn Seaman. 2016. Managing Technical Debt in Software Engineering (Dagstuhl Seminar 16162). Dagstuhl Reports 6, 4 (2016), 110–138. [https://doi.org/10.4230/DagRep.6.4.110]{https://doi.org/10.4230/DagRep.6.4.110}
+[1] Paris Avgeriou, Philippe Kruchten, Ipek Ozkaya, and Carolyn Seaman. 2016. Managing Technical Debt in Software Engineering (Dagstuhl Seminar 16162). Dagstuhl Reports 6, 4 (2016), 110–138. [https://doi.org/10.4230/DagRep.6.4.110](https://doi.org/10.4230/DagRep.6.4.110)
 
-[2] Yutaro Kashiwa, Ryoma Nishikawa, Yasutaka Kamei, Masanari Kondo, Emad Shihab, Ryosuke Sato, Naoyasu Ubayashi. 2022. An empirical study on self-admitted technical debt in modern code review. Information and Software Technology, Volume 146.  [https://doi.org/10.1016/j.infsof.2022.106855]{https://doi.org/10.1016/j.infsof.2022.106855}.
+[2] Yutaro Kashiwa, Ryoma Nishikawa, Yasutaka Kamei, Masanari Kondo, Emad Shihab, Ryosuke Sato, Naoyasu Ubayashi. 2022. An empirical study on self-admitted technical debt in modern code review. Information and Software Technology, Volume 146.  [https://doi.org/10.1016/j.infsof.2022.106855](https://doi.org/10.1016/j.infsof.2022.106855).
 
-[3] Yikun Li, Mohamed Soliman, Paris Avgeriou and Lou Somers. 2022. Self-Admitted Technical Debt in the Embedded Systems Industry: An Exploratory Case Study. IEEE Transactions on Software Engineering. [https://doi.org/10.1109/TSE.2022.3224378]{https://doi.org/10.1109/TSE.2022.3224378}.
+[3] Yikun Li, Mohamed Soliman, Paris Avgeriou and Lou Somers. 2022. Self-Admitted Technical Debt in the Embedded Systems Industry: An Exploratory Case Study. IEEE Transactions on Software Engineering. [https://doi.org/10.1109/TSE.2022.3224378](https://doi.org/10.1109/TSE.2022.3224378).
 
-[4] Mairieli Wessel, Alexander Serebrenik, Igor Wiese, Igor Steinmacher and Marco Gerosa. 2020. Effects of Adopting Code Review Bots on Pull Requests to OSS Projects. IEEE International Conference on Software Maintenance and Evolution (ICSME) Adelaide, Australia. [https://doi.org/10.1109/ICSME46990.2020.00011]{https://doi.org/10.1109/ICSME46990.2020.00011}. 
+[4] Mairieli Wessel, Alexander Serebrenik, Igor Wiese, Igor Steinmacher and Marco Gerosa. 2020. Effects of Adopting Code Review Bots on Pull Requests to OSS Projects. IEEE International Conference on Software Maintenance and Evolution (ICSME) Adelaide, Australia. [https://doi.org/10.1109/ICSME46990.2020.00011](https://doi.org/10.1109/ICSME46990.2020.00011). 
 
