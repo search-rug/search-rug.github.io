@@ -39,9 +39,9 @@ or simply send an email to [a.rastogi@rug.nl](mailto:a.rastogi@rug.nl) (Ayushi R
 
 # Detailed Program
 
-follows soon
+more details follow soon
 
-## Abstracts from the talk
+## Abstracts
 
 > **Gender, emotions and software development**\
 >  &nbsp;&nbsp; by Alexander Serebrenik
