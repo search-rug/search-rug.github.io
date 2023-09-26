@@ -13,7 +13,7 @@ The **North SE workshop** serves as a platform for both software engineering res
 In the current edition, the workshop coincides with a Ph.D. defense (details here), capitalizing on the attendance of distinguished software engineering experts and practitioners hailing from the Netherlands, Portugal, and the United States.
 
 # Our Speakers
-[Prof. Arie van Deursen - EWI](https://www.tudelft.nl/en/staff/arie.vandeursen/?cHash=e9128937ff47e419e87064c46b312995), Professor and head of Software Technology at the Delft University of Technology
+[Prof. Arie van Deursen](https://www.tudelft.nl/en/staff/arie.vandeursen/?cHash=e9128937ff47e419e87064c46b312995), Professor and head of Software Technology at the Delft University of Technology
 
 [Prof. Alexander Serebrenik](https://www.tue.nl/en/research/researchers/alexander-serebrenik), Professor of Social Software Engineering at the Eindhoven University of Technology
 
