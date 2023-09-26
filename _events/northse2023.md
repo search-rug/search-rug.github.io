@@ -10,7 +10,7 @@ Connecting Research and Practice of Software Engineering in the North Netherland
 
 The **North SE workshop** serves as a platform for both software engineering researchers and industry professionals to delve into theoretical and applied elements, tackle technical hurdles, and identify potential collaborative ventures. 
 
-In the current edition, the workshop coincides with a Ph.D. defense (details here), capitalizing on the attendance of distinguished software engineering experts and practitioners hailing from the Netherlands, Portugal, and the United States.
+In the current edition, the workshop coincides with a Ph.D. defense on ['The need for speed: increasing the code review velocity'](https://www.rug.nl/about-ug/latest-news/events/promoties/?hfId=124094), capitalizing on the attendance of distinguished software engineering experts and practitioners hailing from the Netherlands, Portugal, and the United States.
 
 # Our Speakers
 [Prof. Arie van Deursen](https://www.tudelft.nl/en/staff/arie.vandeursen/?cHash=e9128937ff47e419e87064c46b312995), Professor and head of Software Technology at the Delft University of Technology
