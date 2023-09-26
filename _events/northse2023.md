@@ -19,7 +19,7 @@ In the current edition, the workshop coincides with a Ph.D. defense on ['The nee
 
 [Prof. Rui Abreau](https://ruimaranhao.com/), Professor in Software Engineering at FEUP
 
-[Prof. Tijs van der Storm](https://homepages.cwi.nl/~storm/), Senior Researcher in SWAT team, CWI
+[Prof. Tijs van der Storm](https://homepages.cwi.nl/~storm/), Senior Researcher in SWAT team, CWI (also Full Professor at the University of Groningen)
 
 # Date & Venue
 
@@ -33,13 +33,11 @@ Join us in the **House of Connections** on the **17th of October 2023**
 
 # Registration
 
-[Fill in the form](https://docs.google.com/forms/d/e/1FAIpQLSe6Wi4dXGB2xxXoehit4SUpYvDrczxW16gPJfpz12_i3zYi2A/viewform?usp=sf_link) indicating your availability and food preferences
-
-or simply send an email to [a.rastogi@rug.nl](mailto:a.rastogi@rug.nl) (Ayushi Rastogi) or  [p.avgeriou@rug.nl](mailto:p.avgeriou@rug.nl) (Paris Avgeriou) saying you are attending.
+[Fill in the form](https://docs.google.com/forms/d/e/1FAIpQLSe6Wi4dXGB2xxXoehit4SUpYvDrczxW16gPJfpz12_i3zYi2A/viewform?usp=sf_link) indicating your availability and food preferences.
 
 # Detailed Program
 
-more details follow soon
+more details will follow soon
 
 ## Abstracts
 
