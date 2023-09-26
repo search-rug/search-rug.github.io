@@ -33,7 +33,7 @@ Join us in the **House of Connections** on the **17th of October 2023**
 
 # Registration
 
-[Fill in the form](https://docs.google.com/forms/d/e/1FAIpQLSe6Wi4dXGB2xxXoehit4SUpYvDrczxW16gPJfpz12_i3zYi2A/viewform) indicating your availability and food preferences
+[Fill in the form](https://docs.google.com/forms/d/e/1FAIpQLSe6Wi4dXGB2xxXoehit4SUpYvDrczxW16gPJfpz12_i3zYi2A/viewform?usp=sf_link) indicating your availability and food preferences
 
 or simply send an email to [a.rastogi@rug.nl](mailto:a.rastogi@rug.nl) (Ayushi Rastogi) or  [p.avgeriou@rug.nl](mailto:p.avgeriou@rug.nl) (Paris Avgeriou) saying you are attending.
 
