@@ -61,7 +61,7 @@ Join us in the **House of Connections** on the **17th of October 2023**
         </tr>
         <tr>
           <td>14:10-14:50</td>
-          <td>Arie van Deursen <i> Title of the talk</i> </td>
+          <td>Arie van Deursen <i> Explainable software engineering - Rethinking the full SE life cycle </i> </td>
         </tr>
         <tr>
           <td>14:50-15:00</td>
@@ -99,3 +99,11 @@ Join us in the **House of Connections** on the **17th of October 2023**
 > *Side note:* this talk, and Ensō itself, can be seen as being at the complete opposite end of the spectrum compared to Gunnar’s empirical dissertation (because it’s about design) and his fondness of raw performance (because it’s, as of yet, slow…).
 >
 > **Biography**: Tijs van der Storm is senior researcher at CWI where he leads the Software Analysis & Transformation (SWAT) group, and part-time full professor of software engineering at RUG. His research goals can be summarized as: how to make better programming languages and how to better make programming languages. He is an active member of the Software Language Engineering (SLE) and Programming Languages (PL) community, and one of the co-designers of the Rascal meta programming language and language workbench. He is further chair of the IFIP TC2 Working group 2.16 on Language Design, chair of VERSEN, the Dutch national association for software engineering, vice-president of AITO, and treasurer of the EAPLS. He likes poetry and dislikes ugly code.
+
+> **Explainable software engineering - Rethinking the full SE life cycle**\
+> &nbsp;&nbsp; by Arie van Deursen
+>
+> In artificial intelligence (AI), it’s increasingly recognized that components that learn from data need to be explainable. In this talk, we take explainability one step further, using it as a lens to rethink the full software engineering life cycle. To that end, we start from explainability in AI, focusing on counterfactual reasoning and algorithmic recourse. We revisit automated program repair, AI-powered coding, delay prediction, and IT governance. Based on this, we envision a future of software engineering in which explainability is a first-class citizen.
+>
+> **Biography**: Arie van Deursen is a professor in software engineering at Delft University of Technology, where he’s also head of the Software Technology department. He holds an MSc degree from the Vrije Universiteit Amsterdam (1990) and a PhD from the University of Amsterdam (1994). His research interests include software testing, language models for code, human aspects of software engineering and trustworthy artificial intelligence. He’s scientific director of the Delft Fintech Lab and co-PI of the NWO Long Term Program Robust (2022-2032) on trustworthy AI. Based on his research, he co-founded the Software Improvement Group (2000) and PerfectXL (2014). For the Dutch government, he serves on the Advisory Council for ICT Assessments (AcICT).
+
