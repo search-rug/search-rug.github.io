@@ -37,7 +37,43 @@ Join us in the **House of Connections** on the **17th of October 2023**
 
 # Detailed Program
 
-more details will follow soon
+<table style="border: 0px;">
+    <tbody>
+        <tr>
+            <td>10:30-11:10</td>
+            <td>Walk-in, coffee and opening</td>
+        </tr>
+        <tr>
+            <td>11:10-11:50</td>
+            <td> Rui Abreau <br>&nbsp;&nbsp; <i>Moving Fast While Delivering High-Quality Code</i></td>
+        </tr>
+        <tr>
+          <td>11:50 - 12:30</td>
+          <td>Tijs van der Storm <br>&nbsp;&nbsp; <i> Ensō: don’t design you programs, program your designs.</i></td>
+        </tr>
+        <tr> 
+          <td>12:30 - 13:30 </td>
+          <td> Lunch and coffee</td>
+        </tr>
+        <tr>
+          <td>  13:30 - 14:10</td>
+          <td>Alexander Serebrenik <br>&nbsp;&nbsp; <i> Gender, emotions and software development</i> </td>
+        </tr>
+        <tr>
+          <td>14:10 - 14:50</td>
+          <td>Arie van Deursen <br>&nbsp;&nbsp; <i> Title of the talk</i> </td>
+        </tr>
+        <tr>
+          <td>14:50 - 15:00</td>
+          <td>Closing remarks and (optionally) move to Aula</td>          
+        </tr>
+        <tr>
+          <td>16:15-17:00</td>
+          <td>Ph.D. defense of Gunnar Kudrjavets on ['The need for speed: increasing the code review velocity'](https://www.rug.nl/about-ug/latest-news/events/promoties/?hfId=124094) in Aula </td>
+        </tr>
+       
+    </tbody>
+</table>
 
 ## Abstracts
 
