@@ -52,11 +52,11 @@ Join us in the **House of Connections** on the **17th of October 2023**
           <td>Tijs van der Storm <i> Ensō: don’t design you programs, program your designs.</i></td>
         </tr>
         <tr> 
-          <td>12:30-13:30 </td>
+          <td>12:30-13:30</td>
           <td> Lunch and coffee</td>
         </tr>
         <tr>
-          <td>  13:30-14:10</td>
+          <td>13:30-14:10</td>
           <td>Alexander Serebrenik <i> Gender, emotions and software development</i> </td>
         </tr>
         <tr>
