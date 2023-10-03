@@ -48,23 +48,23 @@ Join us in the **House of Connections** on the **17th of October 2023**
             <td> Rui Abreau <i>Moving Fast While Delivering High-Quality Code</i></td>
         </tr>
         <tr>
-          <td>11:50 - 12:30</td>
+          <td>11:50-12:30</td>
           <td>Tijs van der Storm <i> Ensō: don’t design you programs, program your designs.</i></td>
         </tr>
         <tr> 
-          <td>12:30 - 13:30 </td>
+          <td>12:30-13:30 </td>
           <td> Lunch and coffee</td>
         </tr>
         <tr>
-          <td>  13:30 - 14:10</td>
+          <td>  13:30-14:10</td>
           <td>Alexander Serebrenik <i> Gender, emotions and software development</i> </td>
         </tr>
         <tr>
-          <td>14:10 - 14:50</td>
+          <td>14:10-14:50</td>
           <td>Arie van Deursen <i> Title of the talk</i> </td>
         </tr>
         <tr>
-          <td>14:50 - 15:00</td>
+          <td>14:50-15:00</td>
           <td>Closing remarks and (optionally) move to Aula</td>          
         </tr>
         <tr>
