@@ -6,7 +6,6 @@ is_group: false
 keywords:
 - mining software repositories
 - self-admitted technical debt
-- cloud infrastructure
 - software engineering
 - empirical studies
 posted: 2023-09-15
