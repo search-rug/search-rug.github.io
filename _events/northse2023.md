@@ -40,8 +40,12 @@ Join us in the **House of Connections** on the **17th of October 2023**
 <table style="border: 0px;">
     <tbody>
         <tr>
-            <td>10:30-11:10</td>
-            <td>Walk-in, coffee and opening</td>
+            <td>10:30-11:00</td>
+            <td>Walk-in with coffee</td>
+        </tr>
+        <tr>
+            <td>11:00-11:10</td>
+            <td>Welcome and opening</td>
         </tr>
         <tr>
             <td>11:10-11:50</td>
