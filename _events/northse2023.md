@@ -49,7 +49,7 @@ Join us in the **House of Connections** on the **17th of October 2023**
         </tr>
         <tr>
             <td>11:10-11:50</td>
-            <td> Rui Abreau <i>Moving Fast While Delivering High-Quality Code</i></td>
+            <td> Rui Abreu <i>Moving Fast While Delivering High-Quality Code</i></td>
         </tr>
         <tr>
           <td>11:50-12:30</td>
