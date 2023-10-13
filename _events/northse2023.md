@@ -17,7 +17,7 @@ In the current edition, the workshop coincides with a Ph.D. defense on ['The nee
 
 [Prof. Alexander Serebrenik](https://www.tue.nl/en/research/researchers/alexander-serebrenik), Professor of Social Software Engineering at the Eindhoven University of Technology
 
-[Prof. Rui Abreau](https://ruimaranhao.com/), Professor in Software Engineering at FEUP
+[Prof. Rui Abreu](https://ruimaranhao.com/), Professor in Software Engineering at FEUP
 
 [Prof. Tijs van der Storm](https://homepages.cwi.nl/~storm/), Senior Researcher in SWAT team, CWI (also Full Professor at the University of Groningen)
 
