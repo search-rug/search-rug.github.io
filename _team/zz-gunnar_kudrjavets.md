@@ -1,15 +1,16 @@
 ---
-title: "Gunnar Kudrjavets"
+title: "Dr. Gunnar Kudrjavets"
 image: "/uploads/team-avatars/gunnar-kudrjavets.jpg"
 position: "phd candidate"
 weight: 100
 status:
   promoted: false # appear in home page
-  former: false # former group member
+  former: true # former group member
+  group_graduate: true # graduated phd student
 contact:
   homepage: "https://gunnarku.github.io/"
-  email: "g.kudrjavets@rug.nl"
-  room: "Working remotely from Redmond, WA, USA"
+  email: "gunnarku@gmail.com"
+  room: "Seattle suburbia, WA, USA"
 publications:
   pure: "http://www.rug.nl/staff/g.kudrjavets/research/publications.html"
   gscholar: "https://scholar.google.com/citations?user=y7AYhKoAAAAJ&hl=en"
