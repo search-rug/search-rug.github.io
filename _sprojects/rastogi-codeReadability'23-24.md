@@ -8,7 +8,7 @@ keywords:
 - empirical research
 - industry collaboration
 posted: 2023-12-04
-short: What is readable software? How do you write more readable software? This project is in collaboration with [Prof. Rui Abreu](https://ruimaranhao.com/), a research software engineer with Meta.
+short: What is readable software? How do you write more readable software? This project is in collaboration with Prof. Rui Abreu, a research software engineer with Meta.
 contact:
   header: Supervisor(s)
   members:
@@ -20,7 +20,7 @@ types:
 
 Software companies care about improving productivity. At Meta, improving productivity means finding a balance between code velocity,  reliability, and readability of software systems. 
 
-The proposed two master theses projects contribute to understanding what is readable software and how to write more readable software. This project is in collaboration with Prof. Rui Abreu, a research software engineer with Meta.
+The proposed two master theses projects contribute to understanding what is readable software and how to write more readable software. This project is in collaboration with [Prof. Rui Abreu](https://ruimaranhao.com/), a research software engineer with Meta.
 
 The **first project** uses natural language processing and information retrieval techniques to identify what developers think improves code readability in open-source software. This study will determine the types of readability issues and their relevance. The relevance of readability issues can be established by linking the issues and their impact on the review decision and duration of the process. Sentiments could be another dimension to gauge how authors and reviewers perceive the readability issue.
 
