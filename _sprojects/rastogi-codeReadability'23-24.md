@@ -8,12 +8,11 @@ keywords:
 - empirical research
 - industry collaboration
 posted: 2023-12-04
-short: What is readable software? How do you write more readable software? This project is in collaboration with Prof. Rui Abreu, a research software engineer with Meta.
+short: What is readable software? How do you write more readable software? This project is in collaboration with [Prof. Rui Abreu](https://ruimaranhao.com/), a research software engineer with Meta.
 contact:
   header: Supervisor(s)
   members:
   - a.rastogi@rug.nl
-  - rma@fe.up.pt
 title: My Software Code Reads Better than Yours
 types:
 - MSc thesis
