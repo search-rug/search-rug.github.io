@@ -1,17 +1,22 @@
 ---
-title: "Héctor Fabio Cadavid Rengifo"
-image: "/uploads/team-avatars/hector-fabio-cadavid-rengifo.jpg"
-position: "phd student"
+title: "Dr. Héctor Fabio Cadavid Rengifo"
+image: "/uploads/team-avatars/hector-fabio-cadavid-rengifo.png"
+position: "graduated phd student"
 weight: 100
 status:
   promoted: false # appear in home page
-  former: false # former group member
+  former: true # former group member
+  group_graduate: true # graduated phd student
 contact:
-  homepage: ""
-  email: "h.f.cadavid.rengifo@rug.nl"
-  phone: "+31 50 363 3968"
-  room: "593 (Bernoulliborg, building 5161)"
+  homepage: "https://www.linkedin.com/in/hectorcadavidrengifo"
+  room: "Groningen, The Netherlands"
+publications:
+  pure: "https://www.rug.nl/staff/h.f.cadavid.rengifo/research"
+  gscholar: "https://scholar.google.com/citations?user=k0dA0FoAAAAJ&hl=en"
+  researchgate: "https://www.researchgate.net/profile/Hector-Cadavid"
+  github: "https://github.com/hcadavid"
+  
 topics:
-  - Systems of Systems
   - Software Architecture
+  - Systems of Systems architecting
 ---
