@@ -4,7 +4,7 @@ status: "Available"
 category: Software & Architecture Analytics Projects 2023-24
 is_group: false
 keywords:
-- technical debt and its management
+- technical debt
 - qualitative research
 - software engineering
 - empirical studies
