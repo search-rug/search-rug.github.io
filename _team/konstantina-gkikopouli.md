@@ -5,7 +5,7 @@ position: "msc student"
 weight: 200
 status:
   promoted: false # appear in home page
-  former: false # former group member
+  former: true # former group member
 contact:
   email: "k.gkikopouli@rug.nl"
 topics:
