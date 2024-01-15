@@ -40,9 +40,8 @@
       <div>
         <p class="text-sm">Suitable for</p>
         <p class="text-gray-700">
-          <!--TODO: get rid of trailing commas-->
           {% for type in project.types %}
-          <span>{{ type }},</span>
+          <span class="bg-black text-white text-xs px-2 py-0.5 rounded-full">{{ type }}</span>
           {% endfor %}
         </p>
       </div>
