@@ -8,7 +8,7 @@ keywords:
 - DevOps
 - Security
 posted: 2024-01-15
-short: Hospitals and other health care providers take their security very seriously, which is why their software is typically run on protected servers. But due to the amount of manual labour involved, this poses numerous challenges when it comes to deploying timely updates. Firstly, the new software package is sent to a hospital employee, who then applies the package to the protected server. It is only then that we are able to properly issue the update. This process could be improved through automatisation. As such, you will research and design a new plan on how to install the latest software updates without introducing any potential vulnerabilities.
+short: This project is concerned with investigating how to push updates to software on protected servers, such as those used by hospitals. This is an embedded project in collaboration with an industrial partner that offers an internship in conjunction with it.
 contact:
   header: Supervisor(s)
   members:
@@ -19,6 +19,8 @@ types:
 ---
 
 ### About the project
+Hospitals and other health care providers take their security very seriously, which is why their software is typically run on protected servers. But due to the amount of manual labour involved, this poses numerous challenges when it comes to deploying timely updates. Firstly, the new software package is sent to a hospital employee, who then applies the package to the protected server. It is only then that we are able to properly issue the update. This process could be improved through automatisation. As such, you will research and design a new plan on how to install the latest software updates without introducing any potential vulnerabilities.
+
 This project is to be executed as an exploratory case study in collaboration with Enshore Development. 
 
 Required qualities and characteristics:
