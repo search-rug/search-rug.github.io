@@ -21,9 +21,9 @@
     <div class="mt-0 flex gap-8">
 
       <div class="flex-col hidden sm:flex">
-        <p class="text-sm">{% if project.supervisors.size > 1 %} Supervisors {% else %} Supervisor {% endif %}</p>
+        <p class="text-sm">{{ project.contact.header }}</p>
         <p class="font-medium flex -space-x-2">
-          {% for member_email in project.supervisors %}
+          {% for member_email in project.contact.members %}
             {% assign member = site.team | where_exp: "m", "m.contact.email == member_email" | first %}
             {% include member-pfp-circle.html member=member %}
           {% endfor %}
