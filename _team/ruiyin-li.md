@@ -1,15 +1,14 @@
 ---
-title: "Ruiyin Li"
+title: "Dr. Ruiyin Li"
 image: "/uploads/team-avatars/ruiyin-li.jpg"
-position: "phd student"
+position: "graduated phd student"
 weight: 100
 status:
   promoted: false # appear in home page
-  former: false # former group member
+  former: true # former group member
+  group_graduate: true # graduated phd student
 contact:
-  email: "r.li@rug.nl"
-  phone: "+31 50 363 7480"
-  room: "576 (Bernoulliborg, building 5161)"
+  homepage: "https://www.linkedin.com/in/ruiyin-li-cs/"
 publications:
   pure: "https://research.rug.nl/en/persons/ruiyin-li/publications/"
 topics:
