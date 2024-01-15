@@ -4,12 +4,10 @@ status: "In Progress"
 category: Software & Architecture Analytics Projects 2022-23
 is_group: false
 keywords:
-- mining software repositories
 - software analytics
-- cloud infrastructure
+- cloud computing
 posted: 2023-02-10
-short: This project aims at building an MSR data collection infrastructure that can
-  evolve and scale with minimum interruption.
+short: This project aims at building a scalable infrastructure for mining software projects.
 contact:
   header: Supervisor(s)
   members:

@@ -4,10 +4,8 @@ status: "Available"
 category: Software & Architecture Analytics Projects 2023-24
 is_group: false
 keywords:
-- mining software repositories
 - technical debt
-- software engineering
-- empirical studies
+- empirical research
 posted: 2024-01-12
 short: The goal of this project is to identify and classify the functionalities of general-purpose bots to support the elicitation of requirements for technical debt bots.
 contact:

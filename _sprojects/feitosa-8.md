@@ -5,7 +5,7 @@ category: Software & Architecture Analytics Projects 2023-24
 is_group: true
 keywords:
 - technical debt
-- software engineering
+- software analytics
 - machine learning
 posted: 2024-01-15
 short: The goal of this project is to select techniques previously used for vulnerability detection and check whether they are also successful in detecting technical debt in benchmark datasets.

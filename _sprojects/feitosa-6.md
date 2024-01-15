@@ -5,9 +5,7 @@ category: Software & Architecture Analytics Projects 2023-24
 is_group: false
 keywords:
 - technical debt
-- qualitative research
-- software engineering
-- empirical studies
+- empirical research
 posted: 2024-01-12
 short: The goal of this project is to elicit the requirements for automated TD management solutions, using various sources (e.g., mailing lists and academic surveys with practitioners).
 contact:

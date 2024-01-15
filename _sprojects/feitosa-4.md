@@ -4,10 +4,8 @@ status: "Available"
 category: Software & Architecture Analytics Projects 2022-23
 is_group: false
 keywords:
-- mining software repositories
-- self-admitted technical debt
-- software engineering
-- empirical studies
+- technical debt
+- empirical research
 posted: 2023-09-15
 short: The goal of this project is to explore to what extent code review bots are dealing with self-admitted technical debt in the context of open-source software (OSS).
 contact:

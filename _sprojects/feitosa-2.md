@@ -4,10 +4,10 @@ status: "Finished"
 category: Software & Architecture Analytics Projects
 is_group: true
 keywords:
-- mining software repositories
-- empirical studies
+- empirical research
 - technical debt
 - design patterns
+- software analytics
 posted: 2023-02-10
 short: This project consists of an empirical study for mining pattern grime and TD
   items from open-source software (OSS) projects and correlating the presence of TD
