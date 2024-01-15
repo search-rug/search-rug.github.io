@@ -5,7 +5,7 @@ category: Software & Architecture Analytics Projects
 is_group: false
 keywords:
 - Cloud Computing
-- Mining Software Repositories
+- Software Analytics
 - Cost
 posted: 2023-02-10
 short: We are offering a series of projects under the umbrella of mining cloud cost
