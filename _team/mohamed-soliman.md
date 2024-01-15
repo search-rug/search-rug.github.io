@@ -1,16 +1,13 @@
 ---
 title: "Dr. Mohamed A.M. Soliman"
 image: "/uploads/team-avatars/mohamed-soliman.jpg"
-position: "postdoc"
+position: "Junior professor"
 weight: 11
 status:
   promoted: false # appear in home page
-  former: false # former group member
+  former: true # former group member
 contact:
-  homepage: "https://www.rug.nl/staff/m.a.m.soliman/"
-  email: "m.a.m.soliman@rug.nl"
-  phone: "+31 50 363 7125"
-  room: "572 (Bernoulliborg, building 5161)"
+  homepage: "https://www.linkedin.com/in/mohamed-soliman-558720a/"
 publications:
   pure: "http://www.rug.nl/staff/m.a.m.soliman/research/publications.html"
   gscholar: "https://scholar.google.com/citations?user=KDWpQIwAAAAJ&hl=en"
