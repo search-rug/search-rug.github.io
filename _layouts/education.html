@@ -19,7 +19,12 @@ sections:
   {% assign available_projects = site.sprojects | where: "archived", "false"  %}
   <section class="space-y-3">
     <h2 class="text-2xl">Available Student Projects</h2>
-    {% include project-card-grid.html projects=available_projects card_component="student-project-card.html" %}
+    <div class="flex">
+      <ul id="filters" class="collapse md:visible pr-4 space-y-1"></ul>
+      <div id="plist">
+      {% include project-card-grid.html projects=available_projects card_component="student-project-card.html" %}
+      </div>
+    </div>
   </section>
 
   {% assign past_projects = site.sprojects | where: "archived", "true"  %}
@@ -31,3 +36,59 @@ sections:
     </section>
   {% endif %}
 </div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.0/list.min.js"></script>
+<script>
+var options = { valueNames: [ 'keywords' ] };
+var projectList = new List('plist', options);
+
+// run a function after dom is ready
+document.addEventListener('DOMContentLoaded', function() {
+  // create a set of all keywords (span inside keywords div)
+  var keywords = new Set();
+  var keywordSpans = document.getElementsByClassName('keywords');
+  for (var i = 0; i < keywordSpans.length; i++) {
+    var spans = keywordSpans[i].getElementsByTagName('span');
+    for (var j = 0; j < spans.length; j++) {
+      keywords.add(spans[j].innerHTML.toLowerCase());
+    }
+  }
+  // add checkbox filters to the filters div
+  var filters = document.getElementById('filters');
+  for (let keyword of Array.from(keywords).sort()) {
+    var row = document.createElement('li');
+    var checkbox = document.createElement('input');
+    var label = document.createElement('label');
+
+    filters.appendChild(row);
+    row.className = 'w-max space-x-1';
+    row.appendChild(checkbox);
+    row.appendChild(label);
+    checkbox.type = 'checkbox';
+    checkbox.className = 'filter';
+    checkbox.value = keyword;
+    checkbox.onchange = filterList;
+    label.innerHTML = keyword;
+  }
+});
+
+function filterList() {
+  var filters = document.getElementsByClassName('filter');
+  var searchItems = [];
+  for (var i = 0; i < filters.length; i++) {
+    if (filters[i].checked) {
+      searchItems.push(filters[i].value);
+    }
+  }
+  if (searchItems.length == 0) {
+    projectList.filter();
+    return;
+  }
+  projectList.filter(function(item) {
+    // items contains at least one of the searchItems
+    return searchItems.some(function(searchItem) {
+      return item.values().keywords.toUpperCase().indexOf(searchItem.toUpperCase()) !== -1;
+    });
+  });
+}
+</script>
