@@ -1,5 +1,5 @@
 ---
-archived: false
+archived: true
 logo: null
 contact:
   header: Contact
@@ -10,7 +10,7 @@ short: This research project aims to increase understanding of architecture eros
   and provide strategies for mitigating its effects. Our objective is to assist researchers
   and practitioners in detecting and mitigating architecture erosion, with the aim
   of (partially) resolving this issue.
-status: In Progress
+status: Completed
 title: Understanding and Alerting Architecture Erosion during Software Development
 ---
 
