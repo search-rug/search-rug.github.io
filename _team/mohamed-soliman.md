@@ -8,6 +8,7 @@ status:
   former: true # former group member
 contact:
   homepage: "https://www.linkedin.com/in/mohamed-soliman-558720a/"
+  email: "m.a.m.soliman@rug.nl"
 publications:
   pure: "http://www.rug.nl/staff/m.a.m.soliman/research/publications.html"
   gscholar: "https://scholar.google.com/citations?user=KDWpQIwAAAAJ&hl=en"
