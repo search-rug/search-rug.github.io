@@ -1,12 +1,12 @@
-<a href="{{ post.url }}">
-  <div class="news-card">
+<a href="{{ post.url }}" class="max-w-sm rounded-lg border p-6 shadow-lg {% if include.clickable %} transition transform hover:scale-[102%] cursor-pointer {% endif %} h-full">
+  <div class="flex flex-col h-full">
 
     <p>{{ post.date | date_to_long_string }}</p>
-    <h3 class="title">{{ post.title }}</h3>
+    <h3 class="text-xl leading-8 font-semibold">{{ post.title }}</h3>
 
-    <div class="keywords">
+    <div>
       {% for keyword in post.keywords %}
-        <span>{{ keyword }}</span>
+        <span class="bg-red-100 text-red-700 text-xs leading-8 px-2 py-1 rounded-full">{{ keyword }}</span>
       {% endfor %}
     </div>
   </div>

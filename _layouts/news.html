@@ -8,13 +8,13 @@ bodyClass: "page-news"
   <div class="content mb-10">
     {{ content }}
   </div>
-  <div class="flex news-feed justify-between mt-4">
-    <div class="news-post-dates fs-1 " style="gap: 5px;">
+  <div class="flex justify-between mt-4">
+    <div class="hidden md:flex md:grow md:flex-col" style="gap: 5px;">
       {% for post in site.news reversed %}
-        <a href="{{ post.url }}">{{ post.date | date_to_long_string}}</a>
+        <a class="text-primary hover:underline" href="{{ post.url }}">{{ post.date | date_to_long_string}}</a>
       {% endfor %}
     </div>
-    <div class="flex flex-wrap news-post-cards" style="gap: 15px">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       {% for post in site.news reversed %}
         {% include news-card.html post=post %}
       {% endfor %}
