@@ -1,10 +1,8 @@
 baseurl: "/"
 permalink: pretty
 
-# url: - The full URL to your site. Note: site.github.url will be used by default.
 logo: "/uploads/branding/logo.svg"
-title: Software Engineering and Architecture group
-tagline: Research group from the University of Groningen
+title: RuG - SEARCH | Software Engineering and Architecture research group
 description: The vision of the RuG Software Engineering and Architecture group is that effective software engineering requires healthy software and teams. Our research enables productive, diverse and inclusive teams, as well as software that is maintainable, performant, with low technical debt, and based on sound design decisions.
 author: dfeitosa
 twitter:
