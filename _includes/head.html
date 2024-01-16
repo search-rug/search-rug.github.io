@@ -20,60 +20,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,600,700|Brawler:400" rel="stylesheet">
 <!-- styles -->
-<!-- <link href="{{ '/assets/css/dist-style.css' | relative_url }}" rel="stylesheet"> -->
-<script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-<script>
-  tailwind.config = {
-    theme: {
-      fontFamily: {
-        sans: ['Work Sans', 'sans-serif'],
-        serif: ['Brawler', 'serif'],
-      },
-      extend: {
-        colors: {
-          primary: '#e5261f',
-          darkprimary: '#bb1c16',
-          steel: '#5c5a5a',
-          offwhite: '#fff6f8',
-        },
-        typography: {
-          quoteless: {
-            css: {
-              'blockquote p:first-of-type::before': { content: 'none' },
-              'blockquote p:first-of-type::after': { content: 'none' },
-            },
-          },
-        },
-      },
-    },
-  }
-</script>
-<style type="text/tailwindcss">
-  @layer base {
-    body {
-      @apply text-base leading-5 font-sans;
-    }
-    h1,h2 {
-      @apply font-serif;
-    }
-    p {
-      @apply text-steel leading-7;
-    }
-  }
-  @layer components {
-    .contrib-card {
-      .title {
-        @apply text-xl leading-7 underline;
-      }
-      .journal {
-        @apply italic;
-      }
-      .person {
-        @apply text-primary;
-      }
-    }
-  }
-</style>
-
+<link href="{{ '/assets/css/dist-style.css' | relative_url }}" rel="stylesheet">
 <!--script tag for plausible analytics.-->
 <script defer data-domain="search-rug.github.io" src="https://plausible.io/js/script.js"></script>

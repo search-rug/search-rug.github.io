@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-base leading-5 font-sans;
+  }
+  h1,h2 {
+    @apply font-serif;
+  }
+  p {
+    @apply text-steel leading-7;
+  }
+}
+
+@layer components {
+  .contrib-card {
+    .title {
+      @apply text-xl leading-7 underline;
+    }
+    .journal {
+      @apply italic;
+    }
+    .person {
+      @apply text-primary;
+    }
+  }
+}

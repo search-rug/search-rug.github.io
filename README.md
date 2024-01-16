@@ -19,3 +19,12 @@ If you know your way around Jekyll, you know what to do to serve the it locally.
      .\scripts\jekyll_debug.ps1
      ```
 1. Open the website in your browser at http://localhost:4000.
+
+## Pre-built artifacts
+
+The style is pre-built and committed to the repository. If you want to rebuild them (especially if you use new tailwind classes), you need to have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed. Then, run the following commands in the root directory of the project:
+
+```bash
+npm install
+npm run tailwind-build
+```

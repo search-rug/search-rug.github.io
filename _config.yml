@@ -4,7 +4,6 @@ title: "SEARCH"
 
 logo:
   image: "/uploads/branding/logo.svg"
-  height: "32px"
 
 home:
   limit_services: 6
@@ -82,3 +81,8 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+  - scripts/
+  - package.json
+  - package-lock.json
+  - node_modules/
+  - tailwind.config.js
