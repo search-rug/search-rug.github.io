@@ -3,59 +3,59 @@ layout: default
 bodyClass: "page-home"
 ---
 
-<div class="flex justify-start items-center overflow-hidden py-16 md:py-36">
+<div class="flex justify-start items-center overflow-hidden pt-20 pb-8 md:pb-18">
   <div class="container mx-auto px-4">
-    <div class="flex flex-wrap justify-start">
+    <div class="flex flex-wrap place-content-center">
       {% if page.intro_image %}
-      <div class="w-full md:w-2/5 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 order-1 md:order-1 relative">
-        <img alt="{{ page.title }}" class="w-full h-auto hidden md:block" src="{{ page.intro_image | relURL }}" />
+      <div class="hidden md:block pr-4">
+        <img alt="{{ page.title }}" class="w-40 lg:w-60 h-auto" src="{{ page.intro_image | relURL }}" />
       </div>
       {% endif %}
-      <div class="w-full md:w-3/5 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 order-2 md:order-2">
-        <h1 class="text-4xl lg:text-5xl mb-6 lg:mb-8">{{ page.title }}</h1>
-        <h2 class="text-2xl lg:text-3xl mb-6 lg:mb-8">{{ page.subtitle }}</h2>
-        <p class="font-light italic md:leading-6 lg:leading-8 xl:leading-10 md:text-lg lg:text-2xl xl:text-3xl">
+      <div>
+        <h1 class="text-3xl lg:text-4xl xl:text-5xl mb-2 lg:mb-4">{{ page.title }}</h1>
+        <h2 class="text-xl xl:text-2xl mb-2 lg:mb-4 hidden md:block">{{ page.subtitle }}</h2>
+        <p class="text-lg lg:text-xl font-light italic text-center md:text-left">
           {{ page.slogan }}
         </p>
-        <div class="block mt-6">
-          {% for item in site.data.social %}
+        <div class="block mt-2 lg:mt-6">
+          <div class="flex place-content-center md:justify-start">
+            {% for item in site.data.social %}
             <a class="inline-block p-2.5 hover:opacity-80" href="{{ item.link }}" target="blank">
               <svg class="w-10 h-10"><use xlink:href="{{ item.image | relative_url }}"></use></svg>
             </a>
-          {% endfor %}
+            {% endfor %}
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="bg-no-repeat bg-offwhite">
-  <div class="container mx-auto px-4 pt-6 pb-6">
-    <div class="flex flex-wrap justify-start items-center">
-        <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-2/3 pr-4 pl-4 order-2 md:order-1">
-          <h1 class="text-3xl lg:text-4xl mb-8">{{page.vision.title}}</h1>
-          <p class="font-['Rokkit'] font-light italic md:leading-6 lg:leading-8 xl:leading-10 md:text-lg lg:text-2xl xl:text-3xl">
+<div class="bg-offwhite py-8 px-4 md:px-0">
+  <div class="container mx-auto">
+    <div class="flex justify-start items-center">
+        <div class="grow">
+          <h2 class="text-2xl lg:text-3xl xl:text-4xl mb-4 lg:mb-6">{{page.vision.title}}</h1>
+          <p class="font-sans font-light italic md:leading-6 lg:leading-8 xl:leading-10 md:text-lg lg:text-xl xl:text-2xl">
             {{page.vision.text}}
           </p>
         </div>
-        <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 order-1 md:order-2 relative">
-            <img alt="{{page.vision.title}} image" class="w-full h-auto hidden md:block" src="{{ page.vision.image | relative_url }}" />
+        <div class="flex-none pl-4 hidden md:block">
+            <img alt="{{page.vision.title}} image" class="w-40 lg:w-52 h-auto" src="{{ page.vision.image | relative_url }}" />
         </div>
     </div>
   </div>
-  <div class="container mx-auto px-4 pt-6 pb-6">
-    <div class="flex flex-wrap justify-start">
+  <div class="container mx-auto mt-8">
+    <div class="grid md:grid-cols-2 gap-4">
       {% for field in site.data.fields %}
-      <div class="w-full md:w-1/2 pr-4 pl-4 mb-1">
-        <div>
-          <h2 class="flex flex-row items-center mb-5 mt-8">
-            <span class="text-primary text-3xl mr-2">{{ field.title }}</span>
-            <span class="font-sans inline-block p-1 text-center text-xs align-baseline leading-none rounded bg-gray-800 text-white">
-              {{ field.tag }}
-            </span>
-          </h2>
-          <p>{{ field.description | markdownify }}</p>
-        </div>
+      <div>
+        <h2 class="flex flex-row items-center mb-2 lg:mb-4 xl:mb-5">
+          <span class="text-primary text-xl lg:text-2xl xl:text-3xl mr-2">{{ field.title }}</span>
+          <span class="font-sans inline-block p-1 text-center text-xs align-baseline leading-none rounded bg-gray-800 text-white">
+            {{ field.tag }}
+          </span>
+        </h2>
+        <p class="text-sm md:text-base lg:text-lg">{{ field.description }}</p>
       </div>
       {% endfor %}
     </div>
@@ -65,7 +65,7 @@ bodyClass: "page-home"
 <div class="container mx-auto px-4 pt-6 pb-10">
   <div class="flex flex-wrap justify-center">
     <div class="col-auto">
-      <h1 class="text-4xl mt-10 mb-8 text-center">Head Researchers</h1>
+      <h1 class="text-2xl lg:text-3xl xl:text-4xl mt-10 mb-8 text-center">Head Researchers</h1>
     </div>
   </div>
   <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
@@ -78,24 +78,3 @@ bodyClass: "page-home"
     <a class="rounded bg-primary hover:bg-red-500 px-3.5 py-2 text-sm text-white uppercase" href="{{ 'team' | relative_url }}">meet the whole team</a>
   </div>
 </div>
-
-<!--
-<div class="bg-no-repeat bg-offwhite">
-  <div class="container mx-auto px-4 pt-6 pb-10">
-    <div class="flex flex-wrap justify-start items-center">
-      <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/3 pr-4 pl-4 order-1 md:order-1 relative">
-        <img alt="{{page.research.title}} image" class="w-full h-auto hidden md:block" src="{{ page.research.image | relative_url }}" />
-      </div>
-      <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-2/3 pr-4 pl-4 order-2 md:order-2">
-        <h1 class="text-4xl mb-8">{{page.research.title}}</h1>
-        <p>{{page.research.text}}</p>
-      </div>
-    </div>
-    <div class="flex flex-wrap justify-center">
-      <div class="col-auto">
-        <a class="rounded bg-primary hover:bg-red-500 px-3.5 py-2 text-sm text-white uppercase" href="{{ 'research' | relative_url }}">check all output</a>
-      </div>
-    </div>
-  </div>
-</div>
--->
