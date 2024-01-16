@@ -22,7 +22,7 @@ bodyClass: "page-team"
 
 <div class="container mx-auto px-4">
     <h1 class="text-4xl font-semibold mb-8">Former Members</h1>
-    <ul class="list-disc list-inside">
+    <ul class="list-disc list-inside space-y-1">
         {% assign exmembers = site.team | where: "status.former", true | sort: "weight" %}
         {% for exmember in exmembers %}
         <li>

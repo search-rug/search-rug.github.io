@@ -20,9 +20,14 @@
   <script>
     tailwind.config = {
       theme: {
+        fontFamily: {
+          sans: ['Work Sans', 'sans-serif'],
+          serif: ['Brawler', 'serif'],
+        },
         extend: {
           colors: {
             primary: '#e5261f',
+            steel: '#5c5a5a',
           },
           typography: {
             quoteless: {
@@ -36,6 +41,19 @@
       },
     }
   </script>
+  <style type="text/tailwindcss">
+    @layer base {
+      body {
+        @apply text-base leading-5 font-sans;
+      }
+      h1,h2 {
+        @apply font-serif;
+      }
+      p {
+        @apply text-steel leading-7;
+      }
+    }
+  </style>
 
   {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
   {% if page.meta_title %}<meta property="og:title" content="{{ page.meta_title }}"/>{% else %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
