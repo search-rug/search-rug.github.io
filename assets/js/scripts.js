@@ -7,6 +7,5 @@ var menuContainer = document.querySelector('#main-menu-mobile');
 
 menuTrigger.onclick = function() {
     menuContainer.classList.toggle('collapse');
-    menuTrigger.classList.toggle('is-active')
-    body.classList.toggle('overflow-hidden')
+    body.classList.toggle('overflow-hidden');
 }

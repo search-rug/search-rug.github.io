@@ -51,12 +51,8 @@ $font-family-base: "Work Sans", Arial, sans-serif, -apple-system;
 @import 'https://fonts.googleapis.com/css?family=Brawler:400';
 $font-family-heading: "Brawler", serif, -apple-system;
 
-// Libraries
-@import "libraries/hamburgers/hamburgers";
-
 // Components
 @import "components/type";
-@import "components/hamburger";
 // @import "components/fonts"; // Uncomment this line to self host font
 
 body {
