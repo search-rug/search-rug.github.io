@@ -13,7 +13,7 @@
       <div class="grow-0 shrink-0 basis-auto w-8/12 h-full">
         <div class="flex flex-col h-full">
           <div class="flex flex-col grow">
-            <div class="font-['Brawler'] text-lg mb-0 text-[color:var(--primary)]">
+            <div class="font-['Brawler'] text-lg mb-0 text-primary">
               <a href="{{member.contact.homepage}}" target="blank">{{ member.title }}</a>
             </div>
             <div class="text-md text-gray-500 mb-4">
@@ -48,7 +48,7 @@
           <div class="flex flex-row mt-2">
             {% if member.publications -%}
             <div class="flex flex-col w-1/2">
-              <div class="mb-1 text-[color:var(--primary)]">Publications</div>
+              <div class="mb-1 text-primary">Publications</div>
               <ul class="list-inside flex justify-start">
                 {% for item in member.publications %}
                 <a class="pl-0 pr-2" href="{{item[1]}}" target="blank">
@@ -62,7 +62,7 @@
             {% endif %}
             {% if member.social -%}
             <div class="flex flex-col w-1/2">
-              <div class="mb-1 text-[color:var(--primary)]">Social</div>
+              <div class="mb-1 text-primary">Social</div>
               <ul class="list-inside flex justify-start">
                 {% for item in member.social %}
                 <a class="pl-0 pr-2" href="{{item[1]}}" target="blank">

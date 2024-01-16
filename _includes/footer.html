@@ -1,4 +1,4 @@
-<div class="bg-[color:var(--sub-footer-background-color)] text-[color:var(--sub-footer-text-color)] py-4 md:py-2.5">
+<div class="bg-darkprimary text-white py-4 md:py-2.5">
   <div class="container mx-auto px-4">
     <div class="flex flex-wrap ">
       <div class="w-full">
@@ -7,7 +7,7 @@
             <div class="block">
               {% for item in site.data.social %}
                 <a class="inline-block p-2.5 hover:opacity-80" href="{{ item.link }}" target="blank">
-                  <svg class="fill-[color:var(--sub-footer-text-color)] w-8 h-8"><use xlink:href="{{ item.image | relative_url }}"></use></svg>
+                  <svg class="fill-white w-8 h-8"><use xlink:href="{{ item.image | relative_url }}"></use></svg>
                 </a>
               {% endfor %}
             </div>
