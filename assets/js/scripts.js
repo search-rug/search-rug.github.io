@@ -6,7 +6,7 @@ var menuTrigger = document.querySelector('#toggle-main-menu-mobile');
 var menuContainer = document.querySelector('#main-menu-mobile');
 
 menuTrigger.onclick = function() {
-    menuContainer.classList.toggle('open');
+    menuContainer.classList.toggle('collapse');
     menuTrigger.classList.toggle('is-active')
-    body.classList.toggle('lock-scroll')
+    body.classList.toggle('overflow-hidden')
 }

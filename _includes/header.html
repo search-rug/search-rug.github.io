@@ -5,7 +5,16 @@
       <a class="block w-full h-full" href="/"><img class="max-w-unset h-[{{ site.logo.height }}]" alt="{{ site.title }}" src="{{ site.logo.image | relative_url }}" /></a>
     </div>
     <!-- main menu -->
-    {% include main-menu.html name='main-menu' %}
+    <div id="main-menu" class="py-2.5 collapse md:visible md:block">
+      {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
+      <ul class="flex items-center justify-start space-x-5">
+        {% for item in mainmenu %}
+        <li class="text-base hover:underline {% if item.url == page.url %}active font-bold{% endif %}">
+          <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
     <!-- mobile menu button -->
     <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
       <span class="hamburger-box">

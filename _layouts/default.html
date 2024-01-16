@@ -52,7 +52,18 @@
 </head>
 
 <body class='flex flex-col min-h-screen page {{layout.bodyClass}}'>
-  {% include main-menu.html name='main-menu-mobile' %}
+  <!-- mobile menu -->
+  <div id="main-menu-mobile" class="collapse md:collapse bg-primary opacity-90 z-50 fixed w-full h-screen flex justify-center items-center">
+    {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
+    <ul class="text-3xl text-center text-white space-y-7 font-[Brawler]">
+      {% for item in mainmenu %}
+      <li class="{% if item.url == page.url %}active{% endif %}">
+        <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <!-- header bar + content -->
   <div id="wrapper" class="grow wrapper">
     {% include header.html headerClass='header-extra' %}
     {{content}}
