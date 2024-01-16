@@ -31,7 +31,7 @@ sections:
   {% endif %}
 
   <section class="space-y-2">
-    <h3 class="text-2xl">Publications</h3>
+    <h2 class="text-2xl">Publications</h3>
     <div class="grid xl:grid-cols-2 gap-4">
       {% for publication in site.data.publications %}
         {% include research-contribution-card.html contribution=publication %}
@@ -40,7 +40,7 @@ sections:
   </section>
 
   <section class="space-y-2">
-    <h3 class="text-2xl">Datasets</h3>
+    <h2 class="text-2xl">Datasets</h3>
     <div class="grid xl:grid-cols-2 gap-4">
       {% for dataset in site.data.datasets %}
         {% include research-contribution-card.html contribution=dataset %}
