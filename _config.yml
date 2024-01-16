@@ -68,6 +68,9 @@ defaults:
 plugins:
   - jekyll-environment-variables
 
+include:
+  - _pages
+
 exclude:
   - Gemfile
   - Gemfile.lock

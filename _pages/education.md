@@ -1,8 +1,8 @@
 ---
+permalink: "/education/"
 title: Education
 layout: education
 description: Education activities of the SEARCH group
-permalink: "/education/"
 ---
 
 **Under Construction**

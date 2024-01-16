@@ -1,4 +1,5 @@
 ---
+permalink: /
 title: Software Engineering and Architecture
 subtitle: research group
 slogan: effective software engineering

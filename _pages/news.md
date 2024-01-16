@@ -1,8 +1,8 @@
 ---
+permalink: "/news/"
 title: SEARCH News Feed
 layout: news
 description: Here we regularly post updates about research project, new or departing team members, industry collaboration, released datasets, student projects and other general updates about the SEARCH group.
-permalink: "/news/"
 ---
 
 <!--TODO: get this description approved by team-->

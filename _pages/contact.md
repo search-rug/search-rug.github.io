@@ -1,4 +1,5 @@
 ---
+permalink: "/contact/"
 title: Contact
 layout: contact
 description: Contact of the SEARCH research group
