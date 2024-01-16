@@ -20,25 +20,21 @@ bodyClass: "page-team"
     </div>
 </div>
 
-<div class="container mx-auto px-4 content">
-    <div class="flex flex-wrap">
-        <div class="col-auto">
-            <h1>Former Members</h1>
-            <ul>
-                {% assign exmembers = site.team | where: "status.former", true | sort: "weight" %}
-                {% for exmember in exmembers %}
-                <li>
-                    {% if exmember.contact.homepage %}
-                        <a href="{{exmember.contact.homepage}}" target="blank">{{ exmember.title }}</a>
-                    {% else %}
-                        {{ exmember.title }}
-                    {% endif %}
-                    {% if exmember.status.group_graduate %}
-                    <span class="team-former-phd">(graduated PhD student)</span>
-                    {% endif %}
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
+<div class="container mx-auto px-4">
+    <h1 class="text-4xl font-semibold mb-8">Former Members</h1>
+    <ul class="list-disc list-inside">
+        {% assign exmembers = site.team | where: "status.former", true | sort: "weight" %}
+        {% for exmember in exmembers %}
+        <li>
+            {% if exmember.contact.homepage %}
+                <a class="underline" href="{{exmember.contact.homepage}}" target="blank">{{ exmember.title }}</a>
+            {% else %}
+                {{ exmember.title }}
+            {% endif %}
+            {% if exmember.status.group_graduate %}
+            <span class="team-former-phd">(graduated PhD student)</span>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
 </div>

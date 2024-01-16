@@ -15,7 +15,7 @@ secretariat:
 
 # Visiting Address
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d461.89819237457687!2d6.536652269884609!3d53.24039396428718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c9cd1a4f77456b%3A0x9841c274f3f056e5!2sBernoulliborg!5e0!3m2!1sen!2snl!4v1672614105013!5m2!1sen!2snl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe class="w-full h-72 lg:h-96" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d461.89819237457687!2d6.536652269884609!3d53.24039396428718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c9cd1a4f77456b%3A0x9841c274f3f056e5!2sBernoulliborg!5e0!3m2!1sen!2snl!4v1672614105013!5m2!1sen!2snl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 We are located in the [Bernoulliborg building (5161)](https://www.rug.nl/staff/location/5161) on the university's Zernikecomplex campus. 
 

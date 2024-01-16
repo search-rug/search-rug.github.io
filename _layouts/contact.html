@@ -7,7 +7,7 @@ bodyClass: "page-contact"
 <div class="container mx-auto px-4 pb-6 pt-[100px] pb-md-10">
     
     <h1 class="text-black text-5xl lg:text-[50px] font-semibold mb-8">{{page.title}}</h1>
-    <div class="grid md:grid-cols-2 gap-6 mt-7">
+    <div class="grid md:grid-cols-2 gap-6 my-7">
         {% if page.group_leader.show %}
             {% assign leader = site.team | where: "status.group_leader", true %}
             {% for member in leader %}
@@ -48,9 +48,5 @@ bodyClass: "page-contact"
         </div>
         {% endif %}
     </div>
-    <div class="flex flex-wrap justify-start">
-        <div class="col-auto">
-            <div class="content mt-4">{{content}}</div>
-        </div>
-    </div>
+    <div class="max-w-none prose prose-h1:text-4xl prose-h1:mb-5 prose-h1:font-normal prose-h1:font-['Work_Sans'] prose-h2:font-normal prose-h2:font-['Work_Sans'] prose-h2:my-1">{{content}}</div>
 </div>
