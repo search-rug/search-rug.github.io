@@ -2,7 +2,8 @@ baseurl: "/"
 permalink: pretty
 
 logo: "/uploads/branding/logo.svg"
-title: RuG - SEARCH | Software Engineering and Architecture research group
+title: "RuG - SEARCH"
+tagline: "Software Engineering and Architecture research group"
 description: The vision of the RuG Software Engineering and Architecture group is that effective software engineering requires healthy software and teams. Our research enables productive, diverse and inclusive teams, as well as software that is maintainable, performant, with low technical debt, and based on sound design decisions.
 author: dfeitosa
 twitter:
