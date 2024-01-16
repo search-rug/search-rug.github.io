@@ -1,5 +1,7 @@
 ---
 title: Software Engineering and Architecture
+subtitle: research group
+slogan: effective software engineering
 layout: home
 description: Website of the Software Engineering and Architecture group of the Faculty of Science and Engineering of the University of Groningen.
 intro_image: "/uploads/branding/search-logo-large.svg"
@@ -12,9 +14,3 @@ research:
   text: "Along with the scientific publications, our group has created approaches, tools and datasets. (UNDER CONSTRUCTION... list three examples)"
   highlight_image: "/uploads/branding/highlight.svg"
 ---
-
-# Software Engineering and Architecture
-
-## research group
-
-*effective software engineering*

@@ -3,7 +3,7 @@ layout: default
 bodyClass: "page-home"
 ---
 
-<div class="intro">
+<div class="flex justify-start items-center overflow-hidden py-16 md:py-36">
   <div class="container mx-auto px-4">
     <div class="flex flex-wrap justify-start">
       {% if page.intro_image %}
@@ -12,7 +12,11 @@ bodyClass: "page-home"
       </div>
       {% endif %}
       <div class="w-full md:w-3/5 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 order-2 md:order-2">
-        {{ content }}
+        <h1 class="text-4xl lg:text-5xl mb-6 lg:mb-8">{{ page.title }}</h1>
+        <h2 class="text-2xl lg:text-3xl mb-6 lg:mb-8">{{ page.subtitle }}</h2>
+        <p class="font-light italic md:leading-6 lg:leading-8 xl:leading-10 md:text-lg lg:text-2xl xl:text-3xl">
+          {{ page.slogan }}
+        </p>
         <div class="block mt-6">
           {% for item in site.data.social %}
             <a class="inline-block p-2.5 hover:opacity-80" href="{{ item.link }}" target="blank">
