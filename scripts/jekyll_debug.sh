@@ -12,7 +12,7 @@ docker run --rm \
  -e 'TZ=Europe/Amsterdam' \
  -e JEKYLL_UID=$IDu \
  -e JEKYLL_GID=$IDg \
- jekyll/jekyll \
+ jekyll/jekyll:stable \
   jekyll serve --source /srv/jekyll \
   --destination /srv/jekyll/build \
   --watch \
