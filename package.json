@@ -4,6 +4,7 @@
     "@tailwindcss/typography": "0.5.10"
   },
   "scripts": {
-    "tailwind-build": "npx tailwindcss -i ./assets/css/style.css -o ./assets/css/dist-style.css --minify"
+    "tailwind-build": "npx tailwindcss -i ./assets/css/style.css -o ./assets/css/dist-style.css --minify",
+    "tailwind-watch": "npx tailwindcss --watch -i ./assets/css/style.css -o ./assets/css/dist-style.css"
   }
 }
