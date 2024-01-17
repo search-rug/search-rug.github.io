@@ -1,6 +1,6 @@
 <div class="flex flex-row items-center p-2 rounded-xl border shadow-lg bg-offwhite">
     <div class="w-24 h-24 rounded-full overflow-hidden mr-2">
-        <img alt="{{ member.title }}" class="w-full" src="{{ member.image | relative_url }}" />
+        <img alt="{{ member.title }}" title="{{ member.title }}" loading="lazy" class="w-full" src="{{ member.image | relative_url }}" />
     </div>
     <div class="w-auto">
         <h2 class="font-serif text-md mb-0 text-primary">
