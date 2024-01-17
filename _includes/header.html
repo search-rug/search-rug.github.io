@@ -1,28 +1,30 @@
 <div class='text-primary bg-white border-b-offwhite border-b border-solid px-0 py-2.5 block fixed w-full z-50 float-right top-0'>
-  <div class="container flex justify-between items-center mx-auto px-4">
+  <div class="container px-4 flex">
     <!-- logo -->
-    <div class="block">
-      <a class="block w-full h-full" href="/"><img class="max-w-unset h-8" alt="{{ site.title }}" src="{{ site.logo | relative_url }}" /></a>
+    <div class="flex-none">
+      <a href="/"><img class="h-8" alt="{{ site.title }}" src="{{ site.logo | relative_url }}" /></a>
     </div>
     <!-- main menu -->
-    <div id="main-menu" class="py-2.5 collapse md:visible md:block">
+    <div id="main-menu" class="grow hidden md:inline-flex md:place-content-end">
       {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
-      <ul class="flex items-center justify-start space-x-5">
+      <ul class="flex items-center space-x-5">
         {% for item in mainmenu %}
-        <li class="text-base hover:underline {% if item.url == page.url %}active font-bold{% endif %}">
+        <li class="hover:underline {% if item.url == page.url %}active font-bold{% endif %}">
           <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
         </li>
         {% endfor %}
       </ul>
     </div>
     <!-- mobile menu button -->
-    <button id="toggle-main-menu-mobile" class="md:hidden" type="button" aria-label="Mobile Menu">
-      <div class="space-y-2">
-        <span class="block w-8 h-0.5 bg-primary"></span>
-        <span class="block w-8 h-0.5 bg-primary"></span>
-        <span class="block w-5 h-0.5 bg-primary"></span>
-      </div>
-    </button>
+    <div class="grow flex place-content-end md:hidden">
+      <button id="toggle-main-menu-mobile" type="button" aria-label="Mobile Menu">
+        <div class="space-y-2">
+          <span class="block w-8 h-0.5 bg-primary"></span>
+          <span class="block w-8 h-0.5 bg-primary"></span>
+          <span class="block w-5 h-0.5 bg-primary"></span>
+        </div>
+      </button>
+    </div>
   </div>
   <script src="https://identity.netlify.com/v1/netlify-identity.js"></script>
 </div>
