@@ -1,9 +1,6 @@
 ---
 permalink: "/team/"
-title: Team
 layout: team
-description: Team
+title: Team
+description: People at the Software Engineering and Architecture group (SEARCH), University of Groningen (RuG)
 ---
-
-# Meet The Team
-

@@ -1,8 +1,8 @@
 ---
 permalink: "/contact/"
-title: Contact
 layout: contact
-description: Contact of the SEARCH research group
+title: Contact
+description: Contact of the Software Engineering and Architecture group (SEARCH) group of the University of Groningen.
 group_leader:
   show: true
   title: "Group Leader"

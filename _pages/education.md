@@ -1,16 +1,14 @@
 ---
 permalink: "/education/"
-title: Education
 layout: education
-description: Education activities of the SEARCH group
+title: Education
+description: The faculty in the Software Engineering and Architecture group (SEARCH) teaches bachelor and master level courses covering a range of topics, including software engineering, empirical software engineering, object-oriented design and programming, cloud computing, and software architecture.
 ---
-
-**Under Construction**
 
 # Content
 
 - **Courses**
-  - point to lecturers' Ocasys pages (need to list courses here?)
+  - list of courses with links to Ocasys pages
 - **Student projects**
   - list of open BSc/MSc projects
   - link to finalized BSc/MSc theses? (RuG link)
