@@ -1,6 +1,6 @@
 ---
-archived: false
-status: "archived:true"
+archived: true
+status: "Completed"
 category: ML, NLP and Refactoring Projects 2022-23
 is_group: false
 keywords:
