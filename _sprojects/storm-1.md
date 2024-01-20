@@ -8,7 +8,7 @@ keywords:
 - spreadsheets
 - end-user programming
 posted: 2023-02-10
-short: The goal of this project is to explore how Rascal can support the definition
+description: The goal of this project is to explore how Rascal can support the definition
   of domain-specific spreadsheet languages.
 contact:
   header: Supervisor(s)

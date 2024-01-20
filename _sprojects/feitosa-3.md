@@ -7,7 +7,7 @@ keywords:
 - software analytics
 - cloud computing
 posted: 2023-02-10
-short: This project aims at building a scalable infrastructure for mining software projects.
+description: This project aims at building a scalable infrastructure for mining software projects.
 contact:
   header: Supervisor(s)
   members:

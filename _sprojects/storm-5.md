@@ -10,7 +10,7 @@ keywords:
 - Swift
 - reverse engineering
 posted: 2023-01-01
-short: In this project the goal is to obtain a high quality Rascal grammar from the
+description: In this project the goal is to obtain a high quality Rascal grammar from the
   Swift language reference, in a (semi-)automatic, traceable way.
 contact:
   header: Supervisor(s)

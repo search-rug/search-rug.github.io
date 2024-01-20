@@ -8,7 +8,7 @@ keywords:
 - software analytics
 - machine learning
 posted: 2024-01-15
-short: The goal of this project is to select techniques previously used for vulnerability detection and check whether they are also successful in detecting technical debt in benchmark datasets.
+description: The goal of this project is to select techniques previously used for vulnerability detection and check whether they are also successful in detecting technical debt in benchmark datasets.
 contact:
   header: Supervisor(s)
   members:

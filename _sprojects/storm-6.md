@@ -9,7 +9,7 @@ keywords:
 - DSLs
 - contracts
 posted: 2023-01-01
-short: Some time ago, Nick Szabo wrote an essay exploring how a language for smart
+description: Some time ago, Nick Szabo wrote an essay exploring how a language for smart
   contracts could look like. The goal of this project is to go one step further to
   define a proper semantics and implementation of a language like this.
 contact:

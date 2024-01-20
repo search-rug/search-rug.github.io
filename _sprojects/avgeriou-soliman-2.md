@@ -8,7 +8,7 @@ keywords:
 - empirical studies
 - technical debt
 posted: 2023-01-01
-short: The Technical Debt Monitoring System would continuously monitor and track the
+description: The Technical Debt Monitoring System would continuously monitor and track the
   technical debt incurred during software development by utilizing static code analysis
   tools such as SonarQube, specifically within the context of merge requests.
 contact:

@@ -8,7 +8,7 @@ keywords:
 - machine learning
 - secondary study
 posted: 2023-02-10
-short: The objective of this work is to offer a streamlined approach to sharing replication
+description: The objective of this work is to offer a streamlined approach to sharing replication
   packages for replication in empirical software engineering research.
 contact:
   header: Supervisor(s)

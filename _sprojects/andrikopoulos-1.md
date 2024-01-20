@@ -8,7 +8,7 @@ keywords:
 - Software Analytics
 - Cost
 posted: 2023-02-10
-short: We are offering a series of projects under the umbrella of mining cloud cost
+description: We are offering a series of projects under the umbrella of mining cloud cost
   awareness, that is, of software developers being aware of the costs of deploying
   and operating cloud-based software.
 contact:

@@ -8,7 +8,7 @@ keywords:
 - DevOps
 - Security
 posted: 2024-01-15
-short: This project is concerned with investigating how to push updates to software on protected servers, such as those used by hospitals. This is an embedded project in collaboration with an industrial partner that offers an internship in conjunction with it.
+description: This project is concerned with investigating how to push updates to software on protected servers, such as those used by hospitals. This is an embedded project in collaboration with an industrial partner that offers an internship in conjunction with it.
 contact:
   header: Supervisor(s)
   members:

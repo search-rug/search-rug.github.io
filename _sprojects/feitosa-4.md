@@ -7,7 +7,7 @@ keywords:
 - technical debt
 - empirical research
 posted: 2023-09-15
-short: The goal of this project is to explore to what extent code review bots are dealing with self-admitted technical debt in the context of open-source software (OSS).
+description: The goal of this project is to explore to what extent code review bots are dealing with self-admitted technical debt in the context of open-source software (OSS).
 contact:
   header: Supervisor(s)
   members:

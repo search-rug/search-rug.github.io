@@ -8,7 +8,7 @@ keywords:
 - empirical research
 - data science
 posted: 2023-01-01
-short: Join us in understanding the many ways in which development activities are
+description: Join us in understanding the many ways in which development activities are
   unfair, the extent of the problem, and solutions to mitigate it. There are many
   interesting research problems here that will need software engineering and artificial
   intelligence-based solutions.

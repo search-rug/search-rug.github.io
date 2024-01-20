@@ -8,7 +8,7 @@ keywords:
 - empirical studies
 - self-admitted technical debt
 posted: 2023-01-01
-short: In order to better manage technical debt, we need to design and develop a visualization
+description: In order to better manage technical debt, we need to design and develop a visualization
   and management system to help developers manage self-admitted technical debt.
 contact:
   header: Supervisor(s)

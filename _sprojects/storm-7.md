@@ -8,7 +8,7 @@ keywords:
 - pretty printing
 - machine learning
 posted: 2023-01-01
-short: CodeBuff has been implemented in the context of the ANTLR parse generator,
+description: CodeBuff has been implemented in the context of the ANTLR parse generator,
   and uses its internal parse tree data structures for learning and formatting. We're
   interested in transferring CodeBuff to the context of the Rascal language workbench.
 contact:

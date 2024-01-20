@@ -8,7 +8,7 @@ keywords:
 - empirical research
 - industry collaboration
 posted: 2023-01-01
-short: In the project, researchers and students from different universities collaborate
+description: In the project, researchers and students from different universities collaborate
   with practitioners from SMEs in a series of case studies in which the current state
   of affairs regarding emerging digital technologies is being explored.
 contact:

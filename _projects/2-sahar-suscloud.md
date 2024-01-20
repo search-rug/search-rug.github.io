@@ -9,7 +9,7 @@ contact:
   members:
   - v.andrikopoulos@rug.nl
   - s.ahmadisakha@rug.nl
-short: This project aims to develop a sustainability-aware architecting framework
+description: This project aims to develop a sustainability-aware architecting framework
   specifically for cloud-based software services which incorporates all dimensions
   of system sustainability. The framework is structured around the use of sustainability
   indicators, one per dimension, as the means of abstracting away from dimension-specific

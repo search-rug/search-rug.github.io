@@ -6,7 +6,7 @@ contact:
   members:
   - paris@cs.rug.nl
   - r.li@rug.nl
-short: This research project aims to increase understanding of architecture erosion
+description: This research project aims to increase understanding of architecture erosion
   and provide strategies for mitigating its effects. Our objective is to assist researchers
   and practitioners in detecting and mitigating architecture erosion, with the aim
   of (partially) resolving this issue.

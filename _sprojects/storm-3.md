@@ -9,7 +9,7 @@ keywords:
 - Javascript
 - Rascal
 posted: 2023-02-10
-short: The goal of this project is to investigate how to embed Web-based diagram editor
+description: The goal of this project is to investigate how to embed Web-based diagram editor
   frameworks into the Salix model for defining UIs.
 contact:
   header: Supervisor(s)

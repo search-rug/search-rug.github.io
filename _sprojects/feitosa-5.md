@@ -7,7 +7,7 @@ keywords:
 - technical debt
 - empirical research
 posted: 2024-01-12
-short: The goal of this project is to identify and classify the functionalities of general-purpose bots to support the elicitation of requirements for technical debt bots.
+description: The goal of this project is to identify and classify the functionalities of general-purpose bots to support the elicitation of requirements for technical debt bots.
 contact:
   header: Supervisor(s)
   members:

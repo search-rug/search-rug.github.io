@@ -8,7 +8,7 @@ keywords:
 - empirical research
 - data science
 posted: 2023-01-01
-short: There are many parts of this project, offering interesting and challenging
+description: There are many parts of this project, offering interesting and challenging
   opportunities at the intersection of software engineering and artificial intelligence.
 contact:
   header: Supervisor(s)

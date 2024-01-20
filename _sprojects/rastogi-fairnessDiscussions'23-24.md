@@ -7,7 +7,7 @@ keywords:
 - software engineering
 - empirical research
 posted: 2023-12-18
-short: This study finds what people say about fairness on social media.  
+description: This study finds what people say about fairness on social media.  
 contact:
   header: Supervisor(s)
   members:

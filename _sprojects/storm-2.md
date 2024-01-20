@@ -9,7 +9,7 @@ keywords:
 - Rascal
 - smart contracts
 posted: 2023-01-01
-short: The goal of this project is provide an M3 bridge to the Ethereum Solidity language.
+description: The goal of this project is provide an M3 bridge to the Ethereum Solidity language.
   This will enable analysis and reverse engineering of Smart Contracts running on
   the Ethereum blockchain.
 contact:

@@ -7,7 +7,7 @@ keywords:
 - software analytics
 - design patterns
 posted: 2023-02-10
-short: This project entails the refactoring and upgrade (incl. dependencies' update
+description: This project entails the refactoring and upgrade (incl. dependencies' update
   and small bug fixes) of both SSAP and Spoon-PttGrime.
 contact:
   header: Supervisor(s)

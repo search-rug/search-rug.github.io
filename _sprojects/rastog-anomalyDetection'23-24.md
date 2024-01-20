@@ -8,7 +8,7 @@ keywords:
 - empirical research
 - industry collaboration
 posted: 2023-12-04
-short: This thesis will look into the unsupervised Anomaly Detection (AD) solutions in the DevOps CI/CD pipeline of SIG. 
+description: This thesis will look into the unsupervised Anomaly Detection (AD) solutions in the DevOps CI/CD pipeline of SIG. 
 contact:
   header: Supervisor(s)
   members:

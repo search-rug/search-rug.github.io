@@ -10,7 +10,7 @@ contact:
   members:
   - a.capiluppi@rug.nl
   - e.sutoyo@rug.nl
-short: This project aims to increase the accuracy of automatic classification and,
+description: This project aims to increase the accuracy of automatic classification and,
   through it, eliminate a significant portion of the costs relating to technical debt
   detection.
 status: In Progress

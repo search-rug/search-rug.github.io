@@ -9,7 +9,7 @@ keywords:
 - design patterns
 - software analytics
 posted: 2023-02-10
-short: This project consists of an empirical study for mining pattern grime and TD
+description: This project consists of an empirical study for mining pattern grime and TD
   items from open-source software (OSS) projects and correlating the presence of TD
   items in pattern instances with higher levels of pattern grime.
 contact:

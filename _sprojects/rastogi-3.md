@@ -8,7 +8,7 @@ keywords:
 - empirical research
 - data science
 posted: 2023-01-01
-short: This project involves the identification of issues in global teams and/or ways
+description: This project involves the identification of issues in global teams and/or ways
   to solve the problems experienced by global developers.
 contact:
   header: Supervisor(s)

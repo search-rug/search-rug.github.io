@@ -7,7 +7,7 @@ keywords:
 - technical debt
 - empirical research
 posted: 2024-01-12
-short: The goal of this project is to elicit the requirements for automated TD management solutions, using various sources (e.g., mailing lists and academic surveys with practitioners).
+description: The goal of this project is to elicit the requirements for automated TD management solutions, using various sources (e.g., mailing lists and academic surveys with practitioners).
 contact:
   header: Supervisor(s)
   members:

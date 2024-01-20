@@ -9,7 +9,7 @@ keywords:
 - empirical research
 - industry collaboration
 posted: 2023-12-04
-short: This thesis will generate a code for medium-size, preferably larger, software projects using LLMs. It will also assess the quality of the code generated using LLMs.  This project is in collaboration with the Software Improvement Group (SIG) from Amsterdam. 
+description: This thesis will generate a code for medium-size, preferably larger, software projects using LLMs. It will also assess the quality of the code generated using LLMs.  This project is in collaboration with the Software Improvement Group (SIG) from Amsterdam. 
 contact:
   header: Supervisor(s)
   members:

@@ -9,7 +9,7 @@ keywords:
 - Energy Monitoring
 - Chatbots
 posted: 2023-02-10
-short: This project aims to investigate what is the environmental footprint of training
+description: This project aims to investigate what is the environmental footprint of training
   and using chatbots.
 contact:
   header: Supervisor(s)
