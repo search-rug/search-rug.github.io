@@ -18,10 +18,10 @@ collections:
     output: false
   projects:
     output: true
-    permalink: "/research-project/:path/"
+    permalink: "/research/projects/:path/"
   sprojects:
     output: true
-    permalink: /student-project/:path/
+    permalink: /education/student-projects/:path/
   events:
     output: true
     permalink: /events/:path/
@@ -68,10 +68,15 @@ defaults:
       type: "team"
     values:
       image: "/assets/grahics/search-avatar.svg"
+  - scope:
+      path: "google91af919a735a897d.html"
+    values:
+      sitemap: false
 
 plugins:
   - jekyll-environment-variables
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 include:
   - _pages
