@@ -1,6 +1,8 @@
 ---
+permalink: "/research/"
 title: Research
 layout: page
+description: The research of the Software Engineering and Architecture group (SEARCH) touches on a wide range of topics, including software architecture, software maintenance and evolution, distributed systems, human factors, languages and compilers, and software development analytics.
 # entries in `sections` match the text of a heading on the page
 sections:
   - Active Projects
@@ -9,8 +11,7 @@ sections:
   - Datasets
 ---
 
-  <!-- Adds a scroll button for each section defined above. -->
-  {% include section-scroll-buttons.html sections=layout.sections %}
+  {% include section-scroll-buttons.html sections=page.sections %}
 
   <section class="space-y-3">
     {% assign active_projects = site.projects | where: "archived", "false" %}

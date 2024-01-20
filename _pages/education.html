@@ -1,11 +1,22 @@
 ---
+permalink: "/education/"
 layout: page
+title: Education
+description: The faculty in the Software Engineering and Architecture group (SEARCH) teaches bachelor and master level courses covering a range of topics, including software engineering, empirical software engineering, object-oriented design and programming, cloud computing, and software architecture.
 sections:
  - Available Student Projects
  - Previous Student Projects
 ---
 
-  {% include section-scroll-buttons.html sections=layout.sections %}
+{% comment %}
+TO ADD
+- **Courses**
+  - list of courses with links to Ocasys pages
+- **Student projects**
+  - link to finalized BSc/MSc theses (RuG link)
+{% endcomment %}
+
+  {% include section-scroll-buttons.html sections=page.sections %}
 
   {% assign available_projects = site.sprojects | where: "archived", "false"  %}
   <section>
