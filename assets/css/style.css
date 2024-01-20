@@ -4,10 +4,19 @@
 
 @layer base {
   body {
-    @apply text-base leading-5 font-sans;
+    @apply text-base font-sans;
   }
-  h1,h2 {
+  h1,h2,h3{
     @apply font-serif;
+  }
+  h1 {
+    @apply text-3xl lg:text-4xl xl:text-5xl mb-3 lg:mb-6;
+  }
+  h2 {
+    @apply text-xl lg:text-2xl xl:text-3xl font-semibold xl:font-normal mt-4 mb-3 lg:mt-7;
+  }
+  h3 {
+    @apply text-lg lg:text-xl mt-3 mb-1;
   }
   p {
     @apply text-steel leading-7;
@@ -15,9 +24,17 @@
 }
 
 @layer components {
+  .page-content {
+    p {
+      @apply my-1 leading-7;
+    }
+    a {
+      @apply underline;
+    }
+  }
   .contrib-card {
     .title {
-      @apply text-xl leading-7 underline;
+      @apply mt-0 text-lg underline;
     }
     .journal {
       @apply italic;

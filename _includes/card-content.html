@@ -1,0 +1,66 @@
+{% assign content = include.content %}
+<article class="h-full rounded-lg border p-5 shadow-lg {% if include.clickable %} transition transform hover:scale-[102%] cursor-pointer {% endif %}">
+  <div class="flex flex-col gap-1 h-full">
+
+    {% if include.show_date %}
+    <p>{{ content.date | date_to_long_string }}</p>
+    {% endif %}
+
+    <div class="flex gap-4 items-center">
+      {% if content.logo %}
+        <img class="w-12 h-12" src="{{ project.logo | relative_url }}" alt="" style="object-fit: cover; flex-shrink: 0;">
+      {% endif %}
+      <h3 class="text-xl font-semibold mt-0">{{ content.title }}</h3>
+    </div>
+
+    {% if include.show_keywords %}
+    <div class="keywords">
+      {% for keyword in content.keywords %}
+        <span class="bg-red-100 text-red-700 text-xs leading-8 px-2 py-1 rounded-full">{{ keyword }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if include.show_description %}
+    <p class="grow">
+      {% if content.short != "" %}
+        {{ content.short }}
+      {% endif %}
+    </p>
+    {% endif %}
+
+    {% if include.show_contact or include.extra1_content or include.extra2_content %}
+    <div class="flex gap-8 mt-3">
+      {% if include.show_contact %}
+      <div class="flex-col hidden sm:flex">
+        <p class="text-sm">{{ content.contact.header }}</p>
+        <p class="font-medium flex -space-x-2">
+          {% for member_email in content.contact.members %}
+            {% assign member = site.team | where_exp: "m", "m.contact.email == member_email" | first %}
+            {% include member-pfp-circle.html member=member %}
+          {% endfor %}
+        </p>
+      </div>
+      {% endif %}
+
+      {% if include.extra1_content %}
+      <div>
+        <p class="text-sm">{{ include.extra1_header }}</p>
+        <p class="text-gray-700">
+          {{ include.extra1_content }}
+        </p>
+      </div>
+      {% endif %}
+
+      {% if include.extra2_content %}
+      <div>
+        <p class="text-sm">{{ include.extra2_header }}</p>
+        <p class="text-gray-700">
+          {{ include.extra2_content }}
+        </p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+</article>

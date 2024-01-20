@@ -1,7 +1,6 @@
 ---
 title: Research
-layout: default
-bodyClass: "page-research"
+layout: page
 # entries in `sections` match the text of a heading on the page
 sections:
   - Active Projects
@@ -10,28 +9,48 @@ sections:
   - Datasets
 ---
 
-<div class="container space-y-12 mx-auto px-4 pb-6 pt-[100px] pb-md-10">
-  <h1 class="text-black text-5xl leading-5 lg:text-[50px] font-semibold mb-8">{{page.title}}</h1>
-
   <!-- Adds a scroll button for each section defined above. -->
   {% include section-scroll-buttons.html sections=layout.sections %}
 
   <section class="space-y-3">
     {% assign active_projects = site.projects | where: "archived", "false" %}
-    <h2 class="text-2xl">Active Projects</h2>
-    {% include project-card-grid.html projects=active_projects card_component="research-project-card.html" %}
+    <h2>Active Projects</h2>
+    <div class="list grid lg:grid-cols-2 gap-4">
+      {% for project in active_projects %}
+        {% capture funding %}
+        {% if project.funding %}
+          {% for funding in project.funding %}
+            <span title="{{ funding.shortname }} (Number: {{ funding.number }})">{{ funding.shortname }}</span>
+          {% endfor %}
+        {% endif %}
+        {% endcapture %}
+      
+        <a href="{{ project.url }}">
+          {% include card-content.html 
+             content=project
+             clickable=true
+             show_description=true
+             show_contact=true
+             extra1_header="Funding"
+             extra1_content=funding
+             extra2_header="Status"
+             extra2_content=project.status
+           %}
+        </a>
+      {% endfor %}
+    </div>
   </section>
 
   {% assign past_projects = site.projects | where: "archived", "true" %}
   {% if past_projects.size > 0 %}
     <section class="space-y-2">
-      <h2 class="text-2xl">Past Projects</h2>
+      <h2>Past Projects</h2>
       {% include page-list.html pages=past_projects %}
     </section>
   {% endif %}
 
   <section class="space-y-2">
-    <h2 class="text-2xl">Publications</h3>
+    <h2>Publications</h3>
     <div class="grid xl:grid-cols-2 gap-4">
       {% for publication in site.data.publications %}
         {% include research-contribution-card.html contribution=publication %}
@@ -40,11 +59,10 @@ sections:
   </section>
 
   <section class="space-y-2">
-    <h2 class="text-2xl">Datasets</h3>
+    <h2>Datasets</h3>
     <div class="grid xl:grid-cols-2 gap-4">
       {% for dataset in site.data.datasets %}
         {% include research-contribution-card.html contribution=dataset %}
       {% endfor %}
     </div>
   </section>
-</div>

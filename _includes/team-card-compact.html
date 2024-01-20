@@ -1,40 +1,40 @@
-<div class="flex flex-row items-center p-2 rounded-xl border shadow-lg bg-offwhite">
+<div class="flex items-center p-2 rounded-xl border shadow-lg bg-offwhite">
     <div class="w-24 h-24 rounded-full overflow-hidden mr-2">
         <img alt="{{ member.title }}" title="{{ member.title }}" loading="lazy" class="w-full" src="{{ member.image | relative_url }}" />
     </div>
-    <div class="w-auto">
-        <h2 class="font-serif text-md mb-0 text-primary">
+    <div>
+        <p class="font-serif text-md text-primary">
             <a href="{{member.contact.homepage}}" target="blank">{{ member.title }}</a>
-        </h2>
-        <p class="text-md text-gray-500 mb-4">
+        </p>
+        <p class="text-md text-gray-500">
             {{ member.position }}
             {% if member.position_remark %}
                 ({{ member.position_remark }})
             {% endif %}
         </p>
         {% if include.show_fields %}
-        <div>
+        <p class="mt-2">
             {% for field in member.fields %}
-                <span class="font-sans inline-block p-1 text-center text-xs align-baseline leading-none rounded bg-gray-800 text-white">{{field}}</span>
+                <span class="font-sans p-1 text-xs align-baseline rounded bg-gray-800 text-white">{{field}}</span>
             {% endfor %}
-        </div>
+        </p>
         {% endif %}
 
-        <div class="block">
+        <p class="mt-2 flex space-x-3">
             {% if member.contact.email -%}
-            <a class="inline-block px-1 py-2.5 hover:opacity-80" href="mailto:{{member.contact.email}}" target="blank">
+            <a class="hover:opacity-80" href="mailto:{{member.contact.email}}" target="blank">
                 <svg class="w-5 h-5">
                     <use xlink:href="/assets/graphics/sprites.svg#email"></use>
                 </svg>
             </a>
             {% endif %}
             {% for item in member.social %}
-            <a class="inline-block px-1 py-2.5 hover:opacity-80" href="{{item[1]}}" target="blank">
+            <a class="hover:opacity-80" href="{{item[1]}}" target="blank">
                 <svg class="w-5 h-5">
                     <use xlink:href="/assets/graphics/sprites.svg#{{item[0]}}"></use>
                 </svg>
             </a>
             {% endfor %}
-        </div>
+        </p>
     </div>
 </div>

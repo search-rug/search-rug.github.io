@@ -1,28 +1,41 @@
 ---
-layout: default
-bodyClass: "page-education"
+layout: page
 sections:
  - Available Student Projects
  - Previous Student Projects
 ---
 
-<div class="container mx-auto px-4 pb-6 pt-[100px] space-y-8 pb-md-10">
-  <h1 class="text-black text-5xl leading-5 lg:text-[50px] font-semibold">{{ page.title }}</h1>
-
   {% include section-scroll-buttons.html sections=layout.sections %}
 
-  <!--
-    <div class="mt-4">
-      {{ content }}
-    </div>
-  -->
   {% assign available_projects = site.sprojects | where: "archived", "false"  %}
-  <section class="space-y-3">
-    <h2 class="text-2xl">Available Student Projects</h2>
+  <section>
+    <h2>Available Student Projects</h2>
     <div class="flex">
-      <ul id="filters" class="collapse md:visible pr-4 space-y-1"></ul>
+      <ul id="filters" class="hidden md:inline pr-4 space-y-1"></ul>
       <div id="plist">
-      {% include project-card-grid.html projects=available_projects card_component="student-project-card.html" %}
+        <div class="list grid lg:grid-cols-2 gap-4">
+          {% for project in available_projects %}
+            {% capture suitability %}
+              {% for type in project.types %}
+              <span class="bg-black text-white text-xs px-2 py-0.5 rounded-full">{{ type }}</span>
+              {% endfor %}
+            {% endcapture %}
+
+            <a href="{{ project.url }}">
+              {% include card-content.html 
+                content=project
+                clickable=true
+                show_description=true
+                show_keywords=true
+                show_contact=true
+                extra1_header="Status"
+                extra1_content=project.status
+                extra2_header="Suitable for"
+                extra2_content=suitability
+              %}
+            </a>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </section>
@@ -30,12 +43,11 @@ sections:
   {% assign past_projects = site.sprojects | where: "archived", "true"  %}
   {% if past_projects.size > 0 %}
   <!-- TODO: this can be refactored into an include-->
-    <section class="space-y-3">
-      <h2 class="text-2xl">Previous Student Projects</h2>
+    <section>
+      <h2>Previous Student Projects</h2>
       {% include page-list.html pages=past_projects%}
     </section>
   {% endif %}
-</div>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.0/list.min.js"></script>
 <script>

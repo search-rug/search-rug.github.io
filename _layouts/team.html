@@ -1,27 +1,15 @@
 ---
-layout: default
-bodyClass: "page-team"
+layout: page
 ---
 
-<div class="intro container mx-auto px-4 pt-[100px] pb-2">
-    <div class="flex flex-wrap  justify-start">
-        <div class="col-auto">
-          <h1 class="text-center text-5xl font-semibold mb-8">{{page.title}}</h2>
-        </div>
-    </div>
-</div>
-
-<div class="container mx-auto px-4 pb-6">
     <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
         {% assign members = site.team | where: "status.former", false | sort: "weight" %}
         {% for member in members %}
             {% include team-card.html member=member %}
         {% endfor %}
     </div>
-</div>
 
-<div class="container mx-auto px-4 pb-6">
-    <h1 class="text-4xl font-semibold mb-8">Former Members</h1>
+    <h2>Former Members</h2>
     <ul class="list-disc list-inside space-y-1">
         {% assign exmembers = site.team | where: "status.former", true | sort: "weight" %}
         {% for exmember in exmembers %}
@@ -37,4 +25,3 @@ bodyClass: "page-team"
         </li>
         {% endfor %}
     </ul>
-</div>
