@@ -4,7 +4,6 @@ npm-debug.log
 package-lock.json
 
 # Jekyll
-_site
 _site/
 build/
 cache/
@@ -22,4 +21,7 @@ Desktop.ini
 Thumbs.db
 .Spotlight-V100
 .Trashes
-.idea
+
+# IDE
+.idea/*
+.vscode/*
