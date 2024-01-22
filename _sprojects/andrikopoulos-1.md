@@ -23,7 +23,7 @@ types:
 - MSc
 ---
 
-We are offering a series of projects under the umbrella of mining cloud cost awareness, that is, of software developers being aware of the costs of deploying and operating cloud-based software, and taking actions to address them. The projects are based on the Mining Software Repositories approach, and use publicly available repositories on GitHub. The projects under this topic build on the results of the [collaborative thesis project](https://fse.studenttheses.ub.rug.nl/27946/) by Berardi, Penca, and Boza.
+We are offering a series of projects under the umbrella of mining cloud cost awareness, that is, of software developers being aware of the costs of deploying and operating cloud-based software, and taking actions to address them. The projects are based on the Mining Software Repositories approach, and use publicly available repositories on GitHub. The projects under this topic build on the results of the [following exploratory study](https://arxiv.org/abs/2304.07531).
 
 More specifically, one or more of the following open research issues can be pursued individually or in groups:
 
