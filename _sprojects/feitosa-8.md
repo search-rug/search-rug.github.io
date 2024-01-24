@@ -17,6 +17,7 @@ contact:
 title: 'Applying Graph Learning For Technical Debt Detection'
 types:
 - BSc
+- MSc
 ---
 
 Technical debt refers to suboptimal decisions made by developers while writing software. Too much technical debt can cause the code to become difficult to maintain. As such, it is important to manage the amount of technical debt in a project. One of the steps involved in this process is actually identifying the technical debt.
