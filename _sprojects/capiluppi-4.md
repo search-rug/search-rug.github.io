@@ -8,7 +8,7 @@ keywords:
 - machine learning
 - secondary study
 posted: 2024-01-26
-description: Create a model based on data from soil moisture sensors: a project in collaboration with CropX
+description: Create a model based on data from soil moisture sensors
 contact:
   header: Supervisor(s)
   members:
