@@ -5,7 +5,6 @@ category: Industrial Projects
 is_group: false
 keywords:
 - software development
-- components
 - ML
 - data science
 posted: 2024-01-29
@@ -14,7 +13,7 @@ contact:
   header: Supervisor(s)
   members:
   - a.capiluppi@rug.nl
-title: Determining Irrigation Events (CropX.com)
+title: Determining Irrigation Events
 types:
 - BSc
 ---
