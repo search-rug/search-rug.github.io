@@ -13,6 +13,7 @@ contact:
   header: Supervisor(s)
   members:
   - a.capiluppi@rug.nl
+  - v.andrikopoulos.nl
 title: Experimental Life Sciences Guide
 types:
 - BSc
