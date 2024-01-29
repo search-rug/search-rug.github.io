@@ -14,7 +14,7 @@ contact:
   header: Supervisor(s)
   members:
   - a.capiluppi@rug.nl
-title: Klippa components
+title: Determining Irrigation Events (CropX.com)
 types:
 - BSc
 ---
