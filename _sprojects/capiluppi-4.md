@@ -1,22 +1,26 @@
 ---
 archived: false
 status: "Available"
-category: ML, NLP and Refactoring Projects 2023-24
+category: Industrial Projects
 is_group: false
 keywords:
+- software development
+- components
+- ML
 - data science
-- machine learning
-- secondary study
-posted: 2024-01-26
-description: Create a model based on data from soil moisture sensors
+posted: 2024-01-29
+description: Determining Irrigation Events in collaboration with CropX
 contact:
   header: Supervisor(s)
   members:
   - a.capiluppi@rug.nl
-title: Determining Irrigation Events: a project in collaboration with CropX
+title: Klippa components
+types:
 - BSc
-- MSc Int
-- MSc
 ---
 
-Create a model based on data from soil moisture sensors. Using this dataset, you will create a model that determines when irrigation has taken place. Using this data, we can help farmers worldwide reduce the use of water to grow crops. So be a part of CropX Europe and make farming more sustainable and minimize the use of inputs while maximizing yields
+###  The assignment
+Create a model based on data from soil moisture sensors. 
+Using this dataset, you will create a model that determines when irrigation has taken place. 
+Using this data, we can help farmers worldwide reduce the use of water to grow crops. 
+So be a part of CropX Europe and make farming more sustainable and minimize the use of inputs while maximizing yields
