@@ -7,12 +7,12 @@ keywords:
 - software development
 - components
 posted: 2024-01-29
-description: Develop an approach to add components into Klippa frontend
+description: This project is about software development,and it will be run in collaboration with Klippa Groningen. The objective is to develop a novel approach to add components into the Klippa frontend
 contact:
   header: Supervisor(s)
   members:
   - a.capiluppi@rug.nl
-title: Klippa components
+title: Develop a novel approach to add components into the Klippa frontend
 types:
 - BSc
 ---
