@@ -8,7 +8,8 @@ keywords:
 - Pharmaceuticals
 - Web portal
 posted: 2024-01-29
-description: LabeBook is an integrative platform in the field of experimental science. The platform includes updatable databases, containing integrated information required for the implementation of experimental biological methods. LabeBook solves the problem of time costs, rigor, reproducibility and expendables selection. The objective of this project is to develop a test environment to test the key functionality of the LabeBook platform.
+description: LabeBook is an integrative platform in the field of experimental science.
+  The objective of this project is to develop a test environment to test its key functionalities
 contact:
   header: Supervisor(s)
   members:
