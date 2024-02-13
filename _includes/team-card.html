@@ -16,7 +16,7 @@
         <div class="flex flex-col h-full">
           <div class="flex flex-col grow">
             <div class="font-serif text-lg mb-0 text-primary">
-              <a href="{{member.contact.homepage}}" target="blank">{{ member.title }}</a>
+              <a href="{{member.contact.homepage}}" rel="noopener" target="_blank">{{ member.title }}</a>
             </div>
             <div class="text-md text-gray-500 mb-4">
               {{ member.position }}
@@ -53,7 +53,7 @@
               <div class="mb-1 text-primary">Publications</div>
               <ul class="list-inside flex justify-start">
                 {% for item in member.publications %}
-                <a class="pl-0 pr-2" href="{{item[1]}}" target="blank">
+                <a class="pl-0 pr-2" href="{{item[1]}}" rel="noopener" target="_blank">
                     <svg class="w-4 h-4">
                         <use xlink:href="/assets/graphics/sprites.svg#{{item[0]}}"></use>
                     </svg>
@@ -67,7 +67,7 @@
               <div class="mb-1 text-primary">Social</div>
               <ul class="list-inside flex justify-start">
                 {% for item in member.social %}
-                <a class="pl-0 pr-2" href="{{item[1]}}" target="blank">
+                <a class="pl-0 pr-2" href="{{item[1]}}" rel="noopener" target="_blank">
                     <svg class="w-4 h-4">
                         <use xlink:href="/assets/graphics/sprites.svg#{{item[0]}}"></use>
                     </svg>

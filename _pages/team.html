@@ -18,7 +18,7 @@ description: People at the Software Engineering and Architecture group (SEARCH),
         {% for exmember in exmembers %}
         <li>
             {% if exmember.contact.homepage %}
-                <a class="underline" href="{{exmember.contact.homepage}}" target="blank">{{ exmember.title }}</a>
+                <a class="underline" href="{{exmember.contact.homepage}}" rel="noopener" target="_blank">{{ exmember.title }}</a>
             {% else %}
                 {{ exmember.title }}
             {% endif %}

@@ -4,7 +4,7 @@
     </div>
     <div>
         <p class="font-serif text-md text-primary">
-            <a href="{{member.contact.homepage}}" target="blank">{{ member.title }}</a>
+            <a href="{{member.contact.homepage}}" rel="noopener" target="_blank">{{ member.title }}</a>
         </p>
         <p class="text-md text-gray-500">
             {{ member.position }}
@@ -22,14 +22,14 @@
 
         <p class="mt-2 flex space-x-3">
             {% if member.contact.email -%}
-            <a class="hover:opacity-80" href="mailto:{{member.contact.email}}" target="blank">
+            <a class="hover:opacity-80" href="mailto:{{member.contact.email}}" rel="noopener" target="_blank">
                 <svg class="w-5 h-5">
                     <use xlink:href="/assets/graphics/sprites.svg#email"></use>
                 </svg>
             </a>
             {% endif %}
             {% for item in member.social %}
-            <a class="hover:opacity-80" href="{{item[1]}}" target="blank">
+            <a class="hover:opacity-80" href="{{item[1]}}" rel="noopener" target="_blank">
                 <svg class="w-5 h-5">
                     <use xlink:href="/assets/graphics/sprites.svg#{{item[0]}}"></use>
                 </svg>
