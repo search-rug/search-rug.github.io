@@ -6,7 +6,7 @@
           {% if site.data.social %}
             <div class="block">
               {% for item in site.data.social %}
-                <a class="inline-block p-2.5 hover:opacity-80" href="{{ item.link }}" target="blank">
+                <a class="inline-block p-2.5 hover:opacity-80" href="{{ item.link }}" rel="noopener" target="_blank">
                   <svg class="fill-white w-8 h-8"><use xlink:href="{{ item.image | relative_url }}"></use></svg>
                 </a>
               {% endfor %}

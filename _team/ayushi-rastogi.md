@@ -18,8 +18,11 @@ social:
   linkedin: "https://www.linkedin.com/in/ayushirastogi/"
   twitter: "https://twitter.com/Ayushi_Rastogi"
   github: "https://github.com/AyushiRastogi"
-fields:
-  - sda
+callout: "Software data is a boundless reservoir empowering decision-making with greater insight and navigating trade-offs relevant to society (e.g., fairness) and the software industry (e.g., developer productivity)."
+fields: # use ids from _data/fields.json
+  - ese
+  - oss
+  - msr
   - human
 topics:
   - Mining Software Repositories

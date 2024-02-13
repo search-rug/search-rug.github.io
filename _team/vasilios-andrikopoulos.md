@@ -20,9 +20,12 @@ social:
   linkedin: "https://www.linkedin.com/in/vandriko/"
   twitter: "https://twitter.com/v_andrikopoulos"
   github: "https://github.com/vandriko"
-fields:
+callout: "Software data is a boundless reservoir empowering decision-making with greater insight and navigating trade-offs relevant to society (e.g., fairness) and the software industry (e.g., developer productivity)."
+fields: # use ids from _data/fields.json
   - arch
-  - dist. sys.
+  - cloud
+  - distsys
+  - sustsw
 topics:
   - Cloud Engineering
   - Collective Adaptive Systems and Systems of Systems

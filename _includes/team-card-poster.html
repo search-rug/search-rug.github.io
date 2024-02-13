@@ -1,0 +1,38 @@
+<div>
+  <div class="flex items-top">
+    <!-- Member image -->
+    <div class="pr-3">
+      <div class="w-24 h-24 overflow-hidden rounded-md">
+        <img
+          alt="{{ member.title }}"
+          title="{{ member.title }}"
+          loading="lazy"
+          class="w-full"
+          src="{{ member.image | relative_url }}"
+          />
+      </div>
+    </div>
+    <!-- Member info -->
+    <div>
+      <p class="font-serif text-lg text-primary">
+        <a href="{{member.contact.homepage}}" rel="noopener" target="_blank">{{ member.title | remove: "Prof." | remove: "dr." | remove: "ir." | remove: "Dr." }}</a>
+      </p>
+      <p class="text-md text-gray-500">
+        {{ member.position }}
+        {% if member.position_remark %}
+            ({{ member.position_remark }})
+        {% endif %}
+      </p>
+      <p class="flex space-x-2 mt-2">
+        {% for field in member.fields %}
+          <svg class="w-8 h-8 fill-black">
+            <use xlink:href="/assets/graphics/sprites.svg#field-{{ field }}"></use>
+          </svg>
+        {% endfor %}
+      </p>
+    </div>
+  </div>
+  <p class="italic mt-2">
+    <q>{{ member.callout | strip }}</q>
+  </p>
+</div>

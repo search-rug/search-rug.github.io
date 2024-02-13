@@ -20,9 +20,10 @@ social:
   linkedin: "https://www.linkedin.com/in/tvdstorm/"
   twitter: "https://twitter.com/tvdstorm"
   github: "https://github.com/tvdstorm"
-fields:
-  - lang
-  - arch
+callout: "There’s too much code in the world! We should rethink the software stack with DSLs for better productivity, reliability, and stakeholder communication."
+fields: # use ids from _data/fields.json
+  - devtools
+  - dsl
 topics:
   - Software Language Engineering
   - Language Workbenches

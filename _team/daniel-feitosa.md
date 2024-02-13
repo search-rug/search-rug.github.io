@@ -21,9 +21,12 @@ social:
   twitter: "https://twitter.com/daniel_feitosa"
   mastodon: "https://mastodon.acm.org/@danielfeitosa"
   github: "https://github.com/feitosa-daniel"
-fields:
+callout: "If software development is to evolve, we need human-centered tooling to leverage cross-system knowledge sharing."
+fields: # use ids from _data/fields.json
   - arch
-  - sda
+  - techdebt
+  - devtools
+  - msr
 topics:
   - Technical Debt
   - Quality Assessment

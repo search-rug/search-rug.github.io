@@ -1,32 +1,80 @@
 [
   {
-    "title": "Architecture & Design",
-    "tag": "arch",
-    "description": "study principles, methods, and tools to create high-quality software systems while meeting the functional and non-functional requirements of stakeholders"
+    "id": "aise",
+    "title": "AI for Software Engineering",
+    "icon": "field-aise",
+    "description": "study the use of artificial intelligence techniques to improve software development processes and outcomes"
   },
   {
-    "title": "Maintenance & Evolution",
-    "tag": "m&t",
-    "description": "study techniques and tools for managing, modifying, and improving software systems throughout their lifecycle to ensure their continued usefulness and value to stakeholders"
+    "id": "cloud",
+    "title": "Cloud-based Systems",
+    "icon": "field-cloud",
+    "description": "study the design, implementation, and use of software systems that are deployed and operated on cloud computing infrastructure"
   },
   {
+    "id": "devtools",
+    "title": "Developer Tools",
+    "icon": "field-devtools",
+    "description": "study the design, implementation, and use of tools that support software developers in their work, such as integrated development environments, version control systems, and build automation tools"
+  },
+  {
+    "id": "dsl",
+    "title": "Domain-Specific Languages",
+    "icon": "field-dsl",
+    "description": "study the design, implementation, and use of programming languages and tools that are specialized to a particular application domain"
+  },
+  {
+    "id": "distsys",
     "title": "Distributed Systems",
-    "tag": "dist. sys.",
+    "icon": "field-distsys",
     "description": "study methods and technologies for designing, building, and operating computer systems that consist of multiple autonomous components that communicate and coordinate with each other over a network"
   },
   {
+    "id": "ese",
+    "title": "Empirical Software Engineering",
+    "icon": "field-ese",
+    "description": "use of empirical methods to investigate software development processes and artifacts, and to evaluate and compare software engineering techniques and tools"
+  },
+  {
+    "id": "human",
     "title": "Human Factors",
-    "tag": "human",
+    "icon": "field-human",
     "description": "study the interactions between software developers and software systems, with the aim of improving the usability, efficiency, and effectiveness of software development processes and outcomes"
   },
   {
-    "title": "Languages and Compilers",
-    "tag": "lang",
-    "description": "design, implement, and optimize programming languages and their compilers to improve the efficiency, reliability, and usability of software systems"
+    "id": "mntevl",
+    "title": "Maintenance and Evolution",
+    "icon": "field-mntevl",
+    "description": "study techniques and tools for managing, modifying, and improving software systems throughout their lifecycle to ensure their continued usefulness and value to stakeholders"
   },
   {
-    "title": "Software Development Analytics",
-    "tag": "sda",
-    "description": "apply data science techniques to software engineering data to gain insights into software development processes, improve software development practices, and support decision-making in software development organizations"
+    "id": "msr",
+    "title": "Mining Software Repositories",
+    "icon": "field-msr",
+    "description": "use of data mining and machine learning techniques to analyze and understand software development processes and artifacts, and to support decision-making in software engineering"
+  },
+  {
+    "id": "oss",
+    "title": "Open Source",
+    "icon": "field-oss",
+    "description": "study the development, use, and governance of software systems that are made available to the public under an open source license"
+  },
+  {
+    "id": "arch",
+    "title": "Software Architecture",
+    "icon": "field-arch",
+    "description": "study principles, methods, and tools to create high-quality software systems while meeting the functional and non-functional requirements of stakeholders"
+  },
+  {
+    "id": "sustsw",
+    "title": "Sustainable Software",
+    "icon": "field-sustsw",
+    "description": "study the environmental and economic impact of software systems, and the design, implementation, and use of software systems that are environmentally friendly and economically viable"
+  },
+  {
+    "id": "techdebt",
+    "title": "Technical Debt",
+    "icon": "field-techdebt",
+    "description": "study the trade-offs between short-term and long-term benefits of software development activities"
   }
 ]

@@ -18,9 +18,12 @@ publications:
 social:
   linkedin: "https://www.linkedin.com/in/andrea-capiluppi-54ab63/"
   twitter: "https://twitter.com/DrACapiluppi"
-fields:
-  - m&t
-  - sda
+callout: "Building a software system is one thing, but maintaining it is much more expensive: this is the phase we need to prioritize!"
+fields: # use ids from _data/fields.json
+  - oss
+  - mntevl
+  - msr
+  - aise
 topics:
   - Software development
   - Reuse of architectures and components

@@ -20,9 +20,12 @@ publications:
 social:
   linkedin: "https://www.linkedin.com/in/parisavgeriou/"
   twitter: "https://twitter.com/PAvgeriou"
-fields:
+callout: "Large, complex, and long-lived systems are hard to design and maintain! We need evidence-based tools to make architecture decisions and manage technical debt."
+fields: # use ids from _data/fields.json
   - arch
-  - m&t
+  - mntevl
+  - techdebt
+  - ese
 topics:
   - pattern-based architecture design and evaluation
   - architectural patterns and pattern languages
