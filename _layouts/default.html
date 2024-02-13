@@ -12,7 +12,7 @@
     <ul class="text-3xl text-center text-white space-y-7 font-sans">
       {% for item in mainmenu %}
       <li class="{% if item.url == page.url %}active{% endif %}">
-        <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+        <a class="font-serif" href="{{ item.url | relative_url }}">{{ item.name }}</a>
       </li>
       {% endfor %}
     </ul>
