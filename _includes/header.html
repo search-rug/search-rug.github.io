@@ -10,7 +10,7 @@
       <ul class="flex items-center space-x-5">
         {% for item in mainmenu %}
         <li class="hover:underline {% if item.url == page.url %}active font-bold{% endif %}">
-          <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+          <a class="font-serif" href="{{ item.url | relative_url }}">{{ item.name }}</a>
         </li>
         {% endfor %}
       </ul>
