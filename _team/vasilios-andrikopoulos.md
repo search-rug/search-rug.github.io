@@ -20,7 +20,7 @@ social:
   linkedin: "https://www.linkedin.com/in/vandriko/"
   twitter: "https://twitter.com/v_andrikopoulos"
   github: "https://github.com/vandriko"
-callout: "Software data is a boundless reservoir empowering decision-making with greater insight and navigating trade-offs relevant to society (e.g., fairness) and the software industry (e.g., developer productivity)."
+callout: "To ensure system longevity, reduce environmental footprint, and maintain operational profitability, we need to connect design-time and run time."
 fields: # use ids from _data/fields.json
   - arch
   - cloud
