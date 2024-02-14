@@ -67,7 +67,7 @@ defaults:
       path: ""
       type: "team"
     values:
-      image: "/assets/grahics/search-avatar.svg"
+      image: "/uploads/team-avatars/search-avatar.svg"
   - scope:
       path: "google91af919a735a897d.html"
     values:
