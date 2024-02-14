@@ -82,7 +82,6 @@ include:
   - _pages
 
 exclude:
-  - admin/ # Disable Netlify CMS temporarily
   - Gemfile
   - Gemfile.lock
   - node_modules
