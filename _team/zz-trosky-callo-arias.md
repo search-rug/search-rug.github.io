@@ -1,6 +1,5 @@
 ---
 title: "Dr. Trosky B. Callo Arias"
-image: "/uploads/team-avatars/trosky-callo-arias.jpg"
 position: "phd student"
 status:
   promoted: false # appear in home page

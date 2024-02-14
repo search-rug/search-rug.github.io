@@ -1,6 +1,5 @@
 ---
 title: "Prof. dr. ir. Jan Bosch"
-image: "images/past-members/jan-bosch.jpg"
 position: "professor"
 position_remark: "honorary"
 status:

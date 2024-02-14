@@ -1,11 +1,11 @@
 ---
 title: "Dr. Mohamed A.M. Soliman"
-image: "/uploads/team-avatars/mohamed-soliman.jpg"
-position: "Junior professor"
+position: "postdoc"
 weight: 11
 status:
   promoted: false # appear in home page
   former: true # former group member
+  new_position: "Junior professor at University of Paderborn"
 contact:
   homepage: "https://www.linkedin.com/in/mohamed-soliman-558720a/"
   email: "m.a.m.soliman@rug.nl"

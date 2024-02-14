@@ -1,6 +1,5 @@
 ---
 title: "Konstantina Gkikopouli"
-image: "/uploads/team-avatars/konstantina-gkikopouli.jpg"
 position: "msc student"
 weight: 200
 status:

@@ -1,6 +1,5 @@
 ---
 title: "Dr. Uwe van Heesch"
-image: "/uploads/team-avatars/uwe-van-heesch.jpg"
 position: "phd student"
 status:
   promoted: false # appear in home page

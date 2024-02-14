@@ -1,6 +1,5 @@
 ---
 title: "Dr. Héctor Fabio Cadavid Rengifo"
-image: "/uploads/team-avatars/hector-fabio-cadavid-rengifo.png"
 position: "graduated phd student"
 weight: 100
 status:

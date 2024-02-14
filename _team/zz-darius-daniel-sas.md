@@ -1,6 +1,5 @@
 ---
 title: "Dr. Darius Daniel Sas"
-image: "/uploads/team-avatars/darius-daniel-sas.jpg"
 position: "phd student"
 weight: 1000
 status:

@@ -1,6 +1,5 @@
 ---
 title: "Dr. Mircea Lungu"
-image: "/uploads/team-avatars/mircea-lungu.jpg"
 position: "assistant professor"
 status:
   promoted: false # appear in home page

@@ -1,6 +1,5 @@
 ---
 title: "Dr. Areti Ampatzoglou"
-image: "/uploads/team-avatars/areti-ampatzoglou.jpg"
 position: "phd student"
 status:
   promoted: false # appear in home page

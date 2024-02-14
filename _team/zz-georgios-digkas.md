@@ -1,6 +1,5 @@
 ---
 title: "Dr. Georgios Digkas"
-image: "/uploads/team-avatars/georgios-digkas.jpg"
 position: "phd student"
 status:
   promoted: false # appear in home page

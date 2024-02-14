@@ -1,6 +1,5 @@
 ---
 title: "Christian Manteuffel"
-image: "/uploads/team-avatars/christian-manteuffel.jpg"
 position: "phd student"
 status:
   promoted: false # appear in home page

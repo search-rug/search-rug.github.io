@@ -1,6 +1,5 @@
 ---
 title: "Prof. dr. Peng Liang"
-image: "/uploads/team-avatars/peng-liang.jpg"
 position: "external associate"
 status:
   promoted: false # appear in home page

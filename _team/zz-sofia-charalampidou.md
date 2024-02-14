@@ -1,6 +1,5 @@
 ---
 title: "Dr. Sofia Charalampidou"
-image: "/uploads/team-avatars/sofia-charalampidou.jpg"
 position: "phd student"
 status:
   promoted: false # appear in home page

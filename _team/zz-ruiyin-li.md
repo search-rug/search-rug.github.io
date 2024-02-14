@@ -1,6 +1,5 @@
 ---
 title: "Dr. Ruiyin Li"
-image: "/uploads/team-avatars/ruiyin-li.jpg"
 position: "graduated phd student"
 weight: 100
 status:
