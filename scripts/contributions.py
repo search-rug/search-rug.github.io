@@ -54,7 +54,7 @@ class RSSContributionScraper():
         # remove dataset link
         description = re.sub(r'<p class="links-doi">.*?</p>', '', description)
         # for dates, keep only the year
-        description = re.sub(r'(<span class="date">)(\d{0,2}-)?(\w{3}-)?(\d{4})(</span>)', r'\1\4\5', description)
+        description = re.sub(r'(<span class="date">)(\d{0,2}-)?(\w{2,4}-)?(\d{4})(</span>)', r'\1\4\5', description)
         
         return description
 
