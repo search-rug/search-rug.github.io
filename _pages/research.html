@@ -54,18 +54,22 @@ sections:
   <section class="space-y-2">
     <h2>Recent Publications</h3>
     <p>See the complete list <a class="text-primary" href="{{page.contributions_url}}" rel="noopener" target="_blank">here</a>.</p>
-    <div class="grid xl:grid-cols-2 gap-4">
+    <div class="grid gap-4">
       {% for publication in site.data.publications %}
-        {% include research-contribution-card.html contribution=publication %}
+      <div class="contrib-card">
+        {{publication.description}}
+      </div>
       {% endfor %}
     </div>
   </section>
 
   <section class="space-y-2">
     <h2>Datasets</h3>
-    <div class="grid xl:grid-cols-2 gap-4">
+    <div class="grid gap-4">
       {% for dataset in site.data.datasets %}
-        {% include research-contribution-card.html contribution=dataset %}
+      <div class="contrib-card">
+        {{dataset.description}}
+      </div>
       {% endfor %}
     </div>
   </section>
