@@ -1204,10 +1204,6 @@ p {
   position: fixed;
 }
 
-.relative {
-  position: relative;
-}
-
 .top-0 {
   top: 0px;
 }
@@ -1304,6 +1300,10 @@ p {
   margin-top: 1rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1356,10 +1356,6 @@ p {
   height: 1.25rem;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
 .h-72 {
   height: 18rem;
 }
@@ -1384,10 +1380,6 @@ p {
   min-height: 100vh;
 }
 
-.w-0 {
-  width: 0px;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -1408,10 +1400,6 @@ p {
   width: 1rem;
 }
 
-.w-4\/12 {
-  width: 33.333333%;
-}
-
 .w-40 {
   width: 10rem;
 }
@@ -1424,10 +1412,6 @@ p {
   width: 2rem;
 }
 
-.w-8\/12 {
-  width: 66.666667%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -1435,10 +1419,6 @@ p {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.max-w-\[112px\] {
-  max-width: 112px;
 }
 
 .max-w-none {
@@ -1457,24 +1437,8 @@ p {
   flex-shrink: 1;
 }
 
-.shrink-0 {
-  flex-shrink: 0;
-}
-
-.flex-grow {
-  flex-grow: 1;
-}
-
 .grow {
   flex-grow: 1;
-}
-
-.grow-0 {
-  flex-grow: 0;
-}
-
-.basis-auto {
-  flex-basis: auto;
 }
 
 .transform {
@@ -1491,10 +1455,6 @@ p {
 
 .list-disc {
   list-style-type: disc;
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -1607,6 +1567,12 @@ p {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-hidden {
@@ -1781,16 +1747,8 @@ p {
   padding-bottom: 1.5rem;
 }
 
-.pl-0 {
-  padding-left: 0px;
-}
-
 .pl-4 {
   padding-left: 1rem;
-}
-
-.pr-2 {
-  padding-right: 0.5rem;
 }
 
 .pr-3 {
@@ -1931,12 +1889,6 @@ p {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-sm {
-  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -1947,6 +1899,20 @@ p {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover\:scale-\[102\%\]:hover {
@@ -1968,9 +1934,21 @@ p {
   opacity: 0.8;
 }
 
+.hover\:opacity-75:hover {
+  opacity: 0.75;
+}
+
 @media (min-width: 640px) {
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:text-sm {
@@ -2006,6 +1984,14 @@ p {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -2107,16 +2093,16 @@ p {
 }
 
 @media (min-width: 1280px) {
-  .xl\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .xl\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .xl\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .xl\:text-2xl {

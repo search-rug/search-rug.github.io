@@ -1,0 +1,81 @@
+<div class="">
+  <div class="flex">
+    <!-- Member image -->
+    <div class="w-24 h-24 overflow-hidden rounded-md">
+      <a href="{{member.contact.homepage}}" rel="noopener" target="_blank">
+      <img
+        alt="{{ member.title }}"
+        title="{{ member.title }}"
+        loading="lazy"
+        class="w-full hover:opacity-75 transition-opacity duration-300 ease-in-out"
+        src="{{ member.image | relative_url }}"
+        />
+      </a>
+    </div>
+    <!-- Publications and Social -->
+    <div class="flex flex-col ml-2 space-y-2">
+      {% if member.publications -%}
+      <div>
+        <p class="text-primary text-sm">Publications</p>
+        <p class="flex space-x-2">
+          {% for item in member.publications %}
+          <a href="{{item[1]}}" rel="noopener" target="_blank">
+              <svg class="w-4 h-4">
+                  <use xlink:href="/assets/graphics/sprites.svg#{{item[0]}}"></use>
+              </svg>
+          </a>
+          {% endfor %}
+        </p>
+      </div>
+      {% endif %}
+      {% if member.social -%}
+      <div>
+        <p class="text-primary text-sm">Social</p>
+        <p class="flex space-x-2">
+          {% for item in member.social %}
+          <a href="{{item[1]}}" rel="noopener" target="_blank">
+              <svg class="w-4 h-4">
+                  <use xlink:href="/assets/graphics/sprites.svg#{{item[0]}}"></use>
+              </svg>
+          </a>
+          {% endfor %}
+        </p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  <div class="flex flex-col">
+    <!-- Member info -->
+    <p class="font-serif text-lg mb-0 text-primary hover:underline">
+      <a href="{{member.contact.homepage}}" rel="noopener" target="_blank">{{ member.title }}</a>
+    </p>
+    <p class="text-sm text-gray-500 mb-2">
+      {{ member.position }}
+      {% if member.position_remark %}
+          <span>({{ member.position_remark }})</span>
+      {% endif %}
+    </p>
+    <!-- Email and phone -->
+    <div class="grow">
+      <div class="flex items-center">
+        {% if member.contact.email -%}
+        <svg class="mr-2 w-4 h-4">
+          <use xlink:href="/assets/graphics/sprites.svg#email"></use>
+        </svg>
+        <div class="text-sm">{{member.contact.email}}</div>
+        {% endif %}
+      </div>
+      <div class="flex items-center">
+        {% if member.contact.phone -%}
+        <svg class="mr-2 w-4 h-4">
+          <use xlink:href="/assets/graphics/sprites.svg#phone"></use>
+        </svg>
+        <div class="text-sm">{{member.contact.phone|replace: ' ','' }}</div>
+        {% else %}
+        <div class="h-5"></div>
+        {% endif %}
+      </div>
+    </div>
+    
+  </div>
+</div>

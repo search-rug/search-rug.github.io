@@ -5,10 +5,10 @@ title: Team
 description: People at the Software Engineering and Architecture group (SEARCH), University of Groningen (RuG)
 ---
 
-    <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
         {% assign members = site.team | where: "status.former", false | sort: "weight" %}
         {% for member in members %}
-            {% include team-card.html member=member %}
+            {% include team-card-detailed.html member=member %}
         {% endfor %}
     </div>
 
