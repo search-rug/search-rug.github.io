@@ -25,8 +25,9 @@ class Contribution:
 class RSSContributionScraper():
     """Scrapes contributions from an RSS source."""
 
-    def __init__(self, rss_link, exclude_regex=None):
+    def __init__(self, rss_link, exclude_regex=None, year_threshold=None):
         self.rss_link = rss_link
+        self.year_threshold = year_threshold
         if exclude_regex is None:
             self.exclude_regex = []
         elif not isinstance(exclude_regex, list):
@@ -76,6 +77,13 @@ class RSSContributionScraper():
                 print(f"excluded: {title}")
                 continue
 
+            if self.year_threshold is not None:
+                year = re.search(r'<span class="date">(\d+)</span>', description)
+                year = int(year.group(1)) if year else 0
+                if year < self.year_threshold:
+                    print(f"excluded: {title} (year: {year})")
+                    continue
+
             contributions.append(Contribution(title, link, description))
 
         return contributions
@@ -103,7 +111,7 @@ def main(targets, data_dir):
     for target in targets:
         print(f"Scraping {target['name']} ... ")
         scraper = RSSContributionScraper(
-            target["rss_link"], target["exclude_regex"])
+            target["rss_link"], target["exclude_regex"], target.get("year_threshold"))
         contributions = scraper.get_contributions()
         save_contributions(data_dir, contributions, target["name"])
 
@@ -123,7 +131,8 @@ if __name__ == "__main__":
         {
             "name": "publications",
             "rss_link": "https://research.rug.nl/en/organisations/software-engineering/publications/?format=rss",
-            "exclude_regex": [r".*SC@RUG.*"]
+            "exclude_regex": [r".*SC@RUG.*"],
+            "year_threshold": datetime.now().year - 1
         }
     ]
 

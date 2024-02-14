@@ -3,6 +3,7 @@ permalink: "/research/"
 title: Research
 layout: page
 description: The research of the Software Engineering and Architecture group (SEARCH) touches on a wide range of topics, including software architecture, software maintenance and evolution, distributed systems, human factors, languages and compilers, and software development analytics.
+contributions_url: https://research.rug.nl/en/organisations/software-engineering/publications/
 # entries in `sections` match the text of a heading on the page
 sections:
   - Active Projects
@@ -51,7 +52,8 @@ sections:
   {% endif %}
 
   <section class="space-y-2">
-    <h2>Publications</h3>
+    <h2>Recent Publications</h3>
+    <p>See the complete list <a class="text-primary" href="{{page.contributions_url}}" rel="noopener" target="_blank">here</a>.</p>
     <div class="grid xl:grid-cols-2 gap-4">
       {% for publication in site.data.publications %}
         {% include research-contribution-card.html contribution=publication %}
