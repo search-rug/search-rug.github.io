@@ -17,7 +17,7 @@ publications:
   orcid: "https://orcid.org/0000-0003-4075-3456"
 social:
   linkedin: "https://www.linkedin.com/in/jo%C3%A3o-paulo-biazotto-53601897"
-  twitter: "https://twitter.com/biazottoj"
+  twitter: "https://x.com/biazottoj"
   github: "https://github.com/biazottoj"
 topics:
   - Technical Debt

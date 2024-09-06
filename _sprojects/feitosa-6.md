@@ -1,7 +1,7 @@
 ---
 archived: false
 status: "Available"
-category: Software & Architecture Analytics Projects 2023-24
+category: Software & Architecture Analytics Projects 2024-25
 is_group: false
 keywords:
 - technical debt
@@ -21,7 +21,7 @@ types:
 
 Technical debt (TD) refers to non-optimal decisions that are made during software development (e.g., create a workaround for a problem) [1]. While managing existing TD is paramount to mitigate the effects of TD accumulation, performing TD activities can be time-consuming and demands for better tool support [2]. To provide better solutions on TD management automation, it is paramount to understand what are the requirements posed by practitioners when it comes to the usage of automation tools. For instance, it is still necessary to better understand what information should be provided and which channels should be used [3].
 
-The goal of this project is to elicit the requirements for automated TD management solutions. Specifically, such requirements will be collected from different sources that may contain discussions about TD management, such as mailing lists, academic surveys with practitioners, stack exchange platforms, among others. The student can expect to work with grounded theory [4] and inferential statistics (e.g., ANOVA). Thus, this project involves collecting and analyzing data using different tools and frameworks (e.g., Jupyter Notebooks, R Studio, and others), as well as qualitative analysis (e.g., coding).
+We aim at eliciting the requirements for automated TD management solutions. This topic is available for **multiple projects**, each focussing on a source that may contain discussions about TD management, such as mailing lists, academic surveys with practitioners, stack exchange platforms, among others. The student can expect to work with grounded theory [4] and inferential statistics (e.g., ANOVA). Thus, this project involves collecting and analyzing data using different tools and frameworks (e.g., Jupyter Notebooks, R Studio, and others), as well as qualitative analysis (e.g., coding).
 
 ### References
 
