@@ -1,5 +1,5 @@
 ---
-archived: false
+archived: true
 funding:
 - agency: ITEA3/RVO
   number: '17038'

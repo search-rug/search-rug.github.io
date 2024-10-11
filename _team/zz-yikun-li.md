@@ -9,6 +9,7 @@ status:
   group_graduate: true # graduated phd student
 contact:
   homepage: "https://yikun-li.github.io/"
+  email: "yikun.li@rug.nl"
 publications:
   pure: "https://research.rug.nl/en/persons/yikun-li/publications/"
 topics:
