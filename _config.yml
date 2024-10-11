@@ -16,6 +16,9 @@ home:
 collections:
   team:
     output: false
+  courses:
+    output: false
+    permalink: "/education/courses/:path/"
   projects:
     output: true
     permalink: "/research/projects/:path/"
