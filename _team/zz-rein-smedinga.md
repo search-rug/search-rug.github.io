@@ -5,7 +5,7 @@ position: "lecturer"
 weight: 10
 status:
   promoted: false # appear in home page
-  former: false # former group member
+  former: true # former group member
 contact:
   homepage: "http://www.rug.nl/staff/r.smedinga"
 ---
