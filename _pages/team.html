@@ -5,13 +5,18 @@ title: Team
 description: People at the Software Engineering and Architecture group (SEARCH), University of Groningen (RuG)
 ---
 
+    
+    <section class="pt-4 space-y-3">
+    <h2 class="hidden">Team Members</h2>
     <div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
         {% assign members = site.team | where: "status.former", false | sort: "weight" %}
         {% for member in members %}
             {% include team-card-detailed.html member=member %}
         {% endfor %}
     </div>
+    </section>
 
+    <section class="space-y-3">
     <h2>Former Members</h2>
     <ul class="list-disc list-inside space-y-1">
         {% assign exmembers = site.team | where: "status.former", true | sort: "weight" %}
@@ -28,3 +33,4 @@ description: People at the Software Engineering and Architecture group (SEARCH),
         </li>
         {% endfor %}
     </ul>
+    </section>

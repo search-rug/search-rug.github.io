@@ -12,7 +12,9 @@ sections:
   - Datasets
 ---
 
+  {% comment %}
   {% include section-scroll-buttons.html sections=page.sections %}
+  {% endcomment %}
 
   <section class="space-y-3">
     {% assign active_projects = site.projects | where: "archived", "false" %}
