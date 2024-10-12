@@ -4,19 +4,29 @@
     <div class="flex-none">
       <a href="/"><img class="h-8" alt="{{ site.title }}" src="{{ site.logo | relative_url }}" /></a>
     </div>
+    
+    <!-- main menu active page -->
+    <div class="grow md:hidden">      
+      <ul class="h-full flex items-center justify-center">
+        {% assign activemenu = site.data.menus.main | where_exp: "item", "item.url == page.url" | first %}
+        <li class="font-serif active font-bold text-xl text-steel">
+          {{ activemenu.name }}
+        </li>
+      </ul>
+    </div>
     <!-- main menu -->
-    <div id="main-menu" class="grow hidden md:inline-flex md:place-content-end">
+    <div id="main-menu" class="grow hidden md:inline-flex md:place-content-end">      
       {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
       <ul class="flex items-center space-x-5">
         {% for item in mainmenu %}
-        <li class="hover:underline {% if item.url == page.url %}active font-bold{% endif %}">
+        <li class="hover:underline {% if item.url == page.url %}active font-bold text-xl text-steel{% endif %}">
           <a class="font-serif" href="{{ item.url | relative_url }}">{{ item.name }}</a>
         </li>
         {% endfor %}
       </ul>
     </div>
     <!-- mobile menu button -->
-    <div class="grow flex place-content-end md:hidden">
+    <div class="flex place-content-end md:hidden">
       <button id="toggle-main-menu-mobile" type="button" aria-label="Mobile Menu">
         <div class="space-y-2">
           <span class="block w-8 h-0.5 bg-primary"></span>
