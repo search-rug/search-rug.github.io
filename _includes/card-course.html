@@ -9,7 +9,10 @@
             {% include member-pfp-circle.html member=member %}
           {% endfor %}
         </p>
-        <h4 class="text-lg font-serif font-semibold mt-0">{{course.code}}</h4>
+        <h3 class="text-lg font-serif font-semibold mt-0">{{course.code}}</h3>
+        <div class="grow flex justify-end">
+          {% include badge.html text=course.degree %}
+        </div>
       </div>
       <p class="text-lg mt-0">{{ course.title }}</p>
     </div>

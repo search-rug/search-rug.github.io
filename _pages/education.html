@@ -4,8 +4,9 @@ layout: page
 title: Education
 description: The faculty in the Software Engineering and Architecture group (SEARCH) teaches bachelor and master level courses covering a range of topics, including software engineering, empirical software engineering, object-oriented design and programming, cloud computing, and software architecture.
 sections:
- - Available Student Projects
- - Previous Student Projects
+- Courses
+- Available Student Projects
+- Previous Student Projects
 ---
 
 {% comment %}
@@ -18,15 +19,13 @@ TO ADD
 
   <section class="space-y-3">
     <h2>Courses</h2>
-    <h3>Bachelor's</h3>
-    {% assign courses = site.courses | where: 'degree', 'bsc' | sort: 'order' %}
+    {% assign courses = site.courses | where: 'degree', 'BSc' | sort: 'order' %}
     <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
       {% for course in courses %}
         {% include card-course.html course=course %}
       {% endfor %}
     </div>
-    <h3>Master's</h3>
-    {% assign courses = site.courses | where: 'degree', 'msc' | sort: 'order' %}
+    {% assign courses = site.courses | where: 'degree', 'MSc' | sort: 'order' %}
     <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
       {% for course in courses %}
         {% include card-course.html course=course %}
@@ -44,7 +43,7 @@ TO ADD
           {% for project in available_projects %}
             {% capture suitability %}
               {% for type in project.types %}
-              <span class="bg-black text-white text-xs px-2 py-0.5 rounded-full">{{ type }}</span>
+              {% include badge.html text=type %}
               {% endfor %}
             {% endcapture %}
 
