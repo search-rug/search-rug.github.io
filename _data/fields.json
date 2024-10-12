@@ -24,12 +24,6 @@
     "description": "study the design, implementation, and use of programming languages and tools that are specialized to a particular application domain"
   },
   {
-    "id": "distsys",
-    "title": "Distributed Systems",
-    "icon": "field-distsys",
-    "description": "study methods and technologies for designing, building, and operating computer systems that consist of multiple autonomous components that communicate and coordinate with each other over a network"
-  },
-  {
     "id": "ese",
     "title": "Empirical Software Engineering",
     "icon": "field-ese",

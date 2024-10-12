@@ -24,7 +24,6 @@ callout: "To ensure system longevity, reduce environmental footprint, and mainta
 fields: # use ids from _data/fields.json
   - arch
   - cloud
-  - distsys
   - sustsw
 topics:
   - Cloud Engineering
