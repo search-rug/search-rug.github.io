@@ -6,6 +6,12 @@
     "description": "study the use of artificial intelligence techniques to improve software development processes and outcomes"
   },
   {
+    "id": "seai",
+    "title": "Software Engineering for AI",
+    "icon": "field-seai",
+    "description": "study the design, implementation, and use of software systems that incorporate artificial intelligence techniques"
+  },
+  {
     "id": "cloud",
     "title": "Cloud-based Systems",
     "icon": "field-cloud",

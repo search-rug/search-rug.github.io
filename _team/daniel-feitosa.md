@@ -23,10 +23,10 @@ social:
   github: "https://github.com/feitosa-daniel"
 callout: "If software development is to evolve, we need human-centered tooling to leverage cross-system knowledge sharing."
 fields: # use ids from _data/fields.json
-  - arch
   - techdebt
   - devtools
   - msr
+  - seai
 topics:
   - Technical Debt
   - Quality Assessment
