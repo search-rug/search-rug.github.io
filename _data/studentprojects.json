@@ -3644,7 +3644,7 @@
   {
     "title": "Detecting Separable Verbs",
     "type": "Int.",
-    "year": "2019-11-27",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/21256",
     "authors": [
       {
@@ -3666,7 +3666,7 @@
   {
     "title": "A Case Study on Application Integration for Text Analytics\r\nSystems",
     "type": "MSc",
-    "year": "2019-11-19",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/21231",
     "authors": [
       {
@@ -3688,7 +3688,7 @@
   {
     "title": "Flask Monitoring Dashboard, Aggregating multiple sources of data into a single web interface",
     "type": "BSc",
-    "year": "2019-11-15",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/21218",
     "authors": [
       {
@@ -3706,7 +3706,7 @@
   {
     "title": "Reducing operational costs of microservices by means of a deployment tuner",
     "type": "MSc",
-    "year": "2019-08-30",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20859",
     "authors": [
       {
@@ -3728,7 +3728,7 @@
   {
     "title": "Trading off technical debt and run-time qualities",
     "type": "MSc",
-    "year": "2019-08-29",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20847",
     "authors": [
       {
@@ -3746,7 +3746,7 @@
   {
     "title": "Internship report Tim Oosterhuis",
     "type": "Int.",
-    "year": "2019-08-23",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20754",
     "authors": [
       {
@@ -3764,7 +3764,7 @@
   {
     "title": "Computing the Cost and Waste in Cloud Computing Monitoring",
     "type": "MSc",
-    "year": "2019-08-22",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20735",
     "authors": [
       {
@@ -3782,7 +3782,7 @@
   {
     "title": "Bachelor's Project: Git Change Metrics",
     "type": "BSc",
-    "year": "2019-08-17",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20697",
     "authors": [
       {
@@ -3800,7 +3800,7 @@
   {
     "title": "Scaling a Multiplayer Online Game using Docker Containers",
     "type": "BSc",
-    "year": "2019-08-15",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20675",
     "authors": [
       {
@@ -3818,7 +3818,7 @@
   {
     "title": "Enhancing Shelf Life Inspection through Software Engineering",
     "type": "Int.",
-    "year": "2019-08-15",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20670",
     "authors": [
       {
@@ -3836,7 +3836,7 @@
   {
     "title": "Developing an Effective Protocol for Modernising legacy reports",
     "type": "BSc",
-    "year": "2019-08-15",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20680",
     "authors": [
       {
@@ -3854,7 +3854,7 @@
   {
     "title": "Improving the Performance of a Performance Monitor. The case of the Flask Monitoring Dashboard.",
     "type": "MSc",
-    "year": "2019-07-19",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20357",
     "authors": [
       {
@@ -3872,7 +3872,7 @@
   {
     "title": "Building a dependency graph from Java source code files",
     "type": "BSc",
-    "year": "2019-07-12",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20150",
     "authors": [
       {
@@ -3894,7 +3894,7 @@
   {
     "title": "A blockchain based platform for commodity trading",
     "type": "BSc",
-    "year": "2019-07-12",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20125",
     "authors": [
       {
@@ -3912,7 +3912,7 @@
   {
     "title": "BPEL-to-BPMN mapping and implementation",
     "type": "BSc",
-    "year": "2019-07-09",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20047",
     "authors": [
       {
@@ -3934,7 +3934,7 @@
   {
     "title": "Internship report - Innovatiespotter - 2019",
     "type": "Int.",
-    "year": "2019-07-08",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20002",
     "authors": [
       {
@@ -3952,7 +3952,7 @@
   {
     "title": "Architecture Evaluation for Adference Bid Management Tool + Internship Report",
     "type": "Int.",
-    "year": "2019-07-08",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20010",
     "authors": [
       {
@@ -3970,7 +3970,7 @@
   {
     "title": "Hyperledger Fabric: A study of endorsement policies for supply chains",
     "type": "BSc",
-    "year": "2019-07-08",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/20018",
     "authors": [
       {
@@ -3992,7 +3992,7 @@
   {
     "title": "Claims Analysis and Fraud Detection for Claims Made Using Online Claim Forms",
     "type": "BSc",
-    "year": "2019-07-05",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/19871",
     "authors": [
       {
@@ -4010,7 +4010,7 @@
   {
     "title": "The implementation of a model-based approach for performance testing search engines",
     "type": "BSc",
-    "year": "2019-06-27",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/19727",
     "authors": [
       {
@@ -4028,7 +4028,7 @@
   {
     "title": "Blockchain implementation to replace a Trusted Third Party software model",
     "type": "BSc",
-    "year": "2019-05-22",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/19521",
     "authors": [
       {
@@ -4050,7 +4050,7 @@
   {
     "title": "Predictive Analytics for Livestock Management",
     "type": "MSc",
-    "year": "2019-03-29",
+    "year": 2019,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/19316",
     "authors": [
       {
@@ -4090,7 +4090,7 @@
   {
     "title": "Managed Data in Javascript: An evaluation of its performance and practical applicability in web applications",
     "type": "BSc",
-    "year": "2018-12-01",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18871",
     "authors": [
       {
@@ -4108,7 +4108,7 @@
   {
     "title": "Migration to the cloud: an SME case study",
     "type": "Int.",
-    "year": "2018-10-03",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18677",
     "authors": [
       {
@@ -4126,7 +4126,7 @@
   {
     "title": "In-Company Internship report, Pointing calibration",
     "type": "Int.",
-    "year": "2018-09-26",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18623",
     "authors": [
       {
@@ -4144,7 +4144,7 @@
   {
     "title": "Huawei organization",
     "type": "Int.",
-    "year": "2018-09-25",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18617",
     "authors": [
       {
@@ -4162,7 +4162,7 @@
   {
     "title": "Webshop and Auditcase integration for MijnKantoorApp",
     "type": "Int.",
-    "year": "2018-09-13",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18567",
     "authors": [
       {
@@ -4180,7 +4180,7 @@
   {
     "title": "Estimating personalized text difficulty based on past textual interactions and cognativity",
     "type": "MSc",
-    "year": "2018-09-13",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18568",
     "authors": [
       {
@@ -4202,7 +4202,7 @@
   {
     "title": "Autonomic application topology redistribution",
     "type": "MSc",
-    "year": "2018-09-12",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18550",
     "authors": [
       {
@@ -4224,7 +4224,7 @@
   {
     "title": "Hybrid serverless and virtual machine deployment model for cost minimization of cloud applications",
     "type": "MSc",
-    "year": "2018-08-31",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18484",
     "authors": [
       {
@@ -4246,7 +4246,7 @@
   {
     "title": "A Matchmaking Algorithm for a Blockchain-based Trading Platform",
     "type": "BSc",
-    "year": "2018-08-15",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18308",
     "authors": [
       {
@@ -4268,7 +4268,7 @@
   {
     "title": "Next Generation Building Management System (NG-BMS)",
     "type": "Int.",
-    "year": "2018-08-13",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18293",
     "authors": [
       {
@@ -4286,7 +4286,7 @@
   {
     "title": "Internship Final Report",
     "type": "Int.",
-    "year": "2018-08-08",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18260",
     "authors": [
       {
@@ -4304,7 +4304,7 @@
   {
     "title": "In-Company Internship Report",
     "type": "Int.",
-    "year": "2018-08-07",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18250",
     "authors": [
       {
@@ -4322,7 +4322,7 @@
   {
     "title": "Design and Implementation of Full Stack Search: The Case of Unified Multilanguage Reader",
     "type": "BSc",
-    "year": "2018-08-01",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18180",
     "authors": [
       {
@@ -4340,7 +4340,7 @@
   {
     "title": "Visualizing Computational Waste in Cloud Computing",
     "type": "BSc",
-    "year": "2018-08-01",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18192",
     "authors": [
       {
@@ -4362,7 +4362,7 @@
   {
     "title": "Proof of Actual Work",
     "type": "BSc",
-    "year": "2018-07-26",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18074",
     "authors": [
       {
@@ -4384,7 +4384,7 @@
   {
     "title": "In-Company Internship Report",
     "type": "Int.",
-    "year": "2018-07-25",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18063",
     "authors": [
       {
@@ -4402,7 +4402,7 @@
   {
     "title": "Session tracking for an Intelligent Tutoring System",
     "type": "MSc",
-    "year": "2018-07-25",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18058",
     "authors": [
       {
@@ -4420,7 +4420,7 @@
   {
     "title": "Reengineering and Extending a Node-Based Web-Based Communication System for Summer Schools and Other Short Duration Conventions: A Case Study",
     "type": "BSc",
-    "year": "2018-07-21",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/18004",
     "authors": [
       {
@@ -4442,7 +4442,7 @@
   {
     "title": "Design and validation of a software architecture when integrating third party software components",
     "type": "MSc",
-    "year": "2018-07-20",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/17978",
     "authors": [
       {
@@ -4464,7 +4464,7 @@
   {
     "title": "Blockchain in International Data Space: Design of broker service with Hyperledger Fabric",
     "type": "BSc",
-    "year": "2018-07-18",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/17929",
     "authors": [
       {
@@ -4486,7 +4486,7 @@
   {
     "title": "Blockchain in Education",
     "type": "MSc",
-    "year": "2018-07-13",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/17833",
     "authors": [
       {
@@ -4508,7 +4508,7 @@
   {
     "title": "Connecting Rascal to editors through the Language Server Protocol",
     "type": "BSc",
-    "year": "2018-07-13",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/17837",
     "authors": [
       {
@@ -4526,7 +4526,7 @@
   {
     "title": "Rascal2WebAssembly",
     "type": "BSc",
-    "year": "2018-07-11",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/17765",
     "authors": [
       {
@@ -4544,7 +4544,7 @@
   {
     "title": "Generating state-based syntax highlighters from the context-free grammar of a language",
     "type": "BSc",
-    "year": "2018-07-09",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/17712",
     "authors": [
       {
@@ -4566,7 +4566,7 @@
   {
     "title": "Rationally Software Architecture Specification",
     "type": "Int.",
-    "year": "2018-07-06",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/17637",
     "authors": [
       {
@@ -4592,7 +4592,7 @@
   {
     "title": "Architecture Recovery from DevOps Artefacts",
     "type": "MSc",
-    "year": "2018-04-04",
+    "year": 2018,
     "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/16642",
     "authors": [
       {

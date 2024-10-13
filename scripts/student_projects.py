@@ -94,7 +94,7 @@ for project in filtered_projects:
     formatted_project = {
         "title": project.get("title", ""),
         "type": project.get("thesis_type", "").replace("master", "MSc").replace("bachelor", "BSc").replace("internship_report", "Int."),
-        "year": project.get("date", ""),
+        "year": int(str(project.get("date", ""))[:4]),
         "uri": project.get("uri", ""),
         "authors": [
             {
