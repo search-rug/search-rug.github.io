@@ -9,12 +9,6 @@ sections:
 - Previous Student Projects
 ---
 
-{% comment %}
-TO ADD
-- **Student projects**
-  - link to finalized BSc/MSc theses (RuG link)
-{% endcomment %}
-
   {% comment %}
   {% include section-scroll-buttons.html sections=page.sections %}
   {% endcomment %}
@@ -68,14 +62,34 @@ TO ADD
     </div>
   </section>
 
-  {% assign past_projects = site.sprojects | where: "archived", "true"  %}
-  {% if past_projects.size > 0 %}
-  <!-- TODO: this can be refactored into an include-->
-    <section>
-      <h2>Previous Student Projects</h2>
-      {% include page-list.html pages=past_projects%}
-    </section>
-  {% endif %}
+  <section>
+    <h2>Past Student Projects</h2>
+    <div class="grid gap-4">
+      {% assign past_projects = site.data.studentprojects | sort: 'year' | reverse %}
+      {% for project in past_projects %}
+      <div class="flex space-x-2">
+        <div>
+          {% include badge.html text=project.type %}
+        </div>
+        <div>
+          <div class="flex items-center space-x-2">
+            <a class="mt-0 text-lg font-serif underline" href="{{project.uri}}" rel="noopener" target="_blank">
+              {{project.title}}
+            </a>
+          </div>
+          {% for author in project.authors %}
+          <span>
+            {{author.name}},
+          </span>
+          {% endfor %}
+          <span>
+            {{ project.year | slice: 0, 4 }}.
+          </span>
+        </div>
+      </div>
+      {% endfor %}
+    </p>
+  </section>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.0/list.min.js"></script>
 <script>
