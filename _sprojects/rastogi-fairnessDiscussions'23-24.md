@@ -11,6 +11,7 @@ description: This study finds what people say about fairness on social media.
 contact:
   header: Supervisor(s)
   members:
+  - e.g.sesari@rug.nl
   - a.rastogi@rug.nl
 title: Identify discussions on a topic
 types:
