@@ -1,6 +1,6 @@
 ---
 archived: false
-status: "Available"
+status: "Not Available"
 category: Embedded Industrial Projects
 is_group: false
 keywords:
