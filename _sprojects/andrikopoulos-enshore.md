@@ -1,5 +1,5 @@
 ---
-archived: false
+archived: true
 status: "Not Available"
 category: Embedded Industrial Projects
 is_group: false
