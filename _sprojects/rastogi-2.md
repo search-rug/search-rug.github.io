@@ -20,6 +20,7 @@ title: Fairness in Software Engineering
 types:
 - MSc
 ---
+_Difficulty_: hard
 
 Fairness (and its opposite unfairness) plays a role in any process where decisions that affect others are made. For instance, unfairness negatively influences employee satisfaction and team performance at work. The problem gets critical in modern software projects, that rely on a global and diverse workforce more susceptible to unfairness.
 
