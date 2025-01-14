@@ -8,7 +8,6 @@ keywords:
 - empirical research
 - data science
 - machine learning
-- collaboration with University of Waterloo
 posted: 2023-01-01
 description: This project offers interesting and challenging
   opportunities at the intersection of software engineering and artificial intelligence.
