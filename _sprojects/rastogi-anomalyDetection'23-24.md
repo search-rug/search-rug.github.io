@@ -7,6 +7,7 @@ keywords:
 - software engineering
 - empirical research
 - industry collaboration
+- data science
 posted: 2023-12-04
 description: This thesis will look into the unsupervised Anomaly Detection (AD) solutions in the DevOps CI/CD pipeline of SIG. 
 contact:
