@@ -6,17 +6,22 @@ is_group: true
 keywords:
 - software engineering
 - empirical research
+- collaboration
 posted: 2023-12-18
-description: Infer systematic biases in the choice of development activities using ML and AI techniques. This project is in collaboration with Prof. Mei Nagappan from the University of Waterloo. 
+description: This project identifies developer characteristics from their development activities. It is in collaboration with the University of Waterloo. 
 contact:
   header: Supervisor(s)
   members:
   - a.rastogi@rug.nl
-title: Inferring Developer Demographics from Development Activity Patterns
+title: Actions speak louder than words: Identifying Developer from Development Activity Patterns
 types:
 - MSc
 ---
+_Difficulty level_: medium hard
+
 This project aims to design and validate methods to infer developer demographics, such as gender, experience levels, geographic distribution, and collaboration patterns, from development activity data. The ultimate goal is to uncover insights that can support equitable and inclusive software development practices.
+
+This project is in collaboration with [Prof. Mei Nagappan](https://cs.uwaterloo.ca/~m2nagapp/) from the University of Waterloo. 
 
 **Available spots**: 2
 
