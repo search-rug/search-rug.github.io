@@ -18,6 +18,7 @@ title: Missing Opportunities in Global Software Engineering
 types:
 - MSc
 ---
+_Difficulty level_: hard
 
 Software development penetrates national and geographical boundaries. With an increasingly diverse workforce and the global distribution of work, understanding missing opportunities in global software engineering is crucial.
 
