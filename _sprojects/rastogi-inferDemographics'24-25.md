@@ -6,7 +6,6 @@ is_group: true
 keywords:
 - software engineering
 - empirical research
-- collaboration
 posted: 2023-12-18
 description: This project identifies developer characteristics from their development activities and is in collaboration with the University of Waterloo. 
 contact:
