@@ -17,7 +17,7 @@ contact:
 title: Conducting Systematic Literature Review on Fairness in Software Development
 
 types:
-- Research Internship
+- BSc thesis (5)
 ---
 This project aims to conduct a comprehensive literature review on fairness in software development. This project is built on the framework of fairness contexts and protected attributes discussed in prior work. This study will identify how fairness is studied, what has been explored, and gaps in the current literature. The outcome will provide recommendations on how researchers can further investigate fairness in software development.
 
