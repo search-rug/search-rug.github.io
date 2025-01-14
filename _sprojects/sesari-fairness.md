@@ -8,7 +8,7 @@ keywords:
 - empirical research
 - industry collaboration
 posted: 2025-01-14
-description: What is readable software? How do you write more readable software? This project is in collaboration with Prof. Rui Abreu, a research software engineer with Meta.
+description: conduct a comprehensive literature review on fairness in software development.
 contact:
   header: Supervisor(s)
   members:
