@@ -7,8 +7,9 @@ keywords:
 - software engineering
 - empirical research
 - data science
+- machine learning
 posted: 2023-01-01
-description: There are many parts of this project, offering interesting and challenging
+description: This project offers interesting and challenging
   opportunities at the intersection of software engineering and artificial intelligence.
 contact:
   header: Supervisor(s)
