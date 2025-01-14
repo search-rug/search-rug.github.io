@@ -15,7 +15,7 @@ contact:
   header: Supervisor(s)
   members:
   - a.rastogi@rug.nl
-title: Actions speak louder than words: Identify Developer from Development Activity.
+title: Action speaks louder than words
 types:
 - MSc
 ---
