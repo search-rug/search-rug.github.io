@@ -1,9 +1,7 @@
 ---
 title: Ph.D. position in Software Engineering - University of Groningen, The Netherlands
 keywords:
-  - Techinical Debt
-  - Publication
-  - IST
+  - Ph.D. position
 date: 2025-01-10T14:30:00.656Z
 ---
 
