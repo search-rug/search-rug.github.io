@@ -1,6 +1,6 @@
 ---
 archived: false
-status: "Available"
+status: "Unavailable"
 category: Industrial Projects
 is_group: false
 keywords:
