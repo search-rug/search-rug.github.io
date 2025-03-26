@@ -1,6 +1,6 @@
 ---
-archived: false
-status: "Available"
+archived: true
+status: "In Progress"
 category: Software & Architecture Analytics Projects 2024-25
 is_group: false
 keywords:
