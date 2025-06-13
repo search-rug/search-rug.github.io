@@ -7,8 +7,8 @@ status:
   promoted: false # appear in home page
   former: false # former group member
 contact:
+  homepage: "https://emguse.notion.site/Emeralda-Sesari-bc9df1c93eab4e839572dd71bda29301?pvs=143"
   email: "e.g.sesari@rug.nl"
-  phone: "+31 6 86 33 68 77‬"
   room: "589 (Bernoulliborg, building 5161)"
 publications:
   pure: "https://research.rug.nl/en/persons/emeralda-emeralda-gustria-sesari/publications/"
