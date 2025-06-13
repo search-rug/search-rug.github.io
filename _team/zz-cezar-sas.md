@@ -2,10 +2,11 @@
 title: "Cezar Sas"
 image: "/uploads/team-avatars/cezar-sas.jpg"
 position: "phd student"
-weight: 100
+weight: 1000
 status:
   promoted: false # appear in home page
-  former: false # former group member
+  former: true # former group member
+  group_graduate: true # graduated phd student
 contact:
   homepage: ""
   email: "c.a.sas@rug.nl"
