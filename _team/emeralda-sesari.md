@@ -12,7 +12,9 @@ contact:
   room: "589 (Bernoulliborg, building 5161)"
 publications:
   pure: "https://research.rug.nl/en/persons/emeralda-emeralda-gustria-sesari/publications/"
-  gscholar: "https://scholar.google.com/citations?hl=en&user=-7NLVBgAAAAJ&view_op=list_works&gmla=AC6lMd9eyXk3WD9XAKbLXJ2iQPW4-DRnWl_KZj5xEHFg6BFJ9hUGFPqyLd1Hq_7Qzy-W360NwwfvBgnAw8Op_Kgw"
+  gscholar: "https://scholar.google.com/citations?user=-7NLVBgAAAAJ&hl=en"
+social:
+  linkedin: "https://www.linkedin.com/in/emeralda-sesari/"
 topics:
   - Fairness in Software Engineering
   - Human and Social Aspects of Software Engineering
