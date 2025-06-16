@@ -1,5 +1,5 @@
 ---
-title: "Cezar Sas"
+title: "Dr. Cezar Sas"
 image: "/uploads/team-avatars/cezar-sas.jpg"
 position: "phd student"
 weight: 1000
