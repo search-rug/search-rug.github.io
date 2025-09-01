@@ -16,13 +16,13 @@ sections:
   <section class="space-y-3 mt-5">
     <h2>Courses</h2>
     {% assign courses = site.courses | where: 'degree', 'BSc' | sort: 'order' %}
-    <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
       {% for course in courses %}
         {% include card-course.html course=course %}
       {% endfor %}
     </div>
     {% assign courses = site.courses | where: 'degree', 'MSc' | sort: 'order' %}
-    <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
       {% for course in courses %}
         {% include card-course.html course=course %}
       {% endfor %}

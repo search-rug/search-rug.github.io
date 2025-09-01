@@ -8,7 +8,7 @@
 
     <div class="flex gap-4 items-center">
       {% if content.logo %}
-        <img class="w-12 h-12" src="{{ project.logo | relative_url }}" alt="" style="object-fit: cover; flex-shrink: 0;">
+        <img class="w-12 h-12" src="{{ project.logo | relative_url }}" alt="" style="object-fit: cover; shrink: 0;">
       {% endif %}
       <h3 class="text-xl font-semibold mt-0">{{ content.title }}</h3>
     </div>
@@ -24,7 +24,7 @@
     {% if include.show_description %}
     <p class="grow">
       {% if content.description != "" %}
-        {{ content.description }}
+        {{ content.description | slice: 0, 80 }}{% if content.description.size > 80 %}...{% endif %}
       {% endif %}
     </p>
     {% endif %}
