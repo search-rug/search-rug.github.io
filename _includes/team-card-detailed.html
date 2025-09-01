@@ -16,7 +16,7 @@
     <div class="flex flex-col ml-2 space-y-2">
       {% if member.publications -%}
       <div>
-        <p class="text-primary text-sm">Publications</p>
+        <p class="text-primary text-sm leading-none mb-1">Publications</p>
         <p class="flex space-x-2">
           {% for item in member.publications %}
           <a href="{{item[1]}}" rel="noopener" target="_blank">
@@ -30,7 +30,7 @@
       {% endif %}
       {% if member.social -%}
       <div>
-        <p class="text-primary text-sm">Social</p>
+        <p class="text-primary text-sm leading-none mb-1">Social</p>
         <p class="flex space-x-2">
           {% for item in member.social %}
           <a href="{{item[1]}}" rel="noopener" target="_blank">

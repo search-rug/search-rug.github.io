@@ -13,7 +13,7 @@ sections:
   {% include section-scroll-buttons.html sections=page.sections %}
   {% endcomment %}
 
-  <section class="space-y-3">
+  <section class="space-y-3 mt-5">
     <h2>Courses</h2>
     {% assign courses = site.courses | where: 'degree', 'BSc' | sort: 'order' %}
     <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
