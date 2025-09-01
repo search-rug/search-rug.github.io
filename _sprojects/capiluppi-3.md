@@ -1,5 +1,5 @@
 ---
-archived: false
+archived: true
 status: "Unavailable"
 category: Industrial Projects
 is_group: false
