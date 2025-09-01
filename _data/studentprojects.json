@@ -1,5 +1,813 @@
 [
   {
+    "title": "Can Small Language Models Be Adapted for Software Maintenance and Refactoring Tasks?",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/35791",
+    "authors": [
+      {
+        "name": "Gabija Asvydyte",
+        "email": "gabi.asvydyte@gmail.com"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "S.k. Pandey",
+        "email": "s.k.pandey@rug.nl"
+      },
+      {
+        "name": "A. Rastogi",
+        "email": "a.rastogi@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Systematic Literature Review on the Relationship Between Technical and Environmental Software Sustainability",
+    "type": "Int.",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/35877",
+    "authors": [
+      {
+        "name": "Jesus Beneyto Gomez Polo",
+        "email": "j.beneyto.gomez.polo@student.rug.nl"
+      },
+      {
+        "name": "Claudio Tessa",
+        "email": "c.tessa@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "P. Avgeriou",
+        "email": "p.avgeriou@rug.nl"
+      },
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Automatic Architectural Technical Debt Detection by Leveraging LLMs",
+    "type": "Int.",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36182",
+    "authors": [
+      {
+        "name": "Youri L. de Beurs",
+        "email": "y.l.de.beurs@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      },
+      {
+        "name": "E. Sutoyo",
+        "email": "e.sutoyo@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Optimizing Cloud Infrastructure: A Case Study on Identifying the Ideal Cloud Solution for Spheer",
+    "type": "MSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/35354",
+    "authors": [
+      {
+        "name": "Carlos Brito",
+        "email": "c.a.brito.gonzalez@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Energy Behaviour in Workflow Applications: A study of energy consumption and the impact of code refactoring in Apache Airflow",
+    "type": "MSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/34816",
+    "authors": [
+      {
+        "name": "Somak Chatterjee",
+        "email": "s.chatterjee.6@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      },
+      {
+        "name": "D. Feitosa",
+        "email": "d.feitosa@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Digital Platform for Cybersecurity Evaluation",
+    "type": "MSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/35628",
+    "authors": [
+      {
+        "name": "Andrei Dumitriu",
+        "email": "a.dumitriu@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "D. Feitosa",
+        "email": "d.feitosa@rug.nl"
+      },
+      {
+        "name": "G.a.h. Laugs",
+        "email": "g.a.h.laugs@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Biomedical Image and Biomaterials Repository",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36195",
+    "authors": [
+      {
+        "name": "Miguel el Khal",
+        "email": "m.e.k.el.khal@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Web Platform to Connect Students With Industries",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36113",
+    "authors": [
+      {
+        "name": "Egor Frolov",
+        "email": "e.frolov@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      },
+      {
+        "name": "F.f.m. Mohsen",
+        "email": "f.f.m.mohsen@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Using Large Language Models for Semantic Code Clone Detection",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36422",
+    "authors": [
+      {
+        "name": "Omar Mohamed Hassane",
+        "email": "o.m.hassane@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "S.k. Pandey",
+        "email": "s.k.pandey@rug.nl"
+      },
+      {
+        "name": "D. Feitosa",
+        "email": "d.feitosa@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Gender Representation in Core and Non-Core Software Development Teams",
+    "type": "Int.",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/35813",
+    "authors": [
+      {
+        "name": "Monica Daniella Homescu",
+        "email": "m.d.homescu@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Rastogi",
+        "email": "a.rastogi@rug.nl"
+      },
+      {
+        "name": "P. Avgeriou",
+        "email": "p.avgeriou@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Analysing Warzone Maps By Viewing Them As Undirected, Connected, Simple Graphs",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36553",
+    "authors": [
+      {
+        "name": "Rik Huls",
+        "email": "rikkiehuls@gmail.com"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      },
+      {
+        "name": "M. Riveni",
+        "email": "m.riveni@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Beyond Predefined Keywords: Using KeyBERT to Enhance Cost Awareness Detection in Infrastructure as Code",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36450",
+    "authors": [
+      {
+        "name": "Vlad Ichim",
+        "email": "v.ichim@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "D. Feitosa",
+        "email": "d.feitosa@rug.nl"
+      },
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Understanding Fairness Solutions Targeting Protected Attributes in Software Development",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36425",
+    "authors": [
+      {
+        "name": "Alexandru Ion",
+        "email": "a.ion.2@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Rastogi",
+        "email": "a.rastogi@rug.nl"
+      },
+      {
+        "name": "A. Emeralda Gustria Sesari",
+        "email": "e.g.sesari@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Automated Jira Planner Tool",
+    "type": "Int.",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36038",
+    "authors": [
+      {
+        "name": "Andrei-Stefan Istudor",
+        "email": "a.istudor@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "The Impact of Architectural Technical Debt on Software Evolution",
+    "type": "Int.",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36184",
+    "authors": [
+      {
+        "name": "Danny Jelsma",
+        "email": "d.jelsma.1@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      },
+      {
+        "name": "E. Sutoyo",
+        "email": "e.sutoyo@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Assessing the environmental footprint of chatbot frameworks",
+    "type": "MSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/34895",
+    "authors": [
+      {
+        "name": "Krishan Jokhan",
+        "email": "k.p.jokhan@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      },
+      {
+        "name": "D. Feitosa",
+        "email": "d.feitosa@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "The Hidden Value of Group Code Review Requests: A Mozilla Case Study",
+    "type": "MSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36294",
+    "authors": [
+      {
+        "name": "Matej Kucera",
+        "email": "matej.kucera.01@gmail.com"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Rastogi",
+        "email": "a.rastogi@rug.nl"
+      },
+      {
+        "name": "D. Feitosa",
+        "email": "d.feitosa@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Interactive nanocar presentation",
+    "type": "Int.",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36749",
+    "authors": [
+      {
+        "name": "Szymon Kucharski",
+        "email": "s.kucharski@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "J. Kosinka",
+        "email": "j.kosinka@rug.nl"
+      },
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Economic Sustainability in Cloud Development: An Empirical Analysis of Stack Overflow",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36863",
+    "authors": [
+      {
+        "name": "Razvan Lisman",
+        "email": "r.lisman@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      },
+      {
+        "name": "S. Ahmadisakha",
+        "email": "s.ahmadisakha@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Exploring the value and practicality of metrics found in literature for measuring service health and maintainability in a company transitioning from monolithic to service-oriented architecture.",
+    "type": "MSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/34917",
+    "authors": [
+      {
+        "name": "M. Lucas",
+        "email": "m.lucas.1@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      },
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Data-driven syntax expression evaluation package for GO",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36717",
+    "authors": [
+      {
+        "name": "Cezar-Mircea Martinas",
+        "email": "cezar.martinas98@gmail.com"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Impact of Accessibility Tools on Developer Productivity",
+    "type": "Int.",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/35665",
+    "authors": [
+      {
+        "name": "Daria Ana-Maria Mogo\u0219",
+        "email": "d.mogos@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Emeralda Gustria Sesari",
+        "email": "e.g.sesari@rug.nl"
+      },
+      {
+        "name": "A. Rastogi",
+        "email": "a.rastogi@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "The Future of Software Development: A Cultural and Economic Analysis of AI-Driven Workforce Sustainability",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/35847",
+    "authors": [
+      {
+        "name": "Denisa Neagu",
+        "email": "d.m.neagu@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Rastogi",
+        "email": "a.rastogi@rug.nl"
+      },
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "A chatbot for Automated Traceability",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36500",
+    "authors": [
+      {
+        "name": "Demian Nieuwenhuis",
+        "email": "d.l.nieuwenhuis@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      },
+      {
+        "name": "M. Sabatelli",
+        "email": "m.sabatelli@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Installation wizard and dependency automation",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/35833",
+    "authors": [
+      {
+        "name": "Delia-Andreea Popa",
+        "email": "d.a.popa@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Investigating the Efficacy of LLMs for Sustainability Identification in Stack Exchange Posts",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/35701",
+    "authors": [
+      {
+        "name": "Tudor-Mihai Popa",
+        "email": "popatudormihai@gmail.com"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      },
+      {
+        "name": "S. Ahmadisakha",
+        "email": "s.ahmadisakha@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Future of Software Development: Governance, Fairness, and Resilience in AI-Augmented Code Collaboration",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36709",
+    "authors": [
+      {
+        "name": "Stephanie Radhakrishnan",
+        "email": "s.m.radhakrishnan@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Rastogi",
+        "email": "a.rastogi@rug.nl"
+      },
+      {
+        "name": "D. Feitosa",
+        "email": "d.feitosa@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "The S2 Implementation Testing  and Certification Tool",
+    "type": "Int.",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36745",
+    "authors": [
+      {
+        "name": "Andrew Rutherfoord",
+        "email": "a.rutherfoord@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Addressing the Real Skill Issue: Exploring the Impact of Soft Skills on Software Engineering Team Performance",
+    "type": "Int.",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/35361",
+    "authors": [
+      {
+        "name": "Kelian Schekkerman",
+        "email": "k.schekkerman@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      },
+      {
+        "name": "D. Karastoyanova",
+        "email": "d.karastoyanova@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Software code changes faster than developers can review it: Examining workload equity in open source projects with and without industry backing",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36608",
+    "authors": [
+      {
+        "name": "Robert Selaru",
+        "email": "r.selaru@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Rastogi",
+        "email": "a.rastogi@rug.nl"
+      },
+      {
+        "name": "D. Feitosa",
+        "email": "d.feitosa@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Shift in Code Review: The AI Breakpoint\u2019s Effect on Pull Request Turnaround",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36606",
+    "authors": [
+      {
+        "name": "Claudiu Gabriel Serban",
+        "email": "c.g.serban@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Rastogi",
+        "email": "a.rastogi@rug.nl"
+      },
+      {
+        "name": "D. Feitosa",
+        "email": "d.feitosa@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Gender Representation in Software Engineering: What does it really say?",
+    "type": "Int.",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36609",
+    "authors": [
+      {
+        "name": "Chelsea Streit",
+        "email": "c.d.streit@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Rastogi",
+        "email": "a.rastogi@rug.nl"
+      },
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Making Data-Intensive Science Sustainable \u2014 Towards Establishing Appropriate Incentives",
+    "type": "BSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/34631",
+    "authors": [
+      {
+        "name": "Hendrik Jan van den Top",
+        "email": "h.j.van.den.top@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Energy Consumption in Online Games: A Systematic Literature Review",
+    "type": "MSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36366",
+    "authors": [
+      {
+        "name": "Dogukan Tuna",
+        "email": "d.tuna@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      },
+      {
+        "name": "S.k. Pandey",
+        "email": "s.k.pandey@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "NanoCar Educational Project, Game",
+    "type": "Int.",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36765",
+    "authors": [
+      {
+        "name": "Chris van Wezel",
+        "email": "cvwezel@gmail.com"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "J. Kosinka",
+        "email": "j.kosinka@rug.nl"
+      },
+      {
+        "name": "A. Capiluppi",
+        "email": "a.capiluppi@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "In-Company Internship Report Topicus",
+    "type": "Int.",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/36849",
+    "authors": [
+      {
+        "name": "Alexander Zandman",
+        "email": "a.zandman@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "D. Feitosa",
+        "email": "d.feitosa@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Towards Identifying Software Sustainability within Practitioners\u2019 Cloud Computing Q&A Discussions",
+    "type": "MSc",
+    "year": 2025,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/35900",
+    "authors": [
+      {
+        "name": "Andreea Cristina Zelko",
+        "email": "a.c.zelko@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      },
+      {
+        "name": "S. Ahmadisakha",
+        "email": "s.ahmadisakha@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Benchmarking Androbugs: An Empirical Evaluation of Static Vulnerability Scanners  in the Field of Android Security.",
+    "type": "BSc",
+    "year": 2024,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/34407",
+    "authors": [
+      {
+        "name": "Panagiotis Adamopoulos",
+        "email": "p.adamopoulos@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "F.f.m. Mohsen",
+        "email": "f.f.m.mohsen@rug.nl"
+      },
+      {
+        "name": "D. Feitosa",
+        "email": "d.feitosa@rug.nl"
+      }
+    ]
+  },
+  {
     "title": "Estimating energy consumption of Cloud-Native applications",
     "type": "MSc",
     "year": 2024,
@@ -208,6 +1016,24 @@
       {
         "name": "V. Andrikopoulos",
         "email": "v.andrikopoulos@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Feasibility Study of Integrating Rascal and LionWeb",
+    "type": "Int.",
+    "year": 2024,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/34584",
+    "authors": [
+      {
+        "name": "Robin Guichelaar",
+        "email": "r.guichelaar@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "T. van der Storm",
+        "email": "t.van.der.storm@rug.nl"
       }
     ]
   },
@@ -434,6 +1260,28 @@
     ]
   },
   {
+    "title": "Fairness Issues faced by Software Engineers: A study of Discussions on Reddit",
+    "type": "BSc",
+    "year": 2024,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/34459",
+    "authors": [
+      {
+        "name": "Teodora Andreea Marian",
+        "email": "t.a.marian@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "A. Rastogi",
+        "email": "a.rastogi@rug.nl"
+      },
+      {
+        "name": "D. Feitosa",
+        "email": "d.feitosa@rug.nl"
+      }
+    ]
+  },
+  {
     "title": "From Terraform to AWS CloudFormation: A Study of Cost Patterns and Antipatterns",
     "type": "BSc",
     "year": 2024,
@@ -474,6 +1322,28 @@
       {
         "name": "A. Capiluppi",
         "email": "a.capiluppi@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Estimating Container-level Power Usage in Kubernetes",
+    "type": "MSc",
+    "year": 2024,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/34420",
+    "authors": [
+      {
+        "name": "Bjorn Pijnacker",
+        "email": "b.pijnacker.1@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      },
+      {
+        "name": "B. Setz",
+        "email": "b.setz@rug.nl"
       }
     ]
   },
@@ -780,6 +1650,28 @@
       {
         "name": "R. Smedinga",
         "email": "r.smedinga@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "PageZero: Mitigating Speculative Execution Attacks by Clearing Page Tables",
+    "type": "MSc",
+    "year": 2024,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/34404",
+    "authors": [
+      {
+        "name": "Floris Westerman",
+        "email": "me@floriswesterman.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      },
+      {
+        "name": "G. Gaydadjiev",
+        "email": "g.gaydadjiev@rug.nl"
       }
     ]
   },
@@ -1296,6 +2188,32 @@
       {
         "name": "A. Rastogi",
         "email": "a.rastogi@rug.nl"
+      }
+    ]
+  },
+  {
+    "title": "Utilizing Blockchain and Smart Contracts for Annual General Meeting Voting",
+    "type": "BSc",
+    "year": 2023,
+    "uri": "https://fse.studenttheses.ub.rug.nl/id/eprint/30920",
+    "authors": [
+      {
+        "name": "Borna Massari",
+        "email": "b.massari@student.rug.nl"
+      }
+    ],
+    "supervisors": [
+      {
+        "name": "D. Karastoyanova",
+        "email": "d.karastoyanova@rug.nl"
+      },
+      {
+        "name": "V. Andrikopoulos",
+        "email": "v.andrikopoulos@rug.nl"
+      },
+      {
+        "name": "M. Hanisch",
+        "email": "m.hanisch@rug.nl"
       }
     ]
   },
