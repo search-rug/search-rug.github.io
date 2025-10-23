@@ -11,7 +11,7 @@ description: Improving development velocity at Mozilla Firefox
 contact:
   header: Supervisor(s)
   members:
-  - a.rastogi@rug.nl
+  - a.rastogi@rug.nl, e.g.sesari@rug.nl
 title: Why so Slow? A Study of Mozilla Firefox
 types:
 - MSc
