@@ -1,5 +1,5 @@
 ---
-archived: false
+archived: true
 status: "Available"
 category: Software Analytics Projects 2023-24
 is_group: true
