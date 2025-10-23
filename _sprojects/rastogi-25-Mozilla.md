@@ -7,7 +7,7 @@ keywords:
 - software analytics
 - artificial intelligence
 posted: 2025-11-23
-description: A Study of Mozilla Firefox to improve development velocity
+description: Improving development velocity at Mozilla Firefox
 contact:
   header: Supervisor(s)
   members:
