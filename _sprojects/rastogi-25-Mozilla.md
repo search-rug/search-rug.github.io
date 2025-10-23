@@ -6,7 +6,7 @@ is_group: false
 keywords:
 - software analytics
 - artificial intelligence
-posted: 2025-11-23
+posted: 2025-10-23
 description: Improving development velocity at Mozilla Firefox
 contact:
   header: Supervisor(s)
