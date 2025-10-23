@@ -12,6 +12,7 @@ contact:
   header: Supervisor(s)
   members:
   - a.rastogi@rug.nl
+  - e.g.sesari@rug.nl 
 title: Gen AI and the productivity of developers with disabilities
 types:
 - MSc
