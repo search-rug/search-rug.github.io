@@ -1,6 +1,6 @@
 ---
 archived: true
-status: "Available"
+status: "Finished"
 category: Software & Architecture Analytics Projects
 is_group: false
 keywords:
