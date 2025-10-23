@@ -20,7 +20,13 @@ types:
 ---
 The landscape of software development is undergoing a profound transformation with the advent of Generative AI (GenAI). Studying this change is crucial to understanding how traditional development practices—once centered on human expertise, collaboration, and iteration—are being reshaped by AI-driven automation, creativity, and decision-making.
 
-The goal of this project is to explore how code generation and/or reviewing practices have changed with the adoption of GenAI. Also, we explore their impact on the resulting software, development practices, and developers. 
+The goal of this project is to explore how code generation and/or reviewing practices have changed with the adoption of GenAI. Also, we explore their impact on the resulting software, development practices, and developers. Some sample hypotheses below:
+
+Hypothesis 1: Software code is changing faster than developers can review it.
+
+Hypothesis 2: Adopting AI-powered tools has increased development velocity but not review velocity.
+
+Hypothesis 3: The widening gap between development and review velocity will negatively influence code quality.
 
 **Skills learned:** problem solving, scientific thinking, data science, artificial intelligence, natural language processing, and scientific writing.
 
