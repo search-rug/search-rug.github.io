@@ -1,5 +1,5 @@
 ---
-archived: false
+archived: true
 status: "Finished"
 category: Software Analytics Projects 2024-25
 is_group: true
