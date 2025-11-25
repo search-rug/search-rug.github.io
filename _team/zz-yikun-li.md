@@ -1,5 +1,5 @@
 ---
-title: "Yikun Li"
+title: "Dr. Yikun Li"
 image: "/uploads/team-avatars/yikun-li.jpg"
 position: "phd student"
 weight: 100
@@ -9,7 +9,6 @@ status:
   group_graduate: true # graduated phd student
 contact:
   homepage: "https://yikun-li.github.io/"
-  email: "yikun.li@rug.nl"
 publications:
   pure: "https://research.rug.nl/en/persons/yikun-li/publications/"
 topics:
