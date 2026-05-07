@@ -1,5 +1,5 @@
 ---
-title: "Tien Rahayu Tulili"
+title: "Dr. Tien Rahayu Tulili"
 image: "/uploads/team-avatars/tien-tulili.jpg"
 position: "phd student"
 weight: 100

@@ -1,5 +1,5 @@
 ---
-title: "Zaki Pauzi"
+title: "Dr. Zaki Pauzi"
 image: "/uploads/team-avatars/zaki-pauzi.jpg"
 position: "phd student"
 weight: 100
