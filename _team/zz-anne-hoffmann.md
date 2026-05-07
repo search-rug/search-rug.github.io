@@ -1,6 +1,6 @@
 ---
 title: "Dr. Anne Hoffmann"
-position: "graduated phd student"
+position: "phd student"
 position_remark: "Siemens"
 weight: 100
 status:
