@@ -7,9 +7,23 @@ description: See the updates about research projects, new or departing team memb
 
   <div class="flex flex-col lg:flex-row gap-8 mt-4">
     <div class="flex flex-wrap gap-4 lg:shrink-0 lg:w-[504px]">
-      {% for urn in site.data.linkedin_posts %}
-        <iframe class="w-full max-w-[504px] mx-auto" src="https://www.linkedin.com/embed/feed/update/{{ urn }}" height="856" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+      {% assign linkedin_initial_count = 6 %}
+      {% for urn in site.data.linkedin_posts limit: linkedin_initial_count %}
+        <iframe class="w-full max-w-[504px] mx-auto" src="https://www.linkedin.com/embed/feed/update/{{ urn }}" height="856" loading="lazy" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
       {% endfor %}
+      {% assign linkedin_remaining = site.data.linkedin_posts | size | minus: linkedin_initial_count %}
+      {% if linkedin_remaining > 0 %}
+        <div id="more-linkedin-posts" class="hidden">
+          <div class="flex flex-wrap gap-4">
+            {% for urn in site.data.linkedin_posts offset: linkedin_initial_count %}
+              <iframe class="w-full max-w-[504px] mx-auto" src="https://www.linkedin.com/embed/feed/update/{{ urn }}" height="856" loading="lazy" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+            {% endfor %}
+          </div>
+        </div>
+        <button type="button" id="show-more-linkedin" class="w-full max-w-[504px] mx-auto border rounded-lg py-2 text-primary hover:underline">
+          Show {{ linkedin_remaining }} more post{% if linkedin_remaining != 1 %}s{% endif %}
+        </button>
+      {% endif %}
     </div>
     <div class="@container min-w-0 flex-1">
       <div class="grid @xl:grid-cols-2 gap-4">
