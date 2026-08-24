@@ -30,6 +30,7 @@ collections:
     permalink: /events/:path/
   news:
     output: true
+    permalink: "/news/:path/"
 
 defaults:
   - scope:
