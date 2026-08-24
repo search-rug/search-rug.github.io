@@ -5,38 +5,26 @@ title: SEARCH News Feed
 description: See the updates about research projects, new or departing team members, industry collaboration, released datasets, student projects and other general updates about the Software Engineering and Architecture group (SEARCH) group of the University of Groningen.
 ---
 
-  <div class="flex flex-col lg:flex-row gap-8 mt-4">
-    <div class="flex flex-wrap gap-4 lg:shrink-0 lg:w-[504px]">
-      {% assign linkedin_initial_count = 6 %}
+  <div class="mt-4">
+    {% assign linkedin_initial_count = 6 %}
+    <div class="flex flex-wrap justify-center gap-4">
       {% for urn in site.data.linkedin_posts limit: linkedin_initial_count %}
-        <iframe class="w-full max-w-[504px] mx-auto" src="https://www.linkedin.com/embed/feed/update/{{ urn }}" height="856" loading="lazy" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe class="w-full max-w-[504px]" src="https://www.linkedin.com/embed/feed/update/{{ urn }}" height="856" loading="lazy" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
       {% endfor %}
-      {% assign linkedin_remaining = site.data.linkedin_posts | size | minus: linkedin_initial_count %}
-      {% if linkedin_remaining > 0 %}
-        <div id="more-linkedin-posts" class="hidden">
-          <div class="flex flex-wrap gap-4">
-            {% for urn in site.data.linkedin_posts offset: linkedin_initial_count %}
-              <iframe class="w-full max-w-[504px] mx-auto" src="https://www.linkedin.com/embed/feed/update/{{ urn }}" height="856" loading="lazy" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-            {% endfor %}
-          </div>
+    </div>
+    {% assign linkedin_remaining = site.data.linkedin_posts | size | minus: linkedin_initial_count %}
+    {% if linkedin_remaining > 0 %}
+      <div id="more-linkedin-posts" class="hidden">
+        <div class="flex flex-wrap justify-center gap-4 mt-4">
+          {% for urn in site.data.linkedin_posts offset: linkedin_initial_count %}
+            <iframe class="w-full max-w-[504px]" src="https://www.linkedin.com/embed/feed/update/{{ urn }}" height="856" loading="lazy" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+          {% endfor %}
         </div>
-        <button type="button" id="show-more-linkedin" class="w-full max-w-[504px] mx-auto border rounded-lg py-2 text-primary hover:underline">
+      </div>
+      <div class="flex justify-center mt-4">
+        <button type="button" id="show-more-linkedin" class="w-full max-w-[504px] border rounded-lg py-2 text-primary hover:underline">
           Show {{ linkedin_remaining }} more post{% if linkedin_remaining != 1 %}s{% endif %}
         </button>
-      {% endif %}
-    </div>
-    <div class="@container min-w-0 flex-1">
-      <div class="grid @xl:grid-cols-2 gap-4">
-        {% for post in site.news reversed %}
-          <a href="{{ post.url | relative_url }}" class="max-w-sm">
-            {% include card-content.html
-              content=post
-              clickable=true
-              show_date=true
-              show_keywords=true
-            %}
-          </a>
-        {% endfor %}
       </div>
-    </div>
+    {% endif %}
   </div>
