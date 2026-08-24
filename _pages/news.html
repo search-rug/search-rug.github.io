@@ -5,28 +5,24 @@ title: SEARCH News Feed
 description: See the updates about research projects, new or departing team members, industry collaboration, released datasets, student projects and other general updates about the Software Engineering and Architecture group (SEARCH) group of the University of Groningen.
 ---
 
-  <div class="flex flex-col lg:flex-row lg:justify-between gap-8 mt-4">
-    <div class="hidden lg:flex lg:flex-col lg:shrink-0 space-y-2">
-      <p class="font-semibold text-steel">Jump to:</p>
-      {% for post in site.news reversed %}
-        <a class="text-primary hover:underline" href="{{ post.url | relative_url }}">{{ post.date | date_to_long_string}}</a>
-      {% endfor %}
-    </div>
+  <div class="flex flex-col lg:flex-row gap-8 mt-4">
     <div class="flex flex-wrap gap-4 lg:shrink-0 lg:w-[504px]">
       {% for urn in site.data.linkedin_posts %}
         <iframe class="w-full max-w-[504px] mx-auto" src="https://www.linkedin.com/embed/feed/update/{{ urn }}" height="856" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
       {% endfor %}
     </div>
-    <div class="grid sm:grid-cols-2 gap-4 min-w-0">
-      {% for post in site.news reversed %}
-        <a href="{{ post.url | relative_url }}" class="max-w-sm">
-          {% include card-content.html
-            content=post
-            clickable=true
-            show_date=true
-            show_keywords=true
-          %}
-        </a>
-      {% endfor %}
+    <div class="@container min-w-0 flex-1">
+      <div class="grid @xl:grid-cols-2 gap-4">
+        {% for post in site.news reversed %}
+          <a href="{{ post.url | relative_url }}" class="max-w-sm">
+            {% include card-content.html
+              content=post
+              clickable=true
+              show_date=true
+              show_keywords=true
+            %}
+          </a>
+        {% endfor %}
+      </div>
     </div>
   </div>
