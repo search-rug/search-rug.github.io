@@ -13,7 +13,7 @@ description: See the updates about research projects, new or departing team memb
     </div>
     <div class="grid lg:grid-cols-2 gap-4">
       {% for post in site.news reversed %}
-        <a href="{{ project.url }}" class="max-w-sm">
+        <a href="{{ post.url | relative_url }}" class="max-w-sm">
           {% include card-content.html 
             content=post
             clickable=true
