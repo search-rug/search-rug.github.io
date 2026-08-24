@@ -5,8 +5,8 @@ position: "professor"
 position_remark: "honorary"
 weight: 2
 status:
-  promoted: true # appear in home page
-  former: false # former group member
+  promoted: false # appear in home page
+  former: true # former group member
 contact:
   homepage: "https://homepages.cwi.nl/~storm/"
   email: "storm@cwi.nl"

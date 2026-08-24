@@ -24,12 +24,6 @@
     "description": "study the design, implementation, and use of tools that support software developers in their work, such as integrated development environments, version control systems, and build automation tools"
   },
   {
-    "id": "dsl",
-    "title": "Domain-Specific Languages",
-    "icon": "field-dsl",
-    "description": "study the design, implementation, and use of programming languages and tools that are specialized to a particular application domain"
-  },
-  {
     "id": "ese",
     "title": "Empirical Software Engineering",
     "icon": "field-ese",
