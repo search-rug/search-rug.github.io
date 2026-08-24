@@ -1,0 +1,4 @@
+# LinkedIn posts featured on the news page (/news).
+# Add a URN to feature another post; remove one to stop featuring it.
+# Get the URN from a post's "..." menu -> Embed this post -> the "urn:li:share:..." (or "urn:li:activity:...") part of the src URL.
+- "urn:li:share:7214205815744802816"
