@@ -1,5 +1,5 @@
 ---
-archived: false
+archived: true
 status: "Available"
 category: Software & Architecture Analytics Projects 2025-26
 is_group: true

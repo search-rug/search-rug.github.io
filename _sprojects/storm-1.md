@@ -1,5 +1,5 @@
 ---
-archived: false
+archived: true
 status: "Available"
 category: Language Engineering Projects
 is_group: false
